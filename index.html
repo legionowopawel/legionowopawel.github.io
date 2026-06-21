@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projekty – legionowopawel</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Special Elite', 'Courier New', Courier, monospace;
+    background-color: #c8a96e;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.18'/%3E%3C/svg%3E");
+    min-height: 100vh;
+    color: #2a1f0e;
+    padding: 0 0 3rem;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse at 20% 10%, rgba(180,130,60,.25) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 90%, rgba(160,110,40,.20) 0%, transparent 55%),
+      radial-gradient(ellipse at 60% 40%, rgba(200,160,80,.10) 0%, transparent 40%);
+    z-index: 0;
+  }
+
+  .page {
+    position: relative;
+    z-index: 1;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 2rem;
+  }
+
+  /* ── DEKORACJE ── */
+  .top-rule {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: .25rem;
+    color: #6b4a1b;
+    margin-bottom: 1.5rem;
+    opacity: .7;
+  }
+
+  .site-title {
+    text-align: center;
+    font-size: clamp(1.3rem, 5vw, 2rem);
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: #3d2005;
+    margin-bottom: .35rem;
+    line-height: 1.3;
+  }
+
+  .site-subtitle {
+    text-align: center;
+    font-size: .82rem;
+    letter-spacing: .13rem;
+    color: #6b4a1b;
+    margin-bottom: 2rem;
+    opacity: .85;
+  }
+
+  /* ── LISTA PROJEKTÓW ── */
+  .projects-label {
+    font-size: .85rem;
+    letter-spacing: .18rem;
+    text-transform: uppercase;
+    color: #5c3710;
+    margin-bottom: .9rem;
+    border-bottom: 2px solid #8b6030;
+    padding-bottom: .4rem;
+  }
+
+  .project-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .project-list li a {
+    display: flex;
+    align-items: flex-start;
+    gap: .85rem;
+    padding: .9rem 1rem;
+    background: rgba(255,240,200,.45);
+    border: 1px solid #8b6030;
+    border-left: 4px solid #7a4f1e;
+    border-radius: 2px;
+    color: #2a1f0e;
+    text-decoration: none;
+    transition: background .15s;
+  }
+  .project-list li a:hover,
+  .project-list li a:focus {
+    background: rgba(255,240,200,.80);
+    outline: none;
+  }
+
+  .proj-icon {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    flex-shrink: 0;
+    margin-top: .05rem;
+  }
+
+  .proj-text { flex: 1; }
+
+  .proj-name {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: .08rem;
+    line-height: 1.3;
+  }
+
+  .proj-desc {
+    display: block;
+    font-size: .76rem;
+    color: #6b4a1b;
+    opacity: .9;
+    margin-top: .2rem;
+    line-height: 1.4;
+  }
+
+  .proj-arrow {
+    font-size: 1.1rem;
+    color: #8b6030;
+    align-self: center;
+    flex-shrink: 0;
+    opacity: .6;
+  }
+
+  /* ── STOPKA ── */
+  .bottom-rule {
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    color: #6b4a1b;
+    margin-top: 1.5rem;
+    opacity: .6;
+  }
+
+  .footer-note {
+    text-align: center;
+    font-size: .72rem;
+    color: #6b4a1b;
+    opacity: .6;
+    margin-top: .7rem;
+    letter-spacing: .06rem;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top-rule">— ✦ —</div>
+
+  <h1 class="site-title">Centrala Projektów</h1>
+  <p class="site-subtitle">legionowopawel · github.io</p>
+
+  <p class="projects-label">Projekty</p>
+
+  <ul class="project-list">
+
+    <li>
+      <a href="https://legionowopawel.github.io/detektyw/" target="_blank" rel="noopener">
+        <span class="proj-icon">🔍</span>
+        <span class="proj-text">
+          <span class="proj-name">Szkoła Porucznika Columbo</span>
+          <span class="proj-desc">Zagadki, quizy i sprawy do rozwiązania dla kandydatów w wieku 11 lat</span>
+        </span>
+        <span class="proj-arrow">›</span>
+      </a>
+    </li>
+
+    <!-- Dodaj kolejne projekty poniżej według wzoru:
+    <li>
+      <a href="https://legionowopawel.github.io/NAZWA_REPO/" target="_blank" rel="noopener">
+        <span class="proj-icon">🧩</span>
+        <span class="proj-text">
+          <span class="proj-name">Nazwa projektu</span>
+          <span class="proj-desc">Krótki opis projektu</span>
+        </span>
+        <span class="proj-arrow">›</span>
+      </a>
+    </li>
+    -->
+
+  </ul>
+
+  <div class="bottom-rule">— ✦ —</div>
+  <p class="footer-note">github.com/legionowopawel</p>
+
+</div>
+</body>
+</html>
