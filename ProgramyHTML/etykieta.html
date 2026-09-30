@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kreator Etykiet do Segregatorów</title>
+<style>
+  :root{
+    --bg:#f0f0f0; --panel:#ffffff; --panel2:#e6e6e6; --accent:#e07a3f;
+    --text:#000000; --muted:#333333; --border:#cccccc;
+    --header-red:#ED1B24; --brand-yellow:#FEF200;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; font-family:'Segoe UI',Arial,sans-serif; background:var(--bg); color:var(--text);}
+  #layout{display:grid; grid-template-columns:minmax(340px,44%) 1fr; gap:0; align-items:start; min-height:100vh;}
+  #main{padding:14px 18px; position:sticky; top:0; max-height:100vh; overflow:auto;}
+  #sidebar{background:var(--panel); padding:14px 18px; border-left:1px solid var(--border); min-height:100vh;
+    display:flex; flex-wrap:wrap; align-items:flex-start; gap:14px; align-content:flex-start;}
+  @media (max-width:900px){
+    #layout{grid-template-columns:1fr;}
+    #main{position:static; max-height:none;}
+    #sidebar{border-left:none; border-top:1px solid var(--border); min-height:0;}
+  }
+  #sidebar h1{font-size:17px; margin:0 0 4px; width:100%;}
+  fieldset{border:1px solid var(--border); border-radius:8px; padding:10px 12px; flex:1 1 300px; min-width:270px; max-width:100%; margin:0;}
+  legend{padding:0 6px; color:var(--header-red); font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.04em;}
+  label{display:block; font-size:12px; color:var(--muted); margin:8px 0 3px;}
+  input[type=file]{width:100%; font-size:12px; color:var(--text);}
+  input[type=number], input[type=text], select, input[type=color], textarea{
+    width:100%; background:var(--panel2); color:var(--text); border:1px solid var(--border);
+    border-radius:5px; padding:5px 7px; font-size:13px; font-family:inherit;
+  }
+  input[type=color]{padding:0; height:30px;}
+  input[type=range]{width:100%;}
+  textarea{height:90px; resize:vertical; background:#fff;}
+  .row{display:flex; gap:8px;}
+  .row > div{flex:1; min-width:0;}
+  .btn{background:var(--accent); color:#000; border:none; border-radius:6px; padding:8px 12px;
+    font-weight:600; cursor:pointer; font-size:13px; width:100%; margin-top:6px;}
+  .btn.secondary{background:var(--panel2); color:var(--text); border:1px solid var(--border);}
+  .btn:hover{filter:brightness(1.08);}
+  .btn.small{padding:4px 10px; font-size:12px; width:auto; margin-top:0;}
+  .hint{font-size:11px; color:var(--muted); line-height:1.4; margin-top:4px;}
+  .checkline{display:flex; align-items:center; gap:6px; margin:8px 0 0;}
+  .checkline input{width:auto;}
+  .checkline label{margin:0; font-size:12px; color:var(--text);}
+  .sub{font-weight:600; font-size:12px; color:var(--header-red); text-transform:uppercase; letter-spacing:.04em; margin-top:14px; border-top:1px solid var(--border); padding-top:10px;}
+
+  /* Pasek pobierania */
+  #toolbar{display:flex; gap:8px; margin-bottom:12px; flex-wrap:wrap;}
+  #toolbar button{background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:6px;
+    padding:8px 12px; font-weight:600; cursor:pointer; font-size:13px;}
+  #toolbar button:hover{filter:brightness(1.15);}
+  #toolbar #dlAll{background:var(--brand-yellow); border:none;}
+
+  /* Zakładki etykiet */
+  #tabs{display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-bottom:12px;}
+  .tab{background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:5px 10px; font-size:12px; cursor:pointer; max-width:170px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .tab.active{background:var(--accent); border-color:var(--accent); font-weight:600;}
+
+  #stage{background:#9a9a9a; border-radius:10px; padding:16px; display:flex; justify-content:center; align-items:center; min-height:200px;}
+  #cv{background:#fff; max-width:100%; max-height:66vh; box-shadow:0 4px 18px rgba(0,0,0,.45); touch-action:none; display:block;}
+  #selInfo{font-size:12px; margin-top:8px; min-height:18px;}
+
+  /* Stepper +/- */
+  input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none; margin:0;}
+  input[type=number]{-moz-appearance:textfield;}
+  .numwrap{display:flex; align-items:stretch; gap:4px;}
+  .numwrap input{flex:1; min-width:0;}
+  .numstep{display:flex; flex-direction:column; width:30px; flex:0 0 30px;}
+  .numbtn{flex:1; background:var(--panel2); border:1px solid var(--border); color:var(--text); cursor:pointer; font-size:14px; line-height:1; padding:0; display:flex; align-items:center; justify-content:center;}
+  .numbtn:hover{background:var(--accent);}
+  .numbtn.up{border-radius:5px 5px 0 0; border-bottom:none;}
+  .numbtn.down{border-radius:0 0 5px 5px;}
+
+  .item{border:1px solid var(--border); border-radius:6px; padding:8px; margin-top:8px; background:#fafafa;}
+  .item.sel{border-color:var(--accent); box-shadow:0 0 0 2px rgba(224,122,63,.35);}
+  .item .head{display:flex; justify-content:space-between; align-items:center; gap:6px; font-size:12px; font-weight:600;}
+  .item .head span{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .item .head .btns{display:flex; gap:4px; flex:0 0 auto;}
+  .logo-preview-box{width:56px; height:56px; border:1px solid var(--border); border-radius:6px; background:var(--panel2);
+    display:flex; align-items:center; justify-content:center; overflow:hidden; margin-top:6px;}
+  .logo-preview-box img{max-width:100%; max-height:100%; display:none;}
+  .logo-preview-box .noicon{font-size:26px; color:#e05353; line-height:1;}
+  #siteFooter{width:100%; text-align:center; padding:14px 0 6px; font-size:12px; color:var(--muted);}
+</style>
+</head>
+<body>
+<div id="layout">
+
+<div id="main">
+  <div id="toolbar">
+    <button type="button" id="dlAll">⬇ Ściągnij wszystkie (PNG)</button>
+    <button type="button" id="dlOne">🖼 Ta etykieta (PNG)</button>
+    <button type="button" id="dlPdf">🧾 Pobierz jako PDF (A4, wymiar 1:1)</button>
+  </div>
+  <div id="tabs"></div>
+  <div id="stage"><canvas id="cv"></canvas></div>
+  <div id="selInfo"></div>
+  <div class="hint">Kliknij element na podglądzie, aby go zaznaczyć. <b>Przeciągaj</b> myszką, róg (kwadracik) lub <b>kółko myszy</b> zmienia rozmiar obrazka/logo, <b>strzałki</b> przesuwają o 1 mm (z Shift — 5 mm), <b>Delete</b> usuwa dodany obrazek.</div>
+  <div class="row" style="margin-top:8px;">
+    <div><button class="btn secondary" id="resetSel">⟲ Wyzeruj położenie zaznaczonego</button></div>
+  </div>
+</div>
+
+<div id="sidebar">
+  <h1>Kreator etykiet do segregatorów</h1>
+
+  <fieldset id="fs-size">
+    <legend>1. Etykieta</legend>
+    <label>Gotowy rozmiar</label>
+    <select id="preset"></select>
+    <div class="row">
+      <div><label>Szerokość (cm)</label><input type="number" id="wcm" data-path="wcm" min="2" max="40" step="0.1" value="5.5"></div>
+      <div><label>Wysokość (cm)</label><input type="number" id="hcm" data-path="hcm" min="2" max="40" step="0.1" value="15.5"></div>
+    </div>
+    <label>Kolor tła etykiety</label>
+    <input type="color" data-path="bg" value="#ffffff">
+    <label>Liczba kopii w PDF</label>
+    <input type="number" data-path="copies" min="1" max="99" step="1" value="1">
+    <div class="checkline"><input type="checkbox" id="cutLines" checked><label for="cutLines">Linie cięcia w PDF</label></div>
+    <div class="checkline"><input type="checkbox" id="extraSizes" checked><label for="extraSizes"><b>EXTRA:</b> Wszystkie rozmiary — dodaj w PDF także węższe wersje</label></div>
+    <div class="hint">Po włączeniu PDF zawiera dodatkowo etykietę w każdym węższym rozmiarze z listy (przy 5,5 × 15,5 cm: 3,5 × 15,5 cm). Czcionki, ramki i obrazki są dopasowywane proporcjonalnie. Domyślnie włączone.</div>
+    <div class="row" style="margin-top:8px;">
+      <div><button class="btn secondary" id="newLabel">＋ Nowa etykieta</button></div>
+      <div><button class="btn secondary" id="dupLabel">⧉ Duplikuj</button></div>
+      <div><button class="btn secondary" id="delLabel">✕ Usuń</button></div>
+    </div>
+    <div class="hint">Rozmiary są zapisywane w cm, podgląd i PNG mają 300 DPI. PDF drukuje etykiety w rzeczywistej wielkości na kartkach A4.</div>
+  </fieldset>
+
+  <fieldset id="fs-logo">
+    <legend>2. Logo (na górze)</legend>
+    <div class="checkline"><input type="checkbox" data-path="logo.show" checked><label>Pokaż logo</label></div>
+    <label>Plik logo (domyślnie: logo.png z folderu programu)</label>
+    <input type="file" id="logoInput" accept="image/*">
+    <label>Albo wskaż folder z plikiem logo.png</label>
+    <input type="file" id="logoFolder" webkitdirectory directory multiple>
+    <div class="logo-preview-box"><img id="logoPreview"><span class="noicon" id="logoEmpty">🚫</span></div>
+    <label>Rozmiar (% szerokości etykiety)</label>
+    <input type="number" data-path="logo.wf" data-scale="100" min="3" max="300" step="1" value="80">
+    <div class="hint" id="logoStatus">Brak logo.</div>
+    <div class="hint">Logo jest zapamiętywane w przeglądarce, więc po jednym wskazaniu wczytuje się samo. Jeśli plik <code>logo.png</code> leży obok programu i otwierasz go przez serwer (http), wczyta się automatycznie. Logo można też przeciągać i zmieniać jego wielkość na podglądzie.</div>
+  </fieldset>
+
+  <fieldset id="fs-mid">
+    <legend>3. Tekst główny</legend>
+    <textarea data-path="mid.text"></textarea>
+    <div class="hint">Enter = nowa linia. Długie linie zawijają się same.</div>
+    <div class="row">
+      <div><label>Krój czcionki</label>
+        <select data-path="mid.font" class="fontsel"></select></div>
+      <div><label>Rozmiar (pt)</label><input type="number" data-path="mid.size" min="6" max="200" step="1"></div>
+    </div>
+    <div class="row">
+      <div><label>Wyrównanie</label>
+        <select data-path="mid.align"><option value="left">Do lewej</option><option value="center">Do środka</option><option value="right">Do prawej</option></select></div>
+      <div><label>Interlinia (×)</label><input type="number" data-path="mid.lh" min="0.8" max="3" step="0.05"></div>
+    </div>
+    <div class="row">
+      <div><label>Kierunek</label>
+        <select data-path="mid.orient"><option value="h">Poziomo</option><option value="v">Pionowo (obrót 90°)</option></select></div>
+      <div><label>Kolor</label><input type="color" data-path="mid.color"></div>
+    </div>
+    <div class="checkline"><input type="checkbox" data-path="mid.bold"><label>Pogrubienie</label>
+      <input type="checkbox" data-path="mid.italic" style="margin-left:14px;"><label>Kursywa</label></div>
+    <div class="checkline"><input type="checkbox" data-path="mid.fit"><label>Zmniejszaj czcionkę automatycznie, gdy tekst się nie mieści</label></div>
+  </fieldset>
+
+  <fieldset id="fs-bot">
+    <legend>4. Tekst na dole</legend>
+    <div class="checkline"><input type="checkbox" data-path="bot.show"><label>Pokaż tekst na dole</label></div>
+    <textarea data-path="bot.text" style="height:64px;"></textarea>
+    <div class="row">
+      <div><label>Krój czcionki</label><select data-path="bot.font" class="fontsel"></select></div>
+      <div><label>Rozmiar (pt)</label><input type="number" data-path="bot.size" min="5" max="80" step="0.5"></div>
+    </div>
+    <div class="row">
+      <div><label>Interlinia (×)</label><input type="number" data-path="bot.lh" min="0.8" max="3" step="0.05"></div>
+      <div><label>Kolor</label><input type="color" data-path="bot.color"></div>
+    </div>
+    <div class="checkline"><input type="checkbox" data-path="bot.bold"><label>Pogrubienie</label></div>
+  </fieldset>
+
+  <fieldset id="fs-frames">
+    <legend>5. Ramki</legend>
+    <button class="btn secondary" id="addFrame">＋ Dodaj ramkę</button>
+    <div id="frameList"></div>
+    <div class="hint">Można dodać kilka ramek jedna w drugiej — każda ma własny odstęp od krawędzi, grubość, kolor i styl.</div>
+  </fieldset>
+
+  <fieldset id="fs-images">
+    <legend>6. Dodatkowe obrazki</legend>
+    <label>Dodaj obrazki (można kilka naraz)</label>
+    <input type="file" id="imgInput" accept="image/*" multiple>
+    <div id="imgList"></div>
+    <div class="hint">Każdy obrazek można przeciągać po etykiecie oraz powiększać i zmniejszać (suwak, róg zaznaczonego obrazka lub kółko myszy).</div>
+  </fieldset>
+
+  <div id="siteFooter">Program do tworzenia etykiet do segregatorów — wg wzorca „Kreator Menu na Tłach”.</div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+const DPI = 300;
+const mm = v => v*DPI/25.4;
+const cmpx = v => v*DPI/2.54;
+const pt = v => v*DPI/72;
+
+const PRESETS = [
+  ['5.5x15.5','Standard 5,5 × 15,5 cm (domyślna)',5.5,15.5],
+  ['3.5x15.5','Wąski grzbiet 3,5 × 15,5 cm',3.5,15.5],
+  ['7.5x15.5','Szeroki grzbiet 7,5 × 15,5 cm',7.5,15.5],
+  ['15.5x5.5','Poziomo (front) 15,5 × 5,5 cm',15.5,5.5],
+  ['custom','Własny rozmiar',null,null]
+];
+const FONTS = ['Arial','Segoe UI','Georgia','Trebuchet MS','Verdana','Times New Roman','Courier New','Impact','Calibri','Tahoma'];
+
+function newLabel(){
+  return {
+    wcm:5.5, hcm:15.5, bg:'#ffffff', copies:1,
+    logo:{show:true, cx:null, cy:null, wf:0.8},
+    mid:{text:'Tytuł segregatora', font:'Arial', size:32, color:'#000000', bold:true, italic:false,
+         align:'center', lh:1.2, orient:'h', fit:true, cx:null, cy:null},
+    bot:{show:true, text:'Tu jest nazwa Firmy lub etykieta i numery', font:'Arial', size:11,
+         color:'#000000', bold:true, lh:1.2, cx:null, cy:null},
+    frames:[], images:[]
+  };
+}
+let labels = [newLabel()], cur = 0, sel = null;
+let logoImg = null, logoName = '';
+let lastHits = [], lastHandle = null;
+const L = () => labels[cur];
+
+/* ---------- Rysowanie ---------- */
+function fontStr(t,px){ return (t.italic?'italic ':'') + (t.bold?'bold ':'') + px + 'px "' + t.font + '"'; }
+function wrapText(ctx,text,maxW){
+  const lines=[];
+  text.split('\n').forEach(par=>{
+    if (par.trim()===''){ lines.push(''); return; }
+    let curL='';
+    par.split(/\s+/).filter(Boolean).forEach(w=>{
+      const test = curL ? curL+' '+w : w;
+      if (ctx.measureText(test).width <= maxW || !curL) curL = test;
+      else { lines.push(curL); curL = w; }
+    });
+    lines.push(curL);
+  });
+  return lines;
+}
+function layoutText(ctx,t,availW,availH,fit){
+  let size = pt(t.size); const min = pt(6);
+  for (let i=0;i<400;i++){
+    ctx.font = fontStr(t,size);
+    const lines = wrapText(ctx,t.text,availW);
+    const lh = size*t.lh, h = lines.length*lh;
+    const w = Math.max(1,...lines.map(l=>ctx.measureText(l).width));
+    if (!fit || (w<=availW && h<=availH) || size<=min) return {lines,size,lh,w,h};
+    size -= 1;
+  }
+}
+function roundRectPath(ctx,x,y,w,h,r){
+  r = Math.max(0,Math.min(r,w/2,h/2));
+  ctx.beginPath();
+  ctx.moveTo(x+r,y); ctx.lineTo(x+w-r,y); ctx.arcTo(x+w,y,x+w,y+r,r);
+  ctx.lineTo(x+w,y+h-r); ctx.arcTo(x+w,y+h,x+w-r,y+h,r);
+  ctx.lineTo(x+r,y+h); ctx.arcTo(x,y+h,x,y+h-r,r);
+  ctx.lineTo(x,y+r); ctx.arcTo(x,y,x+r,y,r); ctx.closePath();
+}
+function drawFrame(ctx,f,W,H){
+  const lw = Math.max(1,mm(f.thick)), m = mm(f.margin), r = mm(f.radius);
+  ctx.save(); ctx.strokeStyle = f.color; ctx.setLineDash([]); ctx.lineCap='butt';
+  const stroke = (inset,width)=>{
+    ctx.lineWidth = width;
+    roundRectPath(ctx, inset, inset, W-2*inset, H-2*inset, Math.max(0,r-(inset-m)));
+    ctx.stroke();
+  };
+  if (f.style==='double'){
+    stroke(m+lw/6, lw/3); stroke(m+lw*5/6, lw/3);
+  } else {
+    if (f.style==='dashed') ctx.setLineDash([lw*3,lw*2]);
+    if (f.style==='dotted'){ ctx.setLineDash([0,lw*2]); ctx.lineCap='round'; }
+    stroke(m+lw/2, lw);
+  }
+  ctx.restore();
+}
+function drawTextBlock(ctx,t,lay,cx,cy,vertical){
+  ctx.save();
+  ctx.translate(cx,cy);
+  if (vertical) ctx.rotate(-Math.PI/2);
+  ctx.font = fontStr(t,lay.size); ctx.fillStyle = t.color; ctx.textBaseline='middle';
+  const align = t.align || 'center';
+  ctx.textAlign = align;
+  const x = align==='left' ? -lay.w/2 : align==='right' ? lay.w/2 : 0;
+  lay.lines.forEach((ln,i)=> ctx.fillText(ln, x, -lay.h/2 + lay.lh*(i+0.5)));
+  ctx.restore();
+}
+
+function drawLabel(cv, lab, overlay){
+  const W = Math.round(cmpx(Math.min(40,Math.max(2,lab.wcm))));
+  const H = Math.round(cmpx(Math.min(40,Math.max(2,lab.hcm))));
+  cv.width = W; cv.height = H;
+  const ctx = cv.getContext('2d');
+  ctx.fillStyle = lab.bg; ctx.fillRect(0,0,W,H);
+  lab.frames.forEach(f=>drawFrame(ctx,f,W,H));
+  const hits = [];
+
+  // obrazki dodatkowe
+  lab.images.forEach((im,i)=>{
+    const w = im.wf*W, h = w*im.img.naturalHeight/im.img.naturalWidth;
+    const cx = im.cx*W, cy = im.cy*H;
+    ctx.drawImage(im.img, cx-w/2, cy-h/2, w, h);
+    hits.push({id:'img:'+i, cx, cy, w, h, resize:true});
+  });
+
+  // logo
+  let logoBottom = H*0.03;
+  if (lab.logo.show && logoImg){
+    const w = lab.logo.wf*W, h = w*logoImg.naturalHeight/logoImg.naturalWidth;
+    const cx = lab.logo.cx==null ? W/2 : lab.logo.cx*W;
+    const cy = lab.logo.cy==null ? H*0.03 + h/2 : lab.logo.cy*H;
+    ctx.drawImage(logoImg, cx-w/2, cy-h/2, w, h);
+    hits.push({id:'logo', cx, cy, w, h, resize:true});
+    logoBottom = cy + h/2;
+  }
+
+  // tekst dolny
+  let botTop = H*0.97;
+  if (lab.bot.show && lab.bot.text.trim()){
+    const lay = layoutText(ctx, lab.bot, W*0.9, H*0.3, true);
+    const cx = lab.bot.cx==null ? W/2 : lab.bot.cx*W;
+    const cy = lab.bot.cy==null ? H - H*0.03 - lay.h/2 : lab.bot.cy*H;
+    drawTextBlock(ctx, lab.bot, lay, cx, cy, false);
+    hits.push({id:'bot', cx, cy, w:lay.w, h:lay.h});
+    botTop = cy - lay.h/2;
+  }
+
+  // tekst główny
+  if (lab.mid.text.trim()){
+    const gap = H*0.02;
+    let top = lab.logo.show && logoImg ? logoBottom+gap : H*0.03;
+    let bottom = lab.bot.show && lab.bot.text.trim() ? botTop-gap : H*0.97;
+    if (bottom-top < H*0.1){ top = H*0.03; bottom = H*0.97; }
+    const vertical = lab.mid.orient==='v';
+    const manual = lab.mid.cx!=null || lab.mid.cy!=null;
+    let availW, availH;
+    if (vertical){ availW = manual ? H*0.85 : (bottom-top); availH = W*0.9; }
+    else { availW = W*0.9; availH = manual ? H*0.85 : (bottom-top); }
+    const lay = layoutText(ctx, lab.mid, availW, availH, lab.mid.fit);
+    const cx = lab.mid.cx==null ? W/2 : lab.mid.cx*W;
+    const cy = lab.mid.cy==null ? (top+bottom)/2 : lab.mid.cy*H;
+    drawTextBlock(ctx, lab.mid, lay, cx, cy, vertical);
+    hits.push({id:'mid', cx, cy, w: vertical?lay.h:lay.w, h: vertical?lay.w:lay.h});
+  }
+
+  let handle = null;
+  if (overlay){
+    const scale = cv.clientWidth ? cv.clientWidth/W : 0.3;
+    const s = sel && hits.find(h=>h.id===sel);
+    if (s){
+      ctx.save();
+      ctx.strokeStyle = '#e07a3f'; ctx.lineWidth = 3/scale; ctx.setLineDash([10/scale,6/scale]);
+      const pad = 6/scale;
+      ctx.strokeRect(s.cx-s.w/2-pad, s.cy-s.h/2-pad, s.w+2*pad, s.h+2*pad);
+      if (s.resize){
+        const r = 9/scale;
+        const hx = s.cx+s.w/2+pad, hy = s.cy+s.h/2+pad;
+        ctx.setLineDash([]); ctx.fillStyle='#e07a3f'; ctx.strokeStyle='#fff'; ctx.lineWidth = 2/scale;
+        ctx.fillRect(hx-r,hy-r,2*r,2*r); ctx.strokeRect(hx-r,hy-r,2*r,2*r);
+        handle = {x:hx, y:hy, r:r*1.6};
+      }
+      ctx.restore();
+    }
+  }
+  return {hits, handle, W, H};
+}
+
+const cv = document.getElementById('cv');
+function render(){
+  const res = drawLabel(cv, L(), true);
+  lastHits = res.hits; lastHandle = res.handle;
+  updateSelInfo();
+}
+function updateSelInfo(){
+  const el = document.getElementById('selInfo');
+  el.textContent = sel ? 'Zaznaczono: ' + selName(sel) : '';
+  document.querySelectorAll('#imgList .item').forEach((it,i)=> it.classList.toggle('sel', sel==='img:'+i));
+}
+function selName(id){
+  if (id==='logo') return 'logo';
+  if (id==='mid') return 'tekst główny';
+  if (id==='bot') return 'tekst na dole';
+  if (id.startsWith('img:')){ const im = L().images[+id.slice(4)]; return 'obrazek' + (im?(' „'+im.name+'”'):''); }
+  return '';
+}
+function getObj(id){
+  if (id==='logo') return L().logo;
+  if (id==='mid') return L().mid;
+  if (id==='bot') return L().bot;
+  if (id && id.startsWith('img:')) return L().images[+id.slice(4)] || null;
+  return null;
+}
+
+/* ---------- Interakcja na podglądzie ---------- */
+let drag = null;
+function toCanvas(e){
+  const r = cv.getBoundingClientRect();
+  return {x:(e.clientX-r.left)*cv.width/r.width, y:(e.clientY-r.top)*cv.height/r.height};
+}
+function hitTest(p){
+  for (let i=lastHits.length-1;i>=0;i--){
+    const h = lastHits[i];
+    const pad = 12;
+    if (Math.abs(p.x-h.cx) <= h.w/2+pad && Math.abs(p.y-h.cy) <= h.h/2+pad) return h;
+  }
+  return null;
+}
+cv.addEventListener('pointerdown', e=>{
+  const p = toCanvas(e);
+  if (sel && lastHandle && Math.abs(p.x-lastHandle.x)<=lastHandle.r && Math.abs(p.y-lastHandle.y)<=lastHandle.r){
+    const h = lastHits.find(x=>x.id===sel);
+    drag = {mode:'resize', cx:h.cx};
+  } else {
+    const h = hitTest(p);
+    sel = h ? h.id : null;
+    if (h) drag = {mode:'move', dx:p.x-h.cx, dy:p.y-h.cy};
+  }
+  if (drag) cv.setPointerCapture(e.pointerId);
+  render();
+});
+cv.addEventListener('pointermove', e=>{
+  const p = toCanvas(e);
+  if (!drag){
+    const onHandle = sel && lastHandle && Math.abs(p.x-lastHandle.x)<=lastHandle.r && Math.abs(p.y-lastHandle.y)<=lastHandle.r;
+    cv.style.cursor = onHandle ? 'nwse-resize' : (hitTest(p) ? 'grab' : 'default');
+    return;
+  }
+  const o = getObj(sel); if (!o) return;
+  if (drag.mode==='move'){
+    o.cx = (p.x-drag.dx)/cv.width; o.cy = (p.y-drag.dy)/cv.height;
+  } else {
+    o.wf = Math.min(3, Math.max(0.03, 2*(p.x-drag.cx)/cv.width));
+    syncLists(); syncLogoField();
+  }
+  render();
+});
+function endDrag(){ drag = null; }
+cv.addEventListener('pointerup', endDrag); cv.addEventListener('pointercancel', endDrag);
+cv.addEventListener('wheel', e=>{
+  const o = getObj(sel);
+  if (!o || o.wf===undefined) return;
+  e.preventDefault();
+  o.wf = Math.min(3, Math.max(0.03, o.wf*Math.exp(-e.deltaY*0.001)));
+  syncLists(); syncLogoField(); render();
+},{passive:false});
+document.addEventListener('keydown', e=>{
+  if (['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) return;
+  const o = getObj(sel); if (!o) return;
+  const hit = lastHits.find(h=>h.id===sel);
+  const step = mm(e.shiftKey?5:1);
+  const mv = {ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[e.key];
+  if (mv && hit){
+    e.preventDefault();
+    o.cx = (hit.cx+mv[0]*step)/cv.width; o.cy = (hit.cy+mv[1]*step)/cv.height; render();
+  } else if ((e.key==='Delete'||e.key==='Backspace') && sel.startsWith('img:')){
+    e.preventDefault(); removeImage(+sel.slice(4));
+  }
+});
+document.getElementById('resetSel').addEventListener('click', ()=>{
+  const o = getObj(sel); if (!o) return;
+  if (sel.startsWith('img:')){ o.cx = .5; o.cy = .5; } else { o.cx = null; o.cy = null; }
+  render();
+});
+window.addEventListener('resize', render);
+
+/* ---------- Powiązanie pól z etykietą ---------- */
+function getPath(o,p){ return p.split('.').reduce((a,k)=>a[k],o); }
+function setPath(o,p,v){ const ks=p.split('.'); const last=ks.pop(); ks.reduce((a,k)=>a[k],o)[last]=v; }
+
+const fontOpts = FONTS.map(f=>`<option value="${f}">${f}</option>`).join('');
+document.querySelectorAll('.fontsel').forEach(s=>s.innerHTML = fontOpts);
+const presetSel = document.getElementById('preset');
+presetSel.innerHTML = PRESETS.map(p=>`<option value="${p[0]}">${p[1]}</option>`).join('');
+
+function syncUI(){
+  const lab = L();
+  document.querySelectorAll('[data-path]').forEach(el=>{
+    let v = getPath(lab, el.dataset.path);
+    if (el.type==='checkbox') el.checked = !!v;
+    else { if (el.dataset.scale) v = Math.round(v*parseFloat(el.dataset.scale)*100)/100; el.value = v; }
+  });
+  syncPreset(); buildFrames(); buildImages(); syncLogoUI(); buildTabs();
+}
+function syncPreset(){
+  const lab = L();
+  const m = PRESETS.find(p=>p[2]!==null && Math.abs(p[2]-lab.wcm)<0.001 && Math.abs(p[3]-lab.hcm)<0.001);
+  presetSel.value = m ? m[0] : 'custom';
+}
+function syncLogoField(){
+  const el = document.querySelector('[data-path="logo.wf"]');
+  if (el) el.value = Math.round(L().logo.wf*10000)/100;
+}
+document.querySelectorAll('[data-path]').forEach(el=>{
+  const ev = (el.type==='checkbox' || el.tagName==='SELECT' || el.type==='color') ? 'input' : 'input';
+  el.addEventListener(ev, ()=>{
+    let v;
+    if (el.type==='checkbox') v = el.checked;
+    else if (el.type==='number' || el.type==='range'){
+      v = parseFloat(el.value); if (isNaN(v)) return;
+      if (el.dataset.scale) v = v/parseFloat(el.dataset.scale);
+    } else v = el.value;
+    setPath(L(), el.dataset.path, v);
+    if (el.dataset.path==='wcm' || el.dataset.path==='hcm') syncPreset();
+    render(); buildTabs();
+  });
+  if (el.type==='checkbox' || el.tagName==='SELECT') el.addEventListener('change', ()=>el.dispatchEvent(new Event('input')));
+});
+presetSel.addEventListener('change', ()=>{
+  const p = PRESETS.find(x=>x[0]===presetSel.value);
+  if (p && p[2]!==null){
+    L().wcm = p[2]; L().hcm = p[3];
+    document.querySelector('[data-path="wcm"]').value = p[2];
+    document.querySelector('[data-path="hcm"]').value = p[3];
+    render();
+  }
+});
+
+/* ---------- Zakładki etykiet ---------- */
+function labelName(lab, i){
+  const t = (lab.mid.text||'').split('\n')[0].trim();
+  return (i+1)+'. '+(t || 'Etykieta');
+}
+function buildTabs(){
+  const box = document.getElementById('tabs'); box.innerHTML='';
+  labels.forEach((lab,i)=>{
+    const b = document.createElement('div');
+    b.className = 'tab'+(i===cur?' active':''); b.textContent = labelName(lab,i);
+    b.title = b.textContent;
+    b.addEventListener('click', ()=>{ cur=i; sel=null; syncUI(); render(); });
+    box.appendChild(b);
+  });
+}
+document.getElementById('newLabel').addEventListener('click', ()=>{
+  labels.push(newLabel()); cur = labels.length-1; sel=null; syncUI(); render();
+});
+document.getElementById('dupLabel').addEventListener('click', ()=>{
+  labels.splice(cur+1,0,cloneLabel(L())); cur++; sel=null; syncUI(); render();
+});
+document.getElementById('delLabel').addEventListener('click', ()=>{
+  if (labels.length===1){ labels[0] = newLabel(); }
+  else { labels.splice(cur,1); cur = Math.max(0,cur-1); }
+  sel=null; syncUI(); render();
+});
+
+/* ---------- Ramki ---------- */
+document.getElementById('addFrame').addEventListener('click', ()=>{
+  const n = L().frames.length;
+  L().frames.push({color:'#000000', thick:0.6, margin:2+n*2, radius:2, style:'solid'});
+  buildFrames(); render();
+});
+function buildFrames(){
+  const box = document.getElementById('frameList'); box.innerHTML='';
+  L().frames.forEach((f,i)=>{
+    const d = document.createElement('div'); d.className='item';
+    d.innerHTML = `
+      <div class="head"><span>Ramka ${i+1}</span><div class="btns"><button class="btn secondary small" data-del>✕ Usuń</button></div></div>
+      <div class="row">
+        <div><label>Kolor</label><input type="color" data-k="color" value="${f.color}"></div>
+        <div><label>Styl</label><select data-k="style">
+          <option value="solid">Ciągła</option><option value="dashed">Kreskowana</option>
+          <option value="dotted">Kropkowana</option><option value="double">Podwójna</option></select></div>
+      </div>
+      <div class="row">
+        <div><label>Grubość (mm)</label><input type="number" data-k="thick" min="0.1" max="10" step="0.1" value="${f.thick}"></div>
+        <div><label>Odstęp od brzegu (mm)</label><input type="number" data-k="margin" min="0" max="50" step="0.5" value="${f.margin}"></div>
+        <div><label>Zaokrąglenie (mm)</label><input type="number" data-k="radius" min="0" max="50" step="0.5" value="${f.radius}"></div>
+      </div>`;
+    d.querySelector('select').value = f.style;
+    d.querySelectorAll('[data-k]').forEach(el=>{
+      el.addEventListener('input', ()=>{
+        const k = el.dataset.k;
+        if (el.type==='number'){ const v=parseFloat(el.value); if (isNaN(v)) return; f[k]=v; } else f[k]=el.value;
+        render();
+      });
+    });
+    d.querySelector('[data-del]').addEventListener('click', ()=>{ L().frames.splice(i,1); buildFrames(); render(); });
+    box.appendChild(d);
+  });
+  enhanceNumberInputs();
+}
+
+/* ---------- Dodatkowe obrazki ---------- */
+function readImageFile(file){
+  return new Promise(res=>{
+    const r = new FileReader();
+    r.onload = e=>{ const img = new Image(); img.onload = ()=>res({img, dataUrl:e.target.result, name:file.name}); img.onerror=()=>res(null); img.src = e.target.result; };
+    r.onerror = ()=>res(null);
+    r.readAsDataURL(file);
+  });
+}
+document.getElementById('imgInput').addEventListener('change', async e=>{
+  const files = Array.from(e.target.files);
+  for (const f of files){
+    const o = await readImageFile(f); if (!o) continue;
+    L().images.push({img:o.img, name:o.name, cx:.5, cy:.5, wf:.4});
+    sel = 'img:'+(L().images.length-1);
+  }
+  e.target.value = '';
+  buildImages(); render();
+});
+function removeImage(i){
+  L().images.splice(i,1); sel=null; buildImages(); render();
+}
+function buildImages(){
+  const box = document.getElementById('imgList'); box.innerHTML='';
+  L().images.forEach((im,i)=>{
+    const d = document.createElement('div'); d.className='item'+(sel==='img:'+i?' sel':'');
+    d.innerHTML = `
+      <div class="head"><span title="${im.name}">${im.name}</span>
+        <div class="btns"><button class="btn secondary small" data-up title="Przenieś wyżej">▲</button>
+        <button class="btn secondary small" data-down title="Przenieś niżej">▼</button>
+        <button class="btn secondary small" data-del>✕</button></div></div>
+      <label>Rozmiar (% szerokości etykiety)</label>
+      <input type="number" data-wf min="3" max="300" step="1" value="${Math.round(im.wf*100)}">`;
+    d.addEventListener('click', ()=>{ sel='img:'+i; render(); });
+    d.querySelector('[data-wf]').addEventListener('input', e=>{
+      const v=parseFloat(e.target.value); if (isNaN(v)) return; im.wf = Math.max(0.03,v/100); render();
+    });
+    d.querySelector('[data-del]').addEventListener('click', e=>{ e.stopPropagation(); removeImage(i); });
+    d.querySelector('[data-up]').addEventListener('click', e=>{
+      e.stopPropagation(); if (i<L().images.length-1){ const a=L().images; [a[i],a[i+1]]=[a[i+1],a[i]]; sel='img:'+(i+1); buildImages(); render(); }
+    });
+    d.querySelector('[data-down]').addEventListener('click', e=>{
+      e.stopPropagation(); if (i>0){ const a=L().images; [a[i],a[i-1]]=[a[i-1],a[i]]; sel='img:'+(i-1); buildImages(); render(); }
+    });
+    box.appendChild(d);
+  });
+  enhanceNumberInputs();
+}
+function syncLists(){
+  document.querySelectorAll('#imgList .item').forEach((d,i)=>{
+    const im = L().images[i]; const f = d.querySelector('[data-wf]');
+    if (im && f && document.activeElement!==f) f.value = Math.round(im.wf*100);
+  });
+}
+
+/* ---------- Logo ---------- */
+function syncLogoUI(){
+  const img = document.getElementById('logoPreview'), empty = document.getElementById('logoEmpty');
+  if (logoImg){ img.src = logoImg.src; img.style.display='block'; empty.style.display='none';
+    document.getElementById('logoStatus').textContent = 'Aktywne logo: ' + (logoName||'logo'); }
+  else { img.style.display='none'; empty.style.display='block';
+    document.getElementById('logoStatus').textContent = 'Brak logo — wskaż plik logo.png lub folder, w którym się znajduje.'; }
+}
+function setLogoFromDataUrl(url, name, store){
+  const im = new Image();
+  im.onload = ()=>{
+    logoImg = im; logoName = name;
+    if (store){ try{ localStorage.setItem('etykiety_logo_v1', JSON.stringify({url,name})); }catch(e){} }
+    syncLogoUI(); render();
+  };
+  im.src = url;
+}
+function setLogoFile(file){
+  const r = new FileReader();
+  r.onload = e=>setLogoFromDataUrl(e.target.result, file.name, true);
+  r.readAsDataURL(file);
+}
+document.getElementById('logoInput').addEventListener('change', e=>{ if (e.target.files[0]) setLogoFile(e.target.files[0]); });
+document.getElementById('logoFolder').addEventListener('change', e=>{
+  const files = Array.from(e.target.files);
+  const f = files.find(x=>/^logo\.(png|jpe?g|webp|svg|gif|bmp)$/i.test(x.name));
+  if (f) setLogoFile(f); else alert('W wybranym folderze nie znaleziono pliku logo.png.');
+  e.target.value='';
+});
+function loadStoredLogo(){
+  try{
+    const s = JSON.parse(localStorage.getItem('etykiety_logo_v1')||'null');
+    if (s && s.url) setLogoFromDataUrl(s.url, s.name, false);
+  }catch(e){}
+}
+(function autoLogo(){
+  const im = new Image();
+  im.onload = ()=>{
+    try{
+      const c = document.createElement('canvas'); c.width=c.height=1;
+      const x = c.getContext('2d'); x.drawImage(im,0,0); x.getImageData(0,0,1,1);
+      logoImg = im; logoName = 'logo.png'; syncLogoUI(); render();
+    }catch(err){ loadStoredLogo(); }
+  };
+  im.onerror = loadStoredLogo;
+  im.src = 'logo.png';
+})();
+
+/* ---------- Eksport ---------- */
+function renderToCanvas(lab){ const c = document.createElement('canvas'); drawLabel(c, lab, false); return c; }
+function download(blob, name){
+  const a = document.createElement('a'); a.download = name; a.href = URL.createObjectURL(blob); a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 4000);
+}
+function canvasBlob(c){ return new Promise(r=>c.toBlob(r,'image/png')); }
+function fileBase(lab,i){
+  const t = (lab.mid.text||'').split('\n')[0].trim().replace(/[^\wąćęłńóśźżĄĆĘŁŃÓŚŹŻ\- ]/g,'').trim().slice(0,30);
+  return 'etykieta_'+(i+1)+(t?'_'+t.replace(/\s+/g,'_'):'');
+}
+document.getElementById('dlOne').addEventListener('click', async ()=>{
+  download(await canvasBlob(renderToCanvas(L())), fileBase(L(),cur)+'.png');
+});
+document.getElementById('dlAll').addEventListener('click', async ()=>{
+  if (labels.length===1){ download(await canvasBlob(renderToCanvas(labels[0])), fileBase(labels[0],0)+'.png'); return; }
+  if (window.JSZip){
+    const zip = new JSZip();
+    for (let i=0;i<labels.length;i++) zip.file(fileBase(labels[i],i)+'.png', await canvasBlob(renderToCanvas(labels[i])));
+    download(await zip.generateAsync({type:'blob'}), 'etykiety.zip');
+  } else {
+    for (let i=0;i<labels.length;i++){ download(await canvasBlob(renderToCanvas(labels[i])), fileBase(labels[i],i)+'.png'); await new Promise(r=>setTimeout(r,400)); }
+  }
+});
+function cloneLabel(lab){
+  const c = JSON.parse(JSON.stringify(lab, (k,v)=> k==='img' ? undefined : v));
+  c.images = lab.images.map(im=>({...im}));
+  return c;
+}
+// Wariant etykiety w innym rozmiarze: czcionki i ramki skalowane proporcjonalnie,
+// obrazki/logo mają rozmiar względem szerokości, więc dopasowują się same.
+function variantLabel(lab, wcm, hcm){
+  const c = cloneLabel(lab);
+  const r = Math.min(wcm/lab.wcm, hcm/lab.hcm);
+  c.wcm = wcm; c.hcm = hcm;
+  c.mid.size = Math.max(6, lab.mid.size*r); c.mid.fit = true;
+  c.bot.size = Math.max(5, lab.bot.size*r);
+  c.frames.forEach(f=>{ f.thick*=r; f.margin*=r; f.radius*=r; });
+  return c;
+}
+function alternativeSizes(lab){
+  return PRESETS.filter(p=>p[2]!==null && p[2] < lab.wcm-0.001 && p[3] <= lab.hcm+0.001);
+}
+document.getElementById('dlPdf').addEventListener('click', ()=>{
+  if (!window.jspdf){ alert('Nie udało się wczytać biblioteki PDF (brak połączenia z internetem?).'); return; }
+  const {jsPDF} = window.jspdf;
+  const doc = new jsPDF({orientation:'portrait', unit:'mm', format:'a4'});
+  const PW=210, PH=297, M=8, G=3;
+  const cut = document.getElementById('cutLines').checked;
+  const extra = document.getElementById('extraSizes').checked;
+  let x=M, y=M, rowH=0, any=false;
+  const items = [];
+  labels.forEach(lab=>{
+    items.push(lab);
+    if (extra) alternativeSizes(lab).forEach(p=>items.push(variantLabel(lab,p[2],p[3])));
+  });
+  items.forEach(lab=>{
+    const w = Math.min(40,Math.max(2,lab.wcm))*10, h = Math.min(40,Math.max(2,lab.hcm))*10;
+    const url = renderToCanvas(lab).toDataURL('image/jpeg',0.95);
+    for (let k=0;k<Math.max(1,lab.copies|0);k++){
+      if (any && x+w > PW-M+0.01){ x=M; y+=rowH+G; rowH=0; }
+      if (any && y+h > PH-M+0.01){ doc.addPage('a4','portrait'); x=M; y=M; rowH=0; }
+      doc.addImage(url,'JPEG',x,y,w,h);
+      if (cut){ doc.setDrawColor(150); doc.setLineWidth(0.15); doc.rect(x,y,w,h); }
+      x += w+G; rowH = Math.max(rowH,h); any = true;
+    }
+  });
+  doc.save('etykiety_do_segregatorow.pdf');
+});
+
+/* ---------- Stepper +/- ---------- */
+function enhanceNumberInputs(){
+  document.querySelectorAll('input[type=number]').forEach(inp=>{
+    if (inp.dataset.enhanced) return;
+    inp.dataset.enhanced = '1';
+    const wrap = document.createElement('div'); wrap.className='numwrap';
+    inp.parentNode.insertBefore(wrap, inp); wrap.appendChild(inp);
+    const sw = document.createElement('div'); sw.className='numstep';
+    const up = document.createElement('button'); up.type='button'; up.className='numbtn up'; up.textContent='▲';
+    const dn = document.createElement('button'); dn.type='button'; dn.className='numbtn down'; dn.textContent='▼';
+    sw.appendChild(up); sw.appendChild(dn); wrap.appendChild(sw);
+    const step = parseFloat(inp.step)||1;
+    function change(dir){
+      let v = (parseFloat(inp.value)||0)+dir*step;
+      if (inp.min!=='' && v<parseFloat(inp.min)) v=parseFloat(inp.min);
+      if (inp.max!=='' && v>parseFloat(inp.max)) v=parseFloat(inp.max);
+      inp.value = Math.round(v*100)/100;
+      inp.dispatchEvent(new Event('input',{bubbles:true}));
+    }
+    up.addEventListener('click',()=>change(1)); dn.addEventListener('click',()=>change(-1));
+  });
+}
+
+/* ---------- Start ---------- */
+enhanceNumberInputs();
+syncUI(); render();
+</script>
+</body>
+</html>
