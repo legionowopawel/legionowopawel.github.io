@@ -1,0 +1,2497 @@
+Folder PATH listing
+Volume serial number is C27A-975E
+C:.
+-   drzewo.txt
+-   index.html
+-   
++¦¦¦columbo
+-   -   asertywnosc1.html
+-   -   chemia1.html
+-   -   excel1.html
+-   -   excel2.html
+-   -   excel3.html
+-   -   fiz1.html
+-   -   googlee4502a57d1aa21e2.html
+-   -   historia1.html
+-   -   index.html
+-   -   InwentaryzacjaMebili.htm
+-   -   konwerter_mp3_ogg.py
+-   -   konwerter_mp3_ogg_wersja2.py
+-   -   mandolina1.html
+-   -   manifest.js
+-   -   nvc1.html
+-   -   nvc3 skasuj stara wersja.html
+-   -   nvc3.html
+-   -   polski1.html
+-   -   pomoz.html
+-   -   psychC.html
+-   -   rower.html
+-   -   sherlock.html
+-   -   spryt.html
+-   -   wloski1.html
+-   -   
+-   +¦¦¦audio
+-   -       beep.mp3
+-   -       bop.mp3
+-   -       bounce.mp3
+-   -       bubbles.mp3
+-   -       bubblesloud.mp3
+-   -       dripdrop.mp3
+-   -       eureka.mp3
+-   -       flutter.mp3
+-   -       highscore.mp3
+-   -       incoming-ringtone-level30.mp3
+-   -       incoming-ringtone-level40.mp3
+-   -       mandolina_dobrze.mp3
+-   -       mandolina_zle.mp3
+-   -       meetup_ring.mp3
+-   -       nextlevel.mp3
+-   -       plink.mp3
+-   -       remix.mp3
+-   -       ring.mp3
+-   -       ringring.mp3
+-   -       ripple.mp3
+-   -       screenshare_ring.mp3
+-   -       spacetime.mp3
+-   -       teams_meet_up_reminder.mp3
+-   -       teams_notification.mp3
+-   -       wishgranted.mp3
+-   -       wobble.mp3
+-   -       
+-   +¦¦¦foto
+-   -       readme.md
+-   -       
+-   +¦¦¦Galeria_odzielna
+-   -       ChatGPT Image 19 cze 2026, 15_30_38.png
+-   -       ChatGPT Image 20 cze 2026, 10_05_24.png
+-   -       Copilot_20260620_124945.png
+-   -       DOcpb.jpg
+-   -       downloadfile-9.mp4
+-   -       dsfdsfds.mp3
+-   -       main.png
+-   -       sdfdsf.png
+-   -       sher.mp3
+-   -       sherholms.jpg
+-   -       
+-   +¦¦¦historia1
+-   -       WhatsApp Image 2026-03-30 at 14.33.31 (1).jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.31 (2).jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.31 (3).jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.31 (4).jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.31 (5).jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.31 (6).jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.31 (7).jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.31.jpeg
+-   -       WhatsApp Image 2026-03-30 at 14.33.32.jpeg
+-   -       
+-   +¦¦¦images
+-   -       chemia1.png
+-   -       excel1_01.png
+-   -       excel1_02.png
+-   -       excel2_01.png
+-   -       excel2_02.png
+-   -       excel2_03.png
+-   -       excel2_04.png
+-   -       excel2_05.png
+-   -       excel2_06.png
+-   -       excel2_07.png
+-   -       excel3_01.png
+-   -       excel3_02.png
+-   -       excel3_03.png
+-   -       excel3_04.png
+-   -       excel3_05.png
+-   -       excel3_06.png
+-   -       excel3_07.png
+-   -       excel3_08.png
+-   -       fiz1.png
+-   -       index_obrazki.html
+-   -       komisarz_excel.png
+-   -       main.png
+-   -       main_prompt.txt
+-   -       manifest_images.js
+-   -       polski1.png
+-   -       PROMPT_ogollny_do_testow.txt
+-   -       psychC.png
+-   -       rower.png
+-   -       sher1.png
+-   -       sher2.png
+-   -       sherholms.png
+-   -       wloski1.png
+-   -       
+-   +¦¦¦mp3
+-   -       chemia1.mp3
+-   -       chemia1.txt
+-   -       excel1.mp3
+-   -       excel1.txt
+-   -       excel3.mp3
+-   -       excel3.txt
+-   -       fiz1.mp3
+-   -       fiz1.txt
+-   -       index.html
+-   -       mandolina1.mp3
+-   -       manifest.js
+-   -       polski1.mp3
+-   -       polski1.txt
+-   -       pomoz.mp3
+-   -       prompt.txt
+-   -       psychC.mp3
+-   -       rekomendacja.mp3
+-   -       rower.mp3
+-   -       rower.txt
+-   -       sherlock.mp3
+-   -       sherlock.txt
+-   -       spryt.mp3
+-   -       styl muzyki detektywa.txt
+-   -       wloski1.mp3
+-   -       wloski1.txt
+-   -       
+-   +¦¦¦mp4
+-   -       1.mp4
+-   -       2.mp4
+-   -       3.mp4
+-   -       4.mp4
+-   -       excel3.mp4
+-   -       index_mp4.html
+-   -       manifest_mp4.js
+-   -       sher1.mp4
+-   -       sher2.mp4
+-   -       sher3.mp4
+-   -       sher4.mp4
+-   -       
+-   L¦¦¦nvc3_audio
+-           001.mp3
+-           002.mp3
+-           003.mp3
+-           004.mp3
+-           005.mp3
+-           006.mp3
+-           007.mp3
+-           008.mp3
+-           009.mp3
+-           010.mp3
+-           011.mp3
+-           012.mp3
+-           013.mp3
+-           014.mp3
+-           015.mp3
+-           016.mp3
+-           017.mp3
+-           018.mp3
+-           019.mp3
+-           020.mp3
+-           021.mp3
+-           022.mp3
+-           023.mp3
+-           start.mp3
+-           
++¦¦¦CV
+-       cv.html
+-       
++¦¦¦Komiksy_AI_Projekt
+-   -   .gitignore
+-   -   aktualizacja_config.json
+-   -   aktualizacja_html.py
+-   -   galeria.json
+-   -   gitignore
+-   -   html.txt
+-   -   index.html
+-   -   requirements.txt
+-   -   
+-   +¦¦¦Git_ignore_robocze_pliki
+-   -   -   aktualizacja_html.py
+-   -   -   
+-   -   L¦¦¦Mezczyzna ma tylko wys³uchac
+-   -       -   grok_image_jla3tc.jpg
+-   -       -   grok_image_xcftwoh.jpg
+-   -       -   
+-   -       L¦¦¦robocze
+-   -               1789887508360.png
+-   -               1789888038264.png
+-   -               1789888127028.png
+-   -               2EFRr.jpg
+-   -               bUYIC.jpg
+-   -               
+-   +¦¦¦haslo
+-   -       00216674b36698920799dd9d.enc
+-   -       00216674b36698920799dd9d_t.enc
+-   -       0076305fad6c37d2554c0d7e.enc
+-   -       0076305fad6c37d2554c0d7e_t.enc
+-   -       00a5672fe800dba0643d084d.enc
+-   -       00a5672fe800dba0643d084d_t.enc
+-   -       00afaae3256a4ad15396a0c3.enc
+-   -       00afaae3256a4ad15396a0c3_t.enc
+-   -       0159e178c5819fa4a8539bf0.enc
+-   -       0159e178c5819fa4a8539bf0_t.enc
+-   -       018cdf798f11c4a32990b442.enc
+-   -       018cdf798f11c4a32990b442_t.enc
+-   -       01fa0f947332423acc1f98f6.enc
+-   -       01fa0f947332423acc1f98f6_t.enc
+-   -       031734e19322ecd5e4a0199d.enc
+-   -       031734e19322ecd5e4a0199d_t.enc
+-   -       03a79e46c80a277231e640bd.enc
+-   -       03a79e46c80a277231e640bd_t.enc
+-   -       03b31ae4e2c30485cf8e0f86.enc
+-   -       03b31ae4e2c30485cf8e0f86_t.enc
+-   -       0470138535f58fee3deb3b44.enc
+-   -       0470138535f58fee3deb3b44_t.enc
+-   -       048f4169282931de42cc0896.enc
+-   -       048f4169282931de42cc0896_t.enc
+-   -       04d43dd4b706cb5887cfa48d.enc
+-   -       04d43dd4b706cb5887cfa48d_t.enc
+-   -       051752073c8fbed4d0dab16d.enc
+-   -       051752073c8fbed4d0dab16d_t.enc
+-   -       05378688cb890a2e8c65b6e5.enc
+-   -       05378688cb890a2e8c65b6e5_t.enc
+-   -       05f97ad251a2fcc10fefb39c.enc
+-   -       05f97ad251a2fcc10fefb39c_t.enc
+-   -       05fd2ed7da40c376228d59ae.enc
+-   -       05fd2ed7da40c376228d59ae_t.enc
+-   -       06b6004bf29f3f049fcc15ad.enc
+-   -       06b6004bf29f3f049fcc15ad_t.enc
+-   -       06ca4cbc123ae68fc457b000.enc
+-   -       06ca4cbc123ae68fc457b000_t.enc
+-   -       077f9b73d545db86e08ecc2c.enc
+-   -       077f9b73d545db86e08ecc2c_t.enc
+-   -       079ecb7be785629ea84dd1d2.enc
+-   -       079ecb7be785629ea84dd1d2_t.enc
+-   -       07e7ba60ae010c658640d90c.enc
+-   -       07e7ba60ae010c658640d90c_t.enc
+-   -       08ef787dbb6c8303a4b51f50.enc
+-   -       08ef787dbb6c8303a4b51f50_t.enc
+-   -       0944af60b1fd6cfd1df65ec6.enc
+-   -       0944af60b1fd6cfd1df65ec6_t.enc
+-   -       09cde7f7309a292836600fdd.enc
+-   -       09cde7f7309a292836600fdd_t.enc
+-   -       0a4311bdd5d3b4f24aa8afdc.enc
+-   -       0a4311bdd5d3b4f24aa8afdc_t.enc
+-   -       0be87d758f4c7f9b3f245582.enc
+-   -       0be87d758f4c7f9b3f245582_t.enc
+-   -       0c505f9398643afd379b3a9a.enc
+-   -       0c505f9398643afd379b3a9a_t.enc
+-   -       0c7e4b020f25d7a67dbefab2.enc
+-   -       0c7e4b020f25d7a67dbefab2_t.enc
+-   -       0d644d8cc5d4dc52a373e32f.enc
+-   -       0d644d8cc5d4dc52a373e32f_t.enc
+-   -       0d66a961bd8ec2a1799e5319.enc
+-   -       0d66a961bd8ec2a1799e5319_t.enc
+-   -       0d9b1bd30c5934c91238480e.enc
+-   -       0d9b1bd30c5934c91238480e_t.enc
+-   -       0dad971441e1abf0e619c33e.enc
+-   -       0dad971441e1abf0e619c33e_t.enc
+-   -       0e10ee63a9c174c79f7f5861.enc
+-   -       0e10ee63a9c174c79f7f5861_t.enc
+-   -       0ffb7b1ef3a585ea46652757.enc
+-   -       0ffb7b1ef3a585ea46652757_t.enc
+-   -       108c64cf8964602af26cbc1b.enc
+-   -       108c64cf8964602af26cbc1b_t.enc
+-   -       112df9e6fa2d2d2ce08e24c2.enc
+-   -       112df9e6fa2d2d2ce08e24c2_t.enc
+-   -       11aebb0b5e802853fffb3c4f.enc
+-   -       11aebb0b5e802853fffb3c4f_t.enc
+-   -       12904877f5af001f1c74eebe.enc
+-   -       12904877f5af001f1c74eebe_t.enc
+-   -       12ddd1603d3122c3f54bda94.enc
+-   -       12ddd1603d3122c3f54bda94_t.enc
+-   -       12f4d6cce1532e6f6e18b196.enc
+-   -       12f4d6cce1532e6f6e18b196_t.enc
+-   -       135f10c61ccbd0ad4f19e1b4.enc
+-   -       135f10c61ccbd0ad4f19e1b4_t.enc
+-   -       13fb535e2551f613870603a8.enc
+-   -       13fb535e2551f613870603a8_t.enc
+-   -       142b3c596859449489c1371c.enc
+-   -       142b3c596859449489c1371c_t.enc
+-   -       143a521f6d116752b88c2629.enc
+-   -       143a521f6d116752b88c2629_t.enc
+-   -       14b8b463c4c68c4faaf984f2.enc
+-   -       14b8b463c4c68c4faaf984f2_t.enc
+-   -       14d8a3c84f6ec87a46399fd7.enc
+-   -       14d8a3c84f6ec87a46399fd7_t.enc
+-   -       14edb8c77b35a522eae8a5ef.enc
+-   -       14edb8c77b35a522eae8a5ef_t.enc
+-   -       151e4c5bb12937f6140bff77.enc
+-   -       151e4c5bb12937f6140bff77_t.enc
+-   -       159a14736db49cb1c28c38e1.enc
+-   -       159a14736db49cb1c28c38e1_t.enc
+-   -       15a46bf89c4e641fa8371e2d.enc
+-   -       15a46bf89c4e641fa8371e2d_t.enc
+-   -       17297a085e33f76a25ef0cf2.enc
+-   -       17297a085e33f76a25ef0cf2_t.enc
+-   -       173c22f07f41c58e14c846af.enc
+-   -       173c22f07f41c58e14c846af_t.enc
+-   -       179c90d9fe12ebb5a8192619.enc
+-   -       179c90d9fe12ebb5a8192619_t.enc
+-   -       17e6789ab468fe3c528524a4.enc
+-   -       17e6789ab468fe3c528524a4_t.enc
+-   -       182f582122e257787e78c2b6.enc
+-   -       182f582122e257787e78c2b6_t.enc
+-   -       185e9ca1f62f2c74556cd882.enc
+-   -       185e9ca1f62f2c74556cd882_t.enc
+-   -       1947ef54ec0428be2e2b0b62.enc
+-   -       1947ef54ec0428be2e2b0b62_t.enc
+-   -       198cad9c812879152d58d514.enc
+-   -       198cad9c812879152d58d514_t.enc
+-   -       19a61bba8c83ed87d3398050.enc
+-   -       19a61bba8c83ed87d3398050_t.enc
+-   -       1b12fb2608829238a62581aa.enc
+-   -       1b12fb2608829238a62581aa_t.enc
+-   -       1b5226cfb2a4319b95927198.enc
+-   -       1b5226cfb2a4319b95927198_t.enc
+-   -       1b683f9660be7d04b3cd9933.enc
+-   -       1b683f9660be7d04b3cd9933_t.enc
+-   -       1b6ce1c672598c10ec1bcd97.enc
+-   -       1b6ce1c672598c10ec1bcd97_t.enc
+-   -       1bc041a8ae186f129ee2dd9f.enc
+-   -       1bc041a8ae186f129ee2dd9f_t.enc
+-   -       1cdfe0caab3eaf1b4a9d8c7a.enc
+-   -       1cdfe0caab3eaf1b4a9d8c7a_t.enc
+-   -       1dca835e912c6c2ebea9b2de.enc
+-   -       1dca835e912c6c2ebea9b2de_t.enc
+-   -       1dfa96334be741cf021a15c9.enc
+-   -       1dfa96334be741cf021a15c9_t.enc
+-   -       1e32ab43d8984cf9101b621c.enc
+-   -       1e32ab43d8984cf9101b621c_t.enc
+-   -       2003f2348a8762e92ad2bf2d.enc
+-   -       2003f2348a8762e92ad2bf2d_t.enc
+-   -       219f41eab95ba98dd755bf68.enc
+-   -       219f41eab95ba98dd755bf68_t.enc
+-   -       21b3c452ba9d383fdf13eca9.enc
+-   -       21b3c452ba9d383fdf13eca9_t.enc
+-   -       21c41735b490c1364b660729.enc
+-   -       21c41735b490c1364b660729_t.enc
+-   -       221f5afd710a6638eff83000.enc
+-   -       221f5afd710a6638eff83000_t.enc
+-   -       22b4858fc1cae5d6b3d94358.enc
+-   -       22b4858fc1cae5d6b3d94358_t.enc
+-   -       2311281bd37585f6295ca772.enc
+-   -       2311281bd37585f6295ca772_t.enc
+-   -       240a8cb134c3980368e8068c.enc
+-   -       240a8cb134c3980368e8068c_t.enc
+-   -       252f52ca1ed90249821d99a7.enc
+-   -       252f52ca1ed90249821d99a7_t.enc
+-   -       25b5ab07cb44d8760d874a7e.enc
+-   -       25b5ab07cb44d8760d874a7e_t.enc
+-   -       2612f6f29a076c9cf2783bca.enc
+-   -       2612f6f29a076c9cf2783bca_t.enc
+-   -       26361e30f43e72ddf0dcf658.enc
+-   -       26361e30f43e72ddf0dcf658_t.enc
+-   -       2681caa814deba736b9fc5a1.enc
+-   -       2681caa814deba736b9fc5a1_t.enc
+-   -       276963904dab85d27ad9f711.enc
+-   -       276963904dab85d27ad9f711_t.enc
+-   -       27981d6e2e1d3846eb1a3d47.enc
+-   -       27981d6e2e1d3846eb1a3d47_t.enc
+-   -       27a8dc0543557b26cb33e01a.enc
+-   -       27a8dc0543557b26cb33e01a_t.enc
+-   -       2888b1a192a70c19007dc6bf.enc
+-   -       2888b1a192a70c19007dc6bf_t.enc
+-   -       2924f99ce25ca0ae46c50575.enc
+-   -       2924f99ce25ca0ae46c50575_t.enc
+-   -       296b6df08130d7276d61ccf2.enc
+-   -       296b6df08130d7276d61ccf2_t.enc
+-   -       29c81cab16d42d4916bad45f.enc
+-   -       29c81cab16d42d4916bad45f_t.enc
+-   -       2ab4bbc70ff629911499af7f.enc
+-   -       2ab4bbc70ff629911499af7f_t.enc
+-   -       2b0daf6f993d7ef5c697a7e0.enc
+-   -       2b0daf6f993d7ef5c697a7e0_t.enc
+-   -       2bbd800d067c23be6f1d4c64.enc
+-   -       2bbd800d067c23be6f1d4c64_t.enc
+-   -       2c2b3cb0ca04ee291df8f4c0.enc
+-   -       2c2b3cb0ca04ee291df8f4c0_t.enc
+-   -       2c6fa6a35c44aff3f5072b4a.enc
+-   -       2c6fa6a35c44aff3f5072b4a_t.enc
+-   -       2cde1a7396d50e57d4529754.enc
+-   -       2cde1a7396d50e57d4529754_t.enc
+-   -       2ce6744af34a96242278d67f.enc
+-   -       2ce6744af34a96242278d67f_t.enc
+-   -       2d11b1ab2de284a3a7ea8f5e.enc
+-   -       2d11b1ab2de284a3a7ea8f5e_t.enc
+-   -       2de72f152a3a1496b4d4fd15.enc
+-   -       2de72f152a3a1496b4d4fd15_t.enc
+-   -       2edc9e27a100211d0f44fa42.enc
+-   -       2edc9e27a100211d0f44fa42_t.enc
+-   -       2ee456b52f242c225df350c5.enc
+-   -       2ee456b52f242c225df350c5_t.enc
+-   -       2f9396e28ed398457fad42c2.enc
+-   -       2f9396e28ed398457fad42c2_t.enc
+-   -       31c0382bc9900f909c89451a.enc
+-   -       31c0382bc9900f909c89451a_t.enc
+-   -       32464d5cd4c313616bff0be7.enc
+-   -       32464d5cd4c313616bff0be7_t.enc
+-   -       33844a5f1a9b8ce2744c7fe1.enc
+-   -       33844a5f1a9b8ce2744c7fe1_t.enc
+-   -       33a231db6254edcc19bc7a7c.enc
+-   -       33a231db6254edcc19bc7a7c_t.enc
+-   -       33e3809fb20f82b156000290.enc
+-   -       33e3809fb20f82b156000290_t.enc
+-   -       3421301fd4f4d5902c3bac36.enc
+-   -       3421301fd4f4d5902c3bac36_t.enc
+-   -       34d9927533eae9b16158ccf9.enc
+-   -       34d9927533eae9b16158ccf9_t.enc
+-   -       35b296740a2b7d9096fc70ac.enc
+-   -       35b296740a2b7d9096fc70ac_t.enc
+-   -       36145ab8381453454c9495c2.enc
+-   -       36145ab8381453454c9495c2_t.enc
+-   -       361a888057f0aa1099a232e9.enc
+-   -       361a888057f0aa1099a232e9_t.enc
+-   -       362b9119a65f9318f81be076.enc
+-   -       362b9119a65f9318f81be076_t.enc
+-   -       363aca87803be5ee3a1518b9.enc
+-   -       363aca87803be5ee3a1518b9_t.enc
+-   -       3674ff9618599f6452e44693.enc
+-   -       3674ff9618599f6452e44693_t.enc
+-   -       3693d072d2eb1233dcf54cf6.enc
+-   -       3693d072d2eb1233dcf54cf6_t.enc
+-   -       36eb04c7f3539a71abe8c632.enc
+-   -       36eb04c7f3539a71abe8c632_t.enc
+-   -       3881544a9f49f487b1bcfb14.enc
+-   -       3881544a9f49f487b1bcfb14_t.enc
+-   -       38da751b7ea22f8359374473.enc
+-   -       38da751b7ea22f8359374473_t.enc
+-   -       3928798842fbd6d9f447325f.enc
+-   -       3928798842fbd6d9f447325f_t.enc
+-   -       395c2ac52f0309ba45b95d8f.enc
+-   -       395c2ac52f0309ba45b95d8f_t.enc
+-   -       3a1cfe7964aa328cf72fbb9a.enc
+-   -       3a1cfe7964aa328cf72fbb9a_t.enc
+-   -       3a6c018bd7e2e6ba538db5d1.enc
+-   -       3a6c018bd7e2e6ba538db5d1_t.enc
+-   -       3a6d7000e9ca189c56247480.enc
+-   -       3a6d7000e9ca189c56247480_t.enc
+-   -       3b054bf68b1329803d6d681b.enc
+-   -       3b054bf68b1329803d6d681b_t.enc
+-   -       3b19345a43422ebea2c116de.enc
+-   -       3b19345a43422ebea2c116de_t.enc
+-   -       3b1f148df45de39eafe28879.enc
+-   -       3b1f148df45de39eafe28879_t.enc
+-   -       3b65fcf61437466e5a0784da.enc
+-   -       3b65fcf61437466e5a0784da_t.enc
+-   -       3b911d409d649e3abf659723.enc
+-   -       3b911d409d649e3abf659723_t.enc
+-   -       3b97813823e85c9fc5f0d6ea.enc
+-   -       3b97813823e85c9fc5f0d6ea_t.enc
+-   -       3be7e7940c867e7018790804.enc
+-   -       3be7e7940c867e7018790804_t.enc
+-   -       3bfa2b1a934d8dafb25ae7bd.enc
+-   -       3bfa2b1a934d8dafb25ae7bd_t.enc
+-   -       3c02186948b4a6042f4e4da0.enc
+-   -       3c02186948b4a6042f4e4da0_t.enc
+-   -       3c2d95c30232939befd4a86d.enc
+-   -       3c2d95c30232939befd4a86d_t.enc
+-   -       3ccf92c6a4c4d7a2974b6932.enc
+-   -       3ccf92c6a4c4d7a2974b6932_t.enc
+-   -       3d2e45e4349a3ae69bbc9927.enc
+-   -       3d2e45e4349a3ae69bbc9927_t.enc
+-   -       3e2df44252dbef5dd02ea652.enc
+-   -       3e2df44252dbef5dd02ea652_t.enc
+-   -       3e88b5408ed223191d8c52c5.enc
+-   -       3e88b5408ed223191d8c52c5_t.enc
+-   -       3ea32f1cf99fa6556d0d028e.enc
+-   -       3ea32f1cf99fa6556d0d028e_t.enc
+-   -       3f48f4dc6364eecc1f3ff742.enc
+-   -       3f48f4dc6364eecc1f3ff742_t.enc
+-   -       3fba5161fc0064c75d19c12d.enc
+-   -       3fba5161fc0064c75d19c12d_t.enc
+-   -       403f3632c6bc8da8dc177862.enc
+-   -       403f3632c6bc8da8dc177862_t.enc
+-   -       405ec21faa0d23106577747f.enc
+-   -       405ec21faa0d23106577747f_t.enc
+-   -       40befc18cbc89a4cd9e7fcaf.enc
+-   -       40befc18cbc89a4cd9e7fcaf_t.enc
+-   -       40f5e897d108bed0a7205892.enc
+-   -       40f5e897d108bed0a7205892_t.enc
+-   -       40f640a105d25b938cbc95bf.enc
+-   -       40f640a105d25b938cbc95bf_t.enc
+-   -       4107017da525806fb934b539.enc
+-   -       4107017da525806fb934b539_t.enc
+-   -       4155c957013ae516817c64ce.enc
+-   -       4155c957013ae516817c64ce_t.enc
+-   -       41736c475c1f7244f2a45540.enc
+-   -       41736c475c1f7244f2a45540_t.enc
+-   -       41e7805b29d9aa9f845abcbf.enc
+-   -       41e7805b29d9aa9f845abcbf_t.enc
+-   -       4263178a71b06ad2c5dd75e4.enc
+-   -       4263178a71b06ad2c5dd75e4_t.enc
+-   -       4267b53c63bf2672c25685ff.enc
+-   -       4267b53c63bf2672c25685ff_t.enc
+-   -       42b256d29bc5be46bcca1e0b.enc
+-   -       42b256d29bc5be46bcca1e0b_t.enc
+-   -       430476994bb9d59c08dc875e.enc
+-   -       430476994bb9d59c08dc875e_t.enc
+-   -       43eff669bbe9893492d07414.enc
+-   -       43eff669bbe9893492d07414_t.enc
+-   -       44d976ee4e57a617a7d071aa.enc
+-   -       44d976ee4e57a617a7d071aa_t.enc
+-   -       4500b4f82e580f6643d4b5d7.enc
+-   -       4500b4f82e580f6643d4b5d7_t.enc
+-   -       45fe3d37dfcb0146cebc00fb.enc
+-   -       45fe3d37dfcb0146cebc00fb_t.enc
+-   -       4654aaec1d30919db33a89af.enc
+-   -       4654aaec1d30919db33a89af_t.enc
+-   -       46a414d4a3e183d8744806bf.enc
+-   -       46a414d4a3e183d8744806bf_t.enc
+-   -       46e4cb503039362a54f252ba.enc
+-   -       46e4cb503039362a54f252ba_t.enc
+-   -       4804a6c3b6c30ec6d438a0de.enc
+-   -       4804a6c3b6c30ec6d438a0de_t.enc
+-   -       4a27555d4a2942edfb77ac38.enc
+-   -       4a27555d4a2942edfb77ac38_t.enc
+-   -       4a3d5aed578dae658f1b2e58.enc
+-   -       4a3d5aed578dae658f1b2e58_t.enc
+-   -       4a748f6f66b8ae4d8a3d6df2.enc
+-   -       4a748f6f66b8ae4d8a3d6df2_t.enc
+-   -       4a9df01816940d7c82308969.enc
+-   -       4a9df01816940d7c82308969_t.enc
+-   -       4ac29841cbf162a7ab5c9969.enc
+-   -       4ac29841cbf162a7ab5c9969_t.enc
+-   -       4b0e7b1edb8aabbec7ac3823.enc
+-   -       4b0e7b1edb8aabbec7ac3823_t.enc
+-   -       4b395a4651b4865fd4e40673.enc
+-   -       4b395a4651b4865fd4e40673_t.enc
+-   -       4b68a488a4973d8447f5498c.enc
+-   -       4b68a488a4973d8447f5498c_t.enc
+-   -       4c60045268519cc4d89f104f.enc
+-   -       4c60045268519cc4d89f104f_t.enc
+-   -       4dbeae4e6430fe078cffb93c.enc
+-   -       4dbeae4e6430fe078cffb93c_t.enc
+-   -       4ddc1de0cb0af5c75695c4c1.enc
+-   -       4ddc1de0cb0af5c75695c4c1_t.enc
+-   -       4dffb0e4288b76d9c500a990.enc
+-   -       4dffb0e4288b76d9c500a990_t.enc
+-   -       4e2fa30997517cfac4d819d8.enc
+-   -       4e2fa30997517cfac4d819d8_t.enc
+-   -       4ef9e41b3d82fc2b26e19a0f.enc
+-   -       4ef9e41b3d82fc2b26e19a0f_t.enc
+-   -       4f0e56015aa00a4f4314b032.enc
+-   -       4f0e56015aa00a4f4314b032_t.enc
+-   -       4f45673f9fbbfaea73f367da.enc
+-   -       4f45673f9fbbfaea73f367da_t.enc
+-   -       4fce2a3928a934ea8a2b7566.enc
+-   -       4fce2a3928a934ea8a2b7566_t.enc
+-   -       4fd06b424de10c5b80e64d23.enc
+-   -       4fd06b424de10c5b80e64d23_t.enc
+-   -       50de5f2465778f7fe92dae0d.enc
+-   -       50de5f2465778f7fe92dae0d_t.enc
+-   -       51433ddb6816fe7ad4f1e3c8.enc
+-   -       51433ddb6816fe7ad4f1e3c8_t.enc
+-   -       5174670a5141de8271763115.enc
+-   -       5174670a5141de8271763115_t.enc
+-   -       51844ba1cb4e148992644b90.enc
+-   -       51844ba1cb4e148992644b90_t.enc
+-   -       526e82382c620262e9efaecb.enc
+-   -       526e82382c620262e9efaecb_t.enc
+-   -       5280f8d8cc297cd24300f11c.enc
+-   -       5280f8d8cc297cd24300f11c_t.enc
+-   -       529ad949c052e6effa6bbef5.enc
+-   -       529ad949c052e6effa6bbef5_t.enc
+-   -       52dc32abff35c44bde40b527.enc
+-   -       52dc32abff35c44bde40b527_t.enc
+-   -       52f910895d9e24ca5bb83d4b.enc
+-   -       52f910895d9e24ca5bb83d4b_t.enc
+-   -       53f04b06e373dd61bb16455e.enc
+-   -       53f04b06e373dd61bb16455e_t.enc
+-   -       53ffb15300be215d2352680a.enc
+-   -       53ffb15300be215d2352680a_t.enc
+-   -       544e2b06b0f57c2af90b7bc9.enc
+-   -       544e2b06b0f57c2af90b7bc9_t.enc
+-   -       545dffa75b1af92dd92e0480.enc
+-   -       545dffa75b1af92dd92e0480_t.enc
+-   -       547d725691c06d0ad976b774.enc
+-   -       547d725691c06d0ad976b774_t.enc
+-   -       550f0cd1b04c0d68673d9e69.enc
+-   -       550f0cd1b04c0d68673d9e69_t.enc
+-   -       55479347359e5eb240220d13.enc
+-   -       55479347359e5eb240220d13_t.enc
+-   -       55a9c712013b77bd320a1940.enc
+-   -       55a9c712013b77bd320a1940_t.enc
+-   -       55d6d8052aaf07ca86c39e4e.enc
+-   -       55d6d8052aaf07ca86c39e4e_t.enc
+-   -       560cf4de890add86c251d055.enc
+-   -       560cf4de890add86c251d055_t.enc
+-   -       56d6c91d73bfa22d4aacf1b2.enc
+-   -       56d6c91d73bfa22d4aacf1b2_t.enc
+-   -       583d7f089a302fb4c5c667bb.enc
+-   -       583d7f089a302fb4c5c667bb_t.enc
+-   -       58643e637060dde81917f95e.enc
+-   -       58643e637060dde81917f95e_t.enc
+-   -       599a133edd9c460fc52ccc75.enc
+-   -       599a133edd9c460fc52ccc75_t.enc
+-   -       5a24e9d3b8f77485729aa8f0.enc
+-   -       5a24e9d3b8f77485729aa8f0_t.enc
+-   -       5a554179b1c9ffeff39eaab4.enc
+-   -       5a554179b1c9ffeff39eaab4_t.enc
+-   -       5a7fc9228bd50d2d770b655e.enc
+-   -       5a7fc9228bd50d2d770b655e_t.enc
+-   -       5a8792d1fa5f8709307a9c21.enc
+-   -       5a8792d1fa5f8709307a9c21_t.enc
+-   -       5acafbc35ae72e867c96deba.enc
+-   -       5acafbc35ae72e867c96deba_t.enc
+-   -       5c108ead55a27ac756bf216f.enc
+-   -       5c108ead55a27ac756bf216f_t.enc
+-   -       5c37412b639a001048cb9570.enc
+-   -       5c37412b639a001048cb9570_t.enc
+-   -       5c5a35e97eef34e6309c7014.enc
+-   -       5c5a35e97eef34e6309c7014_t.enc
+-   -       5c7713df942c1a240fcabfe2.enc
+-   -       5c7713df942c1a240fcabfe2_t.enc
+-   -       5cfea2f112f20faf4bd52ff8.enc
+-   -       5cfea2f112f20faf4bd52ff8_t.enc
+-   -       5d78bac87b5782808e9b53b4.enc
+-   -       5d78bac87b5782808e9b53b4_t.enc
+-   -       5dc9c8c0fd1ae26577c6496e.enc
+-   -       5dc9c8c0fd1ae26577c6496e_t.enc
+-   -       5e15c2c5f760ab3428aa63a4.enc
+-   -       5e15c2c5f760ab3428aa63a4_t.enc
+-   -       5e3395e03d842a9de0bf5afb.enc
+-   -       5e3395e03d842a9de0bf5afb_t.enc
+-   -       5e80281892a42972d42fd54e.enc
+-   -       5e80281892a42972d42fd54e_t.enc
+-   -       5e8399fdb75e98dee66d0102.enc
+-   -       5e8399fdb75e98dee66d0102_t.enc
+-   -       5e85bcbab09c647d2f34520b.enc
+-   -       5e85bcbab09c647d2f34520b_t.enc
+-   -       5ed07fe420d023af91ce1d5b.enc
+-   -       5ed07fe420d023af91ce1d5b_t.enc
+-   -       5f2685e760232a49ac8fad0f.enc
+-   -       5f2685e760232a49ac8fad0f_t.enc
+-   -       5fe29a1da319927a75a1f545.enc
+-   -       5fe29a1da319927a75a1f545_t.enc
+-   -       6004a67ed1d100defa23abd5.enc
+-   -       6004a67ed1d100defa23abd5_t.enc
+-   -       600a77e689b6b53e34a0a9cd.enc
+-   -       600a77e689b6b53e34a0a9cd_t.enc
+-   -       6048094cc244e2659ecaf2e9.enc
+-   -       6048094cc244e2659ecaf2e9_t.enc
+-   -       6190a833d85db05a39684aec.enc
+-   -       6190a833d85db05a39684aec_t.enc
+-   -       619dbc1c6b5acaa666bb3155.enc
+-   -       619dbc1c6b5acaa666bb3155_t.enc
+-   -       6211b9cad1583c54ecd4593b.enc
+-   -       6211b9cad1583c54ecd4593b_t.enc
+-   -       6221770f575205f3b328d57f.enc
+-   -       6221770f575205f3b328d57f_t.enc
+-   -       62629ae6939c65d6429c4927.enc
+-   -       62629ae6939c65d6429c4927_t.enc
+-   -       62944ba239ad61b98a561cb2.enc
+-   -       62944ba239ad61b98a561cb2_t.enc
+-   -       62f961d3133970a91d2ab9c2.enc
+-   -       62f961d3133970a91d2ab9c2_t.enc
+-   -       630e7aa5c3400804e8984a09.enc
+-   -       630e7aa5c3400804e8984a09_t.enc
+-   -       6336ce6e124b426856543a2e.enc
+-   -       6336ce6e124b426856543a2e_t.enc
+-   -       63484e3bf19cac61cbb6d15c.enc
+-   -       63484e3bf19cac61cbb6d15c_t.enc
+-   -       654ead352fb1b2b71d99d7e5.enc
+-   -       654ead352fb1b2b71d99d7e5_t.enc
+-   -       65e5da4674fb761dd264d81d.enc
+-   -       65e5da4674fb761dd264d81d_t.enc
+-   -       66a56891ebd4537d9d6599d0.enc
+-   -       66a56891ebd4537d9d6599d0_t.enc
+-   -       66e0496f38f92107afdffbd9.enc
+-   -       66e0496f38f92107afdffbd9_t.enc
+-   -       6700bbf52f9fd909de28f7fb.enc
+-   -       6700bbf52f9fd909de28f7fb_t.enc
+-   -       6727a1eeb2a73aa257d7de1c.enc
+-   -       6727a1eeb2a73aa257d7de1c_t.enc
+-   -       675aae0d95b0616e3e9fdb66.enc
+-   -       675aae0d95b0616e3e9fdb66_t.enc
+-   -       678ea606c1b6a93a5e4d193d.enc
+-   -       678ea606c1b6a93a5e4d193d_t.enc
+-   -       6964e5511d8903f02e34acec.enc
+-   -       6964e5511d8903f02e34acec_t.enc
+-   -       6974ec9bfb583c5c55780ce5.enc
+-   -       6974ec9bfb583c5c55780ce5_t.enc
+-   -       69c004ed3ddb3f9f97565d53.enc
+-   -       69c004ed3ddb3f9f97565d53_t.enc
+-   -       69d8531518fa696c17ce330f.enc
+-   -       69d8531518fa696c17ce330f_t.enc
+-   -       6a286cf626c9b8b1ff91986c.enc
+-   -       6a286cf626c9b8b1ff91986c_t.enc
+-   -       6ab2998cbb42a45babac95a9.enc
+-   -       6ab2998cbb42a45babac95a9_t.enc
+-   -       6b47f78d22196899d180eb6d.enc
+-   -       6b47f78d22196899d180eb6d_t.enc
+-   -       6b8078498d74f89b717cd906.enc
+-   -       6b8078498d74f89b717cd906_t.enc
+-   -       6bc0524106b96eb31454fae2.enc
+-   -       6bc0524106b96eb31454fae2_t.enc
+-   -       6bc900de4f6c11c4ef18ac24.enc
+-   -       6bc900de4f6c11c4ef18ac24_t.enc
+-   -       6bf08476e390707877ad23ed.enc
+-   -       6bf08476e390707877ad23ed_t.enc
+-   -       6c56e3ceac8ee1921407f435.enc
+-   -       6c56e3ceac8ee1921407f435_t.enc
+-   -       6d9621eccaccdbcbd5d7fc9f.enc
+-   -       6d9621eccaccdbcbd5d7fc9f_t.enc
+-   -       6d9ab0668e67901004af10b1.enc
+-   -       6d9ab0668e67901004af10b1_t.enc
+-   -       6db2521a121b6e8ad6e1ec9e.enc
+-   -       6db2521a121b6e8ad6e1ec9e_t.enc
+-   -       6e7c5c592d0f801606189fbc.enc
+-   -       6e7c5c592d0f801606189fbc_t.enc
+-   -       6ec85642aeb008331186dcc4.enc
+-   -       6ec85642aeb008331186dcc4_t.enc
+-   -       6ee671ea7d4ac7b3f04b090e.enc
+-   -       6ee671ea7d4ac7b3f04b090e_t.enc
+-   -       6ee6ff9a637eb1f0872f118e.enc
+-   -       6ee6ff9a637eb1f0872f118e_t.enc
+-   -       6fc079f94b2ab79e4c9d71f7.enc
+-   -       6fc079f94b2ab79e4c9d71f7_t.enc
+-   -       6fde4be7eda89830ca3edce0.enc
+-   -       6fde4be7eda89830ca3edce0_t.enc
+-   -       709f239fbf0bb8ea98d20936.enc
+-   -       709f239fbf0bb8ea98d20936_t.enc
+-   -       70ffa811b887b338e2648124.enc
+-   -       70ffa811b887b338e2648124_t.enc
+-   -       71e9aa21d05b4aefe6de485c.enc
+-   -       71e9aa21d05b4aefe6de485c_t.enc
+-   -       72179ddd2b61bfac0688458e.enc
+-   -       72179ddd2b61bfac0688458e_t.enc
+-   -       728269ec2194c44417d7659b.enc
+-   -       728269ec2194c44417d7659b_t.enc
+-   -       728d8f1ce46f11b2c1638556.enc
+-   -       728d8f1ce46f11b2c1638556_t.enc
+-   -       73a66b45739e0244d115f337.enc
+-   -       73a66b45739e0244d115f337_t.enc
+-   -       7436332a8d58c1e6d25801cd.enc
+-   -       7436332a8d58c1e6d25801cd_t.enc
+-   -       744614df7f46794cd3274508.enc
+-   -       744614df7f46794cd3274508_t.enc
+-   -       74c353bb0fdc94f1b56d4d97.enc
+-   -       74c353bb0fdc94f1b56d4d97_t.enc
+-   -       754a7573f2e852c4ffbf5b60.enc
+-   -       754a7573f2e852c4ffbf5b60_t.enc
+-   -       758039cfcd9e514023d98ef2.enc
+-   -       758039cfcd9e514023d98ef2_t.enc
+-   -       7586a6cc9f16682ef1cb666e.enc
+-   -       7586a6cc9f16682ef1cb666e_t.enc
+-   -       758849906f75ea05418619f4.enc
+-   -       758849906f75ea05418619f4_t.enc
+-   -       75df93302c6e28515a38503e.enc
+-   -       75df93302c6e28515a38503e_t.enc
+-   -       761c184eb83cae05585c3d1a.enc
+-   -       761c184eb83cae05585c3d1a_t.enc
+-   -       763b96b8c29cb6d4d5191df6.enc
+-   -       763b96b8c29cb6d4d5191df6_t.enc
+-   -       769cd861240415ca0bc70269.enc
+-   -       769cd861240415ca0bc70269_t.enc
+-   -       77039423c86397b3c826c9ab.enc
+-   -       77039423c86397b3c826c9ab_t.enc
+-   -       77959e41836cad39b27df6da.enc
+-   -       77959e41836cad39b27df6da_t.enc
+-   -       77c4d05f854cc21ac0d50cf0.enc
+-   -       77c4d05f854cc21ac0d50cf0_t.enc
+-   -       7863068355e754755c9564fe.enc
+-   -       7863068355e754755c9564fe_t.enc
+-   -       787b3f40bc7cfd43dcc45ee7.enc
+-   -       787b3f40bc7cfd43dcc45ee7_t.enc
+-   -       78aa0978b30184dc61078378.enc
+-   -       78aa0978b30184dc61078378_t.enc
+-   -       78c37f7ce3b8e4d1000f1cd0.enc
+-   -       78c37f7ce3b8e4d1000f1cd0_t.enc
+-   -       78f98ac186bba0b7337e3217.enc
+-   -       78f98ac186bba0b7337e3217_t.enc
+-   -       79ba1250814cbcfc80902559.enc
+-   -       79ba1250814cbcfc80902559_t.enc
+-   -       79e6514a4cd877464e90af37.enc
+-   -       79e6514a4cd877464e90af37_t.enc
+-   -       79ea025603211ff1dc160ba4.enc
+-   -       79ea025603211ff1dc160ba4_t.enc
+-   -       7a103d34ab80dd84e4a1cf61.enc
+-   -       7a103d34ab80dd84e4a1cf61_t.enc
+-   -       7a1f1341cec2ef66d867aa46.enc
+-   -       7a1f1341cec2ef66d867aa46_t.enc
+-   -       7a4ba029092182dbdd4d0064.enc
+-   -       7a4ba029092182dbdd4d0064_t.enc
+-   -       7b42ae5f543a70b136b967e6.enc
+-   -       7b42ae5f543a70b136b967e6_t.enc
+-   -       7b7c81329171007308bf22d3.enc
+-   -       7b7c81329171007308bf22d3_t.enc
+-   -       7c2ce7f2b14144c8c18e9c48.enc
+-   -       7c2ce7f2b14144c8c18e9c48_t.enc
+-   -       7c54b2d30b235641d790c66f.enc
+-   -       7c54b2d30b235641d790c66f_t.enc
+-   -       7ded51be2b0961451f70a1f1.enc
+-   -       7ded51be2b0961451f70a1f1_t.enc
+-   -       7e4fac3ece05b6bc74b5d58b.enc
+-   -       7e4fac3ece05b6bc74b5d58b_t.enc
+-   -       7ec38012cb3401db67263d9f.enc
+-   -       7ec38012cb3401db67263d9f_t.enc
+-   -       7f16ac08db4a2b1bd83373e3.enc
+-   -       7f16ac08db4a2b1bd83373e3_t.enc
+-   -       7f64227818342507936fb91c.enc
+-   -       7f64227818342507936fb91c_t.enc
+-   -       7f8222664b9870b44a0065f6.enc
+-   -       7f8222664b9870b44a0065f6_t.enc
+-   -       7fd6953010f4b9c3e841ca49.enc
+-   -       7fd6953010f4b9c3e841ca49_t.enc
+-   -       801fa455a06d544adafd77cd.enc
+-   -       801fa455a06d544adafd77cd_t.enc
+-   -       8026dd7184e7078ef0dcffb2.enc
+-   -       8026dd7184e7078ef0dcffb2_t.enc
+-   -       814938f4a571940d2ea549ae.enc
+-   -       814938f4a571940d2ea549ae_t.enc
+-   -       81b4b8cd7d5a2dd302f4558d.enc
+-   -       81b4b8cd7d5a2dd302f4558d_t.enc
+-   -       81e1d9546b8c5284ad504378.enc
+-   -       81e1d9546b8c5284ad504378_t.enc
+-   -       81e6e00727005c08597702a3.enc
+-   -       81e6e00727005c08597702a3_t.enc
+-   -       8276cb7c2ca5f50ba1aec826.enc
+-   -       8276cb7c2ca5f50ba1aec826_t.enc
+-   -       84706bc1581c23cc1e565e00.enc
+-   -       84706bc1581c23cc1e565e00_t.enc
+-   -       849bc1bb9b82c18a2590b39e.enc
+-   -       849bc1bb9b82c18a2590b39e_t.enc
+-   -       84c910427894b1fa09b8541d.enc
+-   -       84c910427894b1fa09b8541d_t.enc
+-   -       84e4df127892a74dede0629f.enc
+-   -       84e4df127892a74dede0629f_t.enc
+-   -       8666102c56b1166dc1de07ab.enc
+-   -       8666102c56b1166dc1de07ab_t.enc
+-   -       889fabac75f35276a145bbff.enc
+-   -       889fabac75f35276a145bbff_t.enc
+-   -       88a17bfd362e0facc019c161.enc
+-   -       88a17bfd362e0facc019c161_t.enc
+-   -       88f18dc982644db2388aa121.enc
+-   -       88f18dc982644db2388aa121_t.enc
+-   -       8924bc86fd9d30224539134f.enc
+-   -       8924bc86fd9d30224539134f_t.enc
+-   -       8926b59b687e00b67fd4008e.enc
+-   -       8926b59b687e00b67fd4008e_t.enc
+-   -       893cca9e6f941d628d1d41c4.enc
+-   -       893cca9e6f941d628d1d41c4_t.enc
+-   -       893fee8853898b2b68e8fc07.enc
+-   -       893fee8853898b2b68e8fc07_t.enc
+-   -       89757aca0c417e36ec8f6e61.enc
+-   -       89757aca0c417e36ec8f6e61_t.enc
+-   -       899d6e2d2a3e714b4e7bb14e.enc
+-   -       899d6e2d2a3e714b4e7bb14e_t.enc
+-   -       89b69df9df91463f164360d7.enc
+-   -       89b69df9df91463f164360d7_t.enc
+-   -       89e240c62e6b75c711ddd54d.enc
+-   -       89e240c62e6b75c711ddd54d_t.enc
+-   -       8a8ea6d91ec8c8b00417d8fc.enc
+-   -       8a8ea6d91ec8c8b00417d8fc_t.enc
+-   -       8ab8c09a16ec4c93f9c06e1b.enc
+-   -       8ab8c09a16ec4c93f9c06e1b_t.enc
+-   -       8c5bcea9c83ab6ed348ccc3f.enc
+-   -       8c5bcea9c83ab6ed348ccc3f_t.enc
+-   -       8d0bb517739492ceb980b2e1.enc
+-   -       8d0bb517739492ceb980b2e1_t.enc
+-   -       8d302b364bdd6c48ebfa8380.enc
+-   -       8d302b364bdd6c48ebfa8380_t.enc
+-   -       8d97aa8b91510cdad86838d6.enc
+-   -       8d97aa8b91510cdad86838d6_t.enc
+-   -       8e92e3dedd34b7aad3f0beb0.enc
+-   -       8e92e3dedd34b7aad3f0beb0_t.enc
+-   -       8ed5bc980310bd83ae634cb7.enc
+-   -       8ed5bc980310bd83ae634cb7_t.enc
+-   -       8edd2898ace99901d91ba273.enc
+-   -       8edd2898ace99901d91ba273_t.enc
+-   -       8ee264e7c6e81178f4be024b.enc
+-   -       8ee264e7c6e81178f4be024b_t.enc
+-   -       8f796d2ff05eb5eafd0d679b.enc
+-   -       8f796d2ff05eb5eafd0d679b_t.enc
+-   -       8f7d4b7192dc16af6c2bc8b5.enc
+-   -       8f7d4b7192dc16af6c2bc8b5_t.enc
+-   -       8f91cbd904977348cc71dd43.enc
+-   -       8f91cbd904977348cc71dd43_t.enc
+-   -       8ff77b2f3da6c71fdc9eeed3.enc
+-   -       8ff77b2f3da6c71fdc9eeed3_t.enc
+-   -       901ecb230ade2c547188a1ea.enc
+-   -       901ecb230ade2c547188a1ea_t.enc
+-   -       9055d0e6a390e76569b4e64d.enc
+-   -       9055d0e6a390e76569b4e64d_t.enc
+-   -       9068c5d80b5fa125e8473218.enc
+-   -       9068c5d80b5fa125e8473218_t.enc
+-   -       913ec4bb6862c6c75d5cddf4.enc
+-   -       913ec4bb6862c6c75d5cddf4_t.enc
+-   -       9148c3c258154feb0c58e71a.enc
+-   -       9148c3c258154feb0c58e71a_t.enc
+-   -       91de1c9c26dd61cece27fdc6.enc
+-   -       91de1c9c26dd61cece27fdc6_t.enc
+-   -       9243915c5f2f9275f1a7d1aa.enc
+-   -       9243915c5f2f9275f1a7d1aa_t.enc
+-   -       927d1a5514cbf958e42c070e.enc
+-   -       927d1a5514cbf958e42c070e_t.enc
+-   -       92a1a0a336e70db6d11d9351.enc
+-   -       92a1a0a336e70db6d11d9351_t.enc
+-   -       93191dde1f022a76df738436.enc
+-   -       93191dde1f022a76df738436_t.enc
+-   -       9424bd1eaa27d1c6eefb3d33.enc
+-   -       9424bd1eaa27d1c6eefb3d33_t.enc
+-   -       94568efda868bb2d6569929a.enc
+-   -       94568efda868bb2d6569929a_t.enc
+-   -       9465a966ae382126e45469cb.enc
+-   -       9465a966ae382126e45469cb_t.enc
+-   -       949b6f9521367ad82f62c865.enc
+-   -       949b6f9521367ad82f62c865_t.enc
+-   -       94d732c69d2a4ed681cfcc3f.enc
+-   -       94d732c69d2a4ed681cfcc3f_t.enc
+-   -       9517ace0c70dc8f685bbe45b.enc
+-   -       9517ace0c70dc8f685bbe45b_t.enc
+-   -       953f3949dc55594cca9f5a57.enc
+-   -       953f3949dc55594cca9f5a57_t.enc
+-   -       956d574c397ac7456f1ebb21.enc
+-   -       956d574c397ac7456f1ebb21_t.enc
+-   -       95e3b55400966dd603d4ba80.enc
+-   -       95e3b55400966dd603d4ba80_t.enc
+-   -       9624dfdcbcf2cbe7d09bc25c.enc
+-   -       9624dfdcbcf2cbe7d09bc25c_t.enc
+-   -       96607841506158e34e0aee67.enc
+-   -       96607841506158e34e0aee67_t.enc
+-   -       9695da651bd8f944c8cbda34.enc
+-   -       9695da651bd8f944c8cbda34_t.enc
+-   -       97a506e3bd7b8b9c65d0febf.enc
+-   -       97a506e3bd7b8b9c65d0febf_t.enc
+-   -       9801bbb342cf1bd1c3c3020b.enc
+-   -       9801bbb342cf1bd1c3c3020b_t.enc
+-   -       9862ffcebeba761452c3d2b5.enc
+-   -       9862ffcebeba761452c3d2b5_t.enc
+-   -       9878fc36a37574e230dd3c6e.enc
+-   -       9878fc36a37574e230dd3c6e_t.enc
+-   -       993baa1e6af99f3a81778f05.enc
+-   -       993baa1e6af99f3a81778f05_t.enc
+-   -       993f34d4ff9b1f46a5640483.enc
+-   -       993f34d4ff9b1f46a5640483_t.enc
+-   -       994b6000c838663909edabc1.enc
+-   -       994b6000c838663909edabc1_t.enc
+-   -       9975d106a42f91efa4f3d5fb.enc
+-   -       9975d106a42f91efa4f3d5fb_t.enc
+-   -       99b0875d0168adef2770e72f.enc
+-   -       99b0875d0168adef2770e72f_t.enc
+-   -       99bd7931d5a4c9906ed914a0.enc
+-   -       99bd7931d5a4c9906ed914a0_t.enc
+-   -       99c5cdc3e765691101d28eda.enc
+-   -       99c5cdc3e765691101d28eda_t.enc
+-   -       99cbe49444466be1f00cbb2a.enc
+-   -       99cbe49444466be1f00cbb2a_t.enc
+-   -       9b25fd0d932044d0342355bb.enc
+-   -       9b25fd0d932044d0342355bb_t.enc
+-   -       9b37858d4115905f33a57c95.enc
+-   -       9b37858d4115905f33a57c95_t.enc
+-   -       9ba7348da764fda9e2a41d5e.enc
+-   -       9ba7348da764fda9e2a41d5e_t.enc
+-   -       9beb87ee613b88dcce57d0cb.enc
+-   -       9beb87ee613b88dcce57d0cb_t.enc
+-   -       9bfa678d934e51644ef1c806.enc
+-   -       9bfa678d934e51644ef1c806_t.enc
+-   -       9c694adf4a4c0195471573c7.enc
+-   -       9c694adf4a4c0195471573c7_t.enc
+-   -       9da38df845a1e74084683067.enc
+-   -       9da38df845a1e74084683067_t.enc
+-   -       9db474dc326383b5f12eb6d2.enc
+-   -       9db474dc326383b5f12eb6d2_t.enc
+-   -       9dbd2224dc9d77cec0102891.enc
+-   -       9dbd2224dc9d77cec0102891_t.enc
+-   -       9dc8d4491049dc54fa691801.enc
+-   -       9dc8d4491049dc54fa691801_t.enc
+-   -       9f59606440637852223edb9f.enc
+-   -       9f59606440637852223edb9f_t.enc
+-   -       9fe41b92206111c1af8a2fbd.enc
+-   -       9fe41b92206111c1af8a2fbd_t.enc
+-   -       a02aced1ceb66cefb51b8239.enc
+-   -       a02aced1ceb66cefb51b8239_t.enc
+-   -       a04ead784b1215eb49ead59a.enc
+-   -       a04ead784b1215eb49ead59a_t.enc
+-   -       a0a453f92c3d2f1bcd5cbbbc.enc
+-   -       a0a453f92c3d2f1bcd5cbbbc_t.enc
+-   -       a0bc95d934fe11e76b599b9e.enc
+-   -       a0bc95d934fe11e76b599b9e_t.enc
+-   -       a0f70b76019f219e3cdb9f92.enc
+-   -       a0f70b76019f219e3cdb9f92_t.enc
+-   -       a282185cb6eefaf9f8f9ac7c.enc
+-   -       a282185cb6eefaf9f8f9ac7c_t.enc
+-   -       a35070a17db9ad5b3070ec90.enc
+-   -       a35070a17db9ad5b3070ec90_t.enc
+-   -       a36dbc186be2def91895dff4.enc
+-   -       a36dbc186be2def91895dff4_t.enc
+-   -       a37a6a6cdf49768a7370c519.enc
+-   -       a37a6a6cdf49768a7370c519_t.enc
+-   -       a4adf1836255a83689019d43.enc
+-   -       a4adf1836255a83689019d43_t.enc
+-   -       a4bd644654a834870be9f07f.enc
+-   -       a4bd644654a834870be9f07f_t.enc
+-   -       a4ecb3f48656211fe21be25d.enc
+-   -       a4ecb3f48656211fe21be25d_t.enc
+-   -       a534009147bb32a3090f90ea.enc
+-   -       a534009147bb32a3090f90ea_t.enc
+-   -       a573228cd9e2489b42a73733.enc
+-   -       a573228cd9e2489b42a73733_t.enc
+-   -       a5e9cb3c8b92f8f1244fec87.enc
+-   -       a5e9cb3c8b92f8f1244fec87_t.enc
+-   -       a61638a66319264414c6d9c9.enc
+-   -       a61638a66319264414c6d9c9_t.enc
+-   -       a65ac891e090bbb3170465f6.enc
+-   -       a65ac891e090bbb3170465f6_t.enc
+-   -       a6d10cf5dccd0f077775fde9.enc
+-   -       a6d10cf5dccd0f077775fde9_t.enc
+-   -       a7b30a67a094e3f43f62143e.enc
+-   -       a7b30a67a094e3f43f62143e_t.enc
+-   -       a7be204ad96cc0b38aa4501a.enc
+-   -       a7be204ad96cc0b38aa4501a_t.enc
+-   -       a85a0810655a0404c470f97c.enc
+-   -       a85a0810655a0404c470f97c_t.enc
+-   -       a85ff7a123d58032b9131b5f.enc
+-   -       a85ff7a123d58032b9131b5f_t.enc
+-   -       a90212297fb1f97828b2f22a.enc
+-   -       a90212297fb1f97828b2f22a_t.enc
+-   -       a905e08f5e31fd9c9b6eec38.enc
+-   -       a905e08f5e31fd9c9b6eec38_t.enc
+-   -       a92eb27724f2461458a7175e.enc
+-   -       a92eb27724f2461458a7175e_t.enc
+-   -       a971c78e68d8dfff1634cef8.enc
+-   -       a971c78e68d8dfff1634cef8_t.enc
+-   -       aa842701a61d57549bf47ba7.enc
+-   -       aa842701a61d57549bf47ba7_t.enc
+-   -       ab499d5adf7c59080aeaa1b0.enc
+-   -       ab499d5adf7c59080aeaa1b0_t.enc
+-   -       ab772039e156c3d50ee0f2a0.enc
+-   -       ab772039e156c3d50ee0f2a0_t.enc
+-   -       abc058e819ab5f14c1174038.enc
+-   -       abc058e819ab5f14c1174038_t.enc
+-   -       abe483f75366484f2a8f35d3.enc
+-   -       abe483f75366484f2a8f35d3_t.enc
+-   -       ac3e892f98ea5ab81b846223.enc
+-   -       ac3e892f98ea5ab81b846223_t.enc
+-   -       ac93bca36c0188bc10f10ade.enc
+-   -       ac93bca36c0188bc10f10ade_t.enc
+-   -       aced8f7ed3526ca32bd6e558.enc
+-   -       aced8f7ed3526ca32bd6e558_t.enc
+-   -       ad0293cb55053dec2646a242.enc
+-   -       ad0293cb55053dec2646a242_t.enc
+-   -       adbb7e0fcd068e46ff382fa3.enc
+-   -       adbb7e0fcd068e46ff382fa3_t.enc
+-   -       adea0b6dbadc367b239195b6.enc
+-   -       adea0b6dbadc367b239195b6_t.enc
+-   -       ae513c72beec513ae2d304b6.enc
+-   -       ae513c72beec513ae2d304b6_t.enc
+-   -       ae90b8b389108cc21e0a4dc7.enc
+-   -       ae90b8b389108cc21e0a4dc7_t.enc
+-   -       aece337013630e41ddb4c949.enc
+-   -       aece337013630e41ddb4c949_t.enc
+-   -       af0cd50e5f2c036f1a64561a.enc
+-   -       af0cd50e5f2c036f1a64561a_t.enc
+-   -       af0e275dcae5186fdc974243.enc
+-   -       af0e275dcae5186fdc974243_t.enc
+-   -       b0897f46e5c8eacf180053d8.enc
+-   -       b0897f46e5c8eacf180053d8_t.enc
+-   -       b0a39265284052e2b3ec458f.enc
+-   -       b0a39265284052e2b3ec458f_t.enc
+-   -       b0ab988eceec36fe3797c59f.enc
+-   -       b0ab988eceec36fe3797c59f_t.enc
+-   -       b0b1b5743d49ab285e5ee9b3.enc
+-   -       b0b1b5743d49ab285e5ee9b3_t.enc
+-   -       b0e28c1a96c4e4684c4ded3a.enc
+-   -       b0e28c1a96c4e4684c4ded3a_t.enc
+-   -       b1bd499c48a395cebe6e5b32.enc
+-   -       b1bd499c48a395cebe6e5b32_t.enc
+-   -       b219a7f3436dda502edbaaec.enc
+-   -       b219a7f3436dda502edbaaec_t.enc
+-   -       b2d50b44f00e60f365d7ac70.enc
+-   -       b2d50b44f00e60f365d7ac70_t.enc
+-   -       b2df52c04287d212687dca5a.enc
+-   -       b2df52c04287d212687dca5a_t.enc
+-   -       b377ef064d10c98ce7cc3181.enc
+-   -       b377ef064d10c98ce7cc3181_t.enc
+-   -       b3c5784dcede578f13bad56a.enc
+-   -       b3c5784dcede578f13bad56a_t.enc
+-   -       b3d492565248bb1f8a391697.enc
+-   -       b3d492565248bb1f8a391697_t.enc
+-   -       b4eaad0bd4cf9c805c6680a9.enc
+-   -       b4eaad0bd4cf9c805c6680a9_t.enc
+-   -       b62511949a64aec1e0bb3e96.enc
+-   -       b62511949a64aec1e0bb3e96_t.enc
+-   -       b63d1ee9f00e129023d173b0.enc
+-   -       b63d1ee9f00e129023d173b0_t.enc
+-   -       b6453f9f26e2edb4f7905d53.enc
+-   -       b6453f9f26e2edb4f7905d53_t.enc
+-   -       b6b755a5f743aba5f7e96384.enc
+-   -       b6b755a5f743aba5f7e96384_t.enc
+-   -       b70d041ebfa2de2513ddcca9.enc
+-   -       b70d041ebfa2de2513ddcca9_t.enc
+-   -       b7378232e9303108cfce89db.enc
+-   -       b7378232e9303108cfce89db_t.enc
+-   -       b7b76355da78fb065d18e3bd.enc
+-   -       b7b76355da78fb065d18e3bd_t.enc
+-   -       b7e35dbd83b5262cb913b29a.enc
+-   -       b7e35dbd83b5262cb913b29a_t.enc
+-   -       b84b19ea8a5709088fb0da29.enc
+-   -       b84b19ea8a5709088fb0da29_t.enc
+-   -       b8b3cbdbe5e8a37a7f489aa8.enc
+-   -       b8b3cbdbe5e8a37a7f489aa8_t.enc
+-   -       b8bb103e9e7f128b1d822683.enc
+-   -       b8bb103e9e7f128b1d822683_t.enc
+-   -       b99949f5b91678c10d57f013.enc
+-   -       b99949f5b91678c10d57f013_t.enc
+-   -       ba307fbcc7cee417a5c749c2.enc
+-   -       ba307fbcc7cee417a5c749c2_t.enc
+-   -       ba7db1e6ff1e1339d3bb63db.enc
+-   -       ba7db1e6ff1e1339d3bb63db_t.enc
+-   -       babffe81fda51b14762b37a1.enc
+-   -       babffe81fda51b14762b37a1_t.enc
+-   -       bb57ddb046e71c526189077f.enc
+-   -       bb57ddb046e71c526189077f_t.enc
+-   -       bb5d7e8178dd2bfa1c81f526.enc
+-   -       bb5d7e8178dd2bfa1c81f526_t.enc
+-   -       bbe6ceb8742f37f6c359e73b.enc
+-   -       bbe6ceb8742f37f6c359e73b_t.enc
+-   -       bbe70d023040c37fd36c7bd6.enc
+-   -       bbe70d023040c37fd36c7bd6_t.enc
+-   -       bbf793373e814acd50336044.enc
+-   -       bbf793373e814acd50336044_t.enc
+-   -       bc22c8d0732047da022be5a4.enc
+-   -       bc22c8d0732047da022be5a4_t.enc
+-   -       bc6b2c72dce41f878a25f2e9.enc
+-   -       bc6b2c72dce41f878a25f2e9_t.enc
+-   -       bc6e2c38e55d51dbd9bd251d.enc
+-   -       bc6e2c38e55d51dbd9bd251d_t.enc
+-   -       bd56a7209af001860181f396.enc
+-   -       bd56a7209af001860181f396_t.enc
+-   -       be493fd919c1b32f045c74e9.enc
+-   -       be493fd919c1b32f045c74e9_t.enc
+-   -       be8e6a96ad2097319909f4c6.enc
+-   -       be8e6a96ad2097319909f4c6_t.enc
+-   -       bea9c3146e9554226eb3fa6a.enc
+-   -       bea9c3146e9554226eb3fa6a_t.enc
+-   -       beec47622cfe9df60eea400d.enc
+-   -       beec47622cfe9df60eea400d_t.enc
+-   -       bf4f6302610bfdf154755d3c.enc
+-   -       bf4f6302610bfdf154755d3c_t.enc
+-   -       bf76249d5163962b60f125d8.enc
+-   -       bf76249d5163962b60f125d8_t.enc
+-   -       c053dd6d2a459f55579e9b9d.enc
+-   -       c053dd6d2a459f55579e9b9d_t.enc
+-   -       c07bc127ace88c19f79dfe09.enc
+-   -       c07bc127ace88c19f79dfe09_t.enc
+-   -       c09ec3692657e93be8b41ecd.enc
+-   -       c09ec3692657e93be8b41ecd_t.enc
+-   -       c0b406d6f7c9e8a3f84d778d.enc
+-   -       c0b406d6f7c9e8a3f84d778d_t.enc
+-   -       c0bd35a2462b5abb4664e7de.enc
+-   -       c0bd35a2462b5abb4664e7de_t.enc
+-   -       c164e2c30269538d3a8f9ad0.enc
+-   -       c164e2c30269538d3a8f9ad0_t.enc
+-   -       c1a09094b6fc512aff16fd89.enc
+-   -       c1a09094b6fc512aff16fd89_t.enc
+-   -       c1ae2bced41dea4cdd4dc40e.enc
+-   -       c1ae2bced41dea4cdd4dc40e_t.enc
+-   -       c1d06048e5455ba8b3ddf8e3.enc
+-   -       c1d06048e5455ba8b3ddf8e3_t.enc
+-   -       c22d147ff5e7f49453d773e9.enc
+-   -       c22d147ff5e7f49453d773e9_t.enc
+-   -       c2b7b03c7f5d3359be6bf12b.enc
+-   -       c2b7b03c7f5d3359be6bf12b_t.enc
+-   -       c34071557969da78a7c56283.enc
+-   -       c34071557969da78a7c56283_t.enc
+-   -       c3a30cfab935aaa4aa81c6b1.enc
+-   -       c3a30cfab935aaa4aa81c6b1_t.enc
+-   -       c41246678a605d6ff3b66f9d.enc
+-   -       c41246678a605d6ff3b66f9d_t.enc
+-   -       c4623ea6e341101d3908bde1.enc
+-   -       c4623ea6e341101d3908bde1_t.enc
+-   -       c4f28296a17fe7048252f0d8.enc
+-   -       c4f28296a17fe7048252f0d8_t.enc
+-   -       c557f3dba4e6e9e2d5ca2f08.enc
+-   -       c557f3dba4e6e9e2d5ca2f08_t.enc
+-   -       c59f15fac59482b3d931685a.enc
+-   -       c59f15fac59482b3d931685a_t.enc
+-   -       c6533d9c6d8b12a767f9bdc0.enc
+-   -       c6533d9c6d8b12a767f9bdc0_t.enc
+-   -       c6923490fc8df8a3b4ce521b.enc
+-   -       c6923490fc8df8a3b4ce521b_t.enc
+-   -       c6a0583a8a0c51ab992880de.enc
+-   -       c6a0583a8a0c51ab992880de_t.enc
+-   -       c718e213a912f96cb9dd78cf.enc
+-   -       c718e213a912f96cb9dd78cf_t.enc
+-   -       c756a0833668c3e0ef6e042a.enc
+-   -       c756a0833668c3e0ef6e042a_t.enc
+-   -       c813fc8bbfea9acf1876a03f.enc
+-   -       c813fc8bbfea9acf1876a03f_t.enc
+-   -       c840f7cc5923a9f944c17904.enc
+-   -       c840f7cc5923a9f944c17904_t.enc
+-   -       c935a58dcbd8a0307d67bd76.enc
+-   -       c935a58dcbd8a0307d67bd76_t.enc
+-   -       c9407f787494f5392a5647c6.enc
+-   -       c9407f787494f5392a5647c6_t.enc
+-   -       ca05e4cb95afe97addba717b.enc
+-   -       ca05e4cb95afe97addba717b_t.enc
+-   -       ca0cfc197345ad9ae4e021be.enc
+-   -       ca0cfc197345ad9ae4e021be_t.enc
+-   -       cb31e16fabf8cee81b6280b7.enc
+-   -       cb31e16fabf8cee81b6280b7_t.enc
+-   -       cb396df7ba561125422156b5.enc
+-   -       cb396df7ba561125422156b5_t.enc
+-   -       cb66d82be547d40966a84e99.enc
+-   -       cb66d82be547d40966a84e99_t.enc
+-   -       cb82fe1a02c38d12320cb836.enc
+-   -       cb82fe1a02c38d12320cb836_t.enc
+-   -       cc40beb555494eb44e16190c.enc
+-   -       cc40beb555494eb44e16190c_t.enc
+-   -       cc684dd993346590dc9d1b8a.enc
+-   -       cc684dd993346590dc9d1b8a_t.enc
+-   -       ccd2ea131beeb812ae5a605d.enc
+-   -       ccd2ea131beeb812ae5a605d_t.enc
+-   -       cd1d7d9373fb5987094e9a28.enc
+-   -       cd1d7d9373fb5987094e9a28_t.enc
+-   -       cd70d7521f80b0e4610653e3.enc
+-   -       cd70d7521f80b0e4610653e3_t.enc
+-   -       cda2b905f41e28c66816b924.enc
+-   -       cda2b905f41e28c66816b924_t.enc
+-   -       cdec806203cbbdf5278ef7de.enc
+-   -       cdec806203cbbdf5278ef7de_t.enc
+-   -       ce5fa397b16c5502a3fc5044.enc
+-   -       ce5fa397b16c5502a3fc5044_t.enc
+-   -       ced024f633e6004edabdb270.enc
+-   -       ced024f633e6004edabdb270_t.enc
+-   -       cedb494312fd0459038bdf32.enc
+-   -       cedb494312fd0459038bdf32_t.enc
+-   -       cffb6d5a2c367686e83d4dfc.enc
+-   -       cffb6d5a2c367686e83d4dfc_t.enc
+-   -       d014d1fa90532e8c40674e63.enc
+-   -       d014d1fa90532e8c40674e63_t.enc
+-   -       d0fc404b098f5eee09af2011.enc
+-   -       d0fc404b098f5eee09af2011_t.enc
+-   -       d15b5f7e9aea7acc8868de69.enc
+-   -       d15b5f7e9aea7acc8868de69_t.enc
+-   -       d18818a362a75e0d071352c1.enc
+-   -       d18818a362a75e0d071352c1_t.enc
+-   -       d1b0dc481e4ad2fccd958fcd.enc
+-   -       d1b0dc481e4ad2fccd958fcd_t.enc
+-   -       d2928c2b1ebb226cc2a8c843.enc
+-   -       d2928c2b1ebb226cc2a8c843_t.enc
+-   -       d2fa29b0e3655225878d0a94.enc
+-   -       d2fa29b0e3655225878d0a94_t.enc
+-   -       d3b04b138e32baec58377802.enc
+-   -       d3b04b138e32baec58377802_t.enc
+-   -       d5006284430a021c68a85431.enc
+-   -       d5006284430a021c68a85431_t.enc
+-   -       d58e9f96eeea6d76469edec1.enc
+-   -       d58e9f96eeea6d76469edec1_t.enc
+-   -       d5cd161afcfd3a177166a14b.enc
+-   -       d5cd161afcfd3a177166a14b_t.enc
+-   -       d6f7c6c28e98c8004ec35b51.enc
+-   -       d6f7c6c28e98c8004ec35b51_t.enc
+-   -       d72749f9665710681ede2d1b.enc
+-   -       d72749f9665710681ede2d1b_t.enc
+-   -       d77ef5d42f176b7b71922946.enc
+-   -       d77ef5d42f176b7b71922946_t.enc
+-   -       d80b1bd406361a05e0854b87.enc
+-   -       d80b1bd406361a05e0854b87_t.enc
+-   -       d8e01e5762152893523c7ec5.enc
+-   -       d8e01e5762152893523c7ec5_t.enc
+-   -       d936a6db5d2a249c83737846.enc
+-   -       d936a6db5d2a249c83737846_t.enc
+-   -       da29c65add3d384f669af5d5.enc
+-   -       da29c65add3d384f669af5d5_t.enc
+-   -       da4fbc4e2f770c200f2c9d83.enc
+-   -       da4fbc4e2f770c200f2c9d83_t.enc
+-   -       da85a3b490ffd07b5c36f160.enc
+-   -       da85a3b490ffd07b5c36f160_t.enc
+-   -       daa44cecb35590cb308240d8.enc
+-   -       daa44cecb35590cb308240d8_t.enc
+-   -       dab6df4bef9c504da2c30ba0.enc
+-   -       dab6df4bef9c504da2c30ba0_t.enc
+-   -       dbfd493c46e3ab655eb5cd0a.enc
+-   -       dbfd493c46e3ab655eb5cd0a_t.enc
+-   -       dc60ce67fa67189bfead1f4e.enc
+-   -       dc60ce67fa67189bfead1f4e_t.enc
+-   -       dc6ceb9eeaed2e4d3f74412f.enc
+-   -       dc6ceb9eeaed2e4d3f74412f_t.enc
+-   -       dc9d9be2a4ac9a1cf180db17.enc
+-   -       dc9d9be2a4ac9a1cf180db17_t.enc
+-   -       ddc084b5b3721b16c2b7d468.enc
+-   -       ddc084b5b3721b16c2b7d468_t.enc
+-   -       de46c85f3959d31f9d5583bc.enc
+-   -       de46c85f3959d31f9d5583bc_t.enc
+-   -       de8db4ae9f71ad0800facd3a.enc
+-   -       de8db4ae9f71ad0800facd3a_t.enc
+-   -       deaa3f40ac8a29af8d1bcec8.enc
+-   -       deaa3f40ac8a29af8d1bcec8_t.enc
+-   -       e082ce1c9a159267f95e404b.enc
+-   -       e082ce1c9a159267f95e404b_t.enc
+-   -       e15a068ec716987b1059af06.enc
+-   -       e15a068ec716987b1059af06_t.enc
+-   -       e1a85f02b3088a571160ac7a.enc
+-   -       e1a85f02b3088a571160ac7a_t.enc
+-   -       e1db297d7a8dabd64ee5410d.enc
+-   -       e1db297d7a8dabd64ee5410d_t.enc
+-   -       e23e6ce9cdd428033376b34b.enc
+-   -       e23e6ce9cdd428033376b34b_t.enc
+-   -       e25a3d6728526ef0b5c1c336.enc
+-   -       e25a3d6728526ef0b5c1c336_t.enc
+-   -       e28309cf51ff3dec21384429.enc
+-   -       e28309cf51ff3dec21384429_t.enc
+-   -       e3374ff82e3d346980ee2810.enc
+-   -       e3374ff82e3d346980ee2810_t.enc
+-   -       e3486471107616c3b50eca5d.enc
+-   -       e3486471107616c3b50eca5d_t.enc
+-   -       e3c16c9eb339c962dc0802dd.enc
+-   -       e3c16c9eb339c962dc0802dd_t.enc
+-   -       e442a8586b10855eeaec56e7.enc
+-   -       e442a8586b10855eeaec56e7_t.enc
+-   -       e452d5a519dec7b9653ddea7.enc
+-   -       e452d5a519dec7b9653ddea7_t.enc
+-   -       e4ae63cd2c12d947cf5aa2da.enc
+-   -       e4ae63cd2c12d947cf5aa2da_t.enc
+-   -       e6483aeaebd3d763450589fc.enc
+-   -       e6483aeaebd3d763450589fc_t.enc
+-   -       e64980b25de4492f40830a33.enc
+-   -       e64980b25de4492f40830a33_t.enc
+-   -       e693c0ad883ab77ef10fa568.enc
+-   -       e693c0ad883ab77ef10fa568_t.enc
+-   -       e74a645caf843d83a17644e6.enc
+-   -       e74a645caf843d83a17644e6_t.enc
+-   -       e754df5c171dad75cd94a432.enc
+-   -       e754df5c171dad75cd94a432_t.enc
+-   -       e7ac6a2834df0290323466d9.enc
+-   -       e7ac6a2834df0290323466d9_t.enc
+-   -       e7f7ef0cec4e6e20c0845834.enc
+-   -       e7f7ef0cec4e6e20c0845834_t.enc
+-   -       e8018adc71211704f444ee8b.enc
+-   -       e8018adc71211704f444ee8b_t.enc
+-   -       e829a806398843ec6b5903ff.enc
+-   -       e829a806398843ec6b5903ff_t.enc
+-   -       e8cd503b25f2b69390cf4670.enc
+-   -       e8cd503b25f2b69390cf4670_t.enc
+-   -       e90d6b0a772a413d6ec68eb0.enc
+-   -       e90d6b0a772a413d6ec68eb0_t.enc
+-   -       e914f7ea4e3fff960badc795.enc
+-   -       e914f7ea4e3fff960badc795_t.enc
+-   -       e95d8382385982763a9255b6.enc
+-   -       e95d8382385982763a9255b6_t.enc
+-   -       e9f3fd7b449ada4a3318a52c.enc
+-   -       e9f3fd7b449ada4a3318a52c_t.enc
+-   -       ea5046eec916885c29345bd2.enc
+-   -       ea5046eec916885c29345bd2_t.enc
+-   -       eb0589388aa617d8d9ef0a15.enc
+-   -       eb0589388aa617d8d9ef0a15_t.enc
+-   -       ebb8c53d8070991c0b397038.enc
+-   -       ebb8c53d8070991c0b397038_t.enc
+-   -       eccc4f39fa56cedd132487da.enc
+-   -       eccc4f39fa56cedd132487da_t.enc
+-   -       ecd223557c7c3fb413e3d028.enc
+-   -       ecd223557c7c3fb413e3d028_t.enc
+-   -       ed6c730a81d0811899f6fa2b.enc
+-   -       ed6c730a81d0811899f6fa2b_t.enc
+-   -       ed807e6001a9ebbf3830f1ba.enc
+-   -       ed807e6001a9ebbf3830f1ba_t.enc
+-   -       eee6829fc676778eadc1f843.enc
+-   -       eee6829fc676778eadc1f843_t.enc
+-   -       eeec3cefb89cd245057c7a01.enc
+-   -       eeec3cefb89cd245057c7a01_t.enc
+-   -       eefce7fc244552bd225c5c32.enc
+-   -       eefce7fc244552bd225c5c32_t.enc
+-   -       ef4e355c7c39b7ae7753bd13.enc
+-   -       ef4e355c7c39b7ae7753bd13_t.enc
+-   -       ef60942f19f72455d0e66fb7.enc
+-   -       ef60942f19f72455d0e66fb7_t.enc
+-   -       efe8958b0bbc99f5703bfb36.enc
+-   -       efe8958b0bbc99f5703bfb36_t.enc
+-   -       f0be2a1099efbb5e2efa3721.enc
+-   -       f0be2a1099efbb5e2efa3721_t.enc
+-   -       f14fa545c3d207eefd3fe2da.enc
+-   -       f14fa545c3d207eefd3fe2da_t.enc
+-   -       f1b510e4a2325f3a11999389.enc
+-   -       f1b510e4a2325f3a11999389_t.enc
+-   -       f1de7ad15eaaa6889272e56d.enc
+-   -       f1de7ad15eaaa6889272e56d_t.enc
+-   -       f1efd020cc8989aa7195b466.enc
+-   -       f1efd020cc8989aa7195b466_t.enc
+-   -       f1f14b38a92ccd877aaddd79.enc
+-   -       f1f14b38a92ccd877aaddd79_t.enc
+-   -       f25c9db2262a54c1dc39aaf2.enc
+-   -       f25c9db2262a54c1dc39aaf2_t.enc
+-   -       f3c7f286c64dc57b665a771e.enc
+-   -       f3c7f286c64dc57b665a771e_t.enc
+-   -       f3e9104eee93185b36424cd3.enc
+-   -       f3e9104eee93185b36424cd3_t.enc
+-   -       f4e4c0c1f918fdc5a5a25fff.enc
+-   -       f4e4c0c1f918fdc5a5a25fff_t.enc
+-   -       f528bb258954a6c0c7819c04.enc
+-   -       f528bb258954a6c0c7819c04_t.enc
+-   -       f632bdca45b854c6c44f8699.enc
+-   -       f632bdca45b854c6c44f8699_t.enc
+-   -       f787f0313d8c9251067f373e.enc
+-   -       f787f0313d8c9251067f373e_t.enc
+-   -       f80020d255938369bf5e1288.enc
+-   -       f80020d255938369bf5e1288_t.enc
+-   -       f87fa897395770872a41b52d.enc
+-   -       f87fa897395770872a41b52d_t.enc
+-   -       f8c251899634280f91f393ac.enc
+-   -       f8c251899634280f91f393ac_t.enc
+-   -       fa2592138384ecde564fe750.enc
+-   -       fa2592138384ecde564fe750_t.enc
+-   -       fa9bb10d9b824f0d85492465.enc
+-   -       fa9bb10d9b824f0d85492465_t.enc
+-   -       fafafb56008e9c8f7fa4871c.enc
+-   -       fafafb56008e9c8f7fa4871c_t.enc
+-   -       fc3679807211a2cac9df210f.enc
+-   -       fc3679807211a2cac9df210f_t.enc
+-   -       fc60c45140528ea3127292a1.enc
+-   -       fc60c45140528ea3127292a1_t.enc
+-   -       fcc199fbebf82c7f3ec2cdba.enc
+-   -       fcc199fbebf82c7f3ec2cdba_t.enc
+-   -       fccbd05f505c70b269b2d447.enc
+-   -       fccbd05f505c70b269b2d447_t.enc
+-   -       fcde4fead9805ca840f66ec3.enc
+-   -       fcde4fead9805ca840f66ec3_t.enc
+-   -       fd0a90e641a01de08e6a8f21.enc
+-   -       fd0a90e641a01de08e6a8f21_t.enc
+-   -       fd2a927900a0a756d9dc1fdc.enc
+-   -       fd2a927900a0a756d9dc1fdc_t.enc
+-   -       fdb7c0fd241c2af323d10d96.enc
+-   -       fdb7c0fd241c2af323d10d96_t.enc
+-   -       fe0b3b669b6722554d405449.enc
+-   -       fe0b3b669b6722554d405449_t.enc
+-   -       fe280f4b08dc40a8acd685a2.enc
+-   -       fe280f4b08dc40a8acd685a2_t.enc
+-   -       feb14dc3533cfba0434f9108.enc
+-   -       feb14dc3533cfba0434f9108_t.enc
+-   -       febc323a03f06d2566024c68.enc
+-   -       febc323a03f06d2566024c68_t.enc
+-   -       index.enc
+-   -       vault.json
+-   -       
+-   +¦¦¦haslo_git_ignore
+-   -   -   .stan_szyfrowania.json
+-   -   -   
+-   -   +¦¦¦48h
+-   -   -       4fwQT.jpg
+-   -   -       ChatGPT Image 20 wrz 2026, 14_21_23.png
+-   -   -       Gemini_Generated_Image_1bqydy1bqydy1bqy (1).jfif
+-   -   -       Gemini_Generated_Image_1bqydy1bqydy1bqy.jfif
+-   -   -       Gemini_Generated_Image_425v5g425v5g425v (1).jfif
+-   -   -       Gemini_Generated_Image_425v5g425v5g425v.jfif
+-   -   -       Gemini_Generated_Image_vqydfzvqydfzvqyd.jfif
+-   -   -       RefiP.jpg
+-   -   -       s5ZUY.jpg
+-   -   -       Sk2qf (1).jpg
+-   -   -       Sk2qf.jpg
+-   -   -       ztL5H (1).jpg
+-   -   -       ztL5H.jpg
+-   -   -       
+-   -   +¦¦¦numer7
+-   -   -       czarn.jpg
+-   -   -       Gemini_Generated_Image_354ye0354ye0354y.jfif
+-   -   -       Gemini_Generated_Image_ddpl0zddpl0zddpl.png
+-   -   -       Gemini_Generated_Image_mgauubmgauubmgau.jfif
+-   -   -       Gemini_Generated_Image_r0keq6r0keq6r0ke.png
+-   -   -       Gemini_Generated_Image_yukdc9yukdc9yukd.png
+-   -   -       NIOit.jpg
+-   -   -       Nxwbh (1).jpg
+-   -   -       Nxwbh.jpg
+-   -   -       odpowiedni_wiek.jpg
+-   -   -       omAWy.jpg
+-   -   -       oUkAM.jpg
+-   -   -       prompt.txt
+-   -   -       
+-   -   +¦¦¦tyler Wszystkie przyklady Tyler responder wgra³em na google pawal wiecka mozna skasowac
+-   -   -       emotka_twarz_zlosc(1).jpg
+-   -   -       emotka_twarz_zlosc(10).jpg
+-   -   -       emotka_twarz_zlosc(11).jpg
+-   -   -       emotka_twarz_zlosc(12).jpg
+-   -   -       emotka_twarz_zlosc(13).jpg
+-   -   -       emotka_twarz_zlosc(14).jpg
+-   -   -       emotka_twarz_zlosc(15).jpg
+-   -   -       emotka_twarz_zlosc(16).jpg
+-   -   -       emotka_twarz_zlosc(17).jpg
+-   -   -       emotka_twarz_zlosc(18).jpg
+-   -   -       emotka_twarz_zlosc(19).jpg
+-   -   -       emotka_twarz_zlosc(2).jpg
+-   -   -       emotka_twarz_zlosc(20).jpg
+-   -   -       emotka_twarz_zlosc(21).jpg
+-   -   -       emotka_twarz_zlosc(22).jpg
+-   -   -       emotka_twarz_zlosc(23).jpg
+-   -   -       emotka_twarz_zlosc(24).jpg
+-   -   -       emotka_twarz_zlosc(25).jpg
+-   -   -       emotka_twarz_zlosc(26).jpg
+-   -   -       emotka_twarz_zlosc(27).jpg
+-   -   -       emotka_twarz_zlosc(28).jpg
+-   -   -       emotka_twarz_zlosc(29).jpg
+-   -   -       emotka_twarz_zlosc(3).jpg
+-   -   -       emotka_twarz_zlosc(30).jpg
+-   -   -       emotka_twarz_zlosc(31).jpg
+-   -   -       emotka_twarz_zlosc(32).jpg
+-   -   -       emotka_twarz_zlosc(33).jpg
+-   -   -       emotka_twarz_zlosc(34).jpg
+-   -   -       emotka_twarz_zlosc(35).jpg
+-   -   -       emotka_twarz_zlosc(36).jpg
+-   -   -       emotka_twarz_zlosc(37).jpg
+-   -   -       emotka_twarz_zlosc(38).jpg
+-   -   -       emotka_twarz_zlosc(39).jpg
+-   -   -       emotka_twarz_zlosc(4).jpg
+-   -   -       emotka_twarz_zlosc(40).jpg
+-   -   -       emotka_twarz_zlosc(41).jpg
+-   -   -       emotka_twarz_zlosc(42).jpg
+-   -   -       emotka_twarz_zlosc(43).jpg
+-   -   -       emotka_twarz_zlosc(44).jpg
+-   -   -       emotka_twarz_zlosc(45).jpg
+-   -   -       emotka_twarz_zlosc(46).jpg
+-   -   -       emotka_twarz_zlosc(47).jpg
+-   -   -       emotka_twarz_zlosc(48).jpg
+-   -   -       emotka_twarz_zlosc(5).jpg
+-   -   -       emotka_twarz_zlosc(6).jpg
+-   -   -       emotka_twarz_zlosc(7).jpg
+-   -   -       emotka_twarz_zlosc(8).jpg
+-   -   -       emotka_twarz_zlosc(9).jpg
+-   -   -       emotka_twarz_zlosc.jpg
+-   -   -       psych_pacjent_20260414_000519.jpg
+-   -   -       psych_pacjent_20260414_010601.jpg
+-   -   -       psych_pacjent_20260414_052122.jpg
+-   -   -       psych_pacjent_20260501_102126.jpg
+-   -   -       psych_pacjent_20260501_125222.jpg
+-   -   -       psych_pacjent_20260501_152252.jpg
+-   -   -       psych_pacjent_20260501_163830.jpg
+-   -   -       psych_pacjent_20260501_201044.jpg
+-   -   -       psych_pacjent_20260501_202659.jpg
+-   -   -       psych_pacjent_20260501_205046.jpg
+-   -   -       psych_pacjent_20260503_113926.jpg
+-   -   -       psych_pacjent_20260503_120924.jpg
+-   -   -       psych_przedmioty_20260414_000519.jpg
+-   -   -       psych_przedmioty_20260414_010601.jpg
+-   -   -       psych_przedmioty_20260414_052122.jpg
+-   -   -       psych_przedmioty_20260501_102142.jpg
+-   -   -       psych_przedmioty_20260501_125239.jpg
+-   -   -       psych_przedmioty_20260501_152252.jpg
+-   -   -       psych_przedmioty_20260501_163814.jpg
+-   -   -       psych_przedmioty_20260501_201044.jpg
+-   -   -       psych_przedmioty_20260501_202700.jpg
+-   -   -       psych_przedmioty_20260501_205102.jpg
+-   -   -       psych_przedmioty_20260503_113910.jpg
+-   -   -       psych_przedmioty_20260503_120940.jpg
+-   -   -       tyler_20260315_111929_panel1.jpg
+-   -   -       tyler_20260315_111938_panel2.jpg
+-   -   -       tyler_20260315_111951_panel3.jpg
+-   -   -       tyler_20260315_115321_panel1.jpg
+-   -   -       tyler_20260315_115328_panel2.jpg
+-   -   -       tyler_20260315_115336_panel3.jpg
+-   -   -       tyler_20260315_115858_panel1.jpg
+-   -   -       tyler_20260315_115905_panel2.jpg
+-   -   -       tyler_20260315_115913_panel3.jpg
+-   -   -       tyler_20260315_122302_panel1.jpg
+-   -   -       tyler_20260315_122311_panel2.jpg
+-   -   -       tyler_20260315_122319_panel3.jpg
+-   -   -       tyler_20260315_123305_panel1.jpg
+-   -   -       tyler_20260315_123312_panel2.jpg
+-   -   -       tyler_20260315_123324_panel3.jpg
+-   -   -       tyler_20260315_132341_panel1.jpg
+-   -   -       tyler_20260315_132349_panel2.jpg
+-   -   -       tyler_20260315_132357_panel3.jpg
+-   -   -       tyler_20260315_132958_panel1.jpg
+-   -   -       tyler_20260315_133005_panel2.jpg
+-   -   -       tyler_20260315_133012_panel3.jpg
+-   -   -       tyler_20260315_134424_panel1.jpg
+-   -   -       tyler_20260315_134431_panel2.jpg
+-   -   -       tyler_20260315_134439_panel3.jpg
+-   -   -       tyler_20260315_134950_panel1.jpg
+-   -   -       tyler_20260315_134958_panel2.jpg
+-   -   -       tyler_20260315_135005_panel3.jpg
+-   -   -       tyler_20260315_140234_panel1.jpg
+-   -   -       tyler_20260315_140242_panel2.jpg
+-   -   -       tyler_20260315_140250_panel3.jpg
+-   -   -       tyler_20260315_142008_panel1.jpg
+-   -   -       tyler_20260315_142016_panel2.jpg
+-   -   -       tyler_20260315_142023_panel3.jpg
+-   -   -       tyler_20260315_143933_panel1.jpg
+-   -   -       tyler_20260315_143941_panel2.jpg
+-   -   -       tyler_20260315_143948_panel3.jpg
+-   -   -       tyler_20260315_144302_panel1.jpg
+-   -   -       tyler_20260315_144309_panel2.jpg
+-   -   -       tyler_20260315_144316_panel3.jpg
+-   -   -       tyler_20260315_145041_panel1.jpg
+-   -   -       tyler_20260315_145056_panel2.jpg
+-   -   -       tyler_20260315_145107_panel3.jpg
+-   -   -       tyler_20260315_145130_panel1.jpg
+-   -   -       tyler_20260315_145138_panel2.jpg
+-   -   -       tyler_20260315_145145_panel3.jpg
+-   -   -       tyler_20260315_152730_panel1.jpg
+-   -   -       tyler_20260315_152737_panel2.jpg
+-   -   -       tyler_20260315_152745_panel3.jpg
+-   -   -       tyler_20260315_161301_panel1.jpg
+-   -   -       tyler_20260315_161307_panel1.jpg
+-   -   -       tyler_20260315_161310_panel2.jpg
+-   -   -       tyler_20260315_161316_panel2.jpg
+-   -   -       tyler_20260315_161318_panel3.jpg
+-   -   -       tyler_20260315_161324_panel3.jpg
+-   -   -       tyler_20260315_162818_panel1_txt.jpg
+-   -   -       tyler_20260315_162826_panel2_txt.jpg
+-   -   -       tyler_20260315_162834_panel3_txt.jpg
+-   -   -       tyler_20260315_164226_panel1_txt.jpg
+-   -   -       tyler_20260315_164234_panel2_txt.jpg
+-   -   -       tyler_20260315_164241_panel3_txt.jpg
+-   -   -       tyler_20260316_111141_panel1_txt.jpg
+-   -   -       tyler_20260316_111149_panel2_txt.jpg
+-   -   -       tyler_20260316_111158_panel3_txt.jpg
+-   -   -       tyler_20260316_135625_panel1_txt.jpg
+-   -   -       tyler_20260316_135633_panel2_txt.jpg
+-   -   -       tyler_20260316_135641_panel3_txt.jpg
+-   -   -       tyler_20260317_032721_panel1_txt.jpg
+-   -   -       tyler_20260317_032728_panel2_txt.jpg
+-   -   -       tyler_20260317_032735_panel3_txt.jpg
+-   -   -       tyler_20260317_035655_panel1_txt.jpg
+-   -   -       tyler_20260317_035702_panel2_txt.jpg
+-   -   -       tyler_20260317_035710_panel3_txt.jpg
+-   -   -       tyler_20260318_044545_panel1_txt.jpg
+-   -   -       tyler_20260318_044553_panel2_txt.jpg
+-   -   -       tyler_20260318_044600_panel3_txt.jpg
+-   -   -       tyler_20260318_201558_panel1_txt.jpg
+-   -   -       tyler_20260318_201606_panel2_txt.jpg
+-   -   -       tyler_20260318_201617_panel3_txt.jpg
+-   -   -       tyler_20260319_034544_panel1_txt.jpg
+-   -   -       tyler_20260319_034554_panel2_txt.jpg
+-   -   -       tyler_20260319_034602_panel3_txt.jpg
+-   -   -       tyler_20260321_105150_panel1_txt.jpg
+-   -   -       tyler_20260321_105158_panel2_txt.jpg
+-   -   -       tyler_20260321_105205_panel3_txt.jpg
+-   -   -       tyler_20260321_115714_panel1_txt.jpg
+-   -   -       tyler_20260321_115722_panel2_txt.jpg
+-   -   -       tyler_20260321_115729_panel3_txt.jpg
+-   -   -       tyler_20260321_124554_panel1_txt.jpg
+-   -   -       tyler_20260321_124628_panel2_txt.jpg
+-   -   -       tyler_20260321_124647_panel3_txt.jpg
+-   -   -       tyler_20260321_133056_panel1_txt.jpg
+-   -   -       tyler_20260321_133105_panel2_txt.jpg
+-   -   -       tyler_20260321_133113_panel3_txt.jpg
+-   -   -       tyler_20260321_134458_panel1_txt.jpg
+-   -   -       tyler_20260321_134506_panel2_txt.jpg
+-   -   -       tyler_20260321_134514_panel3_txt.jpg
+-   -   -       tyler_20260321_141120_panel1_txt.jpg
+-   -   -       tyler_20260321_141128_panel2_txt.jpg
+-   -   -       tyler_20260321_141136_panel3_txt.jpg
+-   -   -       tyler_20260321_142732_panel1_txt.jpg
+-   -   -       tyler_20260321_142755_panel2_txt.jpg
+-   -   -       tyler_20260321_142802_panel3_txt.jpg
+-   -   -       tyler_20260321_155257_panel1_txt.jpg
+-   -   -       tyler_20260321_155305_panel2_txt.jpg
+-   -   -       tyler_20260321_155313_panel3_txt.jpg
+-   -   -       tyler_20260321_155754_panel1_txt.jpg
+-   -   -       tyler_20260321_155803_panel2_txt.jpg
+-   -   -       tyler_20260321_155811_panel3_txt.jpg
+-   -   -       tyler_20260321_165716_panel1_txt.jpg
+-   -   -       tyler_20260321_165724_panel2_txt.jpg
+-   -   -       tyler_20260321_165733_panel3_txt.jpg
+-   -   -       tyler_20260321_172509_panel1_txt.jpg
+-   -   -       tyler_20260321_172523_panel2_txt.jpg
+-   -   -       tyler_20260321_172538_panel3_txt.jpg
+-   -   -       tyler_20260321_174618_panel1_txt.jpg
+-   -   -       tyler_20260321_174634_panel2_txt.jpg
+-   -   -       tyler_20260321_174647_panel3_txt.jpg
+-   -   -       tyler_20260321_194607_panel1_txt.jpg
+-   -   -       tyler_20260321_194618_panel2_txt.jpg
+-   -   -       tyler_20260321_194630_panel3_txt.jpg
+-   -   -       tyler_20260322_084540_panel1_txt.jpg
+-   -   -       tyler_20260322_084600_panel2_txt.jpg
+-   -   -       tyler_20260322_084601_panel1_txt.jpg
+-   -   -       tyler_20260322_084612_panel3_txt.jpg
+-   -   -       tyler_20260322_084616_panel2_txt.jpg
+-   -   -       tyler_20260322_084631_panel3_txt.jpg
+-   -   -       tyler_20260322_092118_panel1_txt.jpg
+-   -   -       tyler_20260322_092131_panel2_txt.jpg
+-   -   -       tyler_20260322_092145_panel3_txt.jpg
+-   -   -       tyler_20260322_104554_panel1_txt.jpg
+-   -   -       tyler_20260322_104607_panel2_txt.jpg
+-   -   -       tyler_20260322_104621_panel3_txt.jpg
+-   -   -       tyler_20260322_145116_panel1_txt.jpg
+-   -   -       tyler_20260322_145125_panel2_txt.jpg
+-   -   -       tyler_20260322_145136_panel3_txt.jpg
+-   -   -       tyler_20260322_160319_panel1_txt.jpg
+-   -   -       tyler_20260322_160336_panel2_txt.jpg
+-   -   -       tyler_20260322_160355_panel3_txt.jpg
+-   -   -       tyler_20260322_161557_panel1_txt.jpg
+-   -   -       tyler_20260322_161606_panel2_txt.jpg
+-   -   -       tyler_20260322_161615_panel3_txt.jpg
+-   -   -       tyler_20260322_163731_panel1_txt.jpg
+-   -   -       tyler_20260322_163740_panel2_txt.jpg
+-   -   -       tyler_20260322_163749_panel3_txt.jpg
+-   -   -       tyler_20260322_171104_panel1_txt.jpg
+-   -   -       tyler_20260322_171113_panel2_txt.jpg
+-   -   -       tyler_20260322_171123_panel3_txt.jpg
+-   -   -       tyler_20260322_171329_panel1_txt.jpg
+-   -   -       tyler_20260322_171338_panel2_txt.jpg
+-   -   -       tyler_20260322_171349_panel3_txt.jpg
+-   -   -       tyler_20260322_174139_panel1_txt.jpg
+-   -   -       tyler_20260322_174148_panel2_txt.jpg
+-   -   -       tyler_20260322_174158_panel3_txt.jpg
+-   -   -       tyler_20260322_185141_panel1_txt.jpg
+-   -   -       tyler_20260322_185150_panel2_txt.jpg
+-   -   -       tyler_20260322_185158_panel3_txt.jpg
+-   -   -       tyler_20260322_192635_panel1_txt.jpg
+-   -   -       tyler_20260322_192644_panel2_txt.jpg
+-   -   -       tyler_20260322_192653_panel3_txt.jpg
+-   -   -       tyler_20260322_193434_panel1_txt.jpg
+-   -   -       tyler_20260322_193442_panel2_txt.jpg
+-   -   -       tyler_20260322_193452_panel3_txt.jpg
+-   -   -       tyler_20260323_034601_panel1_txt.jpg
+-   -   -       tyler_20260323_034618_panel2_txt.jpg
+-   -   -       tyler_20260323_034626_panel3_txt.jpg
+-   -   -       tyler_20260323_044556_panel1_txt.jpg
+-   -   -       tyler_20260323_044604_panel2_txt.jpg
+-   -   -       tyler_20260323_044612_panel3_txt.jpg
+-   -   -       tyler_20260323_083453_panel1_txt.jpg
+-   -   -       tyler_20260323_083502_panel2_txt.jpg
+-   -   -       tyler_20260323_083511_panel3_txt.jpg
+-   -   -       tyler_20260323_111041_panel1_txt.jpg
+-   -   -       tyler_20260323_111052_panel2_txt.jpg
+-   -   -       tyler_20260323_111101_panel3_txt.jpg
+-   -   -       tyler_20260323_141602_panel1_txt.jpg
+-   -   -       tyler_20260323_141610_panel2_txt.jpg
+-   -   -       tyler_20260323_141619_panel3_txt.jpg
+-   -   -       tyler_20260323_144603_panel1_txt.jpg
+-   -   -       tyler_20260323_144613_panel2_txt.jpg
+-   -   -       tyler_20260323_144624_panel3_txt.jpg
+-   -   -       tyler_20260323_233505_panel1_txt.jpg
+-   -   -       tyler_20260323_233530_panel2_txt.jpg
+-   -   -       tyler_20260323_233554_panel3_txt.jpg
+-   -   -       tyler_20260324_073104_panel1_txt.jpg
+-   -   -       tyler_20260324_073113_panel2_txt.jpg
+-   -   -       tyler_20260324_073122_panel3_txt.jpg
+-   -   -       tyler_20260324_084558_panel1_txt.jpg
+-   -   -       tyler_20260324_084607_panel2_txt.jpg
+-   -   -       tyler_20260324_084616_panel3_txt.jpg
+-   -   -       tyler_20260324_100507_panel1_txt.jpg
+-   -   -       tyler_20260324_100520_panel2_txt.jpg
+-   -   -       tyler_20260324_100539_panel3_txt.jpg
+-   -   -       tyler_20260324_110643_panel1_txt.jpg
+-   -   -       tyler_20260324_110700_panel2_txt.jpg
+-   -   -       tyler_20260324_110712_panel3_txt.jpg
+-   -   -       tyler_20260324_113121_panel1_txt.jpg
+-   -   -       tyler_20260324_113129_panel2_txt.jpg
+-   -   -       tyler_20260324_113137_panel3_txt.jpg
+-   -   -       tyler_20260324_120243_panel1_txt.jpg
+-   -   -       tyler_20260324_120252_panel2_txt.jpg
+-   -   -       tyler_20260324_120300_panel3_txt.jpg
+-   -   -       tyler_20260324_122403_panel1_txt.jpg
+-   -   -       tyler_20260324_122413_panel2_txt.jpg
+-   -   -       tyler_20260324_122425_panel3_txt.jpg
+-   -   -       tyler_20260324_181608_panel1_txt.jpg
+-   -   -       tyler_20260324_181619_panel2_txt.jpg
+-   -   -       tyler_20260324_181629_panel3_txt.jpg
+-   -   -       tyler_20260325_044602_panel1_txt.jpg
+-   -   -       tyler_20260325_044612_panel2_txt.jpg
+-   -   -       tyler_20260325_044622_panel3_txt.jpg
+-   -   -       tyler_20260325_113750_panel1_txt.jpg
+-   -   -       tyler_20260325_113804_panel2_txt.jpg
+-   -   -       tyler_20260325_113821_panel3_txt.jpg
+-   -   -       tyler_20260325_122742_panel1_txt.jpg
+-   -   -       tyler_20260325_122755_panel2_txt.jpg
+-   -   -       tyler_20260325_122805_panel3_txt.jpg
+-   -   -       tyler_20260325_124910_panel1_txt.jpg
+-   -   -       tyler_20260325_124921_panel2_txt.jpg
+-   -   -       tyler_20260325_124931_panel3_txt.jpg
+-   -   -       tyler_20260325_132151_panel1_txt.jpg
+-   -   -       tyler_20260325_132201_panel2_txt.jpg
+-   -   -       tyler_20260325_132213_panel3_txt.jpg
+-   -   -       tyler_20260325_144125_panel1_txt.jpg
+-   -   -       tyler_20260325_144135_panel2_txt.jpg
+-   -   -       tyler_20260325_144145_panel3_txt.jpg
+-   -   -       tyler_20260325_144157_panel4_txt.jpg
+-   -   -       tyler_20260325_151440_panel1_txt.jpg
+-   -   -       tyler_20260325_151450_panel2_txt.jpg
+-   -   -       tyler_20260325_151501_panel3_txt.jpg
+-   -   -       tyler_20260325_151514_panel4_txt.jpg
+-   -   -       tyler_20260325_153029_panel1_txt.jpg
+-   -   -       tyler_20260325_153039_panel2_txt.jpg
+-   -   -       tyler_20260325_153049_panel3_txt.jpg
+-   -   -       tyler_20260325_153059_panel4_txt.jpg
+-   -   -       tyler_20260326_141616_panel1_txt.jpg
+-   -   -       tyler_20260326_141627_panel2_txt.jpg
+-   -   -       tyler_20260326_141639_panel3_txt.jpg
+-   -   -       tyler_20260326_141651_panel4_txt.jpg
+-   -   -       tyler_20260326_145312_panel1_txt.jpg
+-   -   -       tyler_20260326_145333_panel2_txt.jpg
+-   -   -       tyler_20260326_145346_panel3_txt.jpg
+-   -   -       tyler_20260326_145359_panel4_txt.jpg
+-   -   -       tyler_20260326_193902_panel1_txt.jpg
+-   -   -       tyler_20260327_071512_panel1_txt.jpg
+-   -   -       tyler_20260327_071522_panel2_txt.jpg
+-   -   -       tyler_20260327_071534_panel3_txt.jpg
+-   -   -       tyler_20260327_071546_panel4_txt.jpg
+-   -   -       tyler_20260327_071602_panel5_txt.jpg
+-   -   -       tyler_20260327_071612_panel6_txt.jpg
+-   -   -       tyler_20260327_071623_panel7_txt.jpg
+-   -   -       tyler_20260327_082907_panel1_txt.jpg
+-   -   -       tyler_20260327_082917_panel2_txt.jpg
+-   -   -       tyler_20260327_082931_panel3_txt.jpg
+-   -   -       tyler_20260327_082941_panel4_txt.jpg
+-   -   -       tyler_20260327_082951_panel5_txt.jpg
+-   -   -       tyler_20260327_083002_panel6_txt.jpg
+-   -   -       tyler_20260327_083012_panel7_txt.jpg
+-   -   -       tyler_20260328_101042_panel1_txt.jpg
+-   -   -       tyler_20260328_101054_panel2_txt.jpg
+-   -   -       tyler_20260407_024358_panel5_txt.jpg
+-   -   -       tyler_20260407_152255_panel2_txt.jpg
+-   -   -       tyler_20260408_164558_panel3_txt.jpg
+-   -   -       tyler_20260408_164600_panel2_txt.jpg
+-   -   -       tyler_20260408_164600_panel7_txt.jpg
+-   -   -       tyler_20260408_164604_panel6_txt.jpg
+-   -   -       tyler_20260408_164605_panel5_txt.jpg
+-   -   -       tyler_20260408_164606_panel4_txt.jpg
+-   -   -       tyler_20260408_164608_panel1_txt.jpg
+-   -   -       tyler_20260408_171753_panel5_txt.jpg
+-   -   -       tyler_20260408_171753_panel6_txt.jpg
+-   -   -       tyler_20260408_171753_panel7_txt.jpg
+-   -   -       tyler_20260408_171754_panel4_txt.jpg
+-   -   -       tyler_20260408_171756_panel3_txt.jpg
+-   -   -       tyler_20260408_171757_panel1_txt.jpg
+-   -   -       tyler_20260408_171757_panel2_txt.jpg
+-   -   -       tyler_20260409_172932_panel7_txt.jpg
+-   -   -       tyler_20260409_172933_panel6_txt.jpg
+-   -   -       tyler_20260409_172934_panel4_txt.jpg
+-   -   -       tyler_20260409_172934_panel5_txt.jpg
+-   -   -       tyler_20260409_172935_panel2_txt.jpg
+-   -   -       tyler_20260409_172936_panel1_txt.jpg
+-   -   -       tyler_20260409_172936_panel3_txt.jpg
+-   -   -       tyler_20260409_190052_panel7_txt.jpg
+-   -   -       tyler_20260409_190053_panel6_txt.jpg
+-   -   -       tyler_20260409_190058_panel5_txt.jpg
+-   -   -       tyler_20260409_190100_panel4_txt.jpg
+-   -   -       tyler_20260409_190101_panel3_txt.jpg
+-   -   -       tyler_20260409_190102_panel1_txt.jpg
+-   -   -       tyler_20260409_190104_panel2_txt.jpg
+-   -   -       tyler_20260409_192622_panel6_txt.jpg
+-   -   -       tyler_20260409_192622_panel7_txt.jpg
+-   -   -       tyler_20260409_192625_panel4_txt.jpg
+-   -   -       tyler_20260409_192625_panel5_txt.jpg
+-   -   -       tyler_20260409_192626_panel1_txt.jpg
+-   -   -       tyler_20260409_192626_panel3_txt.jpg
+-   -   -       tyler_20260409_192627_panel2_txt.jpg
+-   -   -       tyler_20260409_203447_panel4_txt.jpg
+-   -   -       tyler_20260409_203447_panel5_txt.jpg
+-   -   -       tyler_20260409_203448_panel3_txt.jpg
+-   -   -       tyler_20260409_203449_panel1_txt.jpg
+-   -   -       tyler_20260409_203449_panel2_txt.jpg
+-   -   -       tyler_20260409_214636_panel5_txt.jpg
+-   -   -       tyler_20260409_214636_panel6_txt.jpg
+-   -   -       tyler_20260409_214636_panel7_txt.jpg
+-   -   -       tyler_20260409_214637_panel4_txt.jpg
+-   -   -       tyler_20260409_214639_panel3_txt.jpg
+-   -   -       tyler_20260409_214640_panel2_txt.jpg
+-   -   -       tyler_20260409_214641_panel1_txt.jpg
+-   -   -       tyler_20260409_221157_panel6_txt.jpg
+-   -   -       tyler_20260409_221157_panel7_txt.jpg
+-   -   -       tyler_20260409_221200_panel5_txt.jpg
+-   -   -       tyler_20260409_221201_panel4_txt.jpg
+-   -   -       tyler_20260409_221205_panel3_txt.jpg
+-   -   -       tyler_20260409_221206_panel1_txt.jpg
+-   -   -       tyler_20260409_221207_panel2_txt.jpg
+-   -   -       tyler_20260413_234359_panel1_txt.jpg
+-   -   -       tyler_20260413_234402_panel2_txt.jpg
+-   -   -       tyler_20260413_234404_panel3_txt.jpg
+-   -   -       tyler_20260413_234406_panel4_txt.jpg
+-   -   -       tyler_20260413_234408_panel5_txt.jpg
+-   -   -       tyler_20260413_234410_panel6_txt.jpg
+-   -   -       tyler_20260413_234412_panel7_txt.jpg
+-   -   -       tyler_20260413_235901_panel1_txt.jpg
+-   -   -       tyler_20260413_235910_panel5_txt.jpg
+-   -   -       tyler_20260414_002859_panel1_txt.jpg
+-   -   -       tyler_20260414_002904_panel2_txt.jpg
+-   -   -       tyler_20260414_002909_panel3_txt.jpg
+-   -   -       tyler_20260414_002912_panel4_txt.jpg
+-   -   -       tyler_20260414_002915_panel5_txt.jpg
+-   -   -       tyler_20260414_002918_panel6_txt.jpg
+-   -   -       tyler_20260414_002922_panel7_txt.jpg
+-   -   -       tyler_20260414_004420_panel1_txt.jpg
+-   -   -       tyler_20260414_004427_panel2_txt.jpg
+-   -   -       tyler_20260414_004431_panel3_txt.jpg
+-   -   -       tyler_20260414_004433_panel4_txt.jpg
+-   -   -       tyler_20260414_004435_panel5_txt.jpg
+-   -   -       tyler_20260414_004437_panel6_txt.jpg
+-   -   -       tyler_20260414_004439_panel7_txt.jpg
+-   -   -       tyler_20260414_005900_panel1_txt.jpg
+-   -   -       tyler_20260414_012938_panel1_txt.jpg
+-   -   -       tyler_20260414_012954_panel3_txt.jpg
+-   -   -       tyler_20260414_013008_panel5_txt.jpg
+-   -   -       tyler_20260414_013022_panel6_txt.jpg
+-   -   -       tyler_20260414_013032_panel7_txt.jpg
+-   -   -       tyler_20260414_041400_panel2_txt.jpg
+-   -   -       tyler_20260414_041402_panel3_txt.jpg
+-   -   -       tyler_20260414_041404_panel4_txt.jpg
+-   -   -       tyler_20260414_041408_panel5_txt.jpg
+-   -   -       tyler_20260414_041410_panel6_txt.jpg
+-   -   -       tyler_20260414_041412_panel7_txt.jpg
+-   -   -       tyler_20260414_044435_panel1_txt.jpg
+-   -   -       tyler_20260414_045940_panel1_txt.jpg
+-   -   -       tyler_20260414_045946_panel3_txt.jpg
+-   -   -       tyler_20260414_045948_panel4_txt.jpg
+-   -   -       tyler_20260414_045953_panel6_txt.jpg
+-   -   -       tyler_20260414_052955_panel1_txt.jpg
+-   -   -       tyler_20260414_052957_panel2_txt.jpg
+-   -   -       tyler_20260414_052959_panel3_txt.jpg
+-   -   -       tyler_20260414_053001_panel4_txt.jpg
+-   -   -       tyler_20260414_053037_panel5_txt.jpg
+-   -   -       tyler_20260414_053117_panel6_txt.jpg
+-   -   -       tyler_20260414_053143_panel7_txt.jpg
+-   -   -       tyler_20260416_172644_panel1_txt.jpg
+-   -   -       tyler_20260416_172647_panel2_txt.jpg
+-   -   -       tyler_20260416_172651_panel3_txt.jpg
+-   -   -       tyler_20260416_172655_panel4_txt.jpg
+-   -   -       tyler_20260416_172659_panel5_txt.jpg
+-   -   -       tyler_20260416_172703_panel6_txt.jpg
+-   -   -       tyler_20260416_172707_panel7_txt.jpg
+-   -   -       tyler_20260419_202353_panel1_txt.jpg
+-   -   -       tyler_20260419_202355_panel2_txt.jpg
+-   -   -       tyler_20260419_202357_panel3_txt.jpg
+-   -   -       tyler_20260419_202359_panel4_txt.jpg
+-   -   -       tyler_20260419_202402_panel5_txt.jpg
+-   -   -       tyler_20260419_202404_panel6_txt.jpg
+-   -   -       tyler_20260419_202406_panel7_txt.jpg
+-   -   -       tyler_20260419_202810_panel1_txt.jpg
+-   -   -       tyler_20260419_202812_panel2_txt.jpg
+-   -   -       tyler_20260419_202814_panel3_txt.jpg
+-   -   -       tyler_20260419_202818_panel4_txt.jpg
+-   -   -       tyler_20260419_202821_panel5_txt.jpg
+-   -   -       tyler_20260419_202823_panel6_txt.jpg
+-   -   -       tyler_20260419_202827_panel7_txt.jpg
+-   -   -       tyler_20260419_215230_panel1_txt.jpg
+-   -   -       tyler_20260419_215234_panel2_txt.jpg
+-   -   -       tyler_20260419_215241_panel3_txt.jpg
+-   -   -       tyler_20260419_215243_panel4_txt.jpg
+-   -   -       tyler_20260419_215247_panel5_txt.jpg
+-   -   -       tyler_20260419_215250_panel6_txt.jpg
+-   -   -       tyler_20260419_215252_panel7_txt.jpg
+-   -   -       tyler_20260419_223205_panel1_txt.jpg
+-   -   -       tyler_20260419_223208_panel2_txt.jpg
+-   -   -       tyler_20260419_223212_panel3_txt.jpg
+-   -   -       tyler_20260419_223216_panel4_txt.jpg
+-   -   -       tyler_20260419_223220_panel5_txt.jpg
+-   -   -       tyler_20260419_223223_panel6_txt.jpg
+-   -   -       tyler_20260419_223230_panel7_txt.jpg
+-   -   -       tyler_20260419_231311_panel1_txt.jpg
+-   -   -       tyler_20260419_231315_panel2_txt.jpg
+-   -   -       tyler_20260419_231318_panel3_txt.jpg
+-   -   -       tyler_20260419_231322_panel4_txt.jpg
+-   -   -       tyler_20260419_231326_panel5_txt.jpg
+-   -   -       tyler_20260419_231330_panel6_txt.jpg
+-   -   -       tyler_20260419_231334_panel7_txt.jpg
+-   -   -       tyler_20260420_132858_panel2_txt.jpg
+-   -   -       tyler_20260420_132910_panel5_txt.jpg
+-   -   -       tyler_20260420_194443_panel2_txt.jpg
+-   -   -       tyler_20260422_214225_panel5_txt.jpg
+-   -   -       tyler_20260424_175511_panel1_txt.jpg
+-   -   -       tyler_20260424_175513_panel2_txt.jpg
+-   -   -       tyler_20260424_175516_panel3_txt.jpg
+-   -   -       tyler_20260424_175521_panel4_txt.jpg
+-   -   -       tyler_20260424_175524_panel5_txt.jpg
+-   -   -       tyler_20260424_175532_panel6_txt.jpg
+-   -   -       tyler_20260424_175536_panel7_txt.jpg
+-   -   -       tyler_20260430_203201_panel1_txt.jpg
+-   -   -       tyler_20260430_203204_panel2_txt.jpg
+-   -   -       tyler_20260501_000344_panel1_txt.jpg
+-   -   -       tyler_20260501_000350_panel2_txt.jpg
+-   -   -       tyler_20260501_000353_panel3_txt.jpg
+-   -   -       tyler_20260501_000356_panel4_txt.jpg
+-   -   -       tyler_20260501_000359_panel5_txt.jpg
+-   -   -       tyler_20260501_000406_panel7_txt.jpg
+-   -   -       tyler_20260501_101651_panel1_txt.jpg
+-   -   -       tyler_20260501_101654_panel2_txt.jpg
+-   -   -       tyler_20260501_101658_panel3_txt.jpg
+-   -   -       tyler_20260501_101702_panel4_txt.jpg
+-   -   -       tyler_20260501_101709_panel5_txt.jpg
+-   -   -       tyler_20260501_101714_panel6_txt.jpg
+-   -   -       tyler_20260501_101717_panel7_txt.jpg
+-   -   -       tyler_20260501_124721_panel1_txt.jpg
+-   -   -       tyler_20260501_124723_panel2_txt.jpg
+-   -   -       tyler_20260501_124728_panel4_txt.jpg
+-   -   -       tyler_20260501_124730_panel5_txt.jpg
+-   -   -       tyler_20260501_124732_panel6_txt.jpg
+-   -   -       tyler_20260501_124735_panel7_txt.jpg
+-   -   -       tyler_20260501_151724_panel1_txt.jpg
+-   -   -       tyler_20260501_151726_panel2_txt.jpg
+-   -   -       tyler_20260501_151731_panel3_txt.jpg
+-   -   -       tyler_20260501_151733_panel4_txt.jpg
+-   -   -       tyler_20260501_151735_panel5_txt.jpg
+-   -   -       tyler_20260501_151738_panel6_txt.jpg
+-   -   -       tyler_20260501_151759_panel7_txt.jpg
+-   -   -       tyler_20260501_163317_panel1_txt.jpg
+-   -   -       tyler_20260501_163321_panel2_txt.jpg
+-   -   -       tyler_20260501_163341_panel3_txt.jpg
+-   -   -       tyler_20260501_163344_panel4_txt.jpg
+-   -   -       tyler_20260501_163348_panel5_txt.jpg
+-   -   -       tyler_20260501_163350_panel6_txt.jpg
+-   -   -       tyler_20260501_163354_panel7_txt.jpg
+-   -   -       tyler_20260501_200729_panel1_txt.jpg
+-   -   -       tyler_20260501_200731_panel2_txt.jpg
+-   -   -       tyler_20260501_200734_panel3_txt.jpg
+-   -   -       tyler_20260501_200736_panel4_txt.jpg
+-   -   -       tyler_20260501_200738_panel5_txt.jpg
+-   -   -       tyler_20260501_200740_panel6_txt.jpg
+-   -   -       tyler_20260501_200743_panel7_txt.jpg
+-   -   -       tyler_20260501_202317_panel1_txt.jpg
+-   -   -       tyler_20260501_202320_panel2_txt.jpg
+-   -   -       tyler_20260501_202323_panel3_txt.jpg
+-   -   -       tyler_20260501_202325_panel4_txt.jpg
+-   -   -       tyler_20260501_202328_panel5_txt.jpg
+-   -   -       tyler_20260501_202331_panel6_txt.jpg
+-   -   -       tyler_20260501_202333_panel7_txt.jpg
+-   -   -       tyler_20260501_204651_panel1_txt.jpg
+-   -   -       tyler_20260501_204654_panel2_txt.jpg
+-   -   -       tyler_20260501_204658_panel3_txt.jpg
+-   -   -       tyler_20260501_204704_panel4_txt.jpg
+-   -   -       tyler_20260501_204708_panel5_txt.jpg
+-   -   -       tyler_20260501_204711_panel6_txt.jpg
+-   -   -       tyler_20260501_204715_panel7_txt.jpg
+-   -   -       tyler_20260503_113456_panel1_txt.jpg
+-   -   -       tyler_20260503_113500_panel2_txt.jpg
+-   -   -       tyler_20260503_113509_panel3_txt.jpg
+-   -   -       tyler_20260503_113513_panel4_txt.jpg
+-   -   -       tyler_20260503_113519_panel5_txt.jpg
+-   -   -       tyler_20260503_113524_panel6_txt.jpg
+-   -   -       tyler_20260503_113528_panel7_txt.jpg
+-   -   -       tyler_20260503_120459_panel1_txt.jpg
+-   -   -       tyler_20260503_120503_panel2_txt.jpg
+-   -   -       tyler_20260503_120512_panel3_txt.jpg
+-   -   -       tyler_20260503_120517_panel4_txt.jpg
+-   -   -       tyler_20260503_120521_panel5_txt.jpg
+-   -   -       tyler_20260503_120525_panel6_txt.jpg
+-   -   -       tyler_20260503_120530_panel7_txt.jpg
+-   -   -       
+-   -   L¦¦¦wiewiorki
+-   -           1789400897673.png
+-   -           1789411964142.png
+-   -           1789412361879.png
+-   -           1789412429814.png
+-   -           1789412471761.png
+-   -           1789412578435.png
+-   -           1789412667650.png
+-   -           1789412743099.png
+-   -           1789413017620.png
+-   -           1789413059547.png
+-   -           1789413113043.png
+-   -           1789413205273.png
+-   -           1789413256205.png
+-   -           1789413305782.jpg
+-   -           1789413371925.png
+-   -           1789413425594.png
+-   -           1789413519104.png
+-   -           1789413571456.png
+-   -           1789413633248.png
+-   -           1789413683253.png
+-   -           1789413845532.png
+-   -           1789413882556.png
+-   -           1789413955367.png
+-   -           1789414005179.png
+-   -           copilot_image_1789400929723.jpeg
+-   -           copilot_image_1789411971491.jpeg
+-   -           file_0000000060088243a68004a6862db06e.png
+-   -           file_00000000e5bc81f49b3925c8479a4bb5.png
+-   -           file_00000000e95082468ab5432c195aaf43.png
+-   -           image_1789400935851.jpeg
+-   -           image_1789412620027.jpeg
+-   -           Screenshot_20260914_175146_X.jpg
+-   -           Screenshot_20260914_205605_X.jpg
+-   -           Screenshot_20260914_205830_X.jpg
+-   -           Screenshot_20260914_210002_X.jpg
+-   -           Screenshot_20260914_210804_X.jpg
+-   -           
+-   +¦¦¦HTML
+-   +¦¦¦images
+-   -   +¦¦¦kie³ki
+-   -   -       01.png
+-   -   -       02.png
+-   -   -       Copilot_20260418_234415 (1).png
+-   -   -       Copilot_20260418_234415.png
+-   -   -       Copilot_20260419_002532.png
+-   -   -       Copilot_20260419_002926.png
+-   -   -       Copilot_20260419_003051.png
+-   -   -       Gemini_Generated_Image_5eyqax5eyqax5eyq.png
+-   -   -       Gemini_Generated_Image_ak4fbzak4fbzak4f.png
+-   -   -       Gemini_Generated_Image_cm19ygcm19ygcm19.png
+-   -   -       Gemini_Generated_Image_halebmhalebmhale (1).png
+-   -   -       Gemini_Generated_Image_halebmhalebmhale.png
+-   -   -       Gemini_Generated_Image_jty4rkjty4rkjty4.png
+-   -   -       Gemini_Generated_Image_lymkfvlymkfvlymk.png
+-   -   -       Gemini_Generated_Image_my0y19my0y19my0y.png
+-   -   -       Gemini_Generated_Image_qdfjg9qdfjg9qdfj.png
+-   -   -       Gemini_Generated_Image_trguxntrguxntrgu.png
+-   -   -       Gemini_Generated_Image_tssxyktssxyktssx.png
+-   -   -       generated-image.png
+-   -   -       sddsf.png
+-   -   -       sprouts_educational_poster_children.svg
+-   -   -       
+-   -   +¦¦¦Komiks uczennicy
+-   -   -       001.png
+-   -   -       002.png
+-   -   -       003.png
+-   -   -       004.png
+-   -   -       005.png
+-   -   -       006.png
+-   -   -       007.png
+-   -   -       007a.png
+-   -   -       008.png
+-   -   -       010.png
+-   -   -       011.png
+-   -   -       012.png
+-   -   -       013.png
+-   -   -       014.png
+-   -   -       015.png
+-   -   -       016.png
+-   -   -       017.png
+-   -   -       018.png
+-   -   -       019.png
+-   -   -       020.png
+-   -   -       
+-   -   +¦¦¦matma rysu
+-   -   -       ChatGPT Image 4 lis 2025, 11_09_22.png
+-   -   -       Copilot_20251104_111106.png
+-   -   -       Copilot_20251104_111831.png
+-   -   -       Copilot_20251104_112132.png
+-   -   -       Copilot_20251104_112421.png
+-   -   -       Gemini_Generated_Image_42fbtl42fbtl42fb.png
+-   -   -       Gemini_Generated_Image_74v73n74v73n74v7.png
+-   -   -       Gemini_Generated_Image_u86ocqu86ocqu86o.png
+-   -   -       Gemini_Generated_Image_wa7227wa7227wa72.png
+-   -   -       
+-   -   +¦¦¦MIX
+-   -   -       1789913693579.png
+-   -   -       1789915068213.png
+-   -   -       1790104285136.png
+-   -   -       ChatGPT Image 1 sty 2026, 20_41_19.png
+-   -   -       ChatGPT Image 13 lut 2026, 18_15_54.png
+-   -   -       ChatGPT Image 14 paŸ 2025, 12_10_23.png
+-   -   -       file_0000000077f081f496ee0d78a80912d6.png
+-   -   -       Gemini_Generated_Image_924x9s924x9s924x.png
+-   -   -       Gemini_Generated_Image_swa2moswa2moswa2.png
+-   -   -       Gemini_Generated_Image_t9a47rt9a47rt9a4.png
+-   -   -       grok_image_ufwh05 (1).jpg
+-   -   -       grok_image_xudl2g.jpg
+-   -   -       grok_image_xukmk19.jpg
+-   -   -       pust.png
+-   -   -       Screenshot_20260920_163824_X.jpg
+-   -   -       
+-   -   +¦¦¦musze isc po miesko
+-   -   -       8b.jpeg
+-   -   -       copilot_image_1759605224300.jpeg
+-   -   -       copilot_image_1759605556143.jpeg
+-   -   -       copilot_image_1759605804454.jpeg
+-   -   -       copilot_image_1759605996579.jpeg
+-   -   -       copilot_image_1759683647641.jpeg
+-   -   -       copilot_image_1759683848604.jpeg
+-   -   -       copilot_image_1759683878516.jpeg
+-   -   -       copilot_image_1759684272792.jpeg
+-   -   -       copilot_image_1759684372160.jpeg
+-   -   -       copilot_image_1759684475571.jpeg
+-   -   -       copilot_image_1759684556049.jpeg
+-   -   -       copilot_image_1759684654523.jpeg
+-   -   -       copilot_image_1759684767862.jpeg
+-   -   -       copilot_image_1759685050786.jpeg
+-   -   -       copilot_image_1759768808671.jpeg
+-   -   -       copilot_image_1759874483926.jpeg
+-   -   -       
+-   -   +¦¦¦oczy_robocze
+-   -   -       001.png
+-   -   -       002.png
+-   -   -       003.png
+-   -   -       004.png
+-   -   -       005.png
+-   -   -       006.png
+-   -   -       007.png
+-   -   -       008.png
+-   -   -       009.png
+-   -   -       
+-   -   +¦¦¦Piekne_oczy
+-   -   -       kola¿.png
+-   -   -       
+-   -   +¦¦¦przyjaciolki
+-   -   -       001 dialogi podrasowane .txt
+-   -   -       002 dialogi  podrasowane02prompty.txt
+-   -   -       2FZvc (1).jpg
+-   -   -       2FZvc.jpg
+-   -   -       3b70j.jpg
+-   -   -       76pjI.jpg
+-   -   -       7RrnG (1).jpg
+-   -   -       7RrnG.jpg
+-   -   -       8gErb.jpg
+-   -   -       bA8zA.jpg
+-   -   -       CTXd2.jpg
+-   -   -       DNg5O (1).jpg
+-   -   -       DNg5O.jpg
+-   -   -       fI7BU (1).jpg
+-   -   -       fI7BU.jpg
+-   -   -       gqw7S.jpg
+-   -   -       hsnE6.jpg
+-   -   -       iDPGh (1).jpg
+-   -   -       iDPGh.jpg
+-   -   -       izz4n.jpg
+-   -   -       Jrv13.jpg
+-   -   -       lista dialogów 01.txt
+-   -   -       Mwtal.jpg
+-   -   -       oIph1.jpg
+-   -   -       prompty z dialogów podrasowanych.txt
+-   -   -       ROB3U.jpg
+-   -   -       rVrN6 (1).jpg
+-   -   -       spontaniczne.jpg
+-   -   -       tuoM2.jpg
+-   -   -       uWwOB.jpg
+-   -   -       vCjWh (1).jpg
+-   -   -       vCjWh.jpg
+-   -   -       wj2ZR.jpg
+-   -   -       ySnFw.jpg
+-   -   -       
+-   -   +¦¦¦przytulic
+-   -   +¦¦¦przytul_kobiete
+-   -   -       002.jpg
+-   -   -       APmUS.jpg
+-   -   -       grok_image_4743pb.jpg
+-   -   -       grok_image_nvj3rq.jpg
+-   -   -       grok_image_o8dbss.jpg
+-   -   -       grok_image_x29vzc7.jpg
+-   -   -       grok_image_xbad2qb.jpg
+-   -   -       
+-   -   +¦¦¦restauracja
+-   -   -       1789887870353 — kopia.png
+-   -   -       przynêta.png
+-   -   -       restaruracja1.jpg
+-   -   -       smierdzikorkiem.png
+-   -   -       
+-   -   L¦¦¦twarz mickiewicza
+-   -           ChatGPT Image 31 sty 2026, 17_49_04 — kopia.png
+-   -           ChatGPT Image 31 sty 2026, 18_06_48.png
+-   -           ChatGPT Image 31 sty 2026, 18_15_49 — kopia.png
+-   -           ChatGPT Image 31 sty 2026, 18_15_49.png
+-   -           ChatGPT Image 31 sty 2026, 18_33_26.png
+-   -           legenda_kolorow.txt
+-   -           sgfs.png
+-   -           twarz_zlosc.png
+-   -           
+-   +¦¦¦pdf
+-   L¦¦¦thumbs
+-       L¦¦¦images
+-           +¦¦¦kie³ki
+-           -       01.png.jpg
+-           -       02.png.jpg
+-           -       Copilot_20260418_234415 (1).png.jpg
+-           -       Copilot_20260418_234415.png.jpg
+-           -       Copilot_20260419_002532.png.jpg
+-           -       Copilot_20260419_002926.png.jpg
+-           -       Copilot_20260419_003051.png.jpg
+-           -       Gemini_Generated_Image_5eyqax5eyqax5eyq.png.jpg
+-           -       Gemini_Generated_Image_ak4fbzak4fbzak4f.png.jpg
+-           -       Gemini_Generated_Image_cm19ygcm19ygcm19.png.jpg
+-           -       Gemini_Generated_Image_halebmhalebmhale (1).png.jpg
+-           -       Gemini_Generated_Image_halebmhalebmhale.png.jpg
+-           -       Gemini_Generated_Image_jty4rkjty4rkjty4.png.jpg
+-           -       Gemini_Generated_Image_lymkfvlymkfvlymk.png.jpg
+-           -       Gemini_Generated_Image_my0y19my0y19my0y.png.jpg
+-           -       Gemini_Generated_Image_qdfjg9qdfjg9qdfj.png.jpg
+-           -       Gemini_Generated_Image_trguxntrguxntrgu.png.jpg
+-           -       Gemini_Generated_Image_tssxyktssxyktssx.png.jpg
+-           -       generated-image.png.jpg
+-           -       sddsf.png.jpg
+-           -       
+-           +¦¦¦Komiks uczennicy
+-           -       001.png.jpg
+-           -       002.png.jpg
+-           -       003.png.jpg
+-           -       004.png.jpg
+-           -       005.png.jpg
+-           -       006.png.jpg
+-           -       007.png.jpg
+-           -       007a.png.jpg
+-           -       008.png.jpg
+-           -       010.png.jpg
+-           -       011.png.jpg
+-           -       012.png.jpg
+-           -       013.png.jpg
+-           -       014.png.jpg
+-           -       015.png.jpg
+-           -       016.png.jpg
+-           -       017.png.jpg
+-           -       018.png.jpg
+-           -       019.png.jpg
+-           -       020.png.jpg
+-           -       
+-           +¦¦¦matma rysu
+-           -       ChatGPT Image 4 lis 2025, 11_09_22.png.jpg
+-           -       Copilot_20251104_111106.png.jpg
+-           -       Copilot_20251104_111831.png.jpg
+-           -       Copilot_20251104_112132.png.jpg
+-           -       Copilot_20251104_112421.png.jpg
+-           -       Gemini_Generated_Image_42fbtl42fbtl42fb.png.jpg
+-           -       Gemini_Generated_Image_74v73n74v73n74v7.png.jpg
+-           -       Gemini_Generated_Image_u86ocqu86ocqu86o.png.jpg
+-           -       Gemini_Generated_Image_wa7227wa7227wa72.png.jpg
+-           -       
+-           +¦¦¦MIX
+-           -       1789913693579.png.jpg
+-           -       1789915068213.png.jpg
+-           -       1790104285136.png.jpg
+-           -       ChatGPT Image 1 sty 2026, 20_41_19.png.jpg
+-           -       ChatGPT Image 13 lut 2026, 18_15_54.png.jpg
+-           -       ChatGPT Image 14 paŸ 2025, 12_10_23.png.jpg
+-           -       file_0000000077f081f496ee0d78a80912d6.png.jpg
+-           -       Gemini_Generated_Image_924x9s924x9s924x.png.jpg
+-           -       Gemini_Generated_Image_swa2moswa2moswa2.png.jpg
+-           -       Gemini_Generated_Image_t9a47rt9a47rt9a4.png.jpg
+-           -       grok_image_ufwh05 (1).jpg.jpg
+-           -       grok_image_xudl2g.jpg.jpg
+-           -       grok_image_xukmk19.jpg.jpg
+-           -       pust.png.jpg
+-           -       
+-           +¦¦¦musze isc po miesko
+-           -       8b.jpeg.jpg
+-           -       copilot_image_1759605224300.jpeg.jpg
+-           -       copilot_image_1759605556143.jpeg.jpg
+-           -       copilot_image_1759605804454.jpeg.jpg
+-           -       copilot_image_1759605996579.jpeg.jpg
+-           -       copilot_image_1759683647641.jpeg.jpg
+-           -       copilot_image_1759683848604.jpeg.jpg
+-           -       copilot_image_1759683878516.jpeg.jpg
+-           -       copilot_image_1759684272792.jpeg.jpg
+-           -       copilot_image_1759684372160.jpeg.jpg
+-           -       copilot_image_1759684475571.jpeg.jpg
+-           -       copilot_image_1759684556049.jpeg.jpg
+-           -       copilot_image_1759684654523.jpeg.jpg
+-           -       copilot_image_1759684767862.jpeg.jpg
+-           -       copilot_image_1759685050786.jpeg.jpg
+-           -       copilot_image_1759768808671.jpeg.jpg
+-           -       copilot_image_1759874483926.jpeg.jpg
+-           -       
+-           +¦¦¦numer7
+-           -       czarn.jpg.jpg
+-           -       Gemini_Generated_Image_ddpl0zddpl0zddpl.png.jpg
+-           -       Gemini_Generated_Image_r0keq6r0keq6r0ke.png.jpg
+-           -       Gemini_Generated_Image_yukdc9yukdc9yukd.png.jpg
+-           -       NIOit.jpg.jpg
+-           -       Nxwbh (1).jpg.jpg
+-           -       Nxwbh.jpg.jpg
+-           -       odpowiedni_wiek.jpg.jpg
+-           -       omAWy.jpg.jpg
+-           -       oUkAM.jpg.jpg
+-           -       
+-           +¦¦¦oczy_robocze
+-           -       001.png.jpg
+-           -       002.png.jpg
+-           -       003.png.jpg
+-           -       004.png.jpg
+-           -       005.png.jpg
+-           -       006.png.jpg
+-           -       007.png.jpg
+-           -       008.png.jpg
+-           -       009.png.jpg
+-           -       
+-           +¦¦¦Piekne_oczy
+-           -       kola¿.png.jpg
+-           -       
+-           +¦¦¦przyjaciolki
+-           -       2FZvc (1).jpg.jpg
+-           -       2FZvc.jpg.jpg
+-           -       3b70j.jpg.jpg
+-           -       76pjI.jpg.jpg
+-           -       7RrnG (1).jpg.jpg
+-           -       7RrnG.jpg.jpg
+-           -       8gErb.jpg.jpg
+-           -       bA8zA.jpg.jpg
+-           -       CTXd2.jpg.jpg
+-           -       DNg5O (1).jpg.jpg
+-           -       DNg5O.jpg.jpg
+-           -       fI7BU (1).jpg.jpg
+-           -       fI7BU.jpg.jpg
+-           -       gqw7S.jpg.jpg
+-           -       hsnE6.jpg.jpg
+-           -       iDPGh (1).jpg.jpg
+-           -       iDPGh.jpg.jpg
+-           -       izz4n.jpg.jpg
+-           -       Jrv13.jpg.jpg
+-           -       Mwtal.jpg.jpg
+-           -       oIph1.jpg.jpg
+-           -       ROB3U.jpg.jpg
+-           -       rVrN6 (1).jpg.jpg
+-           -       rVrN6.jpg.jpg
+-           -       spontaniczne.jpg.jpg
+-           -       tuoM2.jpg.jpg
+-           -       uWwOB.jpg.jpg
+-           -       vCjWh (1).jpg.jpg
+-           -       vCjWh.jpg.jpg
+-           -       wj2ZR.jpg.jpg
+-           -       ySnFw.jpg.jpg
+-           -       
+-           +¦¦¦przytul_kobiete
+-           -       002.jpg.jpg
+-           -       APmUS.jpg.jpg
+-           -       grok_image_4743pb.jpg.jpg
+-           -       grok_image_nvj3rq.jpg.jpg
+-           -       grok_image_o8dbss.jpg.jpg
+-           -       grok_image_x29vzc7.jpg.jpg
+-           -       grok_image_xbad2qb.jpg.jpg
+-           -       
+-           +¦¦¦restauracja
+-           -       1789887870353 — kopia.png.jpg
+-           -       przynêta.png.jpg
+-           -       restaruracja1.jpg.jpg
+-           -       smierdzikorkiem.png.jpg
+-           -       
+-           L¦¦¦twarz mickiewicza
+-                   ChatGPT Image 31 sty 2026, 17_49_04 — kopia.png.jpg
+-                   ChatGPT Image 31 sty 2026, 18_06_48.png.jpg
+-                   ChatGPT Image 31 sty 2026, 18_15_49 — kopia.png.jpg
+-                   ChatGPT Image 31 sty 2026, 18_15_49.png.jpg
+-                   ChatGPT Image 31 sty 2026, 18_33_26.png.jpg
+-                   sgfs.png.jpg
+-                   twarz_zlosc.png.jpg
+-                   
++¦¦¦legionowopawel.github.io
++¦¦¦ProgramyHTML
+-   -   etykieta.html
+-   -   
+-   L¦¦¦logo_do_promptu_rolki
+-           logo.png
+-           
+L¦¦¦Tyler
+    -   index.html
+    -   
+    L¦¦¦example
+        +¦¦¦01_script_gas
+        -       1.html
+        -       sekretarka.png
+        -       
+        +¦¦¦02_AI
+        -       1.html
+        -       
+        +¦¦¦03_Response
+        -       1.html
+        -       
+        +¦¦¦biznes
+        -       1.html
+        -       1.png
+        -       2.png
+        -       
+        +¦¦¦dociekliwy
+        -       1.html
+        -       2.html
+        -       
+        +¦¦¦emocje
+        -       1.html
+        -       
+        +¦¦¦generator_pdf
+        -       001.pdf
+        -       
+        +¦¦¦nawiazanie
+        -       1.html
+        -       1.png
+        -       
+        +¦¦¦scrabble
+        -       1 (1).html
+        -       1.html
+        -       1.png
+        -       
+        +¦¦¦smierc
+        -       1.html
+        -       
+        L¦¦¦zwykly
+                1.html
+                1.jpg
+                2.jpg
+                3.jpg
+                4.jpg
+                5.jpg
+                6.jpg
+                7.jpg
+                ankieta.html
+                horoskop.pdf
+                karta_rpg.pdf
+                plakat.svg
+                raport_psychiatryczny.docx
+                
