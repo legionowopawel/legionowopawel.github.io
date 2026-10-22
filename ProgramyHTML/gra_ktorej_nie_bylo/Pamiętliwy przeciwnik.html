@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pamiętliwy przeciwnik</title>
+<style>
+:root{--bg:#f3f1ec;--fg:#1d1d1f;--mut:#6b6b70;--card:#fff;--ac:#d6336c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14141a;--fg:#ecebf0;--mut:#9a99a6;--card:#1e1e27;--ac:#ff6b9a}}
+:root[data-theme="dark"]{--bg:#14141a;--fg:#ecebf0;--mut:#9a99a6;--card:#1e1e27;--ac:#ff6b9a}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:600px;margin:0 auto;padding:14px}
+h1{font-size:1.25rem;margin:4px 0}
+p.s{margin:0 0 10px;color:var(--mut);font-size:.9rem}
+canvas{width:100%;height:auto;aspect-ratio:1;display:block;border-radius:12px;touch-action:none;background:#0f0f16}
+.bar{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
+button{font:inherit;background:var(--card);color:var(--fg);border:1px solid var(--mut);border-radius:8px;padding:8px 12px;cursor:pointer}
+button:hover{border-color:var(--ac)}
+.hint{color:var(--mut);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Pamiętliwy przeciwnik</h1>
+<p class="s">Przeciwnik zapamiętuje, gdzie lubisz stać, i tam uderza. Nie daj się przewidzieć.</p>
+<canvas id="c" width="560" height="560"></canvas>
+<div class="bar">
+<button id="hb">Pokaż / ukryj jego pamięć</button>
+<span class="hint">Ruch: strzałki / WASD lub przeciągnij palcem. Start: spacja lub dotyk.</span>
+</div>
+</main>
+<script>
+const cv=document.getElementById('c'),g=cv.getContext('2d'),S=560,N=14,CS=S/N;
+let heat,strikes,fx,P,state='menu',t,lives,hits,best=0,nextStrike,showHeat=true,inv,keys={},ptr=null,last=0;
+function reset(){heat=new Array(N*N).fill(0);strikes=[];fx=[];P={x:S/2,y:S/2,r:9};t=0;lives=3;hits=0;nextStrike=2;inv=0;}
+reset();
+document.getElementById('hb').onclick=()=>showHeat=!showHeat;
+addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=1;if(e.key===' '||e.key==='Enter'){if(state!=='play'){reset();state='play'}e.preventDefault()}if(e.key.startsWith('Arrow'))e.preventDefault()});
+addEventListener('keyup',e=>keys[e.key.toLowerCase()]=0);
+function pp(e){const r=cv.getBoundingClientRect();return{x:(e.clientX-r.left)*S/r.width,y:(e.clientY-r.top)*S/r.height}}
+cv.addEventListener('pointerdown',e=>{if(state!=='play'){reset();state='play'}ptr=pp(e);cv.setPointerCapture(e.pointerId)});
+cv.addEventListener('pointermove',e=>{if(ptr)ptr=pp(e)});
+addEventListener('pointerup',()=>ptr=null);
+function cellOf(x,y){return Math.min(N-1,Math.max(0,Math.floor(y/CS)))*N+Math.min(N-1,Math.max(0,Math.floor(x/CS)))}
+function pickTarget(){
+  let tot=0;const w=heat.map(h=>{const v=Math.pow(h,1.6);tot+=v;return v});
+  if(tot<0.5||Math.random()<0.2)return{x:Math.random()*S,y:Math.random()*S};
+  let r=Math.random()*tot,i=0;for(;i<w.length;i++){r-=w[i];if(r<=0)break}
+  i=Math.min(i,w.length-1);
+  return{x:(i%N+.5)*CS+(Math.random()-.5)*CS*.6,y:(Math.floor(i/N)+.5)*CS+(Math.random()-.5)*CS*.6};
+}
+function update(dt){
+  t+=dt;inv=Math.max(0,inv-dt);
+  let dx=(keys['arrowright']||keys['d']?1:0)-(keys['arrowleft']||keys['a']?1:0);
+  let dy=(keys['arrowdown']||keys['s']?1:0)-(keys['arrowup']||keys['w']?1:0);
+  if(ptr){const ex=ptr.x-P.x,ey=ptr.y-P.y,d=Math.hypot(ex,ey);if(d>8){dx=ex/d;dy=ey/d}}
+  const m=Math.hypot(dx,dy)||1,sp=190;
+  P.x=Math.min(S-P.r,Math.max(P.r,P.x+dx/m*sp*dt*(dx||dy?1:0)));
+  P.y=Math.min(S-P.r,Math.max(P.r,P.y+dy/m*sp*dt*(dx||dy?1:0)));
+  const k=Math.pow(0.97,dt);for(let i=0;i<heat.length;i++)heat[i]*=k;
+  const ci=cellOf(P.x,P.y);heat[ci]+=dt;
+  for(const o of[-1,1,-N,N]){const j=ci+o;if(j>=0&&j<heat.length&&Math.abs((j%N)-(ci%N))<=1)heat[j]+=dt*.3}
+  nextStrike-=dt;
+  if(nextStrike<=0){
+    const n=1+Math.floor(t/25);
+    for(let i=0;i<Math.min(n,4);i++){const p=pickTarget();strikes.push({x:p.x,y:p.y,t:0,d:Math.max(.6,1.1-t/120),r:58,done:false})}
+    nextStrike=Math.max(.7,2.0-t/45);
+  }
+  for(const s of strikes){
+    s.t+=dt;
+    if(!s.done&&s.t>=s.d){s.done=true;fx.push({x:s.x,y:s.y,t:0,r:s.r});
+      if(inv<=0&&Math.hypot(P.x-s.x,P.y-s.y)<s.r+P.r*.5){lives--;hits++;inv=1.2;if(lives<=0){state='over';best=Math.max(best,t)}}}
+  }
+  strikes=strikes.filter(s=>!s.done);
+  fx.forEach(f=>f.t+=dt);fx=fx.filter(f=>f.t<.35);
+}
+function draw(){
+  g.clearRect(0,0,S,S);g.fillStyle='#0f0f16';g.fillRect(0,0,S,S);
+  g.strokeStyle='rgba(255,255,255,.05)';g.lineWidth=1;
+  for(let i=0;i<=N;i++){g.beginPath();g.moveTo(i*CS,0);g.lineTo(i*CS,S);g.moveTo(0,i*CS);g.lineTo(S,i*CS);g.stroke()}
+  if(showHeat){const mx=Math.max(1,...heat);
+    for(let i=0;i<heat.length;i++){const a=Math.min(1,heat[i]/mx)*.55;if(a>.02){g.fillStyle='rgba(255,70,120,'+a+')';g.fillRect((i%N)*CS,Math.floor(i/N)*CS,CS,CS)}}}
+  for(const s of strikes){const p=s.t/s.d;
+    g.strokeStyle='rgba(255,90,90,.9)';g.lineWidth=2;g.beginPath();g.arc(s.x,s.y,s.r,0,7);g.stroke();
+    g.fillStyle='rgba(255,90,90,.35)';g.beginPath();g.arc(s.x,s.y,s.r*p,0,7);g.fill()}
+  for(const f of fx){const p=f.t/.35;g.fillStyle='rgba(255,220,120,'+(1-p)*.8+')';g.beginPath();g.arc(f.x,f.y,f.r*(.7+.5*p),0,7);g.fill()}
+  if(state!=='menu'){
+    if(inv<=0||Math.floor(t*14)%2){g.fillStyle='#5ee0c0';g.beginPath();g.arc(P.x,P.y,P.r,0,7);g.fill()}
+  }
+  g.fillStyle='#fff';g.font='600 16px system-ui,sans-serif';g.textAlign='left';
+  g.fillText('Czas: '+t.toFixed(1)+' s',12,24);
+  g.textAlign='right';g.fillText('Życia: '+'♥'.repeat(Math.max(0,lives)),S-12,24);
+  if(state!=='play'){
+    g.fillStyle='rgba(10,10,16,.78)';g.fillRect(0,0,S,S);g.fillStyle='#fff';g.textAlign='center';
+    g.font='700 28px system-ui,sans-serif';
+    g.fillText(state==='menu'?'Pamiętliwy przeciwnik':'Przeciwnik Cię rozgryzł',S/2,S/2-50);
+    g.font='16px system-ui,sans-serif';
+    if(state==='over'){g.fillText('Przetrwałeś '+t.toFixed(1)+' s · trafień: '+hits+' · rekord: '+best.toFixed(1)+' s',S/2,S/2-14)}
+    else{g.fillText('Czerwone pola to jego pamięć o Twoich ulubionych miejscach.',S/2,S/2-14)}
+    g.fillText('Zmieniaj pozycję, zanim nauczy się Ciebie na pamięć.',S/2,S/2+14);
+    g.fillStyle='#ff6b9a';g.font='600 18px system-ui,sans-serif';
+    g.fillText(state==='menu'?'Spacja lub dotyk, aby zacząć':'Spacja lub dotyk, aby zagrać ponownie',S/2,S/2+56);
+  }
+}
+function loop(ts){const dt=Math.min(.05,(ts-last)/1000||0);last=ts;if(state==='play')update(dt);draw();requestAnimationFrame(loop)}
+requestAnimationFrame(loop);
+</script>
+</body>
+</html>
