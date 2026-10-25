@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Partnerka czy Prezeska</title>
+<style>
+  :root{--bg:#c8a96e;--card:#f6ecd2;--ink:#2a1f0e;--line:#8b6030;--accent:#7a4f1e;--err:#a32020}
+  @media (prefers-color-scheme:dark){:root{--bg:#1f1a12;--card:#2b241a;--ink:#efe3c8;--line:#8b6030;--accent:#a8743a;--err:#ff8a80}}
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{font-family:'Courier New',Courier,monospace;background:var(--bg);color:var(--ink);display:flex;align-items:center;justify-content:center;padding:1rem}
+  .box{width:100%;max-width:420px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);padding:1.4rem 1.3rem}
+  h1{font-size:1.15rem;letter-spacing:.08rem;margin:0 0 .3rem}
+  p{margin:.2rem 0 1rem;font-size:.85rem;opacity:.85}
+  input[type=password],input[type=text]{width:100%;padding:.65rem;font:inherit;border:1px solid var(--line);background:transparent;color:inherit}
+  button{margin-top:.8rem;width:100%;padding:.7rem;font:inherit;background:var(--accent);color:#fff;border:0;cursor:pointer}
+  button:disabled{opacity:.6;cursor:wait}
+  label{display:block;margin-top:.5rem;font-size:.8rem}
+  #msg{min-height:1.3rem;margin-top:.7rem;font-size:.85rem}
+  #msg.err{color:var(--err)}
+  iframe{position:fixed;inset:0;width:100%;height:100%;border:0;background:#fff;display:none}
+  .home-back{position:fixed;top:10px;left:10px;z-index:9999;display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.55);color:#fff;text-decoration:none;font:600 13px/1.2 system-ui,sans-serif;border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(6px)}.home-back:hover{background:rgba(0,0,0,.75)}
+</style>
+</head>
+<body>
+<a class="home-back" href="../../index.html" title="Strona główna">← Główna</a>
+<div class="box" id="box">
+  <h1>🔒 Partnerka czy Prezeska</h1>
+  <p>Ta strona jest chroniona hasłem.</p>
+  <form id="f" autocomplete="off">
+    <input id="pw" type="password" placeholder="Hasło" autofocus required>
+    <label><input id="show" type="checkbox"> pokaż hasło</label>
+    <button id="go" type="submit">Odblokuj</button>
+  </form>
+  <div id="msg" role="status"></div>
+</div>
+<iframe id="frame" title="Partnerka czy Prezeska"></iframe>
+<script>
+(function(){
+'use strict';
+var META={"v": 1, "kdf": "PBKDF2-SHA256", "iterations": 600000, "salt": "2M1rfWVkNI3b4lvGMfegJw==", "check": "N44KNR6o9p3MHOMJ+lPKG04KsjMx2e5B9qHqnmih"};
+var $=function(i){return document.getElementById(i);};
+var msg=function(t,err){var m=$('msg');m.textContent=t;m.className=err?'err':'';};
+var b64d=function(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u;};
+var dec=function(key,bytes){return crypto.subtle.decrypt({name:'AES-GCM',iv:bytes.slice(0,12)},key,bytes.slice(12));};
+var get=async function(url){var r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status+' ('+url+')');return new Uint8Array(await r.arrayBuffer());};
+var store={},blobs={};
+var dirOf=function(p){return p.indexOf('/')>=0?p.slice(0,p.lastIndexOf('/')+1):'';};
+$('show').onchange=function(){$('pw').type=this.checked?'text':'password';};
+
+function resolve(ref,dir){
+  if(!ref||/^(#|[a-z][a-z0-9+.\-]*:|\/\/)/i.test(ref))return null;
+  try{
+    var u=new URL(ref,'https://x.invalid/'+dir.split('/').map(encodeURIComponent).join('/'));
+    var p=decodeURIComponent(u.pathname.slice(1));
+    return Object.prototype.hasOwnProperty.call(store,p)?p:null;
+  }catch(e){return null;}
+}
+function cssUrls(text,dir){
+  return text.replace(/url\(\s*(['"]?)([^'")]+)\1\s*\)/g,function(m,q,u){
+    var p=resolve(u.trim(),dir);
+    return p&&blobs[p]?'url("'+blobs[p]+'")':m;
+  });
+}
+async function load(key){
+  var man=JSON.parse(new TextDecoder().decode(await dec(key,await get('manifest.enc'))));
+  var paths=Object.keys(man.files),n=0;
+  for(var i=0;i<paths.length;i++){
+    var p=paths[i],f=man.files[p];
+    msg('Odszyfrowuję… '+(++n)+'/'+paths.length);
+    store[p]={bytes:new Uint8Array(await dec(key,await get('d/'+f.id+'.enc'))),mime:f.mime};
+  }
+  paths.forEach(function(p){
+    var m=store[p].mime;
+    if(/^text\/(html|css)/.test(m))return;
+    blobs[p]=URL.createObjectURL(new Blob([store[p].bytes],{type:m}));
+  });
+  paths.forEach(function(p){
+    if(!/^text\/css/.test(store[p].mime))return;
+    var txt=cssUrls(new TextDecoder().decode(store[p].bytes),dirOf(p));
+    blobs[p]=URL.createObjectURL(new Blob([txt],{type:'text/css'}));
+  });
+  return man;
+}
+function render(path){
+  var dir=dirOf(path);
+  var doc=new DOMParser().parseFromString(new TextDecoder().decode(store[path].bytes),'text/html');
+  doc.querySelectorAll('[src],[href],[poster]').forEach(function(el){
+    ['src','href','poster'].forEach(function(a){
+      if(!el.hasAttribute(a))return;
+      var p=resolve(el.getAttribute(a),dir);
+      if(!p)return;
+      if(/^text\/html/.test(store[p].mime)){
+        if(a==='href'&&el.tagName==='A'){el.setAttribute('data-bundle',p);el.setAttribute('href','#');}
+        return;
+      }
+      if(blobs[p])el.setAttribute(a,blobs[p]);
+    });
+  });
+  doc.querySelectorAll('style').forEach(function(s){s.textContent=cssUrls(s.textContent,dir);});
+  doc.querySelectorAll('[style]').forEach(function(e){e.setAttribute('style',cssUrls(e.getAttribute('style'),dir));});
+  var fr=$('frame');
+  fr.onload=function(){
+    try{fr.contentDocument.addEventListener('click',function(e){
+      var a=e.target.closest&&e.target.closest('a[data-bundle]');
+      if(a){e.preventDefault();render(a.getAttribute('data-bundle'));}
+    });}catch(e){}
+  };
+  fr.srcdoc='<!DOCTYPE html>'+doc.documentElement.outerHTML;
+  fr.style.display='block';
+  $('box').style.display='none';
+}
+$('f').onsubmit=async function(e){
+  e.preventDefault();
+  var btn=$('go');btn.disabled=true;btn.textContent='Sprawdzam…';msg('');
+  try{
+    if(!window.crypto||!crypto.subtle)throw new Error('Wymaga HTTPS lub localhost.');
+    var material=await crypto.subtle.importKey('raw',new TextEncoder().encode($('pw').value),'PBKDF2',false,['deriveKey']);
+    var key=await crypto.subtle.deriveKey(
+      {name:'PBKDF2',salt:b64d(META.salt),iterations:META.iterations,hash:'SHA-256'},
+      material,{name:'AES-GCM',length:256},false,['decrypt']);
+    await dec(key,b64d(META.check));
+    var man=await load(key);
+    render(man.entry||Object.keys(man.files)[0]);
+  }catch(err){
+    msg(err&&err.message?err.message:'Nieprawidłowe hasło.',true);
+    btn.disabled=false;btn.textContent='Odblokuj';
+  }
+};
+})();
+</script>
+</body>
+</html>
