@@ -1,0 +1,2734 @@
+Folder PATH listing
+Volume serial number is C27A-975E
+C:.
+|   .gitignore
+|   aktualizacja_config.json
+|   aktualizacja_html.py
+|   galeria.json
+|   index.html
+|   index_komiks.html
+|   ozyrys.zip
+|   requirements.txt
+|   struktura.txt
+|   
++---audio
+|       Ciamna nocka.mp3
+|       Cim ci lim.mp3
+|       Com ja zrobi³a matusiu!.mp3
+|       Czarno masz Marysiu.mp3
+|       Czerwone jagody.mp3
+|       Drepce Kónik drepce.mp3
+|       Drobniusieñko sia³a.mp3
+|       Dziwo¿ona.mp3
+|       index.html
+|       Jakiem siê zalico³.mp3
+|       Jecha³ ch³op z miasta.mp3
+|       Kazali mi kury paœæ.mp3
+|       Kazali mi œpiewaæ.mp3
+|       Kiedym jo zi³a ziunek zielony.mp3
+|       Lecia³y gusanki.mp3
+|       Maryna mi moi ch³opcy.mp3
+|       Matka mnie tu przys³a³a.mp3
+|       Mazurek pa³ucki.mp3
+|       Natrafi³a stara baba.mp3
+|       Nie chce go nie chce.mp3
+|       Obereczek.mp3
+|       Oj do dnia.mp3
+|       Oj nie chodŸ dziewczyno do lasa.mp3
+|       Oj siwy konik.mp3
+|       Olaboga.mp3
+|       Pa³uczanka.mp3
+|       Po cóz zeœcie przyjechali.mp3
+|       Pod borem.mp3
+|       Podró¿niok.mp3
+|       Polka i oberek z Kujaw.mp3
+|       Poniewierany.mp3
+|       Przelecia³ go³¹bek.mp3
+|       PrzyœliŸwa tu przyœli.mp3
+|       Pyta³a siê kasia.mp3
+|       Radam nie rada.mp3
+|       Raj¹ mi ch³opaka.mp3
+|       Skowroneczek.mp3
+|       Stara baba.mp3
+|       Szoc.mp3
+|       S³oñce zasz³o.mp3
+|       Tañcowali byœwa.mp3
+|       Ty dziewcyno moja.mp3
+|       U jezioreczka.mp3
+|       U m³ynareczki.mp3
+|       Wiwat.mp3
+|       Zielona murawka.mp3
+|       Œcie¿ka 1.mp3
+|       Œcie¿ka 10.mp3
+|       Œcie¿ka 11.mp3
+|       Œcie¿ka 12.mp3
+|       Œcie¿ka 13.mp3
+|       Œcie¿ka 14.mp3
+|       Œcie¿ka 15.mp3
+|       Œcie¿ka 16.mp3
+|       Œcie¿ka 17.mp3
+|       Œcie¿ka 18.mp3
+|       Œcie¿ka 19.mp3
+|       Œcie¿ka 2.mp3
+|       Œcie¿ka 20.mp3
+|       Œcie¿ka 21.mp3
+|       Œcie¿ka 22.mp3
+|       Œcie¿ka 23.mp3
+|       Œcie¿ka 24.mp3
+|       Œcie¿ka 25.mp3
+|       Œcie¿ka 26.mp3
+|       Œcie¿ka 27.mp3
+|       Œcie¿ka 28.mp3
+|       Œcie¿ka 29.mp3
+|       Œcie¿ka 3.mp3
+|       Œcie¿ka 30.mp3
+|       Œcie¿ka 4.mp3
+|       Œcie¿ka 5.mp3
+|       Œcie¿ka 6.mp3
+|       Œcie¿ka 7.mp3
+|       Œcie¿ka 8.mp3
+|       Œcie¿ka 9.mp3
+|       
++---columbo
+|   |   asertywnosc1.html
+|   |   chemia1.html
+|   |   excel1.html
+|   |   excel2.html
+|   |   excel3.html
+|   |   fiz1.html
+|   |   googlee4502a57d1aa21e2.html
+|   |   historia1.html
+|   |   index.html
+|   |   InwentaryzacjaMebili.htm
+|   |   konwerter_mp3_ogg.py
+|   |   konwerter_mp3_ogg_wersja2.py
+|   |   mandolina1.html
+|   |   manifest.js
+|   |   nvc1.html
+|   |   nvc3 skasuj stara wersja.html
+|   |   nvc3.html
+|   |   polski1.html
+|   |   pomoz.html
+|   |   psychC.html
+|   |   rower.html
+|   |   sherlock.html
+|   |   spryt.html
+|   |   wloski1.html
+|   |   
+|   +---audio
+|   |       beep.mp3
+|   |       bop.mp3
+|   |       bounce.mp3
+|   |       bubbles.mp3
+|   |       bubblesloud.mp3
+|   |       dripdrop.mp3
+|   |       eureka.mp3
+|   |       flutter.mp3
+|   |       highscore.mp3
+|   |       incoming-ringtone-level30.mp3
+|   |       incoming-ringtone-level40.mp3
+|   |       mandolina_dobrze.mp3
+|   |       mandolina_zle.mp3
+|   |       meetup_ring.mp3
+|   |       nextlevel.mp3
+|   |       plink.mp3
+|   |       remix.mp3
+|   |       ring.mp3
+|   |       ringring.mp3
+|   |       ripple.mp3
+|   |       screenshare_ring.mp3
+|   |       spacetime.mp3
+|   |       teams_meet_up_reminder.mp3
+|   |       teams_notification.mp3
+|   |       wishgranted.mp3
+|   |       wobble.mp3
+|   |       
+|   +---foto
+|   |       readme.md
+|   |       
+|   +---Galeria_odzielna
+|   |       ChatGPT Image 19 cze 2026, 15_30_38.png
+|   |       ChatGPT Image 20 cze 2026, 10_05_24.png
+|   |       Copilot_20260620_124945.png
+|   |       DOcpb.jpg
+|   |       downloadfile-9.mp4
+|   |       dsfdsfds.mp3
+|   |       main.png
+|   |       sdfdsf.png
+|   |       sher.mp3
+|   |       sherholms.jpg
+|   |       
+|   +---historia1
+|   |       WhatsApp Image 2026-03-30 at 14.33.31 (1).jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.31 (2).jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.31 (3).jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.31 (4).jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.31 (5).jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.31 (6).jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.31 (7).jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.31.jpeg
+|   |       WhatsApp Image 2026-03-30 at 14.33.32.jpeg
+|   |       
+|   +---images
+|   |       chemia1.png
+|   |       excel1_01.png
+|   |       excel1_02.png
+|   |       excel2_01.png
+|   |       excel2_02.png
+|   |       excel2_03.png
+|   |       excel2_04.png
+|   |       excel2_05.png
+|   |       excel2_06.png
+|   |       excel2_07.png
+|   |       excel3_01.png
+|   |       excel3_02.png
+|   |       excel3_03.png
+|   |       excel3_04.png
+|   |       excel3_05.png
+|   |       excel3_06.png
+|   |       excel3_07.png
+|   |       excel3_08.png
+|   |       fiz1.png
+|   |       index_obrazki.html
+|   |       komisarz_excel.png
+|   |       main.png
+|   |       main_prompt.txt
+|   |       manifest_images.js
+|   |       polski1.png
+|   |       PROMPT_ogollny_do_testow.txt
+|   |       psychC.png
+|   |       rower.png
+|   |       sher1.png
+|   |       sher2.png
+|   |       sherholms.png
+|   |       wloski1.png
+|   |       
+|   +---mp3
+|   |       chemia1.mp3
+|   |       chemia1.txt
+|   |       excel1.mp3
+|   |       excel1.txt
+|   |       excel3.mp3
+|   |       excel3.txt
+|   |       fiz1.mp3
+|   |       fiz1.txt
+|   |       index.html
+|   |       mandolina1.mp3
+|   |       manifest.js
+|   |       polski1.mp3
+|   |       polski1.txt
+|   |       pomoz.mp3
+|   |       prompt.txt
+|   |       psychC.mp3
+|   |       rekomendacja.mp3
+|   |       rower.mp3
+|   |       rower.txt
+|   |       sherlock.mp3
+|   |       sherlock.txt
+|   |       spryt.mp3
+|   |       styl muzyki detektywa.txt
+|   |       wloski1.mp3
+|   |       wloski1.txt
+|   |       
+|   +---mp4
+|   |       1.mp4
+|   |       2.mp4
+|   |       3.mp4
+|   |       4.mp4
+|   |       excel3.mp4
+|   |       index_mp4.html
+|   |       manifest_mp4.js
+|   |       sher1.mp4
+|   |       sher2.mp4
+|   |       sher3.mp4
+|   |       sher4.mp4
+|   |       
+|   \---nvc3_audio
+|           001.mp3
+|           002.mp3
+|           003.mp3
+|           004.mp3
+|           005.mp3
+|           006.mp3
+|           007.mp3
+|           008.mp3
+|           009.mp3
+|           010.mp3
+|           011.mp3
+|           012.mp3
+|           013.mp3
+|           014.mp3
+|           015.mp3
+|           016.mp3
+|           017.mp3
+|           018.mp3
+|           019.mp3
+|           020.mp3
+|           021.mp3
+|           022.mp3
+|           023.mp3
+|           start.mp3
+|           
++---CV
+|       cv.html
+|       
++---Git_ignore_robocze_pliki
+|   |   aktualizacja_html.py
+|   |   index_przed_aktualizacja.html
+|   |   zalozenia_programu.txt
+|   |   
+|   +---haslo_git_ignore
+|   \---Mezczyzna ma tylko wys³uchac
+|       |   grok_image_jla3tc.jpg
+|       |   grok_image_xcftwoh.jpg
+|       |   
+|       \---robocze
+|               1789887508360.png
+|               1789888038264.png
+|               1789888127028.png
+|               2EFRr.jpg
+|               bUYIC.jpg
+|               
++---html_prywatne_zrodla
+|       etykieta.html
+|       
++---html_publiczne
+|   +---gra_ktorej_nie_bylo
+|   |       index.html
+|   |       readme.md
+|   |       
+|   +---Program do etykiet
+|   |       index.html
+|   |       
+|   \---_DANE_DO_PROMTOW_PLIKI_ZRODLOWE_STALE
+|           logo.png
+|           
++---images_prywatne
+|   +---48h
+|   |       4fwQT.jpg
+|   |       ChatGPT Image 20 wrz 2026, 14 21 23.png
+|   |       ChatGPT Image 20 wrz 2026, 14_21_23.png
+|   |       Gemini Generated Image 1bqydy1bqydy1bqy (1).jpg
+|   |       Gemini Generated Image 1bqydy1bqydy1bqy.jpg
+|   |       Gemini Generated Image 425v5g425v5g425v (1).jpg
+|   |       Gemini Generated Image 425v5g425v5g425v.jpg
+|   |       Gemini Generated Image vqydfzvqydfzvqyd.jpg
+|   |       Gemini_Generated_Image_1bqydy1bqydy1bqy (1).jfif
+|   |       Gemini_Generated_Image_1bqydy1bqydy1bqy.jfif
+|   |       Gemini_Generated_Image_425v5g425v5g425v (1).jfif
+|   |       Gemini_Generated_Image_425v5g425v5g425v.jfif
+|   |       Gemini_Generated_Image_vqydfzvqydfzvqyd.jfif
+|   |       RefiP.jpg
+|   |       s5ZUY.jpg
+|   |       Sk2qf (1).jpg
+|   |       Sk2qf.jpg
+|   |       ztL5H (1).jpg
+|   |       ztL5H.jpg
+|   |       
+|   +---numer7
+|   |       czarn.jpg
+|   |       Gemini Generated Image 354ye0354ye0354y.jpg
+|   |       Gemini Generated Image ddpl0zddpl0zddpl.png
+|   |       Gemini Generated Image mgauubmgauubmgau.jpg
+|   |       Gemini Generated Image r0keq6r0keq6r0ke.png
+|   |       Gemini Generated Image yukdc9yukdc9yukd.png
+|   |       Gemini_Generated_Image_354ye0354ye0354y.jfif
+|   |       Gemini_Generated_Image_ddpl0zddpl0zddpl.png
+|   |       Gemini_Generated_Image_mgauubmgauubmgau.jfif
+|   |       Gemini_Generated_Image_r0keq6r0keq6r0ke.png
+|   |       Gemini_Generated_Image_yukdc9yukdc9yukd.png
+|   |       NIOit.jpg
+|   |       Nxwbh (1).jpg
+|   |       Nxwbh.jpg
+|   |       odpowiedni wiek.jpg
+|   |       odpowiedni_wiek.jpg
+|   |       omAWy.jpg
+|   |       oUkAM.jpg
+|   |       prompt.txt
+|   |       
+|   +---tyler Wszystkie przyklady Tyler responder wgra³em na google pawal wiecka mozna skasowac
+|   |       emotka twarz zlosc(1).jpg
+|   |       emotka twarz zlosc(10).jpg
+|   |       emotka twarz zlosc(11).jpg
+|   |       emotka twarz zlosc(12).jpg
+|   |       emotka twarz zlosc(13).jpg
+|   |       emotka twarz zlosc(14).jpg
+|   |       emotka twarz zlosc(15).jpg
+|   |       emotka twarz zlosc(16).jpg
+|   |       emotka twarz zlosc(17).jpg
+|   |       emotka twarz zlosc(18).jpg
+|   |       emotka twarz zlosc(19).jpg
+|   |       emotka twarz zlosc(2).jpg
+|   |       emotka twarz zlosc(20).jpg
+|   |       emotka twarz zlosc(21).jpg
+|   |       emotka twarz zlosc(22).jpg
+|   |       emotka twarz zlosc(23).jpg
+|   |       emotka twarz zlosc(24).jpg
+|   |       emotka twarz zlosc(25).jpg
+|   |       emotka twarz zlosc(26).jpg
+|   |       emotka twarz zlosc(27).jpg
+|   |       emotka twarz zlosc(28).jpg
+|   |       emotka twarz zlosc(29).jpg
+|   |       emotka twarz zlosc(3).jpg
+|   |       emotka twarz zlosc(30).jpg
+|   |       emotka twarz zlosc(31).jpg
+|   |       emotka twarz zlosc(32).jpg
+|   |       emotka twarz zlosc(33).jpg
+|   |       emotka twarz zlosc(34).jpg
+|   |       emotka twarz zlosc(35).jpg
+|   |       emotka twarz zlosc(36).jpg
+|   |       emotka twarz zlosc(37).jpg
+|   |       emotka twarz zlosc(38).jpg
+|   |       emotka twarz zlosc(39).jpg
+|   |       emotka twarz zlosc(4).jpg
+|   |       emotka twarz zlosc(40).jpg
+|   |       emotka twarz zlosc(41).jpg
+|   |       emotka twarz zlosc(42).jpg
+|   |       emotka twarz zlosc(43).jpg
+|   |       emotka twarz zlosc(44).jpg
+|   |       emotka twarz zlosc(45).jpg
+|   |       emotka twarz zlosc(46).jpg
+|   |       emotka twarz zlosc(47).jpg
+|   |       emotka twarz zlosc(48).jpg
+|   |       emotka twarz zlosc(5).jpg
+|   |       emotka twarz zlosc(6).jpg
+|   |       emotka twarz zlosc(7).jpg
+|   |       emotka twarz zlosc(8).jpg
+|   |       emotka twarz zlosc(9).jpg
+|   |       emotka twarz zlosc.jpg
+|   |       emotka_twarz_zlosc(1).jpg
+|   |       emotka_twarz_zlosc(10).jpg
+|   |       emotka_twarz_zlosc(11).jpg
+|   |       emotka_twarz_zlosc(12).jpg
+|   |       emotka_twarz_zlosc(13).jpg
+|   |       emotka_twarz_zlosc(14).jpg
+|   |       emotka_twarz_zlosc(15).jpg
+|   |       emotka_twarz_zlosc(16).jpg
+|   |       emotka_twarz_zlosc(17).jpg
+|   |       emotka_twarz_zlosc(18).jpg
+|   |       emotka_twarz_zlosc(19).jpg
+|   |       emotka_twarz_zlosc(2).jpg
+|   |       emotka_twarz_zlosc(20).jpg
+|   |       emotka_twarz_zlosc(21).jpg
+|   |       emotka_twarz_zlosc(22).jpg
+|   |       emotka_twarz_zlosc(23).jpg
+|   |       emotka_twarz_zlosc(24).jpg
+|   |       emotka_twarz_zlosc(25).jpg
+|   |       emotka_twarz_zlosc(26).jpg
+|   |       emotka_twarz_zlosc(27).jpg
+|   |       emotka_twarz_zlosc(28).jpg
+|   |       emotka_twarz_zlosc(29).jpg
+|   |       emotka_twarz_zlosc(3).jpg
+|   |       emotka_twarz_zlosc(30).jpg
+|   |       emotka_twarz_zlosc(31).jpg
+|   |       emotka_twarz_zlosc(32).jpg
+|   |       emotka_twarz_zlosc(33).jpg
+|   |       emotka_twarz_zlosc(34).jpg
+|   |       emotka_twarz_zlosc(35).jpg
+|   |       emotka_twarz_zlosc(36).jpg
+|   |       emotka_twarz_zlosc(37).jpg
+|   |       emotka_twarz_zlosc(38).jpg
+|   |       emotka_twarz_zlosc(39).jpg
+|   |       emotka_twarz_zlosc(4).jpg
+|   |       emotka_twarz_zlosc(40).jpg
+|   |       emotka_twarz_zlosc(41).jpg
+|   |       emotka_twarz_zlosc(42).jpg
+|   |       emotka_twarz_zlosc(43).jpg
+|   |       emotka_twarz_zlosc(44).jpg
+|   |       emotka_twarz_zlosc(45).jpg
+|   |       emotka_twarz_zlosc(46).jpg
+|   |       emotka_twarz_zlosc(47).jpg
+|   |       emotka_twarz_zlosc(48).jpg
+|   |       emotka_twarz_zlosc(5).jpg
+|   |       emotka_twarz_zlosc(6).jpg
+|   |       emotka_twarz_zlosc(7).jpg
+|   |       emotka_twarz_zlosc(8).jpg
+|   |       emotka_twarz_zlosc(9).jpg
+|   |       emotka_twarz_zlosc.jpg
+|   |       psych pacjent 20260414 000519.jpg
+|   |       psych pacjent 20260414 010601.jpg
+|   |       psych pacjent 20260414 052122.jpg
+|   |       psych pacjent 20260501 102126.jpg
+|   |       psych pacjent 20260501 125222.jpg
+|   |       psych pacjent 20260501 152252.jpg
+|   |       psych pacjent 20260501 163830.jpg
+|   |       psych pacjent 20260501 201044.jpg
+|   |       psych pacjent 20260501 202659.jpg
+|   |       psych pacjent 20260501 205046.jpg
+|   |       psych pacjent 20260503 113926.jpg
+|   |       psych pacjent 20260503 120924.jpg
+|   |       psych przedmioty 20260414 000519.jpg
+|   |       psych przedmioty 20260414 010601.jpg
+|   |       psych przedmioty 20260414 052122.jpg
+|   |       psych przedmioty 20260501 102142.jpg
+|   |       psych przedmioty 20260501 125239.jpg
+|   |       psych przedmioty 20260501 152252.jpg
+|   |       psych przedmioty 20260501 163814.jpg
+|   |       psych przedmioty 20260501 201044.jpg
+|   |       psych przedmioty 20260501 202700.jpg
+|   |       psych przedmioty 20260501 205102.jpg
+|   |       psych przedmioty 20260503 113910.jpg
+|   |       psych przedmioty 20260503 120940.jpg
+|   |       psych_pacjent_20260414_000519.jpg
+|   |       psych_pacjent_20260414_010601.jpg
+|   |       psych_pacjent_20260414_052122.jpg
+|   |       psych_pacjent_20260501_102126.jpg
+|   |       psych_pacjent_20260501_125222.jpg
+|   |       psych_pacjent_20260501_152252.jpg
+|   |       psych_pacjent_20260501_163830.jpg
+|   |       psych_pacjent_20260501_201044.jpg
+|   |       psych_pacjent_20260501_202659.jpg
+|   |       psych_pacjent_20260501_205046.jpg
+|   |       psych_pacjent_20260503_113926.jpg
+|   |       psych_pacjent_20260503_120924.jpg
+|   |       psych_przedmioty_20260414_000519.jpg
+|   |       psych_przedmioty_20260414_010601.jpg
+|   |       psych_przedmioty_20260414_052122.jpg
+|   |       psych_przedmioty_20260501_102142.jpg
+|   |       psych_przedmioty_20260501_125239.jpg
+|   |       psych_przedmioty_20260501_152252.jpg
+|   |       psych_przedmioty_20260501_163814.jpg
+|   |       psych_przedmioty_20260501_201044.jpg
+|   |       psych_przedmioty_20260501_202700.jpg
+|   |       psych_przedmioty_20260501_205102.jpg
+|   |       psych_przedmioty_20260503_113910.jpg
+|   |       psych_przedmioty_20260503_120940.jpg
+|   |       tyler 20260315 111929 panel1.jpg
+|   |       tyler 20260315 111938 panel2.jpg
+|   |       tyler 20260315 111951 panel3.jpg
+|   |       tyler 20260315 115321 panel1.jpg
+|   |       tyler 20260315 115328 panel2.jpg
+|   |       tyler 20260315 115336 panel3.jpg
+|   |       tyler 20260315 115858 panel1.jpg
+|   |       tyler 20260315 115905 panel2.jpg
+|   |       tyler 20260315 115913 panel3.jpg
+|   |       tyler 20260315 122302 panel1.jpg
+|   |       tyler 20260315 122311 panel2.jpg
+|   |       tyler 20260315 122319 panel3.jpg
+|   |       tyler 20260315 123305 panel1.jpg
+|   |       tyler 20260315 123312 panel2.jpg
+|   |       tyler 20260315 123324 panel3.jpg
+|   |       tyler 20260315 132341 panel1.jpg
+|   |       tyler 20260315 132349 panel2.jpg
+|   |       tyler 20260315 132357 panel3.jpg
+|   |       tyler 20260315 132958 panel1.jpg
+|   |       tyler 20260315 133005 panel2.jpg
+|   |       tyler 20260315 133012 panel3.jpg
+|   |       tyler 20260315 134424 panel1.jpg
+|   |       tyler 20260315 134431 panel2.jpg
+|   |       tyler 20260315 134439 panel3.jpg
+|   |       tyler 20260315 134950 panel1.jpg
+|   |       tyler 20260315 134958 panel2.jpg
+|   |       tyler 20260315 135005 panel3.jpg
+|   |       tyler 20260315 140234 panel1.jpg
+|   |       tyler 20260315 140242 panel2.jpg
+|   |       tyler 20260315 140250 panel3.jpg
+|   |       tyler 20260315 142008 panel1.jpg
+|   |       tyler 20260315 142016 panel2.jpg
+|   |       tyler 20260315 142023 panel3.jpg
+|   |       tyler 20260315 143933 panel1.jpg
+|   |       tyler 20260315 143941 panel2.jpg
+|   |       tyler 20260315 143948 panel3.jpg
+|   |       tyler 20260315 144302 panel1.jpg
+|   |       tyler 20260315 144309 panel2.jpg
+|   |       tyler 20260315 144316 panel3.jpg
+|   |       tyler 20260315 145041 panel1.jpg
+|   |       tyler 20260315 145056 panel2.jpg
+|   |       tyler 20260315 145107 panel3.jpg
+|   |       tyler 20260315 145130 panel1.jpg
+|   |       tyler 20260315 145138 panel2.jpg
+|   |       tyler 20260315 145145 panel3.jpg
+|   |       tyler 20260315 152730 panel1.jpg
+|   |       tyler 20260315 152737 panel2.jpg
+|   |       tyler 20260315 152745 panel3.jpg
+|   |       tyler 20260315 161301 panel1.jpg
+|   |       tyler 20260315 161307 panel1.jpg
+|   |       tyler 20260315 161310 panel2.jpg
+|   |       tyler 20260315 161316 panel2.jpg
+|   |       tyler 20260315 161318 panel3.jpg
+|   |       tyler 20260315 161324 panel3.jpg
+|   |       tyler 20260315 162818 panel1 txt.jpg
+|   |       tyler 20260315 162826 panel2 txt.jpg
+|   |       tyler 20260315 162834 panel3 txt.jpg
+|   |       tyler 20260315 164226 panel1 txt.jpg
+|   |       tyler 20260315 164234 panel2 txt.jpg
+|   |       tyler 20260315 164241 panel3 txt.jpg
+|   |       tyler 20260316 111141 panel1 txt.jpg
+|   |       tyler 20260316 111149 panel2 txt.jpg
+|   |       tyler 20260316 111158 panel3 txt.jpg
+|   |       tyler 20260316 135625 panel1 txt.jpg
+|   |       tyler 20260316 135633 panel2 txt.jpg
+|   |       tyler 20260316 135641 panel3 txt.jpg
+|   |       tyler 20260317 032721 panel1 txt.jpg
+|   |       tyler 20260317 032728 panel2 txt.jpg
+|   |       tyler 20260317 032735 panel3 txt.jpg
+|   |       tyler 20260317 035655 panel1 txt.jpg
+|   |       tyler 20260317 035702 panel2 txt.jpg
+|   |       tyler 20260317 035710 panel3 txt.jpg
+|   |       tyler 20260318 044545 panel1 txt.jpg
+|   |       tyler 20260318 044553 panel2 txt.jpg
+|   |       tyler 20260318 044600 panel3 txt.jpg
+|   |       tyler 20260318 201558 panel1 txt.jpg
+|   |       tyler 20260318 201606 panel2 txt.jpg
+|   |       tyler 20260318 201617 panel3 txt.jpg
+|   |       tyler 20260319 034544 panel1 txt.jpg
+|   |       tyler 20260319 034554 panel2 txt.jpg
+|   |       tyler 20260319 034602 panel3 txt.jpg
+|   |       tyler 20260321 105150 panel1 txt.jpg
+|   |       tyler 20260321 105158 panel2 txt.jpg
+|   |       tyler 20260321 105205 panel3 txt.jpg
+|   |       tyler 20260321 115714 panel1 txt.jpg
+|   |       tyler 20260321 115722 panel2 txt.jpg
+|   |       tyler 20260321 115729 panel3 txt.jpg
+|   |       tyler 20260321 124554 panel1 txt.jpg
+|   |       tyler 20260321 124628 panel2 txt.jpg
+|   |       tyler 20260321 124647 panel3 txt.jpg
+|   |       tyler 20260321 133056 panel1 txt.jpg
+|   |       tyler 20260321 133105 panel2 txt.jpg
+|   |       tyler 20260321 133113 panel3 txt.jpg
+|   |       tyler 20260321 134458 panel1 txt.jpg
+|   |       tyler 20260321 134506 panel2 txt.jpg
+|   |       tyler 20260321 134514 panel3 txt.jpg
+|   |       tyler 20260321 141120 panel1 txt.jpg
+|   |       tyler 20260321 141128 panel2 txt.jpg
+|   |       tyler 20260321 141136 panel3 txt.jpg
+|   |       tyler 20260321 142732 panel1 txt.jpg
+|   |       tyler 20260321 142755 panel2 txt.jpg
+|   |       tyler 20260321 142802 panel3 txt.jpg
+|   |       tyler 20260321 155257 panel1 txt.jpg
+|   |       tyler 20260321 155305 panel2 txt.jpg
+|   |       tyler 20260321 155313 panel3 txt.jpg
+|   |       tyler 20260321 155754 panel1 txt.jpg
+|   |       tyler 20260321 155803 panel2 txt.jpg
+|   |       tyler 20260321 155811 panel3 txt.jpg
+|   |       tyler 20260321 165716 panel1 txt.jpg
+|   |       tyler 20260321 165724 panel2 txt.jpg
+|   |       tyler 20260321 165733 panel3 txt.jpg
+|   |       tyler 20260321 172509 panel1 txt.jpg
+|   |       tyler 20260321 172523 panel2 txt.jpg
+|   |       tyler 20260321 172538 panel3 txt.jpg
+|   |       tyler 20260321 174618 panel1 txt.jpg
+|   |       tyler 20260321 174634 panel2 txt.jpg
+|   |       tyler 20260321 174647 panel3 txt.jpg
+|   |       tyler 20260321 194607 panel1 txt.jpg
+|   |       tyler 20260321 194618 panel2 txt.jpg
+|   |       tyler 20260321 194630 panel3 txt.jpg
+|   |       tyler 20260322 084540 panel1 txt.jpg
+|   |       tyler 20260322 084600 panel2 txt.jpg
+|   |       tyler 20260322 084601 panel1 txt.jpg
+|   |       tyler 20260322 084612 panel3 txt.jpg
+|   |       tyler 20260322 084616 panel2 txt.jpg
+|   |       tyler 20260322 084631 panel3 txt.jpg
+|   |       tyler 20260322 092118 panel1 txt.jpg
+|   |       tyler 20260322 092131 panel2 txt.jpg
+|   |       tyler 20260322 092145 panel3 txt.jpg
+|   |       tyler 20260322 104554 panel1 txt.jpg
+|   |       tyler 20260322 104607 panel2 txt.jpg
+|   |       tyler 20260322 104621 panel3 txt.jpg
+|   |       tyler 20260322 145116 panel1 txt.jpg
+|   |       tyler 20260322 145125 panel2 txt.jpg
+|   |       tyler 20260322 145136 panel3 txt.jpg
+|   |       tyler 20260322 160319 panel1 txt.jpg
+|   |       tyler 20260322 160336 panel2 txt.jpg
+|   |       tyler 20260322 160355 panel3 txt.jpg
+|   |       tyler 20260322 161557 panel1 txt.jpg
+|   |       tyler 20260322 161606 panel2 txt.jpg
+|   |       tyler 20260322 161615 panel3 txt.jpg
+|   |       tyler 20260322 163731 panel1 txt.jpg
+|   |       tyler 20260322 163740 panel2 txt.jpg
+|   |       tyler 20260322 163749 panel3 txt.jpg
+|   |       tyler 20260322 171104 panel1 txt.jpg
+|   |       tyler 20260322 171113 panel2 txt.jpg
+|   |       tyler 20260322 171123 panel3 txt.jpg
+|   |       tyler 20260322 171329 panel1 txt.jpg
+|   |       tyler 20260322 171338 panel2 txt.jpg
+|   |       tyler 20260322 171349 panel3 txt.jpg
+|   |       tyler 20260322 174139 panel1 txt.jpg
+|   |       tyler 20260322 174148 panel2 txt.jpg
+|   |       tyler 20260322 174158 panel3 txt.jpg
+|   |       tyler 20260322 185141 panel1 txt.jpg
+|   |       tyler 20260322 185150 panel2 txt.jpg
+|   |       tyler 20260322 185158 panel3 txt.jpg
+|   |       tyler 20260322 192635 panel1 txt.jpg
+|   |       tyler 20260322 192644 panel2 txt.jpg
+|   |       tyler 20260322 192653 panel3 txt.jpg
+|   |       tyler 20260322 193434 panel1 txt.jpg
+|   |       tyler 20260322 193442 panel2 txt.jpg
+|   |       tyler 20260322 193452 panel3 txt.jpg
+|   |       tyler 20260323 034601 panel1 txt.jpg
+|   |       tyler 20260323 034618 panel2 txt.jpg
+|   |       tyler 20260323 034626 panel3 txt.jpg
+|   |       tyler 20260323 044556 panel1 txt.jpg
+|   |       tyler 20260323 044604 panel2 txt.jpg
+|   |       tyler 20260323 044612 panel3 txt.jpg
+|   |       tyler 20260323 083453 panel1 txt.jpg
+|   |       tyler 20260323 083502 panel2 txt.jpg
+|   |       tyler 20260323 083511 panel3 txt.jpg
+|   |       tyler 20260323 111041 panel1 txt.jpg
+|   |       tyler 20260323 111052 panel2 txt.jpg
+|   |       tyler 20260323 111101 panel3 txt.jpg
+|   |       tyler 20260323 141602 panel1 txt.jpg
+|   |       tyler 20260323 141610 panel2 txt.jpg
+|   |       tyler 20260323 141619 panel3 txt.jpg
+|   |       tyler 20260323 144603 panel1 txt.jpg
+|   |       tyler 20260323 144613 panel2 txt.jpg
+|   |       tyler 20260323 144624 panel3 txt.jpg
+|   |       tyler 20260323 233505 panel1 txt.jpg
+|   |       tyler 20260323 233530 panel2 txt.jpg
+|   |       tyler 20260323 233554 panel3 txt.jpg
+|   |       tyler 20260324 073104 panel1 txt.jpg
+|   |       tyler 20260324 073113 panel2 txt.jpg
+|   |       tyler 20260324 073122 panel3 txt.jpg
+|   |       tyler 20260324 084558 panel1 txt.jpg
+|   |       tyler 20260324 084607 panel2 txt.jpg
+|   |       tyler 20260324 084616 panel3 txt.jpg
+|   |       tyler 20260324 100507 panel1 txt.jpg
+|   |       tyler 20260324 100520 panel2 txt.jpg
+|   |       tyler 20260324 100539 panel3 txt.jpg
+|   |       tyler 20260324 110643 panel1 txt.jpg
+|   |       tyler 20260324 110700 panel2 txt.jpg
+|   |       tyler 20260324 110712 panel3 txt.jpg
+|   |       tyler 20260324 113121 panel1 txt.jpg
+|   |       tyler 20260324 113129 panel2 txt.jpg
+|   |       tyler 20260324 113137 panel3 txt.jpg
+|   |       tyler 20260324 120243 panel1 txt.jpg
+|   |       tyler 20260324 120252 panel2 txt.jpg
+|   |       tyler 20260324 120300 panel3 txt.jpg
+|   |       tyler 20260324 122403 panel1 txt.jpg
+|   |       tyler 20260324 122413 panel2 txt.jpg
+|   |       tyler 20260324 122425 panel3 txt.jpg
+|   |       tyler 20260324 181608 panel1 txt.jpg
+|   |       tyler 20260324 181619 panel2 txt.jpg
+|   |       tyler 20260324 181629 panel3 txt.jpg
+|   |       tyler 20260325 044602 panel1 txt.jpg
+|   |       tyler 20260325 044612 panel2 txt.jpg
+|   |       tyler 20260325 044622 panel3 txt.jpg
+|   |       tyler 20260325 113750 panel1 txt.jpg
+|   |       tyler 20260325 113804 panel2 txt.jpg
+|   |       tyler 20260325 113821 panel3 txt.jpg
+|   |       tyler 20260325 122742 panel1 txt.jpg
+|   |       tyler 20260325 122755 panel2 txt.jpg
+|   |       tyler 20260325 122805 panel3 txt.jpg
+|   |       tyler 20260325 124910 panel1 txt.jpg
+|   |       tyler 20260325 124921 panel2 txt.jpg
+|   |       tyler 20260325 124931 panel3 txt.jpg
+|   |       tyler 20260325 132151 panel1 txt.jpg
+|   |       tyler 20260325 132201 panel2 txt.jpg
+|   |       tyler 20260325 132213 panel3 txt.jpg
+|   |       tyler 20260325 144125 panel1 txt.jpg
+|   |       tyler 20260325 144135 panel2 txt.jpg
+|   |       tyler 20260325 144145 panel3 txt.jpg
+|   |       tyler 20260325 144157 panel4 txt.jpg
+|   |       tyler 20260325 151440 panel1 txt.jpg
+|   |       tyler 20260325 151450 panel2 txt.jpg
+|   |       tyler 20260325 151501 panel3 txt.jpg
+|   |       tyler 20260325 151514 panel4 txt.jpg
+|   |       tyler 20260325 153029 panel1 txt.jpg
+|   |       tyler 20260325 153039 panel2 txt.jpg
+|   |       tyler 20260325 153049 panel3 txt.jpg
+|   |       tyler 20260325 153059 panel4 txt.jpg
+|   |       tyler 20260326 141616 panel1 txt.jpg
+|   |       tyler 20260326 141627 panel2 txt.jpg
+|   |       tyler 20260326 141639 panel3 txt.jpg
+|   |       tyler 20260326 141651 panel4 txt.jpg
+|   |       tyler 20260326 145312 panel1 txt.jpg
+|   |       tyler 20260326 145333 panel2 txt.jpg
+|   |       tyler 20260326 145346 panel3 txt.jpg
+|   |       tyler 20260326 145359 panel4 txt.jpg
+|   |       tyler 20260326 193902 panel1 txt.jpg
+|   |       tyler 20260327 071512 panel1 txt.jpg
+|   |       tyler 20260327 071522 panel2 txt.jpg
+|   |       tyler 20260327 071534 panel3 txt.jpg
+|   |       tyler 20260327 071546 panel4 txt.jpg
+|   |       tyler 20260327 071602 panel5 txt.jpg
+|   |       tyler 20260327 071612 panel6 txt.jpg
+|   |       tyler 20260327 071623 panel7 txt.jpg
+|   |       tyler 20260327 082907 panel1 txt.jpg
+|   |       tyler 20260327 082917 panel2 txt.jpg
+|   |       tyler 20260327 082931 panel3 txt.jpg
+|   |       tyler 20260327 082941 panel4 txt.jpg
+|   |       tyler 20260327 082951 panel5 txt.jpg
+|   |       tyler 20260327 083002 panel6 txt.jpg
+|   |       tyler 20260327 083012 panel7 txt.jpg
+|   |       tyler 20260328 101042 panel1 txt.jpg
+|   |       tyler 20260328 101054 panel2 txt.jpg
+|   |       tyler 20260407 024358 panel5 txt.jpg
+|   |       tyler 20260407 152255 panel2 txt.jpg
+|   |       tyler 20260408 164558 panel3 txt.jpg
+|   |       tyler 20260408 164600 panel2 txt.jpg
+|   |       tyler 20260408 164600 panel7 txt.jpg
+|   |       tyler 20260408 164604 panel6 txt.jpg
+|   |       tyler 20260408 164605 panel5 txt.jpg
+|   |       tyler 20260408 164606 panel4 txt.jpg
+|   |       tyler 20260408 164608 panel1 txt.jpg
+|   |       tyler 20260408 171753 panel5 txt.jpg
+|   |       tyler 20260408 171753 panel6 txt.jpg
+|   |       tyler 20260408 171753 panel7 txt.jpg
+|   |       tyler 20260408 171754 panel4 txt.jpg
+|   |       tyler 20260408 171756 panel3 txt.jpg
+|   |       tyler 20260408 171757 panel1 txt.jpg
+|   |       tyler 20260408 171757 panel2 txt.jpg
+|   |       tyler 20260409 172932 panel7 txt.jpg
+|   |       tyler 20260409 172933 panel6 txt.jpg
+|   |       tyler 20260409 172934 panel4 txt.jpg
+|   |       tyler 20260409 172934 panel5 txt.jpg
+|   |       tyler 20260409 172935 panel2 txt.jpg
+|   |       tyler 20260409 172936 panel1 txt.jpg
+|   |       tyler 20260409 172936 panel3 txt.jpg
+|   |       tyler 20260409 190052 panel7 txt.jpg
+|   |       tyler 20260409 190053 panel6 txt.jpg
+|   |       tyler 20260409 190058 panel5 txt.jpg
+|   |       tyler 20260409 190100 panel4 txt.jpg
+|   |       tyler 20260409 190101 panel3 txt.jpg
+|   |       tyler 20260409 190102 panel1 txt.jpg
+|   |       tyler 20260409 190104 panel2 txt.jpg
+|   |       tyler 20260409 192622 panel6 txt.jpg
+|   |       tyler 20260409 192622 panel7 txt.jpg
+|   |       tyler 20260409 192625 panel4 txt.jpg
+|   |       tyler 20260409 192625 panel5 txt.jpg
+|   |       tyler 20260409 192626 panel1 txt.jpg
+|   |       tyler 20260409 192626 panel3 txt.jpg
+|   |       tyler 20260409 192627 panel2 txt.jpg
+|   |       tyler 20260409 203447 panel4 txt.jpg
+|   |       tyler 20260409 203447 panel5 txt.jpg
+|   |       tyler 20260409 203448 panel3 txt.jpg
+|   |       tyler 20260409 203449 panel1 txt.jpg
+|   |       tyler 20260409 203449 panel2 txt.jpg
+|   |       tyler 20260409 214636 panel5 txt.jpg
+|   |       tyler 20260409 214636 panel6 txt.jpg
+|   |       tyler 20260409 214636 panel7 txt.jpg
+|   |       tyler 20260409 214637 panel4 txt.jpg
+|   |       tyler 20260409 214639 panel3 txt.jpg
+|   |       tyler 20260409 214640 panel2 txt.jpg
+|   |       tyler 20260409 214641 panel1 txt.jpg
+|   |       tyler 20260409 221157 panel6 txt.jpg
+|   |       tyler 20260409 221157 panel7 txt.jpg
+|   |       tyler 20260409 221200 panel5 txt.jpg
+|   |       tyler 20260409 221201 panel4 txt.jpg
+|   |       tyler 20260409 221205 panel3 txt.jpg
+|   |       tyler 20260409 221206 panel1 txt.jpg
+|   |       tyler 20260409 221207 panel2 txt.jpg
+|   |       tyler 20260413 234359 panel1 txt.jpg
+|   |       tyler 20260413 234402 panel2 txt.jpg
+|   |       tyler 20260413 234404 panel3 txt.jpg
+|   |       tyler 20260413 234406 panel4 txt.jpg
+|   |       tyler 20260413 234408 panel5 txt.jpg
+|   |       tyler 20260413 234410 panel6 txt.jpg
+|   |       tyler 20260413 234412 panel7 txt.jpg
+|   |       tyler 20260413 235901 panel1 txt.jpg
+|   |       tyler 20260413 235910 panel5 txt.jpg
+|   |       tyler 20260414 002859 panel1 txt.jpg
+|   |       tyler 20260414 002904 panel2 txt.jpg
+|   |       tyler 20260414 002909 panel3 txt.jpg
+|   |       tyler 20260414 002912 panel4 txt.jpg
+|   |       tyler 20260414 002915 panel5 txt.jpg
+|   |       tyler 20260414 002918 panel6 txt.jpg
+|   |       tyler 20260414 002922 panel7 txt.jpg
+|   |       tyler 20260414 004420 panel1 txt.jpg
+|   |       tyler 20260414 004427 panel2 txt.jpg
+|   |       tyler 20260414 004431 panel3 txt.jpg
+|   |       tyler 20260414 004433 panel4 txt.jpg
+|   |       tyler 20260414 004435 panel5 txt.jpg
+|   |       tyler 20260414 004437 panel6 txt.jpg
+|   |       tyler 20260414 004439 panel7 txt.jpg
+|   |       tyler 20260414 005900 panel1 txt.jpg
+|   |       tyler 20260414 012938 panel1 txt.jpg
+|   |       tyler 20260414 012954 panel3 txt.jpg
+|   |       tyler 20260414 013008 panel5 txt.jpg
+|   |       tyler 20260414 013022 panel6 txt.jpg
+|   |       tyler 20260414 013032 panel7 txt.jpg
+|   |       tyler 20260414 041400 panel2 txt.jpg
+|   |       tyler 20260414 041402 panel3 txt.jpg
+|   |       tyler 20260414 041404 panel4 txt.jpg
+|   |       tyler 20260414 041408 panel5 txt.jpg
+|   |       tyler 20260414 041410 panel6 txt.jpg
+|   |       tyler 20260414 041412 panel7 txt.jpg
+|   |       tyler 20260414 044435 panel1 txt.jpg
+|   |       tyler 20260414 045940 panel1 txt.jpg
+|   |       tyler 20260414 045946 panel3 txt.jpg
+|   |       tyler 20260414 045948 panel4 txt.jpg
+|   |       tyler 20260414 045953 panel6 txt.jpg
+|   |       tyler 20260414 052955 panel1 txt.jpg
+|   |       tyler 20260414 052957 panel2 txt.jpg
+|   |       tyler 20260414 052959 panel3 txt.jpg
+|   |       tyler 20260414 053001 panel4 txt.jpg
+|   |       tyler 20260414 053037 panel5 txt.jpg
+|   |       tyler 20260414 053117 panel6 txt.jpg
+|   |       tyler 20260414 053143 panel7 txt.jpg
+|   |       tyler 20260416 172644 panel1 txt.jpg
+|   |       tyler 20260416 172647 panel2 txt.jpg
+|   |       tyler 20260416 172651 panel3 txt.jpg
+|   |       tyler 20260416 172655 panel4 txt.jpg
+|   |       tyler 20260416 172659 panel5 txt.jpg
+|   |       tyler 20260416 172703 panel6 txt.jpg
+|   |       tyler 20260416 172707 panel7 txt.jpg
+|   |       tyler 20260419 202353 panel1 txt.jpg
+|   |       tyler 20260419 202355 panel2 txt.jpg
+|   |       tyler 20260419 202357 panel3 txt.jpg
+|   |       tyler 20260419 202359 panel4 txt.jpg
+|   |       tyler 20260419 202402 panel5 txt.jpg
+|   |       tyler 20260419 202404 panel6 txt.jpg
+|   |       tyler 20260419 202406 panel7 txt.jpg
+|   |       tyler 20260419 202810 panel1 txt.jpg
+|   |       tyler 20260419 202812 panel2 txt.jpg
+|   |       tyler 20260419 202814 panel3 txt.jpg
+|   |       tyler 20260419 202818 panel4 txt.jpg
+|   |       tyler 20260419 202821 panel5 txt.jpg
+|   |       tyler 20260419 202823 panel6 txt.jpg
+|   |       tyler 20260419 202827 panel7 txt.jpg
+|   |       tyler 20260419 215230 panel1 txt.jpg
+|   |       tyler 20260419 215234 panel2 txt.jpg
+|   |       tyler 20260419 215241 panel3 txt.jpg
+|   |       tyler 20260419 215243 panel4 txt.jpg
+|   |       tyler 20260419 215247 panel5 txt.jpg
+|   |       tyler 20260419 215250 panel6 txt.jpg
+|   |       tyler 20260419 215252 panel7 txt.jpg
+|   |       tyler 20260419 223205 panel1 txt.jpg
+|   |       tyler 20260419 223208 panel2 txt.jpg
+|   |       tyler 20260419 223212 panel3 txt.jpg
+|   |       tyler 20260419 223216 panel4 txt.jpg
+|   |       tyler 20260419 223220 panel5 txt.jpg
+|   |       tyler 20260419 223223 panel6 txt.jpg
+|   |       tyler 20260419 223230 panel7 txt.jpg
+|   |       tyler 20260419 231311 panel1 txt.jpg
+|   |       tyler 20260419 231315 panel2 txt.jpg
+|   |       tyler 20260419 231318 panel3 txt.jpg
+|   |       tyler 20260419 231322 panel4 txt.jpg
+|   |       tyler 20260419 231326 panel5 txt.jpg
+|   |       tyler 20260419 231330 panel6 txt.jpg
+|   |       tyler 20260419 231334 panel7 txt.jpg
+|   |       tyler 20260420 132858 panel2 txt.jpg
+|   |       tyler 20260420 132910 panel5 txt.jpg
+|   |       tyler 20260420 194443 panel2 txt.jpg
+|   |       tyler 20260422 214225 panel5 txt.jpg
+|   |       tyler 20260424 175511 panel1 txt.jpg
+|   |       tyler 20260424 175513 panel2 txt.jpg
+|   |       tyler 20260424 175516 panel3 txt.jpg
+|   |       tyler 20260424 175521 panel4 txt.jpg
+|   |       tyler 20260424 175524 panel5 txt.jpg
+|   |       tyler 20260424 175532 panel6 txt.jpg
+|   |       tyler 20260424 175536 panel7 txt.jpg
+|   |       tyler 20260430 203201 panel1 txt.jpg
+|   |       tyler 20260430 203204 panel2 txt.jpg
+|   |       tyler 20260501 000344 panel1 txt.jpg
+|   |       tyler 20260501 000350 panel2 txt.jpg
+|   |       tyler 20260501 000353 panel3 txt.jpg
+|   |       tyler 20260501 000356 panel4 txt.jpg
+|   |       tyler 20260501 000359 panel5 txt.jpg
+|   |       tyler 20260501 000406 panel7 txt.jpg
+|   |       tyler 20260501 101651 panel1 txt.jpg
+|   |       tyler 20260501 101654 panel2 txt.jpg
+|   |       tyler 20260501 101658 panel3 txt.jpg
+|   |       tyler 20260501 101702 panel4 txt.jpg
+|   |       tyler 20260501 101709 panel5 txt.jpg
+|   |       tyler 20260501 101714 panel6 txt.jpg
+|   |       tyler 20260501 101717 panel7 txt.jpg
+|   |       tyler 20260501 124721 panel1 txt.jpg
+|   |       tyler 20260501 124723 panel2 txt.jpg
+|   |       tyler 20260501 124728 panel4 txt.jpg
+|   |       tyler 20260501 124730 panel5 txt.jpg
+|   |       tyler 20260501 124732 panel6 txt.jpg
+|   |       tyler 20260501 124735 panel7 txt.jpg
+|   |       tyler 20260501 151724 panel1 txt.jpg
+|   |       tyler 20260501 151726 panel2 txt.jpg
+|   |       tyler 20260501 151731 panel3 txt.jpg
+|   |       tyler 20260501 151733 panel4 txt.jpg
+|   |       tyler 20260501 151735 panel5 txt.jpg
+|   |       tyler 20260501 151738 panel6 txt.jpg
+|   |       tyler 20260501 151759 panel7 txt.jpg
+|   |       tyler 20260501 163317 panel1 txt.jpg
+|   |       tyler 20260501 163321 panel2 txt.jpg
+|   |       tyler 20260501 163341 panel3 txt.jpg
+|   |       tyler 20260501 163344 panel4 txt.jpg
+|   |       tyler 20260501 163348 panel5 txt.jpg
+|   |       tyler 20260501 163350 panel6 txt.jpg
+|   |       tyler 20260501 163354 panel7 txt.jpg
+|   |       tyler 20260501 200729 panel1 txt.jpg
+|   |       tyler 20260501 200731 panel2 txt.jpg
+|   |       tyler 20260501 200734 panel3 txt.jpg
+|   |       tyler 20260501 200736 panel4 txt.jpg
+|   |       tyler 20260501 200738 panel5 txt.jpg
+|   |       tyler 20260501 200740 panel6 txt.jpg
+|   |       tyler 20260501 200743 panel7 txt.jpg
+|   |       tyler 20260501 202317 panel1 txt.jpg
+|   |       tyler 20260501 202320 panel2 txt.jpg
+|   |       tyler 20260501 202323 panel3 txt.jpg
+|   |       tyler 20260501 202325 panel4 txt.jpg
+|   |       tyler 20260501 202328 panel5 txt.jpg
+|   |       tyler 20260501 202331 panel6 txt.jpg
+|   |       tyler 20260501 202333 panel7 txt.jpg
+|   |       tyler 20260501 204651 panel1 txt.jpg
+|   |       tyler 20260501 204654 panel2 txt.jpg
+|   |       tyler 20260501 204658 panel3 txt.jpg
+|   |       tyler 20260501 204704 panel4 txt.jpg
+|   |       tyler 20260501 204708 panel5 txt.jpg
+|   |       tyler 20260501 204711 panel6 txt.jpg
+|   |       tyler 20260501 204715 panel7 txt.jpg
+|   |       tyler 20260503 113456 panel1 txt.jpg
+|   |       tyler 20260503 113500 panel2 txt.jpg
+|   |       tyler 20260503 113509 panel3 txt.jpg
+|   |       tyler 20260503 113513 panel4 txt.jpg
+|   |       tyler 20260503 113519 panel5 txt.jpg
+|   |       tyler 20260503 113524 panel6 txt.jpg
+|   |       tyler 20260503 113528 panel7 txt.jpg
+|   |       tyler 20260503 120459 panel1 txt.jpg
+|   |       tyler 20260503 120503 panel2 txt.jpg
+|   |       tyler 20260503 120512 panel3 txt.jpg
+|   |       tyler 20260503 120517 panel4 txt.jpg
+|   |       tyler 20260503 120521 panel5 txt.jpg
+|   |       tyler 20260503 120525 panel6 txt.jpg
+|   |       tyler 20260503 120530 panel7 txt.jpg
+|   |       tyler_20260315_111929_panel1.jpg
+|   |       tyler_20260315_111938_panel2.jpg
+|   |       tyler_20260315_111951_panel3.jpg
+|   |       tyler_20260315_115321_panel1.jpg
+|   |       tyler_20260315_115328_panel2.jpg
+|   |       tyler_20260315_115336_panel3.jpg
+|   |       tyler_20260315_115858_panel1.jpg
+|   |       tyler_20260315_115905_panel2.jpg
+|   |       tyler_20260315_115913_panel3.jpg
+|   |       tyler_20260315_122302_panel1.jpg
+|   |       tyler_20260315_122311_panel2.jpg
+|   |       tyler_20260315_122319_panel3.jpg
+|   |       tyler_20260315_123305_panel1.jpg
+|   |       tyler_20260315_123312_panel2.jpg
+|   |       tyler_20260315_123324_panel3.jpg
+|   |       tyler_20260315_132341_panel1.jpg
+|   |       tyler_20260315_132349_panel2.jpg
+|   |       tyler_20260315_132357_panel3.jpg
+|   |       tyler_20260315_132958_panel1.jpg
+|   |       tyler_20260315_133005_panel2.jpg
+|   |       tyler_20260315_133012_panel3.jpg
+|   |       tyler_20260315_134424_panel1.jpg
+|   |       tyler_20260315_134431_panel2.jpg
+|   |       tyler_20260315_134439_panel3.jpg
+|   |       tyler_20260315_134950_panel1.jpg
+|   |       tyler_20260315_134958_panel2.jpg
+|   |       tyler_20260315_135005_panel3.jpg
+|   |       tyler_20260315_140234_panel1.jpg
+|   |       tyler_20260315_140242_panel2.jpg
+|   |       tyler_20260315_140250_panel3.jpg
+|   |       tyler_20260315_142008_panel1.jpg
+|   |       tyler_20260315_142016_panel2.jpg
+|   |       tyler_20260315_142023_panel3.jpg
+|   |       tyler_20260315_143933_panel1.jpg
+|   |       tyler_20260315_143941_panel2.jpg
+|   |       tyler_20260315_143948_panel3.jpg
+|   |       tyler_20260315_144302_panel1.jpg
+|   |       tyler_20260315_144309_panel2.jpg
+|   |       tyler_20260315_144316_panel3.jpg
+|   |       tyler_20260315_145041_panel1.jpg
+|   |       tyler_20260315_145056_panel2.jpg
+|   |       tyler_20260315_145107_panel3.jpg
+|   |       tyler_20260315_145130_panel1.jpg
+|   |       tyler_20260315_145138_panel2.jpg
+|   |       tyler_20260315_145145_panel3.jpg
+|   |       tyler_20260315_152730_panel1.jpg
+|   |       tyler_20260315_152737_panel2.jpg
+|   |       tyler_20260315_152745_panel3.jpg
+|   |       tyler_20260315_161301_panel1.jpg
+|   |       tyler_20260315_161307_panel1.jpg
+|   |       tyler_20260315_161310_panel2.jpg
+|   |       tyler_20260315_161316_panel2.jpg
+|   |       tyler_20260315_161318_panel3.jpg
+|   |       tyler_20260315_161324_panel3.jpg
+|   |       tyler_20260315_162818_panel1_txt.jpg
+|   |       tyler_20260315_162826_panel2_txt.jpg
+|   |       tyler_20260315_162834_panel3_txt.jpg
+|   |       tyler_20260315_164226_panel1_txt.jpg
+|   |       tyler_20260315_164234_panel2_txt.jpg
+|   |       tyler_20260315_164241_panel3_txt.jpg
+|   |       tyler_20260316_111141_panel1_txt.jpg
+|   |       tyler_20260316_111149_panel2_txt.jpg
+|   |       tyler_20260316_111158_panel3_txt.jpg
+|   |       tyler_20260316_135625_panel1_txt.jpg
+|   |       tyler_20260316_135633_panel2_txt.jpg
+|   |       tyler_20260316_135641_panel3_txt.jpg
+|   |       tyler_20260317_032721_panel1_txt.jpg
+|   |       tyler_20260317_032728_panel2_txt.jpg
+|   |       tyler_20260317_032735_panel3_txt.jpg
+|   |       tyler_20260317_035655_panel1_txt.jpg
+|   |       tyler_20260317_035702_panel2_txt.jpg
+|   |       tyler_20260317_035710_panel3_txt.jpg
+|   |       tyler_20260318_044545_panel1_txt.jpg
+|   |       tyler_20260318_044553_panel2_txt.jpg
+|   |       tyler_20260318_044600_panel3_txt.jpg
+|   |       tyler_20260318_201558_panel1_txt.jpg
+|   |       tyler_20260318_201606_panel2_txt.jpg
+|   |       tyler_20260318_201617_panel3_txt.jpg
+|   |       tyler_20260319_034544_panel1_txt.jpg
+|   |       tyler_20260319_034554_panel2_txt.jpg
+|   |       tyler_20260319_034602_panel3_txt.jpg
+|   |       tyler_20260321_105150_panel1_txt.jpg
+|   |       tyler_20260321_105158_panel2_txt.jpg
+|   |       tyler_20260321_105205_panel3_txt.jpg
+|   |       tyler_20260321_115714_panel1_txt.jpg
+|   |       tyler_20260321_115722_panel2_txt.jpg
+|   |       tyler_20260321_115729_panel3_txt.jpg
+|   |       tyler_20260321_124554_panel1_txt.jpg
+|   |       tyler_20260321_124628_panel2_txt.jpg
+|   |       tyler_20260321_124647_panel3_txt.jpg
+|   |       tyler_20260321_133056_panel1_txt.jpg
+|   |       tyler_20260321_133105_panel2_txt.jpg
+|   |       tyler_20260321_133113_panel3_txt.jpg
+|   |       tyler_20260321_134458_panel1_txt.jpg
+|   |       tyler_20260321_134506_panel2_txt.jpg
+|   |       tyler_20260321_134514_panel3_txt.jpg
+|   |       tyler_20260321_141120_panel1_txt.jpg
+|   |       tyler_20260321_141128_panel2_txt.jpg
+|   |       tyler_20260321_141136_panel3_txt.jpg
+|   |       tyler_20260321_142732_panel1_txt.jpg
+|   |       tyler_20260321_142755_panel2_txt.jpg
+|   |       tyler_20260321_142802_panel3_txt.jpg
+|   |       tyler_20260321_155257_panel1_txt.jpg
+|   |       tyler_20260321_155305_panel2_txt.jpg
+|   |       tyler_20260321_155313_panel3_txt.jpg
+|   |       tyler_20260321_155754_panel1_txt.jpg
+|   |       tyler_20260321_155803_panel2_txt.jpg
+|   |       tyler_20260321_155811_panel3_txt.jpg
+|   |       tyler_20260321_165716_panel1_txt.jpg
+|   |       tyler_20260321_165724_panel2_txt.jpg
+|   |       tyler_20260321_165733_panel3_txt.jpg
+|   |       tyler_20260321_172509_panel1_txt.jpg
+|   |       tyler_20260321_172523_panel2_txt.jpg
+|   |       tyler_20260321_172538_panel3_txt.jpg
+|   |       tyler_20260321_174618_panel1_txt.jpg
+|   |       tyler_20260321_174634_panel2_txt.jpg
+|   |       tyler_20260321_174647_panel3_txt.jpg
+|   |       tyler_20260321_194607_panel1_txt.jpg
+|   |       tyler_20260321_194618_panel2_txt.jpg
+|   |       tyler_20260321_194630_panel3_txt.jpg
+|   |       tyler_20260322_084540_panel1_txt.jpg
+|   |       tyler_20260322_084600_panel2_txt.jpg
+|   |       tyler_20260322_084601_panel1_txt.jpg
+|   |       tyler_20260322_084612_panel3_txt.jpg
+|   |       tyler_20260322_084616_panel2_txt.jpg
+|   |       tyler_20260322_084631_panel3_txt.jpg
+|   |       tyler_20260322_092118_panel1_txt.jpg
+|   |       tyler_20260322_092131_panel2_txt.jpg
+|   |       tyler_20260322_092145_panel3_txt.jpg
+|   |       tyler_20260322_104554_panel1_txt.jpg
+|   |       tyler_20260322_104607_panel2_txt.jpg
+|   |       tyler_20260322_104621_panel3_txt.jpg
+|   |       tyler_20260322_145116_panel1_txt.jpg
+|   |       tyler_20260322_145125_panel2_txt.jpg
+|   |       tyler_20260322_145136_panel3_txt.jpg
+|   |       tyler_20260322_160319_panel1_txt.jpg
+|   |       tyler_20260322_160336_panel2_txt.jpg
+|   |       tyler_20260322_160355_panel3_txt.jpg
+|   |       tyler_20260322_161557_panel1_txt.jpg
+|   |       tyler_20260322_161606_panel2_txt.jpg
+|   |       tyler_20260322_161615_panel3_txt.jpg
+|   |       tyler_20260322_163731_panel1_txt.jpg
+|   |       tyler_20260322_163740_panel2_txt.jpg
+|   |       tyler_20260322_163749_panel3_txt.jpg
+|   |       tyler_20260322_171104_panel1_txt.jpg
+|   |       tyler_20260322_171113_panel2_txt.jpg
+|   |       tyler_20260322_171123_panel3_txt.jpg
+|   |       tyler_20260322_171329_panel1_txt.jpg
+|   |       tyler_20260322_171338_panel2_txt.jpg
+|   |       tyler_20260322_171349_panel3_txt.jpg
+|   |       tyler_20260322_174139_panel1_txt.jpg
+|   |       tyler_20260322_174148_panel2_txt.jpg
+|   |       tyler_20260322_174158_panel3_txt.jpg
+|   |       tyler_20260322_185141_panel1_txt.jpg
+|   |       tyler_20260322_185150_panel2_txt.jpg
+|   |       tyler_20260322_185158_panel3_txt.jpg
+|   |       tyler_20260322_192635_panel1_txt.jpg
+|   |       tyler_20260322_192644_panel2_txt.jpg
+|   |       tyler_20260322_192653_panel3_txt.jpg
+|   |       tyler_20260322_193434_panel1_txt.jpg
+|   |       tyler_20260322_193442_panel2_txt.jpg
+|   |       tyler_20260322_193452_panel3_txt.jpg
+|   |       tyler_20260323_034601_panel1_txt.jpg
+|   |       tyler_20260323_034618_panel2_txt.jpg
+|   |       tyler_20260323_034626_panel3_txt.jpg
+|   |       tyler_20260323_044556_panel1_txt.jpg
+|   |       tyler_20260323_044604_panel2_txt.jpg
+|   |       tyler_20260323_044612_panel3_txt.jpg
+|   |       tyler_20260323_083453_panel1_txt.jpg
+|   |       tyler_20260323_083502_panel2_txt.jpg
+|   |       tyler_20260323_083511_panel3_txt.jpg
+|   |       tyler_20260323_111041_panel1_txt.jpg
+|   |       tyler_20260323_111052_panel2_txt.jpg
+|   |       tyler_20260323_111101_panel3_txt.jpg
+|   |       tyler_20260323_141602_panel1_txt.jpg
+|   |       tyler_20260323_141610_panel2_txt.jpg
+|   |       tyler_20260323_141619_panel3_txt.jpg
+|   |       tyler_20260323_144603_panel1_txt.jpg
+|   |       tyler_20260323_144613_panel2_txt.jpg
+|   |       tyler_20260323_144624_panel3_txt.jpg
+|   |       tyler_20260323_233505_panel1_txt.jpg
+|   |       tyler_20260323_233530_panel2_txt.jpg
+|   |       tyler_20260323_233554_panel3_txt.jpg
+|   |       tyler_20260324_073104_panel1_txt.jpg
+|   |       tyler_20260324_073113_panel2_txt.jpg
+|   |       tyler_20260324_073122_panel3_txt.jpg
+|   |       tyler_20260324_084558_panel1_txt.jpg
+|   |       tyler_20260324_084607_panel2_txt.jpg
+|   |       tyler_20260324_084616_panel3_txt.jpg
+|   |       tyler_20260324_100507_panel1_txt.jpg
+|   |       tyler_20260324_100520_panel2_txt.jpg
+|   |       tyler_20260324_100539_panel3_txt.jpg
+|   |       tyler_20260324_110643_panel1_txt.jpg
+|   |       tyler_20260324_110700_panel2_txt.jpg
+|   |       tyler_20260324_110712_panel3_txt.jpg
+|   |       tyler_20260324_113121_panel1_txt.jpg
+|   |       tyler_20260324_113129_panel2_txt.jpg
+|   |       tyler_20260324_113137_panel3_txt.jpg
+|   |       tyler_20260324_120243_panel1_txt.jpg
+|   |       tyler_20260324_120252_panel2_txt.jpg
+|   |       tyler_20260324_120300_panel3_txt.jpg
+|   |       tyler_20260324_122403_panel1_txt.jpg
+|   |       tyler_20260324_122413_panel2_txt.jpg
+|   |       tyler_20260324_122425_panel3_txt.jpg
+|   |       tyler_20260324_181608_panel1_txt.jpg
+|   |       tyler_20260324_181619_panel2_txt.jpg
+|   |       tyler_20260324_181629_panel3_txt.jpg
+|   |       tyler_20260325_044602_panel1_txt.jpg
+|   |       tyler_20260325_044612_panel2_txt.jpg
+|   |       tyler_20260325_044622_panel3_txt.jpg
+|   |       tyler_20260325_113750_panel1_txt.jpg
+|   |       tyler_20260325_113804_panel2_txt.jpg
+|   |       tyler_20260325_113821_panel3_txt.jpg
+|   |       tyler_20260325_122742_panel1_txt.jpg
+|   |       tyler_20260325_122755_panel2_txt.jpg
+|   |       tyler_20260325_122805_panel3_txt.jpg
+|   |       tyler_20260325_124910_panel1_txt.jpg
+|   |       tyler_20260325_124921_panel2_txt.jpg
+|   |       tyler_20260325_124931_panel3_txt.jpg
+|   |       tyler_20260325_132151_panel1_txt.jpg
+|   |       tyler_20260325_132201_panel2_txt.jpg
+|   |       tyler_20260325_132213_panel3_txt.jpg
+|   |       tyler_20260325_144125_panel1_txt.jpg
+|   |       tyler_20260325_144135_panel2_txt.jpg
+|   |       tyler_20260325_144145_panel3_txt.jpg
+|   |       tyler_20260325_144157_panel4_txt.jpg
+|   |       tyler_20260325_151440_panel1_txt.jpg
+|   |       tyler_20260325_151450_panel2_txt.jpg
+|   |       tyler_20260325_151501_panel3_txt.jpg
+|   |       tyler_20260325_151514_panel4_txt.jpg
+|   |       tyler_20260325_153029_panel1_txt.jpg
+|   |       tyler_20260325_153039_panel2_txt.jpg
+|   |       tyler_20260325_153049_panel3_txt.jpg
+|   |       tyler_20260325_153059_panel4_txt.jpg
+|   |       tyler_20260326_141616_panel1_txt.jpg
+|   |       tyler_20260326_141627_panel2_txt.jpg
+|   |       tyler_20260326_141639_panel3_txt.jpg
+|   |       tyler_20260326_141651_panel4_txt.jpg
+|   |       tyler_20260326_145312_panel1_txt.jpg
+|   |       tyler_20260326_145333_panel2_txt.jpg
+|   |       tyler_20260326_145346_panel3_txt.jpg
+|   |       tyler_20260326_145359_panel4_txt.jpg
+|   |       tyler_20260326_193902_panel1_txt.jpg
+|   |       tyler_20260327_071512_panel1_txt.jpg
+|   |       tyler_20260327_071522_panel2_txt.jpg
+|   |       tyler_20260327_071534_panel3_txt.jpg
+|   |       tyler_20260327_071546_panel4_txt.jpg
+|   |       tyler_20260327_071602_panel5_txt.jpg
+|   |       tyler_20260327_071612_panel6_txt.jpg
+|   |       tyler_20260327_071623_panel7_txt.jpg
+|   |       tyler_20260327_082907_panel1_txt.jpg
+|   |       tyler_20260327_082917_panel2_txt.jpg
+|   |       tyler_20260327_082931_panel3_txt.jpg
+|   |       tyler_20260327_082941_panel4_txt.jpg
+|   |       tyler_20260327_082951_panel5_txt.jpg
+|   |       tyler_20260327_083002_panel6_txt.jpg
+|   |       tyler_20260327_083012_panel7_txt.jpg
+|   |       tyler_20260328_101042_panel1_txt.jpg
+|   |       tyler_20260328_101054_panel2_txt.jpg
+|   |       tyler_20260407_024358_panel5_txt.jpg
+|   |       tyler_20260407_152255_panel2_txt.jpg
+|   |       tyler_20260408_164558_panel3_txt.jpg
+|   |       tyler_20260408_164600_panel2_txt.jpg
+|   |       tyler_20260408_164600_panel7_txt.jpg
+|   |       tyler_20260408_164604_panel6_txt.jpg
+|   |       tyler_20260408_164605_panel5_txt.jpg
+|   |       tyler_20260408_164606_panel4_txt.jpg
+|   |       tyler_20260408_164608_panel1_txt.jpg
+|   |       tyler_20260408_171753_panel5_txt.jpg
+|   |       tyler_20260408_171753_panel6_txt.jpg
+|   |       tyler_20260408_171753_panel7_txt.jpg
+|   |       tyler_20260408_171754_panel4_txt.jpg
+|   |       tyler_20260408_171756_panel3_txt.jpg
+|   |       tyler_20260408_171757_panel1_txt.jpg
+|   |       tyler_20260408_171757_panel2_txt.jpg
+|   |       tyler_20260409_172932_panel7_txt.jpg
+|   |       tyler_20260409_172933_panel6_txt.jpg
+|   |       tyler_20260409_172934_panel4_txt.jpg
+|   |       tyler_20260409_172934_panel5_txt.jpg
+|   |       tyler_20260409_172935_panel2_txt.jpg
+|   |       tyler_20260409_172936_panel1_txt.jpg
+|   |       tyler_20260409_172936_panel3_txt.jpg
+|   |       tyler_20260409_190052_panel7_txt.jpg
+|   |       tyler_20260409_190053_panel6_txt.jpg
+|   |       tyler_20260409_190058_panel5_txt.jpg
+|   |       tyler_20260409_190100_panel4_txt.jpg
+|   |       tyler_20260409_190101_panel3_txt.jpg
+|   |       tyler_20260409_190102_panel1_txt.jpg
+|   |       tyler_20260409_190104_panel2_txt.jpg
+|   |       tyler_20260409_192622_panel6_txt.jpg
+|   |       tyler_20260409_192622_panel7_txt.jpg
+|   |       tyler_20260409_192625_panel4_txt.jpg
+|   |       tyler_20260409_192625_panel5_txt.jpg
+|   |       tyler_20260409_192626_panel1_txt.jpg
+|   |       tyler_20260409_192626_panel3_txt.jpg
+|   |       tyler_20260409_192627_panel2_txt.jpg
+|   |       tyler_20260409_203447_panel4_txt.jpg
+|   |       tyler_20260409_203447_panel5_txt.jpg
+|   |       tyler_20260409_203448_panel3_txt.jpg
+|   |       tyler_20260409_203449_panel1_txt.jpg
+|   |       tyler_20260409_203449_panel2_txt.jpg
+|   |       tyler_20260409_214636_panel5_txt.jpg
+|   |       tyler_20260409_214636_panel6_txt.jpg
+|   |       tyler_20260409_214636_panel7_txt.jpg
+|   |       tyler_20260409_214637_panel4_txt.jpg
+|   |       tyler_20260409_214639_panel3_txt.jpg
+|   |       tyler_20260409_214640_panel2_txt.jpg
+|   |       tyler_20260409_214641_panel1_txt.jpg
+|   |       tyler_20260409_221157_panel6_txt.jpg
+|   |       tyler_20260409_221157_panel7_txt.jpg
+|   |       tyler_20260409_221200_panel5_txt.jpg
+|   |       tyler_20260409_221201_panel4_txt.jpg
+|   |       tyler_20260409_221205_panel3_txt.jpg
+|   |       tyler_20260409_221206_panel1_txt.jpg
+|   |       tyler_20260409_221207_panel2_txt.jpg
+|   |       tyler_20260413_234359_panel1_txt.jpg
+|   |       tyler_20260413_234402_panel2_txt.jpg
+|   |       tyler_20260413_234404_panel3_txt.jpg
+|   |       tyler_20260413_234406_panel4_txt.jpg
+|   |       tyler_20260413_234408_panel5_txt.jpg
+|   |       tyler_20260413_234410_panel6_txt.jpg
+|   |       tyler_20260413_234412_panel7_txt.jpg
+|   |       tyler_20260413_235901_panel1_txt.jpg
+|   |       tyler_20260413_235910_panel5_txt.jpg
+|   |       tyler_20260414_002859_panel1_txt.jpg
+|   |       tyler_20260414_002904_panel2_txt.jpg
+|   |       tyler_20260414_002909_panel3_txt.jpg
+|   |       tyler_20260414_002912_panel4_txt.jpg
+|   |       tyler_20260414_002915_panel5_txt.jpg
+|   |       tyler_20260414_002918_panel6_txt.jpg
+|   |       tyler_20260414_002922_panel7_txt.jpg
+|   |       tyler_20260414_004420_panel1_txt.jpg
+|   |       tyler_20260414_004427_panel2_txt.jpg
+|   |       tyler_20260414_004431_panel3_txt.jpg
+|   |       tyler_20260414_004433_panel4_txt.jpg
+|   |       tyler_20260414_004435_panel5_txt.jpg
+|   |       tyler_20260414_004437_panel6_txt.jpg
+|   |       tyler_20260414_004439_panel7_txt.jpg
+|   |       tyler_20260414_005900_panel1_txt.jpg
+|   |       tyler_20260414_012938_panel1_txt.jpg
+|   |       tyler_20260414_012954_panel3_txt.jpg
+|   |       tyler_20260414_013008_panel5_txt.jpg
+|   |       tyler_20260414_013022_panel6_txt.jpg
+|   |       tyler_20260414_013032_panel7_txt.jpg
+|   |       tyler_20260414_041400_panel2_txt.jpg
+|   |       tyler_20260414_041402_panel3_txt.jpg
+|   |       tyler_20260414_041404_panel4_txt.jpg
+|   |       tyler_20260414_041408_panel5_txt.jpg
+|   |       tyler_20260414_041410_panel6_txt.jpg
+|   |       tyler_20260414_041412_panel7_txt.jpg
+|   |       tyler_20260414_044435_panel1_txt.jpg
+|   |       tyler_20260414_045940_panel1_txt.jpg
+|   |       tyler_20260414_045946_panel3_txt.jpg
+|   |       tyler_20260414_045948_panel4_txt.jpg
+|   |       tyler_20260414_045953_panel6_txt.jpg
+|   |       tyler_20260414_052955_panel1_txt.jpg
+|   |       tyler_20260414_052957_panel2_txt.jpg
+|   |       tyler_20260414_052959_panel3_txt.jpg
+|   |       tyler_20260414_053001_panel4_txt.jpg
+|   |       tyler_20260414_053037_panel5_txt.jpg
+|   |       tyler_20260414_053117_panel6_txt.jpg
+|   |       tyler_20260414_053143_panel7_txt.jpg
+|   |       tyler_20260416_172644_panel1_txt.jpg
+|   |       tyler_20260416_172647_panel2_txt.jpg
+|   |       tyler_20260416_172651_panel3_txt.jpg
+|   |       tyler_20260416_172655_panel4_txt.jpg
+|   |       tyler_20260416_172659_panel5_txt.jpg
+|   |       tyler_20260416_172703_panel6_txt.jpg
+|   |       tyler_20260416_172707_panel7_txt.jpg
+|   |       tyler_20260419_202353_panel1_txt.jpg
+|   |       tyler_20260419_202355_panel2_txt.jpg
+|   |       tyler_20260419_202357_panel3_txt.jpg
+|   |       tyler_20260419_202359_panel4_txt.jpg
+|   |       tyler_20260419_202402_panel5_txt.jpg
+|   |       tyler_20260419_202404_panel6_txt.jpg
+|   |       tyler_20260419_202406_panel7_txt.jpg
+|   |       tyler_20260419_202810_panel1_txt.jpg
+|   |       tyler_20260419_202812_panel2_txt.jpg
+|   |       tyler_20260419_202814_panel3_txt.jpg
+|   |       tyler_20260419_202818_panel4_txt.jpg
+|   |       tyler_20260419_202821_panel5_txt.jpg
+|   |       tyler_20260419_202823_panel6_txt.jpg
+|   |       tyler_20260419_202827_panel7_txt.jpg
+|   |       tyler_20260419_215230_panel1_txt.jpg
+|   |       tyler_20260419_215234_panel2_txt.jpg
+|   |       tyler_20260419_215241_panel3_txt.jpg
+|   |       tyler_20260419_215243_panel4_txt.jpg
+|   |       tyler_20260419_215247_panel5_txt.jpg
+|   |       tyler_20260419_215250_panel6_txt.jpg
+|   |       tyler_20260419_215252_panel7_txt.jpg
+|   |       tyler_20260419_223205_panel1_txt.jpg
+|   |       tyler_20260419_223208_panel2_txt.jpg
+|   |       tyler_20260419_223212_panel3_txt.jpg
+|   |       tyler_20260419_223216_panel4_txt.jpg
+|   |       tyler_20260419_223220_panel5_txt.jpg
+|   |       tyler_20260419_223223_panel6_txt.jpg
+|   |       tyler_20260419_223230_panel7_txt.jpg
+|   |       tyler_20260419_231311_panel1_txt.jpg
+|   |       tyler_20260419_231315_panel2_txt.jpg
+|   |       tyler_20260419_231318_panel3_txt.jpg
+|   |       tyler_20260419_231322_panel4_txt.jpg
+|   |       tyler_20260419_231326_panel5_txt.jpg
+|   |       tyler_20260419_231330_panel6_txt.jpg
+|   |       tyler_20260419_231334_panel7_txt.jpg
+|   |       tyler_20260420_132858_panel2_txt.jpg
+|   |       tyler_20260420_132910_panel5_txt.jpg
+|   |       tyler_20260420_194443_panel2_txt.jpg
+|   |       tyler_20260422_214225_panel5_txt.jpg
+|   |       tyler_20260424_175511_panel1_txt.jpg
+|   |       tyler_20260424_175513_panel2_txt.jpg
+|   |       tyler_20260424_175516_panel3_txt.jpg
+|   |       tyler_20260424_175521_panel4_txt.jpg
+|   |       tyler_20260424_175524_panel5_txt.jpg
+|   |       tyler_20260424_175532_panel6_txt.jpg
+|   |       tyler_20260424_175536_panel7_txt.jpg
+|   |       tyler_20260430_203201_panel1_txt.jpg
+|   |       tyler_20260430_203204_panel2_txt.jpg
+|   |       tyler_20260501_000344_panel1_txt.jpg
+|   |       tyler_20260501_000350_panel2_txt.jpg
+|   |       tyler_20260501_000353_panel3_txt.jpg
+|   |       tyler_20260501_000356_panel4_txt.jpg
+|   |       tyler_20260501_000359_panel5_txt.jpg
+|   |       tyler_20260501_000406_panel7_txt.jpg
+|   |       tyler_20260501_101651_panel1_txt.jpg
+|   |       tyler_20260501_101654_panel2_txt.jpg
+|   |       tyler_20260501_101658_panel3_txt.jpg
+|   |       tyler_20260501_101702_panel4_txt.jpg
+|   |       tyler_20260501_101709_panel5_txt.jpg
+|   |       tyler_20260501_101714_panel6_txt.jpg
+|   |       tyler_20260501_101717_panel7_txt.jpg
+|   |       tyler_20260501_124721_panel1_txt.jpg
+|   |       tyler_20260501_124723_panel2_txt.jpg
+|   |       tyler_20260501_124728_panel4_txt.jpg
+|   |       tyler_20260501_124730_panel5_txt.jpg
+|   |       tyler_20260501_124732_panel6_txt.jpg
+|   |       tyler_20260501_124735_panel7_txt.jpg
+|   |       tyler_20260501_151724_panel1_txt.jpg
+|   |       tyler_20260501_151726_panel2_txt.jpg
+|   |       tyler_20260501_151731_panel3_txt.jpg
+|   |       tyler_20260501_151733_panel4_txt.jpg
+|   |       tyler_20260501_151735_panel5_txt.jpg
+|   |       tyler_20260501_151738_panel6_txt.jpg
+|   |       tyler_20260501_151759_panel7_txt.jpg
+|   |       tyler_20260501_163317_panel1_txt.jpg
+|   |       tyler_20260501_163321_panel2_txt.jpg
+|   |       tyler_20260501_163341_panel3_txt.jpg
+|   |       tyler_20260501_163344_panel4_txt.jpg
+|   |       tyler_20260501_163348_panel5_txt.jpg
+|   |       tyler_20260501_163350_panel6_txt.jpg
+|   |       tyler_20260501_163354_panel7_txt.jpg
+|   |       tyler_20260501_200729_panel1_txt.jpg
+|   |       tyler_20260501_200731_panel2_txt.jpg
+|   |       tyler_20260501_200734_panel3_txt.jpg
+|   |       tyler_20260501_200736_panel4_txt.jpg
+|   |       tyler_20260501_200738_panel5_txt.jpg
+|   |       tyler_20260501_200740_panel6_txt.jpg
+|   |       tyler_20260501_200743_panel7_txt.jpg
+|   |       tyler_20260501_202317_panel1_txt.jpg
+|   |       tyler_20260501_202320_panel2_txt.jpg
+|   |       tyler_20260501_202323_panel3_txt.jpg
+|   |       tyler_20260501_202325_panel4_txt.jpg
+|   |       tyler_20260501_202328_panel5_txt.jpg
+|   |       tyler_20260501_202331_panel6_txt.jpg
+|   |       tyler_20260501_202333_panel7_txt.jpg
+|   |       tyler_20260501_204651_panel1_txt.jpg
+|   |       tyler_20260501_204654_panel2_txt.jpg
+|   |       tyler_20260501_204658_panel3_txt.jpg
+|   |       tyler_20260501_204704_panel4_txt.jpg
+|   |       tyler_20260501_204708_panel5_txt.jpg
+|   |       tyler_20260501_204711_panel6_txt.jpg
+|   |       tyler_20260501_204715_panel7_txt.jpg
+|   |       tyler_20260503_113456_panel1_txt.jpg
+|   |       tyler_20260503_113500_panel2_txt.jpg
+|   |       tyler_20260503_113509_panel3_txt.jpg
+|   |       tyler_20260503_113513_panel4_txt.jpg
+|   |       tyler_20260503_113519_panel5_txt.jpg
+|   |       tyler_20260503_113524_panel6_txt.jpg
+|   |       tyler_20260503_113528_panel7_txt.jpg
+|   |       tyler_20260503_120459_panel1_txt.jpg
+|   |       tyler_20260503_120503_panel2_txt.jpg
+|   |       tyler_20260503_120512_panel3_txt.jpg
+|   |       tyler_20260503_120517_panel4_txt.jpg
+|   |       tyler_20260503_120521_panel5_txt.jpg
+|   |       tyler_20260503_120525_panel6_txt.jpg
+|   |       tyler_20260503_120530_panel7_txt.jpg
+|   |       
+|   \---wiewiorki
+|           1789400897673.png
+|           1789411964142.png
+|           1789412361879.png
+|           1789412429814.png
+|           1789412471761.png
+|           1789412578435.png
+|           1789412667650.png
+|           1789412743099.png
+|           1789413017620.png
+|           1789413059547.png
+|           1789413113043.png
+|           1789413205273.png
+|           1789413256205.png
+|           1789413305782.jpg
+|           1789413371925.png
+|           1789413425594.png
+|           1789413519104.png
+|           1789413571456.png
+|           1789413633248.png
+|           1789413683253.png
+|           1789413845532.png
+|           1789413882556.png
+|           1789413955367.png
+|           1789414005179.png
+|           copilot image 1789400929723.jpg
+|           copilot image 1789411971491.jpg
+|           copilot_image_1789400929723.jpeg
+|           copilot_image_1789411971491.jpeg
+|           file 0000000060088243a68004a6862db06e.png
+|           file 00000000e5bc81f49b3925c8479a4bb5.png
+|           file 00000000e95082468ab5432c195aaf43.png
+|           file_0000000060088243a68004a6862db06e.png
+|           file_00000000e5bc81f49b3925c8479a4bb5.png
+|           file_00000000e95082468ab5432c195aaf43.png
+|           image 1789400935851.jpg
+|           image 1789412620027.jpg
+|           image_1789400935851.jpeg
+|           image_1789412620027.jpeg
+|           Screenshot 20260914 175146 X.jpg
+|           Screenshot 20260914 205605 X.jpg
+|           Screenshot 20260914 205830 X.jpg
+|           Screenshot 20260914 210002 X.jpg
+|           Screenshot 20260914 210804 X.jpg
+|           Screenshot 20260920 163824 X.jpg
+|           Screenshot_20260914_175146_X.jpg
+|           Screenshot_20260914_205605_X.jpg
+|           Screenshot_20260914_205830_X.jpg
+|           Screenshot_20260914_210002_X.jpg
+|           Screenshot_20260914_210804_X.jpg
+|           
++---images_prywatne_zrodla
+|   +---48h
+|   |       4fwQT.jpg
+|   |       ChatGPT Image 20 wrz 2026, 14 21 23.png
+|   |       Gemini Generated Image 1bqydy1bqydy1bqy (1).jpg
+|   |       Gemini Generated Image 1bqydy1bqydy1bqy.jpg
+|   |       Gemini Generated Image 425v5g425v5g425v (1).jpg
+|   |       Gemini Generated Image 425v5g425v5g425v.jpg
+|   |       Gemini Generated Image vqydfzvqydfzvqyd.jpg
+|   |       RefiP.jpg
+|   |       s5ZUY.jpg
+|   |       Sk2qf (1).jpg
+|   |       Sk2qf.jpg
+|   |       ztL5H (1).jpg
+|   |       ztL5H.jpg
+|   |       
+|   +---numer7
+|   |       czarn.jpg
+|   |       Gemini Generated Image 354ye0354ye0354y.jpg
+|   |       Gemini Generated Image ddpl0zddpl0zddpl.png
+|   |       Gemini Generated Image mgauubmgauubmgau.jpg
+|   |       Gemini Generated Image r0keq6r0keq6r0ke.png
+|   |       Gemini Generated Image yukdc9yukdc9yukd.png
+|   |       NIOit.jpg
+|   |       Nxwbh (1).jpg
+|   |       Nxwbh.jpg
+|   |       odpowiedni wiek.jpg
+|   |       omAWy.jpg
+|   |       oUkAM.jpg
+|   |       
+|   +---tyler Wszystkie przyklady Tyler responder wgra³em na google pawal wiecka mozna skasowac
+|   |       emotka twarz zlosc(1).jpg
+|   |       emotka twarz zlosc(10).jpg
+|   |       emotka twarz zlosc(11).jpg
+|   |       emotka twarz zlosc(12).jpg
+|   |       emotka twarz zlosc(13).jpg
+|   |       emotka twarz zlosc(14).jpg
+|   |       emotka twarz zlosc(15).jpg
+|   |       emotka twarz zlosc(16).jpg
+|   |       emotka twarz zlosc(17).jpg
+|   |       emotka twarz zlosc(18).jpg
+|   |       emotka twarz zlosc(19).jpg
+|   |       emotka twarz zlosc(2).jpg
+|   |       emotka twarz zlosc(20).jpg
+|   |       emotka twarz zlosc(21).jpg
+|   |       emotka twarz zlosc(22).jpg
+|   |       emotka twarz zlosc(23).jpg
+|   |       emotka twarz zlosc(24).jpg
+|   |       emotka twarz zlosc(25).jpg
+|   |       emotka twarz zlosc(26).jpg
+|   |       emotka twarz zlosc(27).jpg
+|   |       emotka twarz zlosc(28).jpg
+|   |       emotka twarz zlosc(29).jpg
+|   |       emotka twarz zlosc(3).jpg
+|   |       emotka twarz zlosc(30).jpg
+|   |       emotka twarz zlosc(31).jpg
+|   |       emotka twarz zlosc(32).jpg
+|   |       emotka twarz zlosc(33).jpg
+|   |       emotka twarz zlosc(34).jpg
+|   |       emotka twarz zlosc(35).jpg
+|   |       emotka twarz zlosc(36).jpg
+|   |       emotka twarz zlosc(37).jpg
+|   |       emotka twarz zlosc(38).jpg
+|   |       emotka twarz zlosc(39).jpg
+|   |       emotka twarz zlosc(4).jpg
+|   |       emotka twarz zlosc(40).jpg
+|   |       emotka twarz zlosc(41).jpg
+|   |       emotka twarz zlosc(42).jpg
+|   |       emotka twarz zlosc(43).jpg
+|   |       emotka twarz zlosc(44).jpg
+|   |       emotka twarz zlosc(45).jpg
+|   |       emotka twarz zlosc(46).jpg
+|   |       emotka twarz zlosc(47).jpg
+|   |       emotka twarz zlosc(48).jpg
+|   |       emotka twarz zlosc(5).jpg
+|   |       emotka twarz zlosc(6).jpg
+|   |       emotka twarz zlosc(7).jpg
+|   |       emotka twarz zlosc(8).jpg
+|   |       emotka twarz zlosc(9).jpg
+|   |       emotka twarz zlosc.jpg
+|   |       psych pacjent 20260414 000519.jpg
+|   |       psych pacjent 20260414 010601.jpg
+|   |       psych pacjent 20260414 052122.jpg
+|   |       psych pacjent 20260501 102126.jpg
+|   |       psych pacjent 20260501 125222.jpg
+|   |       psych pacjent 20260501 152252.jpg
+|   |       psych pacjent 20260501 163830.jpg
+|   |       psych pacjent 20260501 201044.jpg
+|   |       psych pacjent 20260501 202659.jpg
+|   |       psych pacjent 20260501 205046.jpg
+|   |       psych pacjent 20260503 113926.jpg
+|   |       psych pacjent 20260503 120924.jpg
+|   |       psych przedmioty 20260414 000519.jpg
+|   |       psych przedmioty 20260414 010601.jpg
+|   |       psych przedmioty 20260414 052122.jpg
+|   |       psych przedmioty 20260501 102142.jpg
+|   |       psych przedmioty 20260501 125239.jpg
+|   |       psych przedmioty 20260501 152252.jpg
+|   |       psych przedmioty 20260501 163814.jpg
+|   |       psych przedmioty 20260501 201044.jpg
+|   |       psych przedmioty 20260501 202700.jpg
+|   |       psych przedmioty 20260501 205102.jpg
+|   |       psych przedmioty 20260503 113910.jpg
+|   |       psych przedmioty 20260503 120940.jpg
+|   |       tyler 20260315 111929 panel1.jpg
+|   |       tyler 20260315 111938 panel2.jpg
+|   |       tyler 20260315 111951 panel3.jpg
+|   |       tyler 20260315 115321 panel1.jpg
+|   |       tyler 20260315 115328 panel2.jpg
+|   |       tyler 20260315 115336 panel3.jpg
+|   |       tyler 20260315 115858 panel1.jpg
+|   |       tyler 20260315 115905 panel2.jpg
+|   |       tyler 20260315 115913 panel3.jpg
+|   |       tyler 20260315 122302 panel1.jpg
+|   |       tyler 20260315 122311 panel2.jpg
+|   |       tyler 20260315 122319 panel3.jpg
+|   |       tyler 20260315 123305 panel1.jpg
+|   |       tyler 20260315 123312 panel2.jpg
+|   |       tyler 20260315 123324 panel3.jpg
+|   |       tyler 20260315 132341 panel1.jpg
+|   |       tyler 20260315 132349 panel2.jpg
+|   |       tyler 20260315 132357 panel3.jpg
+|   |       tyler 20260315 132958 panel1.jpg
+|   |       tyler 20260315 133005 panel2.jpg
+|   |       tyler 20260315 133012 panel3.jpg
+|   |       tyler 20260315 134424 panel1.jpg
+|   |       tyler 20260315 134431 panel2.jpg
+|   |       tyler 20260315 134439 panel3.jpg
+|   |       tyler 20260315 134950 panel1.jpg
+|   |       tyler 20260315 134958 panel2.jpg
+|   |       tyler 20260315 135005 panel3.jpg
+|   |       tyler 20260315 140234 panel1.jpg
+|   |       tyler 20260315 140242 panel2.jpg
+|   |       tyler 20260315 140250 panel3.jpg
+|   |       tyler 20260315 142008 panel1.jpg
+|   |       tyler 20260315 142016 panel2.jpg
+|   |       tyler 20260315 142023 panel3.jpg
+|   |       tyler 20260315 143933 panel1.jpg
+|   |       tyler 20260315 143941 panel2.jpg
+|   |       tyler 20260315 143948 panel3.jpg
+|   |       tyler 20260315 144302 panel1.jpg
+|   |       tyler 20260315 144309 panel2.jpg
+|   |       tyler 20260315 144316 panel3.jpg
+|   |       tyler 20260315 145041 panel1.jpg
+|   |       tyler 20260315 145056 panel2.jpg
+|   |       tyler 20260315 145107 panel3.jpg
+|   |       tyler 20260315 145130 panel1.jpg
+|   |       tyler 20260315 145138 panel2.jpg
+|   |       tyler 20260315 145145 panel3.jpg
+|   |       tyler 20260315 152730 panel1.jpg
+|   |       tyler 20260315 152737 panel2.jpg
+|   |       tyler 20260315 152745 panel3.jpg
+|   |       tyler 20260315 161301 panel1.jpg
+|   |       tyler 20260315 161307 panel1.jpg
+|   |       tyler 20260315 161310 panel2.jpg
+|   |       tyler 20260315 161316 panel2.jpg
+|   |       tyler 20260315 161318 panel3.jpg
+|   |       tyler 20260315 161324 panel3.jpg
+|   |       tyler 20260315 162818 panel1 txt.jpg
+|   |       tyler 20260315 162826 panel2 txt.jpg
+|   |       tyler 20260315 162834 panel3 txt.jpg
+|   |       tyler 20260315 164226 panel1 txt.jpg
+|   |       tyler 20260315 164234 panel2 txt.jpg
+|   |       tyler 20260315 164241 panel3 txt.jpg
+|   |       tyler 20260316 111141 panel1 txt.jpg
+|   |       tyler 20260316 111149 panel2 txt.jpg
+|   |       tyler 20260316 111158 panel3 txt.jpg
+|   |       tyler 20260316 135625 panel1 txt.jpg
+|   |       tyler 20260316 135633 panel2 txt.jpg
+|   |       tyler 20260316 135641 panel3 txt.jpg
+|   |       tyler 20260317 032721 panel1 txt.jpg
+|   |       tyler 20260317 032728 panel2 txt.jpg
+|   |       tyler 20260317 032735 panel3 txt.jpg
+|   |       tyler 20260317 035655 panel1 txt.jpg
+|   |       tyler 20260317 035702 panel2 txt.jpg
+|   |       tyler 20260317 035710 panel3 txt.jpg
+|   |       tyler 20260318 044545 panel1 txt.jpg
+|   |       tyler 20260318 044553 panel2 txt.jpg
+|   |       tyler 20260318 044600 panel3 txt.jpg
+|   |       tyler 20260318 201558 panel1 txt.jpg
+|   |       tyler 20260318 201606 panel2 txt.jpg
+|   |       tyler 20260318 201617 panel3 txt.jpg
+|   |       tyler 20260319 034544 panel1 txt.jpg
+|   |       tyler 20260319 034554 panel2 txt.jpg
+|   |       tyler 20260319 034602 panel3 txt.jpg
+|   |       tyler 20260321 105150 panel1 txt.jpg
+|   |       tyler 20260321 105158 panel2 txt.jpg
+|   |       tyler 20260321 105205 panel3 txt.jpg
+|   |       tyler 20260321 115714 panel1 txt.jpg
+|   |       tyler 20260321 115722 panel2 txt.jpg
+|   |       tyler 20260321 115729 panel3 txt.jpg
+|   |       tyler 20260321 124554 panel1 txt.jpg
+|   |       tyler 20260321 124628 panel2 txt.jpg
+|   |       tyler 20260321 124647 panel3 txt.jpg
+|   |       tyler 20260321 133056 panel1 txt.jpg
+|   |       tyler 20260321 133105 panel2 txt.jpg
+|   |       tyler 20260321 133113 panel3 txt.jpg
+|   |       tyler 20260321 134458 panel1 txt.jpg
+|   |       tyler 20260321 134506 panel2 txt.jpg
+|   |       tyler 20260321 134514 panel3 txt.jpg
+|   |       tyler 20260321 141120 panel1 txt.jpg
+|   |       tyler 20260321 141128 panel2 txt.jpg
+|   |       tyler 20260321 141136 panel3 txt.jpg
+|   |       tyler 20260321 142732 panel1 txt.jpg
+|   |       tyler 20260321 142755 panel2 txt.jpg
+|   |       tyler 20260321 142802 panel3 txt.jpg
+|   |       tyler 20260321 155257 panel1 txt.jpg
+|   |       tyler 20260321 155305 panel2 txt.jpg
+|   |       tyler 20260321 155313 panel3 txt.jpg
+|   |       tyler 20260321 155754 panel1 txt.jpg
+|   |       tyler 20260321 155803 panel2 txt.jpg
+|   |       tyler 20260321 155811 panel3 txt.jpg
+|   |       tyler 20260321 165716 panel1 txt.jpg
+|   |       tyler 20260321 165724 panel2 txt.jpg
+|   |       tyler 20260321 165733 panel3 txt.jpg
+|   |       tyler 20260321 172509 panel1 txt.jpg
+|   |       tyler 20260321 172523 panel2 txt.jpg
+|   |       tyler 20260321 172538 panel3 txt.jpg
+|   |       tyler 20260321 174618 panel1 txt.jpg
+|   |       tyler 20260321 174634 panel2 txt.jpg
+|   |       tyler 20260321 174647 panel3 txt.jpg
+|   |       tyler 20260321 194607 panel1 txt.jpg
+|   |       tyler 20260321 194618 panel2 txt.jpg
+|   |       tyler 20260321 194630 panel3 txt.jpg
+|   |       tyler 20260322 084540 panel1 txt.jpg
+|   |       tyler 20260322 084600 panel2 txt.jpg
+|   |       tyler 20260322 084601 panel1 txt.jpg
+|   |       tyler 20260322 084612 panel3 txt.jpg
+|   |       tyler 20260322 084616 panel2 txt.jpg
+|   |       tyler 20260322 084631 panel3 txt.jpg
+|   |       tyler 20260322 092118 panel1 txt.jpg
+|   |       tyler 20260322 092131 panel2 txt.jpg
+|   |       tyler 20260322 092145 panel3 txt.jpg
+|   |       tyler 20260322 104554 panel1 txt.jpg
+|   |       tyler 20260322 104607 panel2 txt.jpg
+|   |       tyler 20260322 104621 panel3 txt.jpg
+|   |       tyler 20260322 145116 panel1 txt.jpg
+|   |       tyler 20260322 145125 panel2 txt.jpg
+|   |       tyler 20260322 145136 panel3 txt.jpg
+|   |       tyler 20260322 160319 panel1 txt.jpg
+|   |       tyler 20260322 160336 panel2 txt.jpg
+|   |       tyler 20260322 160355 panel3 txt.jpg
+|   |       tyler 20260322 161557 panel1 txt.jpg
+|   |       tyler 20260322 161606 panel2 txt.jpg
+|   |       tyler 20260322 161615 panel3 txt.jpg
+|   |       tyler 20260322 163731 panel1 txt.jpg
+|   |       tyler 20260322 163740 panel2 txt.jpg
+|   |       tyler 20260322 163749 panel3 txt.jpg
+|   |       tyler 20260322 171104 panel1 txt.jpg
+|   |       tyler 20260322 171113 panel2 txt.jpg
+|   |       tyler 20260322 171123 panel3 txt.jpg
+|   |       tyler 20260322 171329 panel1 txt.jpg
+|   |       tyler 20260322 171338 panel2 txt.jpg
+|   |       tyler 20260322 171349 panel3 txt.jpg
+|   |       tyler 20260322 174139 panel1 txt.jpg
+|   |       tyler 20260322 174148 panel2 txt.jpg
+|   |       tyler 20260322 174158 panel3 txt.jpg
+|   |       tyler 20260322 185141 panel1 txt.jpg
+|   |       tyler 20260322 185150 panel2 txt.jpg
+|   |       tyler 20260322 185158 panel3 txt.jpg
+|   |       tyler 20260322 192635 panel1 txt.jpg
+|   |       tyler 20260322 192644 panel2 txt.jpg
+|   |       tyler 20260322 192653 panel3 txt.jpg
+|   |       tyler 20260322 193434 panel1 txt.jpg
+|   |       tyler 20260322 193442 panel2 txt.jpg
+|   |       tyler 20260322 193452 panel3 txt.jpg
+|   |       tyler 20260323 034601 panel1 txt.jpg
+|   |       tyler 20260323 034618 panel2 txt.jpg
+|   |       tyler 20260323 034626 panel3 txt.jpg
+|   |       tyler 20260323 044556 panel1 txt.jpg
+|   |       tyler 20260323 044604 panel2 txt.jpg
+|   |       tyler 20260323 044612 panel3 txt.jpg
+|   |       tyler 20260323 083453 panel1 txt.jpg
+|   |       tyler 20260323 083502 panel2 txt.jpg
+|   |       tyler 20260323 083511 panel3 txt.jpg
+|   |       tyler 20260323 111041 panel1 txt.jpg
+|   |       tyler 20260323 111052 panel2 txt.jpg
+|   |       tyler 20260323 111101 panel3 txt.jpg
+|   |       tyler 20260323 141602 panel1 txt.jpg
+|   |       tyler 20260323 141610 panel2 txt.jpg
+|   |       tyler 20260323 141619 panel3 txt.jpg
+|   |       tyler 20260323 144603 panel1 txt.jpg
+|   |       tyler 20260323 144613 panel2 txt.jpg
+|   |       tyler 20260323 144624 panel3 txt.jpg
+|   |       tyler 20260323 233505 panel1 txt.jpg
+|   |       tyler 20260323 233530 panel2 txt.jpg
+|   |       tyler 20260323 233554 panel3 txt.jpg
+|   |       tyler 20260324 073104 panel1 txt.jpg
+|   |       tyler 20260324 073113 panel2 txt.jpg
+|   |       tyler 20260324 073122 panel3 txt.jpg
+|   |       tyler 20260324 084558 panel1 txt.jpg
+|   |       tyler 20260324 084607 panel2 txt.jpg
+|   |       tyler 20260324 084616 panel3 txt.jpg
+|   |       tyler 20260324 100507 panel1 txt.jpg
+|   |       tyler 20260324 100520 panel2 txt.jpg
+|   |       tyler 20260324 100539 panel3 txt.jpg
+|   |       tyler 20260324 110643 panel1 txt.jpg
+|   |       tyler 20260324 110700 panel2 txt.jpg
+|   |       tyler 20260324 110712 panel3 txt.jpg
+|   |       tyler 20260324 113121 panel1 txt.jpg
+|   |       tyler 20260324 113129 panel2 txt.jpg
+|   |       tyler 20260324 113137 panel3 txt.jpg
+|   |       tyler 20260324 120243 panel1 txt.jpg
+|   |       tyler 20260324 120252 panel2 txt.jpg
+|   |       tyler 20260324 120300 panel3 txt.jpg
+|   |       tyler 20260324 122403 panel1 txt.jpg
+|   |       tyler 20260324 122413 panel2 txt.jpg
+|   |       tyler 20260324 122425 panel3 txt.jpg
+|   |       tyler 20260324 181608 panel1 txt.jpg
+|   |       tyler 20260324 181619 panel2 txt.jpg
+|   |       tyler 20260324 181629 panel3 txt.jpg
+|   |       tyler 20260325 044602 panel1 txt.jpg
+|   |       tyler 20260325 044612 panel2 txt.jpg
+|   |       tyler 20260325 044622 panel3 txt.jpg
+|   |       tyler 20260325 113750 panel1 txt.jpg
+|   |       tyler 20260325 113804 panel2 txt.jpg
+|   |       tyler 20260325 113821 panel3 txt.jpg
+|   |       tyler 20260325 122742 panel1 txt.jpg
+|   |       tyler 20260325 122755 panel2 txt.jpg
+|   |       tyler 20260325 122805 panel3 txt.jpg
+|   |       tyler 20260325 124910 panel1 txt.jpg
+|   |       tyler 20260325 124921 panel2 txt.jpg
+|   |       tyler 20260325 124931 panel3 txt.jpg
+|   |       tyler 20260325 132151 panel1 txt.jpg
+|   |       tyler 20260325 132201 panel2 txt.jpg
+|   |       tyler 20260325 132213 panel3 txt.jpg
+|   |       tyler 20260325 144125 panel1 txt.jpg
+|   |       tyler 20260325 144135 panel2 txt.jpg
+|   |       tyler 20260325 144145 panel3 txt.jpg
+|   |       tyler 20260325 144157 panel4 txt.jpg
+|   |       tyler 20260325 151440 panel1 txt.jpg
+|   |       tyler 20260325 151450 panel2 txt.jpg
+|   |       tyler 20260325 151501 panel3 txt.jpg
+|   |       tyler 20260325 151514 panel4 txt.jpg
+|   |       tyler 20260325 153029 panel1 txt.jpg
+|   |       tyler 20260325 153039 panel2 txt.jpg
+|   |       tyler 20260325 153049 panel3 txt.jpg
+|   |       tyler 20260325 153059 panel4 txt.jpg
+|   |       tyler 20260326 141616 panel1 txt.jpg
+|   |       tyler 20260326 141627 panel2 txt.jpg
+|   |       tyler 20260326 141639 panel3 txt.jpg
+|   |       tyler 20260326 141651 panel4 txt.jpg
+|   |       tyler 20260326 145312 panel1 txt.jpg
+|   |       tyler 20260326 145333 panel2 txt.jpg
+|   |       tyler 20260326 145346 panel3 txt.jpg
+|   |       tyler 20260326 145359 panel4 txt.jpg
+|   |       tyler 20260326 193902 panel1 txt.jpg
+|   |       tyler 20260327 071512 panel1 txt.jpg
+|   |       tyler 20260327 071522 panel2 txt.jpg
+|   |       tyler 20260327 071534 panel3 txt.jpg
+|   |       tyler 20260327 071546 panel4 txt.jpg
+|   |       tyler 20260327 071602 panel5 txt.jpg
+|   |       tyler 20260327 071612 panel6 txt.jpg
+|   |       tyler 20260327 071623 panel7 txt.jpg
+|   |       tyler 20260327 082907 panel1 txt.jpg
+|   |       tyler 20260327 082917 panel2 txt.jpg
+|   |       tyler 20260327 082931 panel3 txt.jpg
+|   |       tyler 20260327 082941 panel4 txt.jpg
+|   |       tyler 20260327 082951 panel5 txt.jpg
+|   |       tyler 20260327 083002 panel6 txt.jpg
+|   |       tyler 20260327 083012 panel7 txt.jpg
+|   |       tyler 20260328 101042 panel1 txt.jpg
+|   |       tyler 20260328 101054 panel2 txt.jpg
+|   |       tyler 20260407 024358 panel5 txt.jpg
+|   |       tyler 20260407 152255 panel2 txt.jpg
+|   |       tyler 20260408 164558 panel3 txt.jpg
+|   |       tyler 20260408 164600 panel2 txt.jpg
+|   |       tyler 20260408 164600 panel7 txt.jpg
+|   |       tyler 20260408 164604 panel6 txt.jpg
+|   |       tyler 20260408 164605 panel5 txt.jpg
+|   |       tyler 20260408 164606 panel4 txt.jpg
+|   |       tyler 20260408 164608 panel1 txt.jpg
+|   |       tyler 20260408 171753 panel5 txt.jpg
+|   |       tyler 20260408 171753 panel6 txt.jpg
+|   |       tyler 20260408 171753 panel7 txt.jpg
+|   |       tyler 20260408 171754 panel4 txt.jpg
+|   |       tyler 20260408 171756 panel3 txt.jpg
+|   |       tyler 20260408 171757 panel1 txt.jpg
+|   |       tyler 20260408 171757 panel2 txt.jpg
+|   |       tyler 20260409 172932 panel7 txt.jpg
+|   |       tyler 20260409 172933 panel6 txt.jpg
+|   |       tyler 20260409 172934 panel4 txt.jpg
+|   |       tyler 20260409 172934 panel5 txt.jpg
+|   |       tyler 20260409 172935 panel2 txt.jpg
+|   |       tyler 20260409 172936 panel1 txt.jpg
+|   |       tyler 20260409 172936 panel3 txt.jpg
+|   |       tyler 20260409 190052 panel7 txt.jpg
+|   |       tyler 20260409 190053 panel6 txt.jpg
+|   |       tyler 20260409 190058 panel5 txt.jpg
+|   |       tyler 20260409 190100 panel4 txt.jpg
+|   |       tyler 20260409 190101 panel3 txt.jpg
+|   |       tyler 20260409 190102 panel1 txt.jpg
+|   |       tyler 20260409 190104 panel2 txt.jpg
+|   |       tyler 20260409 192622 panel6 txt.jpg
+|   |       tyler 20260409 192622 panel7 txt.jpg
+|   |       tyler 20260409 192625 panel4 txt.jpg
+|   |       tyler 20260409 192625 panel5 txt.jpg
+|   |       tyler 20260409 192626 panel1 txt.jpg
+|   |       tyler 20260409 192626 panel3 txt.jpg
+|   |       tyler 20260409 192627 panel2 txt.jpg
+|   |       tyler 20260409 203447 panel4 txt.jpg
+|   |       tyler 20260409 203447 panel5 txt.jpg
+|   |       tyler 20260409 203448 panel3 txt.jpg
+|   |       tyler 20260409 203449 panel1 txt.jpg
+|   |       tyler 20260409 203449 panel2 txt.jpg
+|   |       tyler 20260409 214636 panel5 txt.jpg
+|   |       tyler 20260409 214636 panel6 txt.jpg
+|   |       tyler 20260409 214636 panel7 txt.jpg
+|   |       tyler 20260409 214637 panel4 txt.jpg
+|   |       tyler 20260409 214639 panel3 txt.jpg
+|   |       tyler 20260409 214640 panel2 txt.jpg
+|   |       tyler 20260409 214641 panel1 txt.jpg
+|   |       tyler 20260409 221157 panel6 txt.jpg
+|   |       tyler 20260409 221157 panel7 txt.jpg
+|   |       tyler 20260409 221200 panel5 txt.jpg
+|   |       tyler 20260409 221201 panel4 txt.jpg
+|   |       tyler 20260409 221205 panel3 txt.jpg
+|   |       tyler 20260409 221206 panel1 txt.jpg
+|   |       tyler 20260409 221207 panel2 txt.jpg
+|   |       tyler 20260413 234359 panel1 txt.jpg
+|   |       tyler 20260413 234402 panel2 txt.jpg
+|   |       tyler 20260413 234404 panel3 txt.jpg
+|   |       tyler 20260413 234406 panel4 txt.jpg
+|   |       tyler 20260413 234408 panel5 txt.jpg
+|   |       tyler 20260413 234410 panel6 txt.jpg
+|   |       tyler 20260413 234412 panel7 txt.jpg
+|   |       tyler 20260413 235901 panel1 txt.jpg
+|   |       tyler 20260413 235910 panel5 txt.jpg
+|   |       tyler 20260414 002859 panel1 txt.jpg
+|   |       tyler 20260414 002904 panel2 txt.jpg
+|   |       tyler 20260414 002909 panel3 txt.jpg
+|   |       tyler 20260414 002912 panel4 txt.jpg
+|   |       tyler 20260414 002915 panel5 txt.jpg
+|   |       tyler 20260414 002918 panel6 txt.jpg
+|   |       tyler 20260414 002922 panel7 txt.jpg
+|   |       tyler 20260414 004420 panel1 txt.jpg
+|   |       tyler 20260414 004427 panel2 txt.jpg
+|   |       tyler 20260414 004431 panel3 txt.jpg
+|   |       tyler 20260414 004433 panel4 txt.jpg
+|   |       tyler 20260414 004435 panel5 txt.jpg
+|   |       tyler 20260414 004437 panel6 txt.jpg
+|   |       tyler 20260414 004439 panel7 txt.jpg
+|   |       tyler 20260414 005900 panel1 txt.jpg
+|   |       tyler 20260414 012938 panel1 txt.jpg
+|   |       tyler 20260414 012954 panel3 txt.jpg
+|   |       tyler 20260414 013008 panel5 txt.jpg
+|   |       tyler 20260414 013022 panel6 txt.jpg
+|   |       tyler 20260414 013032 panel7 txt.jpg
+|   |       tyler 20260414 041400 panel2 txt.jpg
+|   |       tyler 20260414 041402 panel3 txt.jpg
+|   |       tyler 20260414 041404 panel4 txt.jpg
+|   |       tyler 20260414 041408 panel5 txt.jpg
+|   |       tyler 20260414 041410 panel6 txt.jpg
+|   |       tyler 20260414 041412 panel7 txt.jpg
+|   |       tyler 20260414 044435 panel1 txt.jpg
+|   |       tyler 20260414 045940 panel1 txt.jpg
+|   |       tyler 20260414 045946 panel3 txt.jpg
+|   |       tyler 20260414 045948 panel4 txt.jpg
+|   |       tyler 20260414 045953 panel6 txt.jpg
+|   |       tyler 20260414 052955 panel1 txt.jpg
+|   |       tyler 20260414 052957 panel2 txt.jpg
+|   |       tyler 20260414 052959 panel3 txt.jpg
+|   |       tyler 20260414 053001 panel4 txt.jpg
+|   |       tyler 20260414 053037 panel5 txt.jpg
+|   |       tyler 20260414 053117 panel6 txt.jpg
+|   |       tyler 20260414 053143 panel7 txt.jpg
+|   |       tyler 20260416 172644 panel1 txt.jpg
+|   |       tyler 20260416 172647 panel2 txt.jpg
+|   |       tyler 20260416 172651 panel3 txt.jpg
+|   |       tyler 20260416 172655 panel4 txt.jpg
+|   |       tyler 20260416 172659 panel5 txt.jpg
+|   |       tyler 20260416 172703 panel6 txt.jpg
+|   |       tyler 20260416 172707 panel7 txt.jpg
+|   |       tyler 20260419 202353 panel1 txt.jpg
+|   |       tyler 20260419 202355 panel2 txt.jpg
+|   |       tyler 20260419 202357 panel3 txt.jpg
+|   |       tyler 20260419 202359 panel4 txt.jpg
+|   |       tyler 20260419 202402 panel5 txt.jpg
+|   |       tyler 20260419 202404 panel6 txt.jpg
+|   |       tyler 20260419 202406 panel7 txt.jpg
+|   |       tyler 20260419 202810 panel1 txt.jpg
+|   |       tyler 20260419 202812 panel2 txt.jpg
+|   |       tyler 20260419 202814 panel3 txt.jpg
+|   |       tyler 20260419 202818 panel4 txt.jpg
+|   |       tyler 20260419 202821 panel5 txt.jpg
+|   |       tyler 20260419 202823 panel6 txt.jpg
+|   |       tyler 20260419 202827 panel7 txt.jpg
+|   |       tyler 20260419 215230 panel1 txt.jpg
+|   |       tyler 20260419 215234 panel2 txt.jpg
+|   |       tyler 20260419 215241 panel3 txt.jpg
+|   |       tyler 20260419 215243 panel4 txt.jpg
+|   |       tyler 20260419 215247 panel5 txt.jpg
+|   |       tyler 20260419 215250 panel6 txt.jpg
+|   |       tyler 20260419 215252 panel7 txt.jpg
+|   |       tyler 20260419 223205 panel1 txt.jpg
+|   |       tyler 20260419 223208 panel2 txt.jpg
+|   |       tyler 20260419 223212 panel3 txt.jpg
+|   |       tyler 20260419 223216 panel4 txt.jpg
+|   |       tyler 20260419 223220 panel5 txt.jpg
+|   |       tyler 20260419 223223 panel6 txt.jpg
+|   |       tyler 20260419 223230 panel7 txt.jpg
+|   |       tyler 20260419 231311 panel1 txt.jpg
+|   |       tyler 20260419 231315 panel2 txt.jpg
+|   |       tyler 20260419 231318 panel3 txt.jpg
+|   |       tyler 20260419 231322 panel4 txt.jpg
+|   |       tyler 20260419 231326 panel5 txt.jpg
+|   |       tyler 20260419 231330 panel6 txt.jpg
+|   |       tyler 20260419 231334 panel7 txt.jpg
+|   |       tyler 20260420 132858 panel2 txt.jpg
+|   |       tyler 20260420 132910 panel5 txt.jpg
+|   |       tyler 20260420 194443 panel2 txt.jpg
+|   |       tyler 20260422 214225 panel5 txt.jpg
+|   |       tyler 20260424 175511 panel1 txt.jpg
+|   |       tyler 20260424 175513 panel2 txt.jpg
+|   |       tyler 20260424 175516 panel3 txt.jpg
+|   |       tyler 20260424 175521 panel4 txt.jpg
+|   |       tyler 20260424 175524 panel5 txt.jpg
+|   |       tyler 20260424 175532 panel6 txt.jpg
+|   |       tyler 20260424 175536 panel7 txt.jpg
+|   |       tyler 20260430 203201 panel1 txt.jpg
+|   |       tyler 20260430 203204 panel2 txt.jpg
+|   |       tyler 20260501 000344 panel1 txt.jpg
+|   |       tyler 20260501 000350 panel2 txt.jpg
+|   |       tyler 20260501 000353 panel3 txt.jpg
+|   |       tyler 20260501 000356 panel4 txt.jpg
+|   |       tyler 20260501 000359 panel5 txt.jpg
+|   |       tyler 20260501 000406 panel7 txt.jpg
+|   |       tyler 20260501 101651 panel1 txt.jpg
+|   |       tyler 20260501 101654 panel2 txt.jpg
+|   |       tyler 20260501 101658 panel3 txt.jpg
+|   |       tyler 20260501 101702 panel4 txt.jpg
+|   |       tyler 20260501 101709 panel5 txt.jpg
+|   |       tyler 20260501 101714 panel6 txt.jpg
+|   |       tyler 20260501 101717 panel7 txt.jpg
+|   |       tyler 20260501 124721 panel1 txt.jpg
+|   |       tyler 20260501 124723 panel2 txt.jpg
+|   |       tyler 20260501 124728 panel4 txt.jpg
+|   |       tyler 20260501 124730 panel5 txt.jpg
+|   |       tyler 20260501 124732 panel6 txt.jpg
+|   |       tyler 20260501 124735 panel7 txt.jpg
+|   |       tyler 20260501 151724 panel1 txt.jpg
+|   |       tyler 20260501 151726 panel2 txt.jpg
+|   |       tyler 20260501 151731 panel3 txt.jpg
+|   |       tyler 20260501 151733 panel4 txt.jpg
+|   |       tyler 20260501 151735 panel5 txt.jpg
+|   |       tyler 20260501 151738 panel6 txt.jpg
+|   |       tyler 20260501 151759 panel7 txt.jpg
+|   |       tyler 20260501 163317 panel1 txt.jpg
+|   |       tyler 20260501 163321 panel2 txt.jpg
+|   |       tyler 20260501 163341 panel3 txt.jpg
+|   |       tyler 20260501 163344 panel4 txt.jpg
+|   |       tyler 20260501 163348 panel5 txt.jpg
+|   |       tyler 20260501 163350 panel6 txt.jpg
+|   |       tyler 20260501 163354 panel7 txt.jpg
+|   |       tyler 20260501 200729 panel1 txt.jpg
+|   |       tyler 20260501 200731 panel2 txt.jpg
+|   |       tyler 20260501 200734 panel3 txt.jpg
+|   |       tyler 20260501 200736 panel4 txt.jpg
+|   |       tyler 20260501 200738 panel5 txt.jpg
+|   |       tyler 20260501 200740 panel6 txt.jpg
+|   |       tyler 20260501 200743 panel7 txt.jpg
+|   |       tyler 20260501 202317 panel1 txt.jpg
+|   |       tyler 20260501 202320 panel2 txt.jpg
+|   |       tyler 20260501 202323 panel3 txt.jpg
+|   |       tyler 20260501 202325 panel4 txt.jpg
+|   |       tyler 20260501 202328 panel5 txt.jpg
+|   |       tyler 20260501 202331 panel6 txt.jpg
+|   |       tyler 20260501 202333 panel7 txt.jpg
+|   |       tyler 20260501 204651 panel1 txt.jpg
+|   |       tyler 20260501 204654 panel2 txt.jpg
+|   |       tyler 20260501 204658 panel3 txt.jpg
+|   |       tyler 20260501 204704 panel4 txt.jpg
+|   |       tyler 20260501 204708 panel5 txt.jpg
+|   |       tyler 20260501 204711 panel6 txt.jpg
+|   |       tyler 20260501 204715 panel7 txt.jpg
+|   |       tyler 20260503 113456 panel1 txt.jpg
+|   |       tyler 20260503 113500 panel2 txt.jpg
+|   |       tyler 20260503 113509 panel3 txt.jpg
+|   |       tyler 20260503 113513 panel4 txt.jpg
+|   |       tyler 20260503 113519 panel5 txt.jpg
+|   |       tyler 20260503 113524 panel6 txt.jpg
+|   |       tyler 20260503 113528 panel7 txt.jpg
+|   |       tyler 20260503 120459 panel1 txt.jpg
+|   |       tyler 20260503 120503 panel2 txt.jpg
+|   |       tyler 20260503 120512 panel3 txt.jpg
+|   |       tyler 20260503 120517 panel4 txt.jpg
+|   |       tyler 20260503 120521 panel5 txt.jpg
+|   |       tyler 20260503 120525 panel6 txt.jpg
+|   |       tyler 20260503 120530 panel7 txt.jpg
+|   |       
+|   \---wiewiorki
+|           1789400897673.png
+|           1789411964142.png
+|           1789412361879.png
+|           1789412429814.png
+|           1789412471761.png
+|           1789412578435.png
+|           1789412667650.png
+|           1789412743099.png
+|           1789413017620.png
+|           1789413059547.png
+|           1789413113043.png
+|           1789413205273.png
+|           1789413256205.png
+|           1789413305782.jpg
+|           1789413371925.png
+|           1789413425594.png
+|           1789413519104.png
+|           1789413571456.png
+|           1789413633248.png
+|           1789413683253.png
+|           1789413845532.png
+|           1789413882556.png
+|           1789413955367.png
+|           1789414005179.png
+|           copilot image 1789400929723.jpg
+|           copilot image 1789411971491.jpg
+|           file 0000000060088243a68004a6862db06e.png
+|           file 00000000e5bc81f49b3925c8479a4bb5.png
+|           file 00000000e95082468ab5432c195aaf43.png
+|           image 1789400935851.jpg
+|           image 1789412620027.jpg
+|           Screenshot 20260914 175146 X.jpg
+|           Screenshot 20260914 205605 X.jpg
+|           Screenshot 20260914 205830 X.jpg
+|           Screenshot 20260914 210002 X.jpg
+|           Screenshot 20260914 210804 X.jpg
+|           Screenshot 20260920 163824 X.jpg
+|           
++---images_publiczne
+|   +---kie³ki
+|   |       01.png
+|   |       02.png
+|   |       Copilot_20260418_234415 (1).png
+|   |       Copilot_20260418_234415.png
+|   |       Copilot_20260419_002532.png
+|   |       Copilot_20260419_002926.png
+|   |       Copilot_20260419_003051.png
+|   |       Gemini_Generated_Image_5eyqax5eyqax5eyq.png
+|   |       Gemini_Generated_Image_ak4fbzak4fbzak4f.png
+|   |       Gemini_Generated_Image_cm19ygcm19ygcm19.png
+|   |       Gemini_Generated_Image_halebmhalebmhale (1).png
+|   |       Gemini_Generated_Image_halebmhalebmhale.png
+|   |       Gemini_Generated_Image_jty4rkjty4rkjty4.png
+|   |       Gemini_Generated_Image_lymkfvlymkfvlymk.png
+|   |       Gemini_Generated_Image_my0y19my0y19my0y.png
+|   |       Gemini_Generated_Image_qdfjg9qdfjg9qdfj.png
+|   |       Gemini_Generated_Image_trguxntrguxntrgu.png
+|   |       Gemini_Generated_Image_tssxyktssxyktssx.png
+|   |       generated-image.png
+|   |       sddsf.png
+|   |       sprouts_educational_poster_children.svg
+|   |       
+|   +---Komiks uczennicy
+|   |       001.png
+|   |       002.png
+|   |       003.png
+|   |       004.png
+|   |       005.png
+|   |       006.png
+|   |       007.png
+|   |       007a.png
+|   |       008.png
+|   |       010.png
+|   |       011.png
+|   |       012.png
+|   |       013.png
+|   |       014.png
+|   |       015.png
+|   |       016.png
+|   |       017.png
+|   |       018.png
+|   |       019.png
+|   |       020.png
+|   |       
+|   +---matma rysu
+|   |       ChatGPT Image 4 lis 2025, 11_09_22.png
+|   |       Copilot_20251104_111106.png
+|   |       Copilot_20251104_111831.png
+|   |       Copilot_20251104_112132.png
+|   |       Copilot_20251104_112421.png
+|   |       Gemini_Generated_Image_42fbtl42fbtl42fb.png
+|   |       Gemini_Generated_Image_74v73n74v73n74v7.png
+|   |       Gemini_Generated_Image_u86ocqu86ocqu86o.png
+|   |       Gemini_Generated_Image_wa7227wa7227wa72.png
+|   |       
+|   +---MIX
+|   |       1789913693579.png
+|   |       1789915068213.png
+|   |       1790104285136.png
+|   |       ChatGPT Image 1 sty 2026, 20_41_19.png
+|   |       ChatGPT Image 13 lut 2026, 18_15_54.png
+|   |       ChatGPT Image 14 paŸ 2025, 12_10_23.png
+|   |       ChatGPT Image 15 cze 2026, 11_12_36.png
+|   |       cs4-kotek006-1024pix.png
+|   |       file_0000000077f081f496ee0d78a80912d6.png
+|   |       Gemini_Generated_Image_924x9s924x9s924x.png
+|   |       Gemini_Generated_Image_gikm1jgikm1jgikm.png
+|   |       Gemini_Generated_Image_mb933lmb933lmb93.png
+|   |       Gemini_Generated_Image_swa2moswa2moswa2.png
+|   |       Gemini_Generated_Image_t9a47rt9a47rt9a4.png
+|   |       grok_image_ufwh05 (1).jpg
+|   |       grok_image_xudl2g.jpg
+|   |       grok_image_xukmk19.jpg
+|   |       pust.png
+|   |       Screenshot_20260920_163824_X.jpg
+|   |       
+|   +---musze isc po miesko
+|   |       8b.jpeg
+|   |       copilot_image_1759605224300.jpeg
+|   |       copilot_image_1759605556143.jpeg
+|   |       copilot_image_1759605804454.jpeg
+|   |       copilot_image_1759605996579.jpeg
+|   |       copilot_image_1759683647641.jpeg
+|   |       copilot_image_1759683848604.jpeg
+|   |       copilot_image_1759683878516.jpeg
+|   |       copilot_image_1759684272792.jpeg
+|   |       copilot_image_1759684372160.jpeg
+|   |       copilot_image_1759684475571.jpeg
+|   |       copilot_image_1759684556049.jpeg
+|   |       copilot_image_1759684654523.jpeg
+|   |       copilot_image_1759684767862.jpeg
+|   |       copilot_image_1759685050786.jpeg
+|   |       copilot_image_1759768808671.jpeg
+|   |       copilot_image_1759874483926.jpeg
+|   |       
+|   +---oczy_robocze
+|   |       001.png
+|   |       002.png
+|   |       003.png
+|   |       004.png
+|   |       005.png
+|   |       006.png
+|   |       007.png
+|   |       008.png
+|   |       009.png
+|   |       
+|   +---Piekne_oczy
+|   |       kola¿.png
+|   |       
+|   +---przyjaciolki
+|   |       001 dialogi podrasowane .txt
+|   |       002 dialogi  podrasowane02prompty.txt
+|   |       2FZvc (1).jpg
+|   |       2FZvc.jpg
+|   |       3b70j.jpg
+|   |       76pjI.jpg
+|   |       7RrnG (1).jpg
+|   |       7RrnG.jpg
+|   |       8gErb.jpg
+|   |       bA8zA.jpg
+|   |       CTXd2.jpg
+|   |       DNg5O (1).jpg
+|   |       DNg5O.jpg
+|   |       fI7BU (1).jpg
+|   |       fI7BU.jpg
+|   |       gqw7S.jpg
+|   |       hsnE6.jpg
+|   |       iDPGh (1).jpg
+|   |       iDPGh.jpg
+|   |       izz4n.jpg
+|   |       Jrv13.jpg
+|   |       lista dialogów 01.txt
+|   |       Mwtal.jpg
+|   |       oIph1.jpg
+|   |       prompty z dialogów podrasowanych.txt
+|   |       ROB3U.jpg
+|   |       rVrN6 (1).jpg
+|   |       spontaniczne.jpg
+|   |       tuoM2.jpg
+|   |       uWwOB.jpg
+|   |       vCjWh (1).jpg
+|   |       vCjWh.jpg
+|   |       wj2ZR.jpg
+|   |       ySnFw.jpg
+|   |       
+|   +---przytul_kobiete
+|   |       002.jpg
+|   |       APmUS.jpg
+|   |       grok_image_4743pb.jpg
+|   |       grok_image_nvj3rq.jpg
+|   |       grok_image_o8dbss.jpg
+|   |       grok_image_x29vzc7.jpg
+|   |       grok_image_xbad2qb.jpg
+|   |       
+|   +---restauracja
+|   |       1789887870353 — kopia.png
+|   |       przynêta.png
+|   |       restaruracja1.jpg
+|   |       smierdzikorkiem.png
+|   |       
+|   \---twarz mickiewicza
+|           ChatGPT Image 31 sty 2026, 17_49_04 — kopia.png
+|           ChatGPT Image 31 sty 2026, 18_06_48.png
+|           ChatGPT Image 31 sty 2026, 18_15_49 — kopia.png
+|           ChatGPT Image 31 sty 2026, 18_15_49.png
+|           ChatGPT Image 31 sty 2026, 18_33_26.png
+|           legenda_kolorow.txt
+|           sgfs.png
+|           twarz_zlosc.png
+|           
++---Ozyrys
+|       ozyrys.zip
+|       
++---pdf
++---thumbs
+|   +---images
+|   |   +---kie³ki
+|   |   |       01.png.jpg
+|   |   |       02.png.jpg
+|   |   |       Copilot_20260418_234415 (1).png.jpg
+|   |   |       Copilot_20260418_234415.png.jpg
+|   |   |       Copilot_20260419_002532.png.jpg
+|   |   |       Copilot_20260419_002926.png.jpg
+|   |   |       Copilot_20260419_003051.png.jpg
+|   |   |       Gemini_Generated_Image_5eyqax5eyqax5eyq.png.jpg
+|   |   |       Gemini_Generated_Image_ak4fbzak4fbzak4f.png.jpg
+|   |   |       Gemini_Generated_Image_cm19ygcm19ygcm19.png.jpg
+|   |   |       Gemini_Generated_Image_halebmhalebmhale (1).png.jpg
+|   |   |       Gemini_Generated_Image_halebmhalebmhale.png.jpg
+|   |   |       Gemini_Generated_Image_jty4rkjty4rkjty4.png.jpg
+|   |   |       Gemini_Generated_Image_lymkfvlymkfvlymk.png.jpg
+|   |   |       Gemini_Generated_Image_my0y19my0y19my0y.png.jpg
+|   |   |       Gemini_Generated_Image_qdfjg9qdfjg9qdfj.png.jpg
+|   |   |       Gemini_Generated_Image_trguxntrguxntrgu.png.jpg
+|   |   |       Gemini_Generated_Image_tssxyktssxyktssx.png.jpg
+|   |   |       generated-image.png.jpg
+|   |   |       sddsf.png.jpg
+|   |   |       
+|   |   +---Komiks uczennicy
+|   |   |       001.png.jpg
+|   |   |       002.png.jpg
+|   |   |       003.png.jpg
+|   |   |       004.png.jpg
+|   |   |       005.png.jpg
+|   |   |       006.png.jpg
+|   |   |       007.png.jpg
+|   |   |       007a.png.jpg
+|   |   |       008.png.jpg
+|   |   |       010.png.jpg
+|   |   |       011.png.jpg
+|   |   |       012.png.jpg
+|   |   |       013.png.jpg
+|   |   |       014.png.jpg
+|   |   |       015.png.jpg
+|   |   |       016.png.jpg
+|   |   |       017.png.jpg
+|   |   |       018.png.jpg
+|   |   |       019.png.jpg
+|   |   |       020.png.jpg
+|   |   |       
+|   |   +---matma rysu
+|   |   |       ChatGPT Image 4 lis 2025, 11_09_22.png.jpg
+|   |   |       Copilot_20251104_111106.png.jpg
+|   |   |       Copilot_20251104_111831.png.jpg
+|   |   |       Copilot_20251104_112132.png.jpg
+|   |   |       Copilot_20251104_112421.png.jpg
+|   |   |       Gemini_Generated_Image_42fbtl42fbtl42fb.png.jpg
+|   |   |       Gemini_Generated_Image_74v73n74v73n74v7.png.jpg
+|   |   |       Gemini_Generated_Image_u86ocqu86ocqu86o.png.jpg
+|   |   |       Gemini_Generated_Image_wa7227wa7227wa72.png.jpg
+|   |   |       
+|   |   +---MIX
+|   |   |       1789913693579.png.jpg
+|   |   |       1789915068213.png.jpg
+|   |   |       1790104285136.png.jpg
+|   |   |       ChatGPT Image 1 sty 2026, 20_41_19.png.jpg
+|   |   |       ChatGPT Image 13 lut 2026, 18_15_54.png.jpg
+|   |   |       ChatGPT Image 14 paŸ 2025, 12_10_23.png.jpg
+|   |   |       ChatGPT Image 15 cze 2026, 11_12_36.png.jpg
+|   |   |       cs4-kotek006-1024pix.png.jpg
+|   |   |       file_0000000077f081f496ee0d78a80912d6.png.jpg
+|   |   |       Gemini_Generated_Image_924x9s924x9s924x.png.jpg
+|   |   |       Gemini_Generated_Image_gikm1jgikm1jgikm.png.jpg
+|   |   |       Gemini_Generated_Image_mb933lmb933lmb93.png.jpg
+|   |   |       Gemini_Generated_Image_swa2moswa2moswa2.png.jpg
+|   |   |       Gemini_Generated_Image_t9a47rt9a47rt9a4.png.jpg
+|   |   |       grok_image_ufwh05 (1).jpg.jpg
+|   |   |       grok_image_xudl2g.jpg.jpg
+|   |   |       grok_image_xukmk19.jpg.jpg
+|   |   |       pust.png.jpg
+|   |   |       Screenshot_20260920_163824_X.jpg.jpg
+|   |   |       
+|   |   +---musze isc po miesko
+|   |   |       8b.jpeg.jpg
+|   |   |       copilot_image_1759605224300.jpeg.jpg
+|   |   |       copilot_image_1759605556143.jpeg.jpg
+|   |   |       copilot_image_1759605804454.jpeg.jpg
+|   |   |       copilot_image_1759605996579.jpeg.jpg
+|   |   |       copilot_image_1759683647641.jpeg.jpg
+|   |   |       copilot_image_1759683848604.jpeg.jpg
+|   |   |       copilot_image_1759683878516.jpeg.jpg
+|   |   |       copilot_image_1759684272792.jpeg.jpg
+|   |   |       copilot_image_1759684372160.jpeg.jpg
+|   |   |       copilot_image_1759684475571.jpeg.jpg
+|   |   |       copilot_image_1759684556049.jpeg.jpg
+|   |   |       copilot_image_1759684654523.jpeg.jpg
+|   |   |       copilot_image_1759684767862.jpeg.jpg
+|   |   |       copilot_image_1759685050786.jpeg.jpg
+|   |   |       copilot_image_1759768808671.jpeg.jpg
+|   |   |       copilot_image_1759874483926.jpeg.jpg
+|   |   |       
+|   |   +---numer7
+|   |   |       czarn.jpg.jpg
+|   |   |       Gemini_Generated_Image_ddpl0zddpl0zddpl.png.jpg
+|   |   |       Gemini_Generated_Image_r0keq6r0keq6r0ke.png.jpg
+|   |   |       Gemini_Generated_Image_yukdc9yukdc9yukd.png.jpg
+|   |   |       NIOit.jpg.jpg
+|   |   |       Nxwbh (1).jpg.jpg
+|   |   |       Nxwbh.jpg.jpg
+|   |   |       odpowiedni_wiek.jpg.jpg
+|   |   |       omAWy.jpg.jpg
+|   |   |       oUkAM.jpg.jpg
+|   |   |       
+|   |   +---oczy_robocze
+|   |   |       001.png.jpg
+|   |   |       002.png.jpg
+|   |   |       003.png.jpg
+|   |   |       004.png.jpg
+|   |   |       005.png.jpg
+|   |   |       006.png.jpg
+|   |   |       007.png.jpg
+|   |   |       008.png.jpg
+|   |   |       009.png.jpg
+|   |   |       
+|   |   +---Piekne_oczy
+|   |   |       kola¿.png.jpg
+|   |   |       
+|   |   +---przyjaciolki
+|   |   |       2FZvc (1).jpg.jpg
+|   |   |       2FZvc.jpg.jpg
+|   |   |       3b70j.jpg.jpg
+|   |   |       76pjI.jpg.jpg
+|   |   |       7RrnG (1).jpg.jpg
+|   |   |       7RrnG.jpg.jpg
+|   |   |       8gErb.jpg.jpg
+|   |   |       bA8zA.jpg.jpg
+|   |   |       CTXd2.jpg.jpg
+|   |   |       DNg5O (1).jpg.jpg
+|   |   |       DNg5O.jpg.jpg
+|   |   |       fI7BU (1).jpg.jpg
+|   |   |       fI7BU.jpg.jpg
+|   |   |       gqw7S.jpg.jpg
+|   |   |       hsnE6.jpg.jpg
+|   |   |       iDPGh (1).jpg.jpg
+|   |   |       iDPGh.jpg.jpg
+|   |   |       izz4n.jpg.jpg
+|   |   |       Jrv13.jpg.jpg
+|   |   |       Mwtal.jpg.jpg
+|   |   |       oIph1.jpg.jpg
+|   |   |       ROB3U.jpg.jpg
+|   |   |       rVrN6 (1).jpg.jpg
+|   |   |       rVrN6.jpg.jpg
+|   |   |       spontaniczne.jpg.jpg
+|   |   |       tuoM2.jpg.jpg
+|   |   |       uWwOB.jpg.jpg
+|   |   |       vCjWh (1).jpg.jpg
+|   |   |       vCjWh.jpg.jpg
+|   |   |       wj2ZR.jpg.jpg
+|   |   |       ySnFw.jpg.jpg
+|   |   |       
+|   |   +---przytul_kobiete
+|   |   |       002.jpg.jpg
+|   |   |       APmUS.jpg.jpg
+|   |   |       grok_image_4743pb.jpg.jpg
+|   |   |       grok_image_nvj3rq.jpg.jpg
+|   |   |       grok_image_o8dbss.jpg.jpg
+|   |   |       grok_image_x29vzc7.jpg.jpg
+|   |   |       grok_image_xbad2qb.jpg.jpg
+|   |   |       
+|   |   +---restauracja
+|   |   |       1789887870353 — kopia.png.jpg
+|   |   |       przynêta.png.jpg
+|   |   |       restaruracja1.jpg.jpg
+|   |   |       smierdzikorkiem.png.jpg
+|   |   |       
+|   |   \---twarz mickiewicza
+|   |           ChatGPT Image 31 sty 2026, 17_49_04 — kopia.png.jpg
+|   |           ChatGPT Image 31 sty 2026, 18_06_48.png.jpg
+|   |           ChatGPT Image 31 sty 2026, 18_15_49 — kopia.png.jpg
+|   |           ChatGPT Image 31 sty 2026, 18_15_49.png.jpg
+|   |           ChatGPT Image 31 sty 2026, 18_33_26.png.jpg
+|   |           sgfs.png.jpg
+|   |           twarz_zlosc.png.jpg
+|   |           
+|   \---images_publiczne
+|       +---kie³ki
+|       |       01.png.jpg
+|       |       02.png.jpg
+|       |       Copilot_20260418_234415 (1).png.jpg
+|       |       Copilot_20260418_234415.png.jpg
+|       |       Copilot_20260419_002532.png.jpg
+|       |       Copilot_20260419_002926.png.jpg
+|       |       Copilot_20260419_003051.png.jpg
+|       |       Gemini_Generated_Image_5eyqax5eyqax5eyq.png.jpg
+|       |       Gemini_Generated_Image_ak4fbzak4fbzak4f.png.jpg
+|       |       Gemini_Generated_Image_cm19ygcm19ygcm19.png.jpg
+|       |       Gemini_Generated_Image_halebmhalebmhale (1).png.jpg
+|       |       Gemini_Generated_Image_halebmhalebmhale.png.jpg
+|       |       Gemini_Generated_Image_jty4rkjty4rkjty4.png.jpg
+|       |       Gemini_Generated_Image_lymkfvlymkfvlymk.png.jpg
+|       |       Gemini_Generated_Image_my0y19my0y19my0y.png.jpg
+|       |       Gemini_Generated_Image_qdfjg9qdfjg9qdfj.png.jpg
+|       |       Gemini_Generated_Image_trguxntrguxntrgu.png.jpg
+|       |       Gemini_Generated_Image_tssxyktssxyktssx.png.jpg
+|       |       generated-image.png.jpg
+|       |       sddsf.png.jpg
+|       |       
+|       +---Komiks uczennicy
+|       |       001.png.jpg
+|       |       002.png.jpg
+|       |       003.png.jpg
+|       |       004.png.jpg
+|       |       005.png.jpg
+|       |       006.png.jpg
+|       |       007.png.jpg
+|       |       007a.png.jpg
+|       |       008.png.jpg
+|       |       010.png.jpg
+|       |       011.png.jpg
+|       |       012.png.jpg
+|       |       013.png.jpg
+|       |       014.png.jpg
+|       |       015.png.jpg
+|       |       016.png.jpg
+|       |       017.png.jpg
+|       |       018.png.jpg
+|       |       019.png.jpg
+|       |       020.png.jpg
+|       |       
+|       +---matma rysu
+|       |       ChatGPT Image 4 lis 2025, 11_09_22.png.jpg
+|       |       Copilot_20251104_111106.png.jpg
+|       |       Copilot_20251104_111831.png.jpg
+|       |       Copilot_20251104_112132.png.jpg
+|       |       Copilot_20251104_112421.png.jpg
+|       |       Gemini_Generated_Image_42fbtl42fbtl42fb.png.jpg
+|       |       Gemini_Generated_Image_74v73n74v73n74v7.png.jpg
+|       |       Gemini_Generated_Image_u86ocqu86ocqu86o.png.jpg
+|       |       Gemini_Generated_Image_wa7227wa7227wa72.png.jpg
+|       |       
+|       +---MIX
+|       |       1789913693579.png.jpg
+|       |       1789915068213.png.jpg
+|       |       1790104285136.png.jpg
+|       |       ChatGPT Image 1 sty 2026, 20_41_19.png.jpg
+|       |       ChatGPT Image 13 lut 2026, 18_15_54.png.jpg
+|       |       ChatGPT Image 14 paŸ 2025, 12_10_23.png.jpg
+|       |       ChatGPT Image 15 cze 2026, 11_12_36.png.jpg
+|       |       cs4-kotek006-1024pix.png.jpg
+|       |       file_0000000077f081f496ee0d78a80912d6.png.jpg
+|       |       Gemini_Generated_Image_924x9s924x9s924x.png.jpg
+|       |       Gemini_Generated_Image_gikm1jgikm1jgikm.png.jpg
+|       |       Gemini_Generated_Image_mb933lmb933lmb93.png.jpg
+|       |       Gemini_Generated_Image_swa2moswa2moswa2.png.jpg
+|       |       Gemini_Generated_Image_t9a47rt9a47rt9a4.png.jpg
+|       |       grok_image_ufwh05 (1).jpg.jpg
+|       |       grok_image_xudl2g.jpg.jpg
+|       |       grok_image_xukmk19.jpg.jpg
+|       |       pust.png.jpg
+|       |       Screenshot_20260920_163824_X.jpg.jpg
+|       |       
+|       +---musze isc po miesko
+|       |       8b.jpeg.jpg
+|       |       copilot_image_1759605224300.jpeg.jpg
+|       |       copilot_image_1759605556143.jpeg.jpg
+|       |       copilot_image_1759605804454.jpeg.jpg
+|       |       copilot_image_1759605996579.jpeg.jpg
+|       |       copilot_image_1759683647641.jpeg.jpg
+|       |       copilot_image_1759683848604.jpeg.jpg
+|       |       copilot_image_1759683878516.jpeg.jpg
+|       |       copilot_image_1759684272792.jpeg.jpg
+|       |       copilot_image_1759684372160.jpeg.jpg
+|       |       copilot_image_1759684475571.jpeg.jpg
+|       |       copilot_image_1759684556049.jpeg.jpg
+|       |       copilot_image_1759684654523.jpeg.jpg
+|       |       copilot_image_1759684767862.jpeg.jpg
+|       |       copilot_image_1759685050786.jpeg.jpg
+|       |       copilot_image_1759768808671.jpeg.jpg
+|       |       copilot_image_1759874483926.jpeg.jpg
+|       |       
+|       +---oczy_robocze
+|       |       001.png.jpg
+|       |       002.png.jpg
+|       |       003.png.jpg
+|       |       004.png.jpg
+|       |       005.png.jpg
+|       |       006.png.jpg
+|       |       007.png.jpg
+|       |       008.png.jpg
+|       |       009.png.jpg
+|       |       
+|       +---Piekne_oczy
+|       |       kola¿.png.jpg
+|       |       
+|       +---przyjaciolki
+|       |       2FZvc (1).jpg.jpg
+|       |       2FZvc.jpg.jpg
+|       |       3b70j.jpg.jpg
+|       |       76pjI.jpg.jpg
+|       |       7RrnG (1).jpg.jpg
+|       |       7RrnG.jpg.jpg
+|       |       8gErb.jpg.jpg
+|       |       bA8zA.jpg.jpg
+|       |       CTXd2.jpg.jpg
+|       |       DNg5O (1).jpg.jpg
+|       |       DNg5O.jpg.jpg
+|       |       fI7BU (1).jpg.jpg
+|       |       fI7BU.jpg.jpg
+|       |       gqw7S.jpg.jpg
+|       |       hsnE6.jpg.jpg
+|       |       iDPGh (1).jpg.jpg
+|       |       iDPGh.jpg.jpg
+|       |       izz4n.jpg.jpg
+|       |       Jrv13.jpg.jpg
+|       |       Mwtal.jpg.jpg
+|       |       oIph1.jpg.jpg
+|       |       ROB3U.jpg.jpg
+|       |       rVrN6 (1).jpg.jpg
+|       |       spontaniczne.jpg.jpg
+|       |       tuoM2.jpg.jpg
+|       |       uWwOB.jpg.jpg
+|       |       vCjWh (1).jpg.jpg
+|       |       vCjWh.jpg.jpg
+|       |       wj2ZR.jpg.jpg
+|       |       ySnFw.jpg.jpg
+|       |       
+|       +---przytul_kobiete
+|       |       002.jpg.jpg
+|       |       APmUS.jpg.jpg
+|       |       grok_image_4743pb.jpg.jpg
+|       |       grok_image_nvj3rq.jpg.jpg
+|       |       grok_image_o8dbss.jpg.jpg
+|       |       grok_image_x29vzc7.jpg.jpg
+|       |       grok_image_xbad2qb.jpg.jpg
+|       |       
+|       +---restauracja
+|       |       1789887870353 — kopia.png.jpg
+|       |       przynêta.png.jpg
+|       |       restaruracja1.jpg.jpg
+|       |       smierdzikorkiem.png.jpg
+|       |       
+|       \---twarz mickiewicza
+|               ChatGPT Image 31 sty 2026, 17_49_04 — kopia.png.jpg
+|               ChatGPT Image 31 sty 2026, 18_06_48.png.jpg
+|               ChatGPT Image 31 sty 2026, 18_15_49 — kopia.png.jpg
+|               ChatGPT Image 31 sty 2026, 18_15_49.png.jpg
+|               ChatGPT Image 31 sty 2026, 18_33_26.png.jpg
+|               sgfs.png.jpg
+|               twarz_zlosc.png.jpg
+|               
++---Tyler
+|   |   index.html
+|   |   
+|   \---example
+|       +---01_script_gas
+|       |       1.html
+|       |       sekretarka.png
+|       |       
+|       +---02_AI
+|       |       1.html
+|       |       
+|       +---03_Response
+|       |       1.html
+|       |       
+|       +---biznes
+|       |       1.html
+|       |       1.png
+|       |       2.png
+|       |       
+|       +---dociekliwy
+|       |       1.html
+|       |       2.html
+|       |       
+|       +---emocje
+|       |       1.html
+|       |       
+|       +---generator_pdf
+|       |       001.pdf
+|       |       
+|       +---nawiazanie
+|       |       1.html
+|       |       1.png
+|       |       
+|       +---scrabble
+|       |       1 (1).html
+|       |       1.html
+|       |       1.png
+|       |       
+|       +---smierc
+|       |       1.html
+|       |       
+|       \---zwykly
+|               1.html
+|               1.jpg
+|               2.jpg
+|               3.jpg
+|               4.jpg
+|               5.jpg
+|               6.jpg
+|               7.jpg
+|               ankieta.html
+|               horoskop.pdf
+|               karta_rpg.pdf
+|               plakat.svg
+|               raport_psychiatryczny.docx
+|               
+\---video
+        ai_clipper_cc.mp4
+        color_match_cc.mp4
+        digital_human_rule_cc.mp4
+        index.html
+        transcript_first_stage.mp4
+        transcript_second_stage_process.mp4
+        transcript_second_stage_recognize.mp4
+        transcript_second_stage_upload.mp4
+        

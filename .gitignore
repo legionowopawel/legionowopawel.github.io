@@ -1,0 +1,38 @@
+# ============================================================
+# .gitignore — nadpisywany automatycznie przez aktualizacja_html.py
+# Nie edytuj ręcznie: przy następnym uruchomieniu programu zniknie.
+# ============================================================
+
+# --- ORYGINAŁY PRYWATNE (tylko na dysku — NIGDY na GitHub) ---
+images_prywatne_zrodla/
+html_prywatne_zrodla/
+prywatne_pliki_zrodlo/
+/images_prywatne/
+
+# --- Program i konfiguracja (lokalne — nikt nie ma poznać sposobu szyfrowania) ---
+/aktualizacja_html.py
+aktualizacja_html*.py
+/aktualizacja_config.json
+aktualizacja_config*.json
+.stan_*.json
+
+# --- Kopie robocze / backupy ---
+Git_ignore_robocze_pliki/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Systemowe / edytory ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# --- Stara struktura (gdyby coś zostało) ---
+haslo_git_ignore/
+html_prywatne_git_ignore/
+haslo/
