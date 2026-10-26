@@ -2,7 +2,7 @@
   "v": 1,
   "kdf": "PBKDF2-SHA256",
   "iterations": 600000,
-  "salt": "rFylv86YwUCOtjF9cEMHPQ==",
-  "check": "9RgrysIDtpuC3JKdKYG6QPEyNNAyY+rucz9dEksO",
+  "salt": "GMSsI5zartqYwnkCZFVWXA==",
+  "check": "nsjbgdwsuqxRdOR2A7OfYarExZDNlWZAnOkiUb4o",
   "index": "_images_prywatne_zrodla_posiada_haslo/index.enc"
 }
