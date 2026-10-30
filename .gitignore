@@ -37,8 +37,6 @@ haslo_git_ignore/
 html_prywatne_git_ignore/
 haslo/
 
-# --- Mechanika 3D (lokalna, nie na GitHub) ---
+# --- Mechanika 3D (tylko generator lokalny; galeria_3d_*.html idzie na GitHub) ---
 mechanika_tworzenia_3d.py
 /mechanika_tworzenia_3d.py
-galeria_3d*.html
-galeria3d*.html
