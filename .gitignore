@@ -36,3 +36,9 @@ desktop.ini
 haslo_git_ignore/
 html_prywatne_git_ignore/
 haslo/
+
+# --- Mechanika 3D (lokalna, nie na GitHub) ---
+mechanika_tworzenia_3d.py
+/mechanika_tworzenia_3d.py
+galeria_3d*.html
+galeria3d*.html
