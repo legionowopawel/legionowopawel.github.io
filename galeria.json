@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T22:45:42",
+  "generated": "2026-11-03T00:36:38",
   "images": [
     {
       "name": "kiełki",
@@ -1073,6 +1073,96 @@
           "ar": 0.814
         }
       ]
+    },
+    {
+      "name": "W pracy",
+      "label": "W pracy",
+      "items": [
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/7ESJA.jpg",
+          "title": "7ESJA",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/31rlW.jpg",
+          "title": "31rlW",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/cPCjd.jpg",
+          "title": "cPCjd",
+          "mime": "image/jpeg",
+          "ar": 1.5
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/gKGsN.jpg",
+          "title": "gKGsN",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/guP5j.jpg",
+          "title": "guP5j",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/oNCkU.jpg",
+          "title": "oNCkU",
+          "mime": "image/jpeg",
+          "ar": 1.5
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/saV0N.jpg",
+          "title": "saV0N",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/UNKBg (1).jpg",
+          "title": "UNKBg (1)",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/UNKBg.jpg",
+          "title": "UNKBg",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/XzMwQ.jpg",
+          "title": "XzMwQ",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/YlH2a.jpg",
+          "title": "YlH2a",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        },
+        {
+          "kind": "image",
+          "src": "images_publiczne/W pracy/ZViHP.jpg",
+          "title": "ZViHP",
+          "mime": "image/jpeg",
+          "ar": 1.4898
+        }
+      ]
     }
   ],
   "pdf": [
@@ -1601,8 +1691,8 @@
     "v": 1,
     "kdf": "PBKDF2-SHA256",
     "iterations": 600000,
-    "salt": "ps+I/QZgrynM7FHm+nyagQ==",
-    "check": "H4ECyJjW7L35d8I/ryOJdqKmRmF15Aio1wLZd7LJ",
+    "salt": "kCYMRTfP/eX7lkcbwH6fdw==",
+    "check": "1i1OvXeL9W7KLWpBkAAFkGAYj34avgRiL7d/EijR",
     "index": "_images_prywatne_zrodla_posiada_haslo/index.enc"
   }
 }
