@@ -3,639 +3,155 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV — Interaktywne</title>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Paweł Więcek — CV</title>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #ffffff;
     --surface: #f7f5ff;
-    --surface2: #ede9fe;
     --border: rgba(109,40,217,0.13);
     --accent: #7c3aed;
     --accent2: #a855f7;
-    --accent3: #5b21b6;
     --text: #1a1a2e;
     --muted: #6b7280;
-    --font-mono: 'Ubuntu Mono', monospace;
-    --font-body: 'Inter', sans-serif;
+    --font-mono: 'Ubuntu Mono', ui-monospace, monospace;
+    --font-body: 'Inter', system-ui, sans-serif;
   }
-
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--font-body);
-    overflow-x: hidden;
-    cursor: none;
-  }
-
-  /* DRAGON CANVAS */
-  #dragonCanvas {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    pointer-events: none;
-    z-index: 9999;
-  }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-body); overflow-x: hidden; }
 
   /* HERO */
   #hero {
     min-height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    position: relative;
-    overflow: hidden;
-    padding: 48px 32px 32px;
-    background: #fff;
+    display: flex; flex-direction: column; justify-content: center; gap: 36px;
+    position: relative; overflow: hidden;
+    padding: 48px 32px;
   }
-
   .hero-bg {
-    position: absolute;
-    inset: 0;
+    position: absolute; inset: 0;
     background:
       radial-gradient(ellipse 50% 40% at 15% 40%, rgba(124,58,237,0.06) 0%, transparent 70%),
       radial-gradient(ellipse 30% 30% at 85% 15%, rgba(168,85,247,0.04) 0%, transparent 60%);
   }
-
   .hero-grid-lines {
-    position: absolute;
-    inset: 0;
+    position: absolute; inset: 0;
     background-image:
       linear-gradient(rgba(109,40,217,0.04) 1px, transparent 1px),
       linear-gradient(90deg, rgba(109,40,217,0.04) 1px, transparent 1px);
     background-size: 48px 48px;
   }
-
-  .hero-content {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 24px;
-    max-width: 820px;
+  .hero-content { position: relative; z-index: 2; display: flex; flex-direction: column; gap: 22px; max-width: 900px; }
+  .hero-top { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+  .hero-photo {
+    width: 132px; height: 132px; border-radius: 50%;
+    object-fit: cover; border: 3px solid var(--surface);
+    box-shadow: 0 0 0 2px var(--accent), 0 8px 24px rgba(124,58,237,0.2);
+    flex-shrink: 0;
   }
-
-  .hero-label {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    letter-spacing: 0.2em;
-    color: var(--accent);
-    text-transform: uppercase;
-    opacity: 0;
-    animation: fadeUp 0.6s ease 0.2s forwards;
-  }
-
-  .hero-name-small {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 0.15em;
-    opacity: 0;
-    animation: fadeUp 0.6s ease 0.3s forwards;
-    line-height: 1.4;
-  }
-
-  .hero-name-big {
-    font-family: var(--font-body);
-    font-weight: 700;
-    font-size: clamp(28px, 5vw, 52px);
-    line-height: 1.1;
-    color: var(--text);
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.4s forwards;
-  }
-
+  .hero-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.2em; color: var(--accent); text-transform: uppercase; margin-bottom: 8px; display: block; }
+  .hero-name-big { font-weight: 800; font-size: clamp(34px, 6vw, 60px); line-height: 1.05; color: var(--text); }
   .hero-name-big span { color: var(--accent); }
-
-  .hero-tagline {
-    font-size: clamp(13px, 1.8vw, 16px);
-    color: var(--muted);
-    font-weight: 400;
-    max-width: 500px;
-    line-height: 1.75;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.6s forwards;
-  }
-
-  .hero-contacts {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.8s forwards;
-  }
-
-  .hero-contact {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--muted);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: color 0.2s, border-color 0.2s;
-    padding-bottom: 2px;
-  }
-  .hero-contact:hover { color: var(--accent); border-color: var(--accent); }
+  .hero-tagline { font-size: clamp(14px, 1.8vw, 17px); color: var(--muted); max-width: 620px; line-height: 1.7; }
 
   /* NAV CARDS */
-  .nav-cards {
-    position: relative; z-index: 2;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 10px;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 1s forwards;
-  }
-
+  .nav-cards { position: relative; z-index: 2; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; max-width: 900px; }
   .nav-card {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 14px;
-    padding: 16px;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    text-decoration: none;
-    color: inherit;
+    background: var(--surface); border: 1.5px solid var(--border); border-radius: 14px; padding: 16px;
+    cursor: pointer; transition: all .25s ease; display: flex; flex-direction: column; gap: 6px;
+    text-decoration: none; color: inherit; font: inherit; text-align: left;
   }
-  .nav-card::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--card-color, var(--accent));
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  .nav-card:hover::before { opacity: 0.07; }
-  .nav-card:hover { border-color: var(--card-color, var(--accent)); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(124,58,237,0.12); }
-
+  .nav-card:hover, .nav-card:focus-visible { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(124,58,237,0.12); outline: none; }
   .card-icon { font-size: 20px; }
-  .card-title {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-weight: 700;
-  }
-  .card-desc {
-    font-size: 12px;
-    font-weight: 500;
-    color: var(--text);
-    line-height: 1.3;
-  }
-  .card-arrow {
-    margin-top: auto;
-    font-size: 14px;
-    color: var(--card-color, var(--accent));
-    align-self: flex-end;
-  }
+  .card-title { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .card-desc { font-size: 12px; font-weight: 500; color: var(--text); line-height: 1.35; }
+  .card-arrow { margin-top: auto; font-size: 14px; color: var(--accent); align-self: flex-end; }
 
   /* SECTIONS */
-  .section {
-    display: none;
-    min-height: 100vh;
-    padding: 64px 28px 48px;
-    position: relative;
-    background: #fff;
-    animation: sectionIn 0.4s ease forwards;
-  }
+  .section { display: none; min-height: 100vh; padding: 64px 28px 48px; background: #fff; animation: sectionIn .4s ease forwards; }
   .section.active { display: block; }
-
-  @keyframes sectionIn {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
+  @keyframes sectionIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
   .section-back {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-family: var(--font-mono);
-    font-size: 11px;
-    letter-spacing: 0.15em;
-    color: var(--muted);
-    cursor: pointer;
-    border: none;
-    background: none;
-    margin-bottom: 40px;
-    transition: color 0.2s;
-    text-transform: uppercase;
+    display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 12px;
+    letter-spacing: 0.15em; color: var(--muted); cursor: pointer; border: none; background: none;
+    margin-bottom: 36px; transition: color .2s; text-transform: uppercase;
   }
   .section-back:hover { color: var(--accent); }
-
-  .section-header { margin-bottom: 40px; }
-  .section-kicker {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    letter-spacing: 0.25em;
-    color: var(--accent);
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    display: block;
-  }
-  .section-title {
-    font-family: var(--font-body);
-    font-size: clamp(36px, 6vw, 64px);
-    font-weight: 800;
-    line-height: 0.95;
-    color: var(--text);
-  }
+  .section-header { margin-bottom: 36px; }
+  .section-kicker { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.25em; color: var(--accent); text-transform: uppercase; margin-bottom: 10px; display: block; }
+  .section-title { font-size: clamp(34px, 6vw, 60px); font-weight: 800; line-height: 0.98; color: var(--text); }
+  .sub-title { font-size: 24px; font-weight: 800; margin: 40px 0 14px; color: var(--text); }
 
   /* BIO */
-  .bio-block {
-    max-width: 720px;
-    background: var(--surface);
-    border-left: 4px solid var(--accent);
-    border-radius: 0 14px 14px 0;
-    padding: 28px 28px 28px 24px;
-    margin-bottom: 40px;
-  }
-  .bio-block p {
-    font-size: 15px;
-    line-height: 1.85;
-    color: var(--text);
-    margin-bottom: 12px;
-  }
+  .bio-block { max-width: 720px; background: var(--surface); border-left: 4px solid var(--accent); border-radius: 0 14px 14px 0; padding: 26px 26px 26px 24px; }
+  .bio-block p { font-size: 15px; line-height: 1.8; margin-bottom: 12px; }
   .bio-block p:last-child { margin-bottom: 0; }
 
   /* TIMELINE */
-  .timeline { display: flex; flex-direction: column; gap: 0; max-width: 800px; }
-  .timeline-item {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 24px 0;
-    border-bottom: 1px solid var(--border);
-    transition: padding-left 0.2s;
-  }
+  .timeline { display: flex; flex-direction: column; max-width: 800px; }
+  .timeline-item { display: flex; flex-direction: column; gap: 8px; padding: 24px 0; border-bottom: 1px solid var(--border); transition: padding-left .2s; }
   .timeline-item:hover { padding-left: 8px; }
-  .tl-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
-  .tl-period {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--accent);
-    background: var(--surface);
-    padding: 2px 10px;
-    border-radius: 100px;
-    border: 1px solid var(--border);
-  }
-  .tl-company {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--muted);
-  }
-  .tl-role {
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--text);
-  }
-  .tl-bullets { list-style: none; display: flex; flex-direction: column; gap: 4px; padding-top: 4px; }
-  .tl-bullets li {
-    font-size: 13px;
-    color: var(--muted);
-    padding-left: 14px;
-    position: relative;
-    line-height: 1.5;
-  }
-  .tl-bullets li::before {
-    content: '›';
-    position: absolute;
-    left: 0;
-    color: var(--accent);
-    font-weight: 700;
-  }
+  .tl-header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; }
+  .tl-period { font-family: var(--font-mono); font-size: 12px; color: var(--accent); background: var(--surface); padding: 2px 10px; border-radius: 100px; border: 1px solid var(--border); }
+  .tl-company { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+  .tl-role { font-size: 17px; font-weight: 600; }
+  .tl-bullets { list-style: none; display: flex; flex-direction: column; gap: 5px; padding-top: 4px; }
+  .tl-bullets li { font-size: 13.5px; color: var(--muted); padding-left: 14px; position: relative; line-height: 1.55; }
+  .tl-bullets li::before { content: '›'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 
-  /* STATS */
-  .stat-row { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 36px; }
-  .stat-item { display: flex; flex-direction: column; gap: 2px; }
-  .stat-num {
-    font-family: var(--font-mono);
-    font-size: 36px;
-    color: var(--accent);
-    font-weight: 700;
-    line-height: 1;
-  }
-  .stat-label {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    letter-spacing: 0.15em;
-    color: var(--muted);
-    text-transform: uppercase;
-  }
-
-  /* SKILLS */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 12px;
-    max-width: 860px;
-  }
-  .skill-card {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 12px;
-    padding: 16px;
-    transition: all 0.3s;
-  }
-  .skill-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 16px rgba(124,58,237,0.1); }
-  .skill-name { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
-  .skill-bar-bg { height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
-  .skill-bar-fill {
-    height: 100%;
-    background: linear-gradient(90deg, var(--accent), var(--accent2));
-    border-radius: 2px;
-    width: 0;
-    transition: width 1s ease;
-  }
-  .skill-card.visible .skill-bar-fill { width: var(--level); }
-
-  /* STRENGTHS / WEAKNESSES */
-  .sw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; max-width: 860px; }
-  @media (max-width: 640px) { .sw-grid { grid-template-columns: 1fr; } }
-  .sw-column-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
-  .sw-column-title { font-family: var(--font-body); font-size: 26px; font-weight: 800; line-height: 1; }
-  .sw-tag {
-    font-family: var(--font-mono);
-    font-size: 9px;
-    letter-spacing: 0.15em;
-    padding: 3px 8px;
-    border-radius: 4px;
-    text-transform: uppercase;
-  }
-  .sw-tag.green { background: rgba(124,58,237,0.1); color: var(--accent); }
-  .sw-tag.orange { background: rgba(168,85,247,0.12); color: var(--accent2); }
-  .sw-item {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 10px;
-    transition: all 0.2s;
-  }
-  .sw-item:hover { transform: translateX(4px); box-shadow: 0 4px 12px rgba(124,58,237,0.08); }
-  .sw-item.strength { border-left: 3px solid var(--accent); }
-  .sw-item.growth { border-left: 3px solid var(--accent2); }
-  .sw-item-title { font-weight: 600; font-size: 13px; color: var(--text); margin-bottom: 5px; }
-  .sw-item-desc { font-size: 12px; color: var(--muted); line-height: 1.6; }
-
-  /* PORTFOLIO */
-  .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; max-width: 860px; }
-  .portfolio-card {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 14px;
-    padding: 24px;
-    display: flex; flex-direction: column; gap: 10px;
-    transition: all 0.25s;
-    text-decoration: none;
-  }
-  .portfolio-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 8px 24px rgba(124,58,237,0.12); }
-  .portfolio-icon { font-size: 26px; }
-  .portfolio-title { font-size: 15px; font-weight: 700; color: var(--text); }
-  .portfolio-desc { font-size: 12px; color: var(--muted); line-height: 1.6; }
-  .portfolio-link { font-family: var(--font-mono); font-size: 10px; color: var(--accent); letter-spacing: 0.1em; margin-top: auto; }
+  /* GROUPS / TAGS */
+  .group-list { display: flex; flex-direction: column; gap: 14px; max-width: 760px; }
+  .group-card { background: var(--surface); border: 1.5px solid var(--border); border-radius: 12px; padding: 18px 20px; transition: border-color .2s; }
+  .group-card:hover { border-color: var(--accent); }
+  .group-name { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; color: var(--accent); text-transform: uppercase; margin-bottom: 10px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag { background: #fff; border: 1.5px solid var(--border); border-radius: 100px; padding: 6px 14px; font-size: 13px; transition: all .2s; }
+  .tag:hover { border-color: var(--accent); color: var(--accent); }
+  .group-text { font-size: 14px; line-height: 1.7; }
 
   /* EDUCATION */
-  .edu-list { max-width: 680px; display: flex; flex-direction: column; gap: 14px; }
-  .edu-item {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    transition: all 0.2s;
-  }
+  .edu-list { max-width: 700px; display: flex; flex-direction: column; gap: 14px; }
+  .edu-item { background: var(--surface); border: 1.5px solid var(--border); border-radius: 12px; padding: 18px 20px; transition: all .2s; }
   .edu-item:hover { border-color: var(--accent); transform: translateX(6px); }
-  .edu-school { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; color: var(--accent); text-transform: uppercase; margin-bottom: 4px; }
-  .edu-degree { font-size: 15px; font-weight: 600; color: var(--text); }
-  .edu-spec { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .edu-school { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; color: var(--accent); text-transform: uppercase; margin-bottom: 4px; }
+  .edu-degree { font-size: 15px; font-weight: 600; }
+  .edu-spec { font-size: 13px; color: var(--muted); margin-top: 4px; }
 
-  /* CONTACT */
-  .contact-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; max-width: 680px; }
-  .contact-card {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    text-decoration: none;
-    transition: all 0.25s;
-    display: flex; flex-direction: column; gap: 6px;
+  /* PORTFOLIO + CONTACT */
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; max-width: 760px; }
+  .link-card {
+    background: var(--surface); border: 1.5px solid var(--border); border-radius: 14px; padding: 22px;
+    display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: inherit; transition: all .25s;
   }
-  .contact-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 8px 20px rgba(124,58,237,0.1); }
-  .contact-icon { font-size: 22px; }
-  .contact-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; }
-  .contact-value { font-size: 13px; color: var(--text); font-weight: 600; }
+  .link-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 8px 22px rgba(124,58,237,0.12); }
+  .link-icon { font-size: 24px; }
+  .link-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; }
+  .link-value { font-size: 14px; font-weight: 600; word-break: break-word; }
 
-  /* INTERESTS TAGS */
-  .interests-tags { display: flex; flex-wrap: wrap; gap: 8px; max-width: 680px; }
-  .interest-tag {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 100px;
-    padding: 7px 16px;
-    font-size: 12px;
-    color: var(--text);
-    transition: all 0.2s;
-    display: flex; align-items: center; gap: 6px;
-  }
-  .interest-tag:hover { border-color: var(--accent); color: var(--accent); background: rgba(124,58,237,0.05); }
+  .consent { max-width: 700px; margin: 40px auto 0 0; font-size: 11px; line-height: 1.6; color: var(--muted); font-style: italic; }
 
-  /* SCROLL HINT */
-  .scroll-hint {
-    position: absolute;
-    bottom: 24px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex; flex-direction: column; align-items: center; gap: 6px;
-    opacity: 0;
-    animation: fadeUp 1s ease 2s forwards;
-  }
-  .scroll-hint span { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.2em; color: var(--muted); }
-  .scroll-line {
-    width: 1px; height: 36px;
-    background: linear-gradient(to bottom, var(--accent), transparent);
-    animation: scrollPulse 2s ease infinite;
-  }
-
-  /* FLOATING YEAR */
-  .floating-year {
-    position: fixed; bottom: 20px; right: 20px;
-    font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.15em;
-    color: var(--muted); opacity: 0.4; z-index: 100;
-    pointer-events: none;
-  }
-
-  /* ANIMATIONS */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes scrollPulse { 0%,100%{opacity:1} 50%{opacity:0.2} }
-
-  /* RESPONSIVE */
+  /* ANIMATION + RESPONSIVE */
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+  .hero-content, .nav-cards { animation: fadeUp .7s ease both; }
+  .nav-cards { animation-delay: .2s; }
   @media (max-width: 600px) {
-    #hero { padding: 36px 18px 24px; }
+    #hero { padding: 36px 18px; }
     .section { padding: 48px 18px 36px; }
     .nav-cards { grid-template-columns: 1fr 1fr; }
-    .stat-num { font-size: 28px; }
+    .hero-photo { width: 104px; height: 104px; }
   }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 
-  @media (max-width: 380px) {
-    .nav-cards { grid-template-columns: 1fr; }
+  /* PRINT: wszystkie sekcje naraz, bez nawigacji */
+  @media print {
+    #hero .nav-cards, .section-back { display: none; }
+    #hero { min-height: 0; padding: 16px 0; }
+    .section { display: block !important; min-height: 0; padding: 20px 0; animation: none; page-break-inside: auto; }
+    .timeline-item, .edu-item, .group-card { break-inside: avoid; }
   }
-
-  /* TOOLTIP */
-  [data-tooltip] { position: relative; }
-  [data-tooltip]::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: calc(100% + 6px);
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--text);
-    color: #fff;
-    font-family: var(--font-mono);
-    font-size: 10px;
-    padding: 5px 10px;
-    border-radius: 6px;
-    white-space: nowrap;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
-    z-index: 1000;
-  }
-  [data-tooltip]:hover::after { opacity: 1; }
-
-  /* SCRIPT LINK BUTTON */
-  .script-link-card {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: linear-gradient(135deg, var(--accent), var(--accent2));
-    color: #fff;
-    text-decoration: none;
-    border-radius: 12px;
-    padding: 14px 22px;
-    font-family: var(--font-mono);
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    font-weight: 700;
-    transition: all 0.25s;
-    box-shadow: 0 4px 16px rgba(124,58,237,0.25);
-    margin-top: 8px;
-  }
-  .script-link-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(124,58,237,0.35); }
-
-  /* ===== CURSOR SELECTOR BAR ===== */
-  #cursorBar {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 99999;
-    background: rgba(15,10,35,0.97);
-    border-bottom: 1.5px solid rgba(124,58,237,0.4);
-    backdrop-filter: blur(12px);
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 8px 14px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    font-family: 'Ubuntu Mono', monospace;
-    box-shadow: 0 2px 20px rgba(124,58,237,0.15);
-  }
-  #cursorBar::-webkit-scrollbar { display: none; }
-  .cbar-label {
-    font-size: 9px;
-    letter-spacing: 0.2em;
-    color: rgba(168,85,247,0.7);
-    text-transform: uppercase;
-    white-space: nowrap;
-    padding-right: 6px;
-    border-right: 1px solid rgba(124,58,237,0.3);
-    margin-right: 2px;
-  }
-  .cbar-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    background: rgba(124,58,237,0.08);
-    border: 1.5px solid rgba(124,58,237,0.2);
-    border-radius: 8px;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: all 0.2s;
-    color: rgba(200,180,255,0.8);
-    white-space: nowrap;
-    min-width: 72px;
-  }
-  .cbar-btn:hover {
-    background: rgba(124,58,237,0.2);
-    border-color: rgba(168,85,247,0.6);
-    color: #fff;
-    transform: translateY(-1px);
-  }
-  .cbar-btn.active {
-    background: linear-gradient(135deg, rgba(124,58,237,0.5), rgba(168,85,247,0.4));
-    border-color: #a855f7;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(124,58,237,0.4);
-  }
-  .cbar-icon { font-size: 16px; line-height: 1; }
-  .cbar-name { font-size: 8px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.9; }
-  #hero { padding-top: 80px !important; }
 </style>
 </head>
 <body>
-
-<canvas id="dragonCanvas"></canvas>
-
-<!-- ===== CURSOR SELECTOR BAR ===== -->
-<div id="cursorBar">
-  <span class="cbar-label">🖱️ Kursor</span>
-  <button class="cbar-btn active" onclick="setCursor('none')" id="btn-none">
-    <span class="cbar-icon">🖱️</span>
-    <span class="cbar-name">Normalna</span>
-  </button>
-  <button class="cbar-btn" onclick="setCursor('dragon')" id="btn-dragon">
-    <span class="cbar-icon">🐉</span>
-    <span class="cbar-name">Smok</span>
-  </button>
-  <button class="cbar-btn" onclick="setCursor('snake')" id="btn-snake">
-    <span class="cbar-icon">🐍</span>
-    <span class="cbar-name">Wąż</span>
-  </button>
-  <button class="cbar-btn" onclick="setCursor('textcircle')" id="btn-textcircle">
-    <span class="cbar-icon">💬</span>
-    <span class="cbar-name">Tekst</span>
-  </button>
-  <button class="cbar-btn" onclick="setCursor('fairy')" id="btn-fairy">
-    <span class="cbar-icon">✨</span>
-    <span class="cbar-name">Fairy Dust</span>
-  </button>
-  <button class="cbar-btn" onclick="setCursor('clock')" id="btn-clock">
-    <span class="cbar-icon">🕐</span>
-    <span class="cbar-name">Zegar</span>
-  </button>
-  <button class="cbar-btn" onclick="setCursor('string')" id="btn-string">
-    <span class="cbar-icon">🧵</span>
-    <span class="cbar-name">Gumka</span>
-  </button>
-</div>
-
-<!-- Effect scripts -->
-<script src="Efekty_html/elastic_dragon.js"></script>
-<script src="Efekty_html/snake_follower.js"></script>
-<script src="Efekty_html/text_circle.js"></script>
-<script src="Efekty_html/fairy_dust.js"></script>
-<script src="Efekty_html/clock_follower.js"></script>
-<script src="Efekty_html/elastic_string.js"></script>
-<div class="floating-year">2026</div>
 
 <!-- =================== HERO =================== -->
 <div id="hero">
@@ -643,318 +159,243 @@
   <div class="hero-grid-lines"></div>
 
   <div class="hero-content">
-    <span class="hero-label">↳ Interaktywne CV · Warszawa · ur. 19xx</span>
-
-    <div>
-      <div class="hero-name-small">$ whoami</div>
-      <div class="hero-name-big">Paweł<br><span>W</span></div>
+    <div class="hero-top">
+      <img class="hero-photo" src="data:image/jpeg;base64,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" alt="Paweł Więcek">
+      <div>
+        <span class="hero-label">Legionowo / Warszawa</span>
+        <div class="hero-name-big">Paweł <span>Więcek</span></div>
+      </div>
     </div>
 
     <p class="hero-tagline">
-      Specjalista ds. analizy danych, automatyzacji i administracji.<br>
-      Człowiek, który sprawia że rzeczy działają lepiej niż przed nim — i zostawia po sobie dokumentację.
+      Tam, gdzie dane spotykają technologię: porządkuję chaos w liczbach, automatyzuję procesy i sprawiam, że sprzęt oraz systemy działają bez zarzutu.
     </p>
 
-    <div class="hero-contacts">
-      <a href="mailto:paw******@gmail.com" class="hero-contact">pawla…@gmail.com</a>
-      <a href="tel:+48606" class="hero-contact">606 …</a>
-      <a href="https://github.com/legionowopawel" target="_blank" class="hero-contact">github/legionowopawel</a>
-    </div>
-
-    <nav class="nav-cards" id="mainNav">
-      <a class="nav-card" style="--card-color:#7c3aed" onclick="openSection('about')">
-        <span class="card-icon">👤</span>
-        <span class="card-title">O mnie</span>
-        <span class="card-desc">Kim jestem i czym się kieruję</span>
-        <span class="card-arrow">↗</span>
-      </a>
-      <a class="nav-card" style="--card-color:#7c3aed" onclick="openSection('experience')">
-        <span class="card-icon">📋</span>
-        <span class="card-title">Doświadczenie</span>
-        <span class="card-desc">15+ lat pracy w analizie i automatyzacji</span>
-        <span class="card-arrow">↗</span>
-      </a>
-      <a class="nav-card" style="--card-color:#a855f7" onclick="openSection('skills')">
-        <span class="card-icon">⚙️</span>
-        <span class="card-title">Umiejętności</span>
-        <span class="card-desc">Python, Excel, CCTV, CRM i więcej</span>
-        <span class="card-arrow">↗</span>
-      </a>
-      <a class="nav-card" style="--card-color:#6d28d9" onclick="openSection('strengths')">
-        <span class="card-icon">💡</span>
-        <span class="card-title">Mocne & Słabe</span>
-        <span class="card-desc">Co wnoszę, co rozwijam</span>
-        <span class="card-arrow">↗</span>
-      </a>
-      <a class="nav-card" style="--card-color:#8b5cf6" onclick="openSection('portfolio')">
-        <span class="card-icon">🗂️</span>
-        <span class="card-title">Portfolio</span>
-        <span class="card-desc">Projekty, GitHub, skrypty</span>
-        <span class="card-arrow">↗</span>
-      </a>
-      <a class="nav-card" style="--card-color:#7c3aed" onclick="openSection('education')">
-        <span class="card-icon">🎓</span>
-        <span class="card-title">Edukacja</span>
-        <span class="card-desc">WSB Merito, WSGN, PW</span>
-        <span class="card-arrow">↗</span>
-      </a>
-      <a class="nav-card" style="--card-color:#5b21b6" onclick="openSection('contact')">
-        <span class="card-icon">📡</span>
-        <span class="card-title">Kontakt</span>
-        <span class="card-desc">Napisz, zadzwoń lub znajdź online</span>
-        <span class="card-arrow">↗</span>
-      </a>
-      <a class="nav-card" style="--card-color:#a855f7" href="https://legionowopawel.github.io/AutoResponder_AI_Text" target="_blank">
-        <span class="card-icon">🤖</span>
-        <span class="card-title">AI Skrypt</span>
-        <span class="card-desc">AutoResponder — mój projekt live</span>
-        <span class="card-arrow">↗</span>
-      </a>
-    </nav>
   </div>
 
-  <div class="scroll-hint">
-    <span>EXPLORE</span>
-    <div class="scroll-line"></div>
-  </div>
+  <nav class="nav-cards" id="mainNav">
+    <button class="nav-card" onclick="openSection('about')">
+      <span class="card-icon">👤</span>
+      <span class="card-title">Profil</span>
+      <span class="card-desc">Kim jestem i co robię</span>
+      <span class="card-arrow">↗</span>
+    </button>
+    <button class="nav-card" onclick="openSection('experience')">
+      <span class="card-icon">📋</span>
+      <span class="card-title">Doświadczenie</span>
+      <span class="card-desc">Administracja, monitoring, obsługa klienta</span>
+      <span class="card-arrow">↗</span>
+    </button>
+    <button class="nav-card" onclick="openSection('skills')">
+      <span class="card-icon">⚙️</span>
+      <span class="card-title">Umiejętności</span>
+      <span class="card-desc">Excel, Python, JIRA, Salesforce</span>
+      <span class="card-arrow">↗</span>
+    </button>
+    <button class="nav-card" onclick="openSection('education')">
+      <span class="card-icon">🎓</span>
+      <span class="card-title">Edukacja</span>
+      <span class="card-desc">WSB Merito, WSGN, PW</span>
+      <span class="card-arrow">↗</span>
+    </button>
+    <button class="nav-card" onclick="openSection('portfolio')">
+      <span class="card-icon">🗂️</span>
+      <span class="card-title">Portfolio</span>
+      <span class="card-desc">GitHub i projekty w Pythonie</span>
+      <span class="card-arrow">↗</span>
+    </button>
+  </nav>
 </div>
 
-<!-- =================== O MNIE =================== -->
+<!-- =================== PROFIL =================== -->
 <section class="section" id="about">
   <button class="section-back" onclick="closeSection('about')">← powrót</button>
   <div class="section-header">
-    <span class="section-kicker">00 / Życiorys</span>
-    <h2 class="section-title">O<br>MNIE</h2>
+    <span class="section-kicker">00 / Profil</span>
+    <h2 class="section-title">PROFIL</h2>
   </div>
-
   <div class="bio-block">
-    <p>
-      Jestem specjalistą z ponad 15-letnim doświadczeniem, który potrafi wejść w nowe środowisko i dosłownie w ciągu tygodni zacząć wnosić realną wartość — niezależnie od tego, czy chodzi o analizę danych, systemy CCTV, automatyzację procesów czy dokumentację. To nie przypadek, tylko efekt szerokiej bazy wiedzy i wrodzonej ciekawości tego, jak rzeczy działają.
-    </p>
-    <p>
-      Moją siłą jest zdolność widzenia całości — łączę techniczne rozumienie systemów z praktycznym podejściem do dokumentacji i komunikacji. Pracowałem z Policją przy materiale dowodowym, zarządzałem infrastrukturą 300 kamer, pisałem narzędzia Python automatyzujące godziny żmudnej pracy. Każdy projekt zostawiam w lepszym stanie niż go zastałem.
-    </p>
-    <p>
-      Moja różnorodna ścieżka zawodowa — od budownictwa przez ubezpieczenia, e-commerce, aż po IT i bezpieczeństwo — to atut, nie wada. Oznacza, że rozumiem kontekst biznesowy szerzej niż wąski specjalista, adaptuję się błyskawicznie i nie panikuję w nowych sytuacjach. Uczę się przez działanie i zostawiam po sobie narzędzia — nie tylko wykonaną robotę.
-    </p>
-    <p>
-      Interesuje mnie elektronika, automatyzacja, analiza danych, grafika i wideo. Programuję w Pythonie, obsługuję zaawansowane funkcje Excela, znam środowiska testowe (ISTQB, Selenium, JIRA) i systemy CCTV klasy enterprise (Dahua, Hikvision, Novus). Po godzinach: ogród i rower jako forma deliberatywnej ciszy po intensywnej pracy z danymi.
-    </p>
+    <p>Łączę pracę administracyjno-rozliczeniową ze środowiskiem technicznym. Na co dzień pracuję w Excelu: porządkuję dane z faktur i dokumentów magazynowych, przygotowuję zestawienia i raporty dla dyrekcji.</p>
+    <p>Wcześniej konfigurowałem i aktualizowałem urządzenia monitoringu, wspierałem technicznie klientów i szkoliłem użytkowników z obsługi sprzętu. Mam doświadczenie z dokumentacją techniczną i rysunkiem technicznym, szybko uczę się nowych systemów (Salesforce, JIRA, rejestratory różnych producentów).</p>
+    <p>Dbam o szczegóły i porządek w danych. Język angielski na poziomie podstawowym.</p>
   </div>
-
-  <a class="script-link-card" href="https://legionowopawel.github.io/AutoResponder_AI_Text" target="_blank">
-    🤖 AutoResponder AI — mój projekt →
-  </a>
 </section>
 
-<!-- =================== EXPERIENCE =================== -->
+<!-- =================== DOŚWIADCZENIE =================== -->
 <section class="section" id="experience">
   <button class="section-back" onclick="closeSection('experience')">← powrót</button>
   <div class="section-header">
     <span class="section-kicker">01 / Kariera</span>
     <h2 class="section-title">DOŚWIAD-<br>CZENIE</h2>
   </div>
-  <div class="stat-row">
-    <div class="stat-item"><span class="stat-num">15+</span><span class="stat-label">Lat pracy</span></div>
-    <div class="stat-item"><span class="stat-num">8</span><span class="stat-label">Pracodawców</span></div>
-    <div class="stat-item"><span class="stat-num">300+</span><span class="stat-label">Kamer analizowanych</span></div>
-  </div>
   <div class="timeline">
+
     <div class="timeline-item">
       <div class="tl-header">
-        <span class="tl-period">02.2026 — obecnie</span>
-        <span class="tl-company">PCis · Legionowo</span>
+        <span class="tl-period">02.2026 – obecnie</span>
+        <span class="tl-company">Powiatowe Centrum Integracji Społecznej · Legionowo</span>
       </div>
-      <div class="tl-role">Specjalista ds. Administracyjno-Biurowych</div>
+      <div class="tl-role">Specjalista ds. Administracji i Analizy Danych</div>
       <ul class="tl-bullets">
-        <li>Ewidencja stanów magazynowych i rozliczanie faktur</li>
-        <li>Zarządzanie komunikacją w mediach społecznościowych</li>
-        <li>Bieżąca praca administracyjno-biurowa</li>
+        <li>Spisywanie i porządkowanie w Excelu danych z faktur i dokumentów magazynowych na potrzeby rozliczeń.</li>
+        <li>Przygotowywanie zestawień rozliczeń pracowników, weryfikacja list obecności, korekta raportów kierowników.</li>
+        <li>Strukturyzacja, konsolidacja i standaryzacja danych; usuwanie błędów i duplikatów.</li>
+        <li>Realizacja zapotrzebowań materiałowych (m.in. artykuły spożywcze do warsztatu gastronomicznego).</li>
+        <li>Obieg dokumentów: przygotowanie dokumentacji do rozliczeń, pieczątkowanie.</li>
+        <li>Raporty i zestawienia dla dyrekcji; aktualizacja strony internetowej, grafiki i materiały promocyjne.</li>
       </ul>
     </div>
+
     <div class="timeline-item">
       <div class="tl-header">
-        <span class="tl-period">09–12.2025</span>
+        <span class="tl-period">09.2025 – 12.2025</span>
         <span class="tl-company">Biuro Ochrony Mienia · Warszawa</span>
       </div>
       <div class="tl-role">Specjalista ds. Monitoringu</div>
       <ul class="tl-bullets">
-        <li>Analiza obrazu z 300 kamer, wykrywanie niezgodności</li>
-        <li>Tworzenie dokumentacji jakościowej i zapisów zdarzeń</li>
-        <li>Narzędzia Python do raportowania i inwentaryzacji</li>
-        <li>Aktualizacja firmware, testy, praca zgodnie z procedurami</li>
+        <li>Kontrola obrazu z 300 kamer, wykrywanie niezgodności; dokumentacja jakościowa i zapisy zdarzeń do celów kontrolnych.</li>
+        <li>Konfiguracja systemów monitoringu; optymalizacja pracy urządzeń i aktualizacja sterowników na 10 stanowiskach (Windows 7/10).</li>
+        <li>Aktualizacja firmware rejestratorów i kamer wraz z testami poprawności działania.</li>
+        <li>Inwentaryzacja zasobów technicznych z użyciem własnego narzędzia w Pythonie.</li>
       </ul>
     </div>
+
     <div class="timeline-item">
       <div class="tl-header">
-        <span class="tl-period">2023–2024</span>
+        <span class="tl-period">2022 – 2024</span>
         <span class="tl-company">Zlecenia · Warszawa</span>
       </div>
-      <div class="tl-role">Specjalista ds. Analizy Materiału Filmowego</div>
+      <div class="tl-role">Analiza materiału filmowego i danych</div>
       <ul class="tl-bullets">
-        <li>Analiza materiałów pod kątem zgodności i jakości</li>
-        <li>Automatyzacja analizy danych — Python</li>
-        <li>Współpraca z Policją, przygotowywanie materiałów dowodowych</li>
-        <li>Obsługa systemów Dahua, Hikvision, Novus</li>
+        <li>Obsługa i konfiguracja rejestratorów Dahua, Hikvision, Novus (Windows / Android / iOS); szkolenie użytkowników z obsługi urządzeń i procedur.</li>
+        <li>Zaawansowane raporty jakościowe i dokumentacja, w tym raporty dla Policji.</li>
+        <li>Tworzenie narzędzi w Pythonie do analizy dużych baz danych wspierających wykrywanie niezgodności, duplikatów i błędów; automatyzacja raportowania w formacie tekstowym i graficznym (zaawansowana analiza zawierająca wykresy).</li>
       </ul>
     </div>
+
     <div class="timeline-item">
       <div class="tl-header">
-        <span class="tl-period">2022</span>
-        <span class="tl-company">Zlecenie prywatne</span>
-      </div>
-      <div class="tl-role">Automatyzacja analizy danych</div>
-      <ul class="tl-bullets">
-        <li>Narzędzia do wykrywania błędów, duplikatów i niezgodności</li>
-        <li>Generowanie raportów TXT/DOCX oraz wykresów</li>
-        <li>Praca z dużymi bazami danych</li>
-      </ul>
-    </div>
-    <div class="timeline-item">
-      <div class="tl-header">
-        <span class="tl-period">02.2020–09.2023</span>
+        <span class="tl-period">02.2020 – 09.2023</span>
         <span class="tl-company">Teleperformance / Philip Morris</span>
       </div>
       <div class="tl-role">Starszy Specjalista ds. Obsługi Klienta</div>
       <ul class="tl-bullets">
-        <li>Analiza obciążenia i jakości pracy zespołu</li>
-        <li>Tworzenie dokumentacji procesowej, makr i szablonów</li>
-        <li>Praca z systemami CRM, raportowanie, archiwizacja</li>
+        <li>Wsparcie techniczne klientów i rozwiązywanie zgłaszanych problemów.</li>
+        <li>Szablony i makra w Salesforce, dokumentacja procesowa.</li>
+        <li>Analiza obciążenia oraz przepustowości kadrowej zespołu w celu optymalizacji procesów operacyjnych i efektywniejszego planowania zasobów.</li>
+        <li>Bieżąca optymalizacja źródłowych baz danych w programie Excel oraz udoskonalanie procedur reklamacyjnych.</li>
       </ul>
     </div>
+
     <div class="timeline-item">
       <div class="tl-header">
-        <span class="tl-period">05.2018–05.2019</span>
+        <span class="tl-period">05.2018 – 05.2019</span>
         <span class="tl-company">aboutyou.pl</span>
       </div>
       <div class="tl-role">Specjalista ds. Obsługi Klienta</div>
       <ul class="tl-bullets">
-        <li>Analiza błędów w danych (m.in. IBAN)</li>
-        <li>Dokumentowanie i usprawnianie procesów reklamacyjnych</li>
+        <li>Profesjonalna obsługa klientów oraz udzielanie wsparcia za pośrednictwem mediów społecznościowych (Facebook) i komunikatorów.</li>
+        <li>Analiza błędów w danych operacyjnych, w tym wykrywanie i korygowanie niezgodności w numerach IBAN.</li>
       </ul>
     </div>
+
     <div class="timeline-item">
       <div class="tl-header">
-        <span class="tl-period">01–06.2011</span>
-        <span class="tl-company">Budownictwo</span>
+        <span class="tl-period">2005 – 2011</span>
+        <span class="tl-company">Wcześniej</span>
       </div>
-      <div class="tl-role">Asystent Rzeczoznawcy Budowlanego</div>
+      <div class="tl-role">Wcześniejsze doświadczenie</div>
       <ul class="tl-bullets">
-        <li>Inwentaryzacje, dokumentacja, raporty z niezgodności</li>
+        <li><strong>Asystent Rzeczoznawcy Budowlanego (2011):</strong> inwentaryzacje, pomiary, dokumentacja fotograficzna, AutoCAD i rysunek techniczny, raporty z uszkodzeń.</li>
+        <li><strong>Asystent Likwidatora Szkód, Eksperci NEMU (2009–2010):</strong> dokumentacja szkód, raporty i wyceny, duże bazy danych (Visual Basic).</li>
+        <li><strong>Specjalista, Instytut Doradztwa Majątkowego (2005–2008):</strong> wprowadzanie danych, dokumentacja, sekretariat, korespondencja masowa, archiwizacja.</li>
       </ul>
     </div>
-    <div class="timeline-item">
-      <div class="tl-header">
-        <span class="tl-period">07.2005–04.2008</span>
-        <span class="tl-company">Instytut Doradztwa Majątkowego</span>
-      </div>
-      <div class="tl-role">Specjalista</div>
-      <ul class="tl-bullets">
-        <li>Wprowadzanie danych, archiwizacja, masowa korespondencja</li>
-        <li>Praca z dokumentacją operatów i raportami</li>
-      </ul>
-    </div>
+
   </div>
 </section>
 
-<!-- =================== SKILLS =================== -->
+<!-- =================== UMIEJĘTNOŚCI =================== -->
 <section class="section" id="skills">
   <button class="section-back" onclick="closeSection('skills')">← powrót</button>
   <div class="section-header">
     <span class="section-kicker">02 / Kompetencje</span>
     <h2 class="section-title">UMIE-<br>JĘTNOŚCI</h2>
   </div>
-  <div class="skills-grid" id="skillsGrid">
-    <div class="skill-card" style="--level:85%"><div class="skill-name">🐍 Python (automatyzacja)</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:90%"><div class="skill-name">📊 Excel (zaawansowany)</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:82%"><div class="skill-name">🔍 Analiza danych</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:78%"><div class="skill-name">📹 Systemy CCTV (Dahua, Hikvision)</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:88%"><div class="skill-name">📁 Dokumentacja & raportowanie</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:70%"><div class="skill-name">🧪 Testowanie oprogramowania (ISTQB)</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:65%"><div class="skill-name">🤖 Selenium / API Testing</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:80%"><div class="skill-name">🗃️ Systemy CRM</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:70%"><div class="skill-name">🎨 Photoshop / Illustrator</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:62%"><div class="skill-name">🔧 JIRA / zarządzanie zadaniami</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:85%"><div class="skill-name">💬 Obsługa klienta B2C</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-    <div class="skill-card" style="--level:75%"><div class="skill-name">📝 Word / DOCX / szablony</div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
-  </div>
-
-  <div style="margin-top:48px">
-    <span class="section-kicker">Zainteresowania</span>
-    <h3 style="font-size:26px;font-weight:800;margin-bottom:16px;color:var(--text)">POZA PRACĄ</h3>
-    <div class="interests-tags">
-      <span class="interest-tag">🔌 Elektronika</span>
-      <span class="interest-tag">📊 Analiza danych</span>
-      <span class="interest-tag">⚡ Automatyzacja</span>
-      <span class="interest-tag">🎨 Grafika komputerowa</span>
-      <span class="interest-tag">🎬 Wideo</span>
-      <span class="interest-tag">🌿 Ogrodnictwo</span>
-      <span class="interest-tag">🚲 Rower</span>
+  <div class="group-list">
+    <div class="group-card">
+      <div class="group-name">Narzędzia</div>
+      <div class="tags">
+        <span class="tag">Narzędzia AI (ChatGPT, Claude, GitHub Copilot)</span>
+        <span class="tag">Python</span>
+        <span class="tag">MS Office</span>
+        <span class="tag">Excel zaawansowany (VBA)</span>
+        <span class="tag">Visual Studio Code</span>
+        <span class="tag">Salesforce</span>
+        <span class="tag">JIRA</span>
+        <span class="tag">Linux</span>
+        <span class="tag">AutoCAD</span>
+        <span class="tag">Photoshop</span>
+        <span class="tag">Illustrator</span>
+      </div>
+    </div>
+    <div class="group-card">
+      <div class="group-name">Inne</div>
+      <p class="group-text">Angielski – poziom podstawowy (A2), praca z dokumentacją techniczną przy wsparciu narzędzi tłumaczeniowych. Prawo jazdy kat. B.</p>
+    </div>
+    <div class="group-card">
+      <div class="group-name">Zainteresowania</div>
+      <div class="tags">
+        <span class="tag">🔌 Elektronika</span>
+        <span class="tag">🛠️ Renowacja i testowanie sprzętu</span>
+        <span class="tag">⚡ Automatyzacja</span>
+        <span class="tag">🐍 Programowanie w Pythonie</span>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- =================== STRENGTHS =================== -->
-<section class="section" id="strengths">
-  <button class="section-back" onclick="closeSection('strengths')">← powrót</button>
+<!-- =================== EDUKACJA =================== -->
+<section class="section" id="education">
+  <button class="section-back" onclick="closeSection('education')">← powrót</button>
   <div class="section-header">
-    <span class="section-kicker">03 / Analiza</span>
-    <h2 class="section-title">MOCNE<br>& POTENCJAŁ</h2>
+    <span class="section-kicker">03 / Kształcenie</span>
+    <h2 class="section-title">EDU-<br>KACJA</h2>
   </div>
-  <div class="sw-grid">
-    <div class="sw-column">
-      <div class="sw-column-header">
-        <h3 class="sw-column-title" style="color:var(--accent)">MOCNE</h3>
-        <span class="sw-tag green">UDOWODNIONE</span>
-      </div>
-      <div class="sw-item strength">
-        <div class="sw-item-title">🔎 Dociekliwość i precyzja</div>
-        <div class="sw-item-desc">Analizuję 300 kamer, szukam niezgodności w danych, tworzę narzędzia wykrywające błędy. Nie odpuszczam dopóki problem nie jest rozwiązany.</div>
-      </div>
-      <div class="sw-item strength">
-        <div class="sw-item-title">⚙️ Automatyzuję tam gdzie inni klikają</div>
-        <div class="sw-item-desc">Python, makra, szablony — jeśli coś robię dwa razy, trzeci raz robi to skrypt. Mam to udokumentowane na GitHubie.</div>
-      </div>
-      <div class="sw-item strength">
-        <div class="sw-item-title">📁 Dokumentacja klasy muzealnej</div>
-        <div class="sw-item-desc">Każdy projekt zostawia po sobie czytelne raporty, pliki i zestawienia. Ludzie wracają do moich dokumentów.</div>
-      </div>
-      <div class="sw-item strength">
-        <div class="sw-item-title">🔄 Błyskawiczna adaptacja</div>
-        <div class="sw-item-desc">Budownictwo, ubezpieczenia, e-commerce, monitoring, IT — każde środowisko przyswajam szybko i wnoszę realną wartość od pierwszych tygodni.</div>
-      </div>
-      <div class="sw-item strength">
-        <div class="sw-item-title">😤 Odpowiedzialność bez wymówek</div>
-        <div class="sw-item-desc">Terminowość i rzetelność to mój standard, nie wyróżnienie. Nie zostawiam rzeczy w połowie.</div>
-      </div>
+  <div class="edu-list">
+    <div class="edu-item">
+      <div class="edu-school">WSB Merito</div>
+      <div class="edu-degree">Studia podyplomowe — Technologie komputerowe</div>
+      <div class="edu-spec">Testowanie oprogramowania</div>
     </div>
+    <div class="edu-item">
+      <div class="edu-school">WSGN</div>
+      <div class="edu-degree">Licencjat — Ekonomia</div>
+      <div class="edu-spec">Pośrednictwo w obrocie nieruchomościami</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-school">Politechnika Warszawska</div>
+      <div class="edu-degree">Inżynieria Lądowa</div>
+      <div class="edu-spec">3 lata, studia niedokończone</div>
+    </div>
+  </div>
 
-    <div class="sw-column">
-      <div class="sw-column-header">
-        <h3 class="sw-column-title" style="color:var(--accent2)">ROZWIJAM</h3>
-        <span class="sw-tag orange">W TRAKCIE</span>
-      </div>
-      <div class="sw-item growth">
-        <div class="sw-item-title">🗣️ Prezentowanie osiągnięć</div>
-        <div class="sw-item-desc">Preferuję, żeby projekty mówiły same za siebie — to oznacza, że moje portfolio mówi głośniej niż niejedna rozmowa kwalifikacyjna. Stale uczę się komunikować sukcesy tak wyraźnie, jak je osiągam.</div>
-      </div>
-      <div class="sw-item growth">
-        <div class="sw-item-title">📈 Szerokość jako strategia</div>
-        <div class="sw-item-desc">Moja ścieżka obejmuje wiele dziedzin — to unikalna przewaga cross-domain, którą świadomie przekształcam w specjalizację: analiza danych + automatyzacja + bezpieczeństwo.</div>
-      </div>
-      <div class="sw-item growth">
-        <div class="sw-item-title">🌐 Język angielski</div>
-        <div class="sw-item-desc">Dokumentację techniczną czytam bez problemu i to w zupełności wystarcza do pracy z globalnymi narzędziami. Konwersację rozwijam — i tu też jestem skrupulatny.</div>
-      </div>
-      <div class="sw-item growth">
-        <div class="sw-item-title">🏢 Dynamika organizacyjna</div>
-        <div class="sw-item-desc">Najlepiej działam tam, gdzie mam realny wpływ na wynik — a to właśnie tam też firmy osiągają najlepsze rezultaty. Potrafię pracować w każdej strukturze, preferuję tę, gdzie liczy się efekt.</div>
-      </div>
-      <div class="sw-item growth">
-        <div class="sw-item-title">🎯 Szerokie zainteresowania jako supermoc</div>
-        <div class="sw-item-desc">Elektronika, grafika, Python, ogrodnictwo, CCTV — różnorodność pasji to zasób, który pozwala mi łączyć kropki tam, gdzie wąski specjalista nie dojrzy połączeń.</div>
-      </div>
-    </div>
+  <h3 class="sub-title">Szkolenia (wybrane)</h3>
+  <div class="tags" style="max-width:700px">
+    <span class="tag">ISTQB Foundation</span>
+    <span class="tag">Selenium</span>
+    <span class="tag">API</span>
+    <span class="tag">JIRA</span>
+    <span class="tag">Obsługa reklamacji i trudnych sytuacji</span>
+    <span class="tag">Kurs rysunku architektonicznego</span>
+    <span class="tag">Komunikacja NVC</span>
+  </div>
+
+  <h3 class="sub-title">Certyfikaty (wybrane)</h3>
+  <div class="tags" style="max-width:700px">
+    <span class="tag">Grafika komputerowa (Photoshop, Illustrator)</span>
+    <span class="tag">Tester manualny (Coders Lab)</span>
+    <span class="tag">Asertywność — Pierwszy i Drugi Krok</span>
   </div>
 </section>
 
@@ -962,225 +403,36 @@
 <section class="section" id="portfolio">
   <button class="section-back" onclick="closeSection('portfolio')">← powrót</button>
   <div class="section-header">
-    <span class="section-kicker">04 / Moje projekty</span>
+    <span class="section-kicker">04 / Projekty</span>
     <h2 class="section-title">PORT-<br>FOLIO</h2>
   </div>
-  <div class="portfolio-grid">
-    <a class="portfolio-card" href="https://github.com/legionowopawel" target="_blank">
-      <span class="portfolio-icon">💻</span>
-      <span class="portfolio-title">GitHub</span>
-      <span class="portfolio-desc">Kod, skrypty Python, narzędzia do automatyzacji i analiz danych. Rzeczy które naprawdę napisałem.</span>
-      <span class="portfolio-link">github.com/legionowopawel →</span>
+  <div class="card-grid">
+    <a class="link-card" href="https://github.com/legionowopawel?tab=repositories" target="_blank" rel="noopener">
+      <span class="link-icon">💻</span>
+      <span class="link-label">GitHub</span>
+      <span class="link-value">github.com/legionowopawel</span>
     </a>
-    <a class="portfolio-card" href="https://legionowopawel.github.io/AutoResponder_AI_Text" target="_blank">
-      <span class="portfolio-icon">🤖</span>
-      <span class="portfolio-title">AutoResponder AI</span>
-      <span class="portfolio-desc">Projekt live — automatyczny asystent tekstowy oparty na AI. Działający produkt dostępny publicznie.</span>
-      <span class="portfolio-link">legionowopawel.github.io →</span>
-    </a>
-    <a class="portfolio-card" href="https://github.com/legionowopawel" target="_blank">
-      <span class="portfolio-icon">📹</span>
-      <span class="portfolio-title">Projekt: Analiza CCTV</span>
-      <span class="portfolio-desc">Analiza obrazu z 300 kamer, narzędzia Python do raportowania, dokumentacja zdarzeń dla Biura Ochrony Mienia.</span>
-      <span class="portfolio-link">↗ GitHub</span>
-    </a>
-    <a class="portfolio-card" href="https://github.com/legionowopawel" target="_blank">
-      <span class="portfolio-icon">🐍</span>
-      <span class="portfolio-title">Narzędzia Python</span>
-      <span class="portfolio-desc">Skrypty do wykrywania błędów, duplikatów i niezgodności w dużych bazach. Generowanie raportów DOCX/TXT.</span>
-      <span class="portfolio-link">↗ GitHub</span>
-    </a>
-    <a class="portfolio-card" href="WSTAW_LINK_YOUTUBE" target="_blank">
-      <span class="portfolio-icon">🎬</span>
-      <span class="portfolio-title">Film: Opowiadam o sobie</span>
-      <span class="portfolio-desc">Krótki film prezentacyjny — ścieżka, motywacje, projekty.</span>
-      <span class="portfolio-link">← WSTAW LINK DO YOUTUBE →</span>
-    </a>
-    <a class="portfolio-card" href="WSTAW_LINK_LINKEDIN" target="_blank">
-      <span class="portfolio-icon">🔗</span>
-      <span class="portfolio-title">LinkedIn</span>
-      <span class="portfolio-desc">Profil zawodowy z detalami projektów i możliwością kontaktu przez rekruterów.</span>
-      <span class="portfolio-link">← WSTAW LINK DO LINKEDIN →</span>
+    <a class="link-card" href="https://legionowopawel.github.io/" target="_blank" rel="noopener">
+      <span class="link-icon">🗂️</span>
+      <span class="link-label">Portfolio</span>
+      <span class="link-value">legionowopawel.github.io</span>
     </a>
   </div>
+  <p class="consent">Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w niniejszym dokumencie dla potrzeb niezbędnych do realizacji procesu rekrutacji, zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.</p>
 </section>
-
-<!-- =================== EDUCATION =================== -->
-<section class="section" id="education">
-  <button class="section-back" onclick="closeSection('education')">← powrót</button>
-  <div class="section-header">
-    <span class="section-kicker">05 / Kształcenie</span>
-    <h2 class="section-title">EDU-<br>KACJA</h2>
-  </div>
-  <div class="edu-list">
-    <div class="edu-item">
-      <div class="edu-school">WSB Merito</div>
-      <div class="edu-degree">Studia podyplomowe — Technologie Komputerowe</div>
-      <div class="edu-spec">Specjalizacja: Testowanie oprogramowania (ISTQB Foundation, Selenium, API, JIRA)</div>
-    </div>
-    <div class="edu-item">
-      <div class="edu-school">WSGN — Wyższa Szkoła Gospodarowania Nieruchomościami</div>
-      <div class="edu-degree">Licencjat — Ekonomia</div>
-      <div class="edu-spec">Specjalizacja: Pośrednictwo w obrocie nieruchomościami</div>
-    </div>
-    <div class="edu-item">
-      <div class="edu-school">Politechnika Warszawska</div>
-      <div class="edu-degree">Budownictwo</div>
-      <div class="edu-spec">Solidne podstawy techniczne i inżynierskie myślenie o problemach</div>
-    </div>
-  </div>
-
-  <div style="margin-top:40px">
-    <span class="section-kicker">Szkolenia</span>
-    <h3 style="font-size:26px;font-weight:800;margin-bottom:16px;color:var(--text)">CERTYFIKATY</h3>
-    <div class="interests-tags">
-      <span class="interest-tag">🎓 ISTQB Foundation</span>
-      <span class="interest-tag">🤖 Selenium</span>
-      <span class="interest-tag">🔌 API Testing</span>
-      <span class="interest-tag">📋 JIRA</span>
-      <span class="interest-tag">💬 Obsługa reklamacji</span>
-      <span class="interest-tag">🗣️ Komunikacja NVC</span>
-      <span class="interest-tag">🎨 Photoshop / Illustrator</span>
-    </div>
-  </div>
-</section>
-
-<!-- =================== CONTACT =================== -->
-<section class="section" id="contact">
-  <button class="section-back" onclick="closeSection('contact')">← powrót</button>
-  <div class="section-header">
-    <span class="section-kicker">06 / Porozmawiajmy</span>
-    <h2 class="section-title">KONTAKT</h2>
-  </div>
-  <p style="color:var(--muted);font-size:15px;max-width:460px;line-height:1.8;margin-bottom:32px">
-    Szukasz kogoś kto ogarnie chaos w danych, napisze skrypt albo po prostu nie zostawi rzeczy w połowie? Napisz.
-  </p>
-  <div class="contact-grid">
-    <a class="contact-card" href="mailto:paw****@gmail.com">
-      <span class="contact-icon">✉️</span>
-      <span class="contact-label">Email</span>
-      <span class="contact-value">p***@gmail.com</span>
-    </a>
-    <a class="contact-card" href="tel:+4860">
-      <span class="contact-icon">📱</span>
-      <span class="contact-label">Telefon</span>
-      <span class="contact-value">+48 606 763 388</span>
-    </a>
-    <a class="contact-card" href="https://github.com/legionowopawel" target="_blank">
-      <span class="contact-icon">💻</span>
-      <span class="contact-label">GitHub</span>
-      <span class="contact-value">legionowopawel</span>
-    </a>
-    <a class="contact-card" href="https://legionowopawel.github.io/AutoResponder_AI_Text" target="_blank">
-      <span class="contact-icon">🤖</span>
-      <span class="contact-label">AI Projekt</span>
-      <span class="contact-value">AutoResponder</span>
-    </a>
-    <a class="contact-card" href="WSTAW_LINK_LINKEDIN" target="_blank">
-      <span class="contact-icon">🔗</span>
-      <span class="contact-label">LinkedIn</span>
-      <span class="contact-value">← Dodaj profil →</span>
-    </a>
-    <a class="contact-card" href="#" target="_blank">
-      <span class="contact-icon">📍</span>
-      <span class="contact-label">Lokalizacja</span>
-      <span class="contact-value">Warszawa / Legionowo</span>
-    </a>
-  </div>
-</section>
-
 
 <script>
-// ===== CANVAS RESIZE =====
-const canvas = document.getElementById('dragonCanvas');
-
-function resizeCanvas() {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-}
-resizeCanvas();
-window.addEventListener('resize', resizeCanvas);
-
-// ===== CURSOR EFFECT CONTROLLER =====
-let currentEffect = 'none';
-const allEffects = {
-  dragon:     window.EfektElasticDragon,
-  snake:      window.EfektSnakeFollower,
-  textcircle: window.EfektTextCircle,
-  fairy:      window.EfektFairyDust,
-  clock:      window.EfektClockFollower,
-  string:     window.EfektElasticString,
-};
-
-function setCursor(name) {
-  // Zatrzymaj poprzedni efekt
-  if (currentEffect !== 'none' && allEffects[currentEffect]) {
-    allEffects[currentEffect].destroy();
-  }
-
-  currentEffect = name;
-
-  // Aktualizuj przyciski
-  document.querySelectorAll('.cbar-btn').forEach(b => b.classList.remove('active'));
-  const btn = document.getElementById('btn-' + name);
-  if (btn) btn.classList.add('active');
-
-  // Wyczyść canvas
-  const ctx2 = canvas.getContext('2d');
-  ctx2.clearRect(0, 0, canvas.width, canvas.height);
-
-  if (name === 'none') {
-    // Normalny kursor systemowy
-    document.body.style.cursor = 'auto';
-    canvas.style.display = 'none';
-    return;
-  }
-
-  canvas.style.display = 'block';
-  document.body.style.cursor = 'none';
-
-  if (allEffects[name]) {
-    allEffects[name].init();
-  }
-}
-
-// Uruchom domyślnie normalną myszką
-setCursor('none');
-
-// Na mobile chowaj canvas
-if ('ontouchstart' in window) {
-  canvas.style.display = 'none';
-}
-
-// ===== SECTIONS =====
 function openSection(id) {
   document.getElementById('hero').style.display = 'none';
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   window.scrollTo(0, 0);
-  if (id === 'skills') triggerSkillBars();
 }
-
 function closeSection(id) {
   document.getElementById(id).classList.remove('active');
-  document.getElementById('hero').style.display = 'grid';
+  document.getElementById('hero').style.display = 'flex';
   window.scrollTo(0, 0);
 }
-
-function triggerSkillBars() {
-  setTimeout(() => {
-    document.querySelectorAll('.skill-card').forEach((card, i) => {
-      setTimeout(() => card.classList.add('visible'), i * 60);
-    });
-  }, 100);
-}
-
-// Page title easter egg
-let hidden = false;
-document.addEventListener('visibilitychange', () => {
-  if (document.hidden) { document.title = '👋 Wróć!'; hidden = true; }
-  else if (hidden) { document.title = '✅ CV — Interaktywne'; hidden = false; }
-});
 </script>
 </body>
 </html>
